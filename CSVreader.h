@@ -1,8 +1,11 @@
 /*
-    This code is taken from stack overflow user Loki Astari (from the below link) with 
+    This code is taken from stack overflow user Loki Astari (from the below link) with
     some slight modification by me for my use case (you can see who did what based on the bracket placement).
     Link: https://stackoverflow.com/questions/1120140/how-can-i-read-and-parse-csv-files-in-c
 */
+
+#ifndef CSVREADER_H
+#define CSVREADER_H
 
 #include <iterator>
 #include <iostream>
@@ -54,13 +57,13 @@ class CSVRow
                 }
             }
             // This checks for a trailing comma with no data after it.
-            pos   = m_line.size();
+            pos = m_line.size();
             m_data.emplace_back(pos);
         }
     private:
-        std::string         m_line;
-        std::vector<int>    m_data;
-        std::vector<std::string::size_type>    q_data;
+        std::string m_line;
+        std::vector<int> m_data;
+        std::vector<std::string::size_type> q_data;
 };
 
 std::istream& operator>>(std::istream& str, CSVRow& data)
@@ -68,3 +71,5 @@ std::istream& operator>>(std::istream& str, CSVRow& data)
     data.readNextRow(str);
     return str;
 }
+
+#endif // CSVREADER_H

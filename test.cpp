@@ -2,7 +2,9 @@
 #include <unordered_map>
 #include <vector>
 #include <string>
-#include <CSVreader.h>
+#include <fstream>
+#include "CSVreader.h"
+#include "Textreader.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -95,9 +97,17 @@ public:
         // List box
         vocabulary_types_lbox -> Create(this, ID_vocabulary_types_lbox, PT_vocabulary_types_lbox, SZ_vocabulary_types_lbox);
 
-        Bind(wxEVT_CHECKLISTBOX, &Preferences::set_chapters, this, ID_vocabulary_set_combo);
-        Bind(wxEVT_CHECKLISTBOX, &Preferences::set_vocabulary_types, this, ID_chapter_combo);
+        Bind(wxEVT_COMBOBOX, &Preferences::set_chapters, this, ID_vocabulary_set_combo);
+        Bind(wxEVT_COMBOBOX, &Preferences::set_vocabulary_types, this, ID_chapter_combo);
         Bind(wxEVT_BUTTON, &Preferences::start_game, this, ID_finished_button);
+
+        std::string vocabulary_set_str;
+        std::ifstream* vocabulary_set_file = new std::ifstream;
+        vocabulary_set_file -> open("Available_books.txt");
+
+        while (*vocabulary_set_file >> vocabulary_set_str) {
+            vocabulary_set_combo -> Append(vocabulary_set_str);
+        }
     }
 
     void create_widgets() {
@@ -109,7 +119,15 @@ private:
     }
 
     void set_chapters(wxCommandEvent& event) {
-        wxMessageBox("PLACEHOLDER", "Set chapters.");
+        std::string path {"Book_/Available_Chapters.txt"};
+        path.insert(5, vocabulary_set_combo -> GetStringSelection());
+        std::string chapter_str;
+        std::ifstream* chapter_file = new std::ifstream;
+        chapter_file -> open(path);
+
+        while (*chapter_file >> chapter_str) {
+            chapter_combo -> Append(chapter_str);
+        }
     }
 
     void set_vocabulary_types(wxCommandEvent& event) {
