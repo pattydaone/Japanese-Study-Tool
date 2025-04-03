@@ -1,7 +1,7 @@
 /*
-    This code is taken from stack overflow user Guillaume Racicot (from the below link) with 
+    This code is taken from stack overflow user Loki Astari (from the below link) with 
     some slight modification by me for my use case (you can see who did what based on the bracket placement).
-    https://stackoverflow.com/questions/1120140/how-can-i-read-and-parse-csv-files-in-c
+    Link: https://stackoverflow.com/questions/1120140/how-can-i-read-and-parse-csv-files-in-c
 */
 
 #include <iterator>
