@@ -1,3 +1,8 @@
+/*
+    This code is taken from stack overflow user Guillaume Racicot (from the following link) with some slight modification by me for my use case.
+    https://stackoverflow.com/questions/1120140/how-can-i-read-and-parse-csv-files-in-c
+*/
+
 #include <iterator>
 #include <iostream>
 #include <fstream>
