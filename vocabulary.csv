@@ -1,0 +1,1476 @@
+set,subset,vocab type,eng,jpn
+One,One,Nouns,Teacher,せんせい
+One,One,Suffixes,Mr./Mrs./Miss/Ms.,〜さん
+One,One,Suffixes,Professor,〜せんせい
+One,One,Expressions,"(Um,) excuse me",（あのう｜｜）すみません。
+One,One,Expressions,Thank you,ありがとうございます。
+One,One,Expressions,How do you say that (over there) in Japanese?,あれはにほんごでなんといいますか。
+One,One,Expressions,"No, I don't understand (it).",いいえ｜｜わかりません。
+One,One,Expressions,Please say it/repeat after me.,いってください。
+One,One,Expressions,Please speak loudly. (Instructor request),おおきいこえでいってください。
+One,One,Expressions,Please speak loudly. (Student request),おおきいこえでおねがいします。
+One,One,Expressions,Good morning./Hello (casual),おはよう。
+One,One,Expressions,Good morning.Hello (formal),おはようございます。
+One,One,Expressions,Please write.,かいてください。
+One,One,Expressions,Please listen.,きいてください。
+One,One,Expressions,How do you say this in Japanese?,これはにほんごでなんといいますか。
+One,One,Expressions,Good afternoon./Hello,こんにちは
+One,One,Expressions,Good evening./Hello,こんばんは
+One,One,Expressions,Good bye,さようなら。さよなら。
+One,One,Expressions,Good bye (formal)/excuse me,しつれいします
+One,One,Expressions,See you later,じゃあ｜｜また。
+One,One,Expressions,I am sorry./Excuse me.,すみません。
+One,One,Expressions,How do you say that in Japanese?,それはにほんごでなんといいますか。
+One,One,Expressions,What does ~ mean?,〜ってなんですか。
+One,One,Expressions,You say ~. You call it ~.,〜といいます。〜っていいます。
+One,One,Expressions,You are welcome.,どういたしまして
+One,One,Expressions,"Yes, I understand (it).",はい｜｜わかりました。
+One,One,Expressions,How do you do? I am (name). Pleased to meet you.,はじめまして。〜です。どうぞよろしく。
+One,One,Expressions,How do you say ~ in Japanese?,〜はにほんごでなんといいますか。
+One,One,Expressions,Please look at it.,みてください。
+One,One,Expressions,Please say it again. (Instructor request),もういちどいってください。
+One,One,Expressions,Please say it again. (Student request),もういちどおねがいします。
+One,One,Expressions,Please say it slowly.,ゆっくりいってください
+One,One,Expressions,Please read.,よんでください。
+One,One,Expressions,Do you understand (it)?,わかりましたか。
+One,Two,Nouns,Asian studies,あじあけんきゅう｜｜アジアけんきゅう
+One,Two,Nouns,"America, the United States",あめりか｜｜アメリカ
+One,Two,Nouns,England,いぎりす｜｜イギリス
+One,Two,Nouns,"Freshman, first year student (せい may be dropped)",いちねんせい
+One,Two,Nouns,Now,いま
+One,Two,Nouns,English,えいご
+One,Two,Nouns,Australia,おーすとらりあ｜｜オーストラリア
+One,Two,Nouns,Student,がくせい
+One,Two,Nouns,Canada,かなだ｜｜カナダ
+One,Two,Nouns,South Korea,かんこく
+One,Two,Nouns,"Management, business administration",けいえいがく
+One,Two,Nouns,Engineering,こうがく
+One,Two,Nouns,High school,こうこう
+One,Two,Nouns,"P.M., afternoon",ごご
+One,Two,Nouns,"A.M., morning",ごぜん
+One,Two,Nouns,"This person, this way",こちら
+One,Two,Nouns,"Junior, third year student",さんねんせい
+One,Two,Nouns,Spain,すぺいん｜｜スペイン
+One,Two,Nouns,Major,せんこう
+One,Two,Nouns,"College, university",だいがく
+One,Two,Nouns,Graduate student,だいがくいんせい
+One,Two,Nouns,College student,だいがくせい
+One,Two,Nouns,Taiwan,たいわん
+One,Two,Nouns,China,ちゅうごく
+One,Two,Nouns,Name,なまえ
+One,Two,Nouns,"Sophomore, second year student",にねんせい
+One,Two,Nouns,Japan,にほん
+One,Two,Nouns,Business,びじねす｜｜ビジネス
+One,Two,Nouns,France,ふらんす｜｜フランス
+One,Two,Nouns,Literature,ぶんがく
+One,Two,Nouns,Mexico,めきしこ｜｜メキシコ
+One,Two,Nouns,"Senior, fourth year student",よねんせい
+One,Two,Nouns,Next year,らいねん
+One,Two,Nouns,International student,りゅうがくせい
+One,Two,Nouns,History,れきし
+One,Two,Pronouns,I (used by males),ぼく
+One,Two,Pronouns,I (used by males and females),わたし
+One,Two,Verbs,To be,です
+One,Two,Time expressions,One o'clock,いちじ
+One,Two,Time expressions,Two o'clock,にじ
+One,Two,Time expressions,Three o'clock,さんじ
+One,Two,Time expressions,Four o'clock,よじ
+One,Two,Time expressions,Five o'clock,ごじ
+One,Two,Time expressions,Six o'clock,ろくじ
+One,Two,Time expressions,Seven o'clock,しちじ
+One,Two,Time expressions,Eight o'clock,はちじ
+One,Two,Time expressions,Nine o'clock,くじ
+One,Two,Time expressions,Ten o'clock,じゅうじ
+One,Two,Time expressions,Eleven o'clock,じゅういちじ
+One,Two,Time expressions,Twelve o'clock,じゅうにじ
+One,Two,Time expressions,Half past,はん
+One,Two,Question words,Where,どこ
+One,Two,Question words,"Where (polite), which way",どちら
+One,Two,Question words,What,なに｜｜なん
+One,Two,Particles,Question marker,か
+One,Two,Particles,"Noun modifier marker (of, 's)",の
+One,Two,Particles,Topic marker,は
+One,Two,Particles,"Similarity marker (also, too)",も
+One,Two,Prefix,Polite prefix,お〜
+One,Two,Suffixes,Language,〜ご
+One,Two,Suffixes,O'clock,〜じ
+One,Two,Suffixes,Nationality,〜じん
+One,Two,Suffixes,Student,〜せい
+One,Two,Suffixes,Year (in school),〜ねん
+One,Two,Interjections,"Uh, well...",あのう
+One,Two,Interjections,"No, don't mention it, you're welcome",いいえ
+One,Two,Interjections,Yes (colloquial),ええ
+One,Two,Interjections,Yes (formal),はい
+One,Two,Expressions,"No, that's not so",いいえ｜｜そうじゃありません・そうじゃないです
+One,Two,Expressions,"Yes, that's so",ええ｜｜そうです
+One,Two,Expressions,Came from,〜からきました
+One,Two,Expressions,It is I who should be saying that. Thank you. Same here.,こちらこそ
+One,Two,Expressions,Is that so? I see.,そうですか
+One,Two,Expressions,It is called (colloquial),〜っていいます
+One,Two,Expressions,Thank you very much,どうもありがとうございます
+One,Two,Expressions,Where are you from?,どこからきましたか
+One,Two,Expressions,Where are you from? (Polite),どちらからいらっしゃいましたか
+One,Three,Nouns,Morning,あさ
+One,Three,Nouns,Breakfast,あさごはん
+One,Three,Nouns,The day after tomorrow,あさって
+One,Three,Nouns,Tomorrow,あした
+One,Three,Nouns,Home,うち
+One,Three,Nouns,Movie,えいが
+One,Three,Nouns,The day before yesterday,おととい
+One,Three,Nouns,Bath,おふろ
+One,Three,Nouns,School,がっこう
+One,Three,Nouns,Tuesday,かようび
+One,Three,Nouns,Yesterday,きのう
+One,Three,Nouns,Today,きょう
+One,Three,Nouns,Friday,きんようび
+One,Three,Nouns,Class,クラス
+One,Three,Nouns,Monday,げつようび
+One,Three,Nouns,Coffee,コーヒー
+One,Three,Nouns,"Meal, cooked rice",ごはん
+One,Three,Nouns,This week,こんしゅう
+One,Three,Nouns,Tonight,こんばん
+One,Three,Nouns,Shower,シャワー
+One,Three,Nouns,Weekend,しゅうまつ
+One,Three,Nouns,"Class, course",じゅぎょう
+One,Three,Nouns,Homework,しゅくだい
+One,Three,Nouns,Wednesday,すいようび
+One,Three,Nouns,"Life, living",せいかつ
+One,Three,Nouns,Last week,せんしゅう
+One,Three,Nouns,Next,つぎ
+One,Three,Nouns,"Television, TV",テレビ
+One,Three,Nouns,Telephone number,でんわばんごう
+One,Three,Nouns,Library,としょかん
+One,Three,Nouns,Saturday,どようび
+One,Three,Nouns,Sunday,にちようび
+One,Three,Nouns,"Night, evening",ばん
+One,Three,Nouns,"Supper, dinner",ばんごはん
+One,Three,Nouns,Afternoon,ひる
+One,Three,Nouns,Lunch,ひるごはん
+One,Three,Nouns,Study,べんきょう
+One,Three,Nouns,Book,ほん
+One,Three,Nouns,Every morning,まいあさ
+One,Three,Nouns,Every week,まいしゅう
+One,Three,Nouns,Every day,まいにち
+One,Three,Nouns,Every night,まいばん
+One,Three,Nouns,thursday,もくようび
+One,Three,Verbs,"Exists; to be held, to have (inanimate objects only)",あります
+One,Three,Verbs,To go,いきます
+One,Three,Verbs,"To return, to go home",かえります
+One,Three,Verbs,To drink,のみます
+One,Three,Verbs,"To enter, to take (a bath)",はいります
+One,Three,Verbs,To read,よみます
+One,Three,Verbs,To take a shower,あびます
+One,Three,Verbs,"To get up, to wake up",おきます
+One,Three,Verbs,To eat,たべます
+One,Three,Verbs,"To go to bed, to go to sleep",ねます
+One,Three,Verbs,"To see, to watch",みます
+One,Three,Verbs,To come,きます
+One,Three,Verbs,To do,します
+One,Three,Verbs,To study,べんきょうします
+One,Three,Question words,When,いつ
+One,Three,Numbers,Zero,ゼロ
+One,Three,Numbers,Zero,れい
+One,Three,Numbers,One,いち
+One,Three,Numbers,Two,に
+One,Three,Numbers,Three,さん
+One,Three,Numbers,Four,よん｜｜し
+One,Three,Numbers,Five,ご
+One,Three,Numbers,Six,ろく
+One,Three,Numbers,Seven,なな｜｜しち
+One,Three,Numbers,Eight,はち
+One,Three,Numbers,Nine,きゅう｜｜く
+One,Three,Numbers,ten,じゅう
+One,Three,Counters,Minute(s),〜ふん｜｜〜ぷん
+One,Three,Adverbs,Not very often (used with negative verb forms),あまり
+One,Three,Adverbs,Always,いつも
+One,Three,Adverbs,Not at all (used with negative verb forms),ぜんぜん
+One,Three,Adverbs,Usually,たいてい
+One,Three,Adverbs,Sometimes,ときどき
+One,Three,Adverbs,"Often, well",よく
+One,Three,Particles,"At, in, on, etc. (location of action or event)",で
+One,Three,Particles,"At, on, in (point in time)",に
+One,Three,Particles,"To (goal, activity)",に
+One,Three,Particles,To (direction),へ
+One,Three,Particles,Direct object marker,を
+One,Three,Prefixes,This,こん〜
+One,Three,Prefixes,Every,まい〜
+One,Three,Suffixes,About (only used with time expressions),〜ごろ
+One,Three,Suffixes,Day (of the week),〜ようび
+One,Three,Irregular minutes,One minute,いっぷん
+One,Three,Irregular minutes,Three minutes,さんぷん
+One,Three,Irregular minutes,Four minutes,よんふん｜｜よんぷん
+One,Three,Irregular minutes,Six minutes,ろっぷん
+One,Three,Irregular minutes,Eight minutes,はっぷん｜｜はちふん
+One,Three,Irregular minutes,Ten minutes,じゅっぷん｜｜じっぷん
+One,Three,Irregular minutes,How many minutes?,なんぷん
+One,Four,Nouns,Apartment,アパート
+One,Four,Nouns,Station,えき
+One,Four,Nouns,Pencil,えんぴつ
+One,Four,Nouns,"Luggage, bag",かばん
+One,Four,Nouns,"Coffee shop, café (recent term)",カフェ
+One,Four,Nouns,Coffee shop (traditional term),きっさてん
+One,Four,Nouns,Textbook,きょうかしょ
+One,Four,Nouns,Bank,ぎんこう
+One,Four,Nouns,Eraser,けしゴム
+One,Four,Nouns,Park,こうえん
+One,Four,Nouns,Police box,こうばん
+One,Four,Nouns,This area,このへん
+One,Four,Nouns,Convenience store,コンビニ
+One,Four,Nouns,Dictionary,じしょ
+One,Four,Nouns,Supermarket,スーパー
+One,Four,Nouns,"Building, structure",たてもの
+One,Four,Nouns,Test,テスト
+One,Four,Nouns,Department store,デパート
+One,Four,Nouns,Notebook,ノート
+One,Four,Nouns,Building (western),ビル
+One,Four,Nouns,Hospital,びょういん
+One,Four,Nouns,Pen,ペン
+One,Four,Nouns,Ballpoint pen,ボールペン
+One,Four,Nouns,Bookstore,ほんや
+One,Four,Nouns,Town,まち
+One,Four,Nouns,Post office,ゆうびんきょく
+One,Four,Nouns,Dormitory,りょう
+One,Four,Nouns,Restaurant,レストラン
+One,Four,Verbs,"To be, to exist",あります｜｜います
+One,Four,Demonstrative words,"Over there, that place (far from speaker and listener)",あそこ
+One,Four,Demonstrative words,"That, that object over there",あれ
+One,Four,Demonstrative words,"Here, this place",ここ
+One,Four,Demonstrative words,"This object, this",これ
+One,Four,Demonstrative words,"There, that place (close to listener or slightly removed from speaker and listener)",そこ
+One,Four,Demonstrative words,"That object, that (close to listener or slightly removed from speaker and listener)",それ
+One,Four,Adjectives,Blue,あおい
+One,Four,Adjectives,Red,あかい
+One,Four,Adjectives,New,あたらしい
+One,Four,Adjectives,Good,いい
+One,Four,Adjectives,Big,おおきい｜｜大きい
+One,Four,Adjectives,Yellow,きいろい
+One,Four,Adjectives,Black,くろい
+One,Four,Adjectives,White,しろい
+One,Four,Adjectives,"Tall, high",たかい
+One,Four,Adjectives,Small,ちいさい
+One,Four,Adjectives,Brown,ちゃいろい
+One,Four,Adjectives,Old,ふるい
+One,Four,Adjectives,"Clean, pretty, neat",きれい（な）
+One,Four,Adjectives,Famous,ゆうめい（な）
+One,Four,Adjectives,"Fine, splendid, nice",りっぱ（な）
+One,Four,Question words,Who,だれ
+One,Four,Question words,Which one,どれ
+One,Four,Question words,What kind of,どんな
+One,Four,Adverbs,Very,どうも
+One,Four,Adverbs,Very (always used with an affirmative form),とても
+One,Four,Suffixes,Store,〜や
+One,Five,Location Nouns,"On, Above, Over",うえ｜｜上
+One,Five,Location Nouns,"Behind, In back of",うしろ
+One,Five,Location Nouns,"Under, Beneath",した｜｜下
+One,Five,Location Nouns,Outside,そと
+One,Five,Location Nouns,"Near, In the vicinity of",ちかく
+One,Five,Location Nouns,Next to; (of same type),となり
+One,Five,Location Nouns,"In, Inside",なか｜｜中
+One,Five,Location Nouns,"To the left, Left side",ひだり
+One,Five,Location Nouns,"In front of, In the front",まえ
+One,Five,Location Nouns,To the right,みぎ
+One,Five,Location Nouns,"Next to, Adjacent to; (of different type)",よこ
+One,Five,Nouns,Chair,いす
+One,Five,Nouns,Dog,いぬ
+One,Five,Nouns,Picture,え
+One,Five,Nouns,Japanese style closet,おしいれ
+One,Five,Nouns,School cafeteria,がくしょく｜｜学しょく
+One,Five,Nouns,Student union,学生かいかん
+One,Five,Nouns,River,かわ｜｜川
+One,Five,Nouns,Tree,き
+One,Five,Nouns,Classroom,きょうしつ
+One,Five,Nouns,Car,くるま
+One,Five,Nouns,Cell Phone,けいたい（でんわ）
+One,Five,Nouns,Chalkboard,こくばん
+One,Five,Nouns,Computer,コンピュータ
+One,Five,Nouns,Bicycle,じてんしゃ
+One,Five,Nouns,Photograph,しゃしん
+One,Five,Nouns,Sofa,ソファ
+One,Five,Nouns,Gym,たいいくかん
+One,Five,Nouns,"Chest, Drawers",たんす
+One,Five,Nouns,Desk,つくえ
+One,Five,Nouns,Table,テーブル
+One,Five,Nouns,Telephone,でんわ
+One,Five,Nouns,Door,ドア
+One,Five,Nouns,"Toilet, Restroom",トイレ
+One,Five,Nouns,"Clock, Watch",とけい
+One,Five,Nouns,Place,ところ
+One,Five,Nouns,Cat,ねこ
+One,Five,Nouns,Bus,バス
+One,Five,Nouns,Video,ビデオ
+One,Five,Nouns,Person,ひと｜｜人
+One,Five,Nouns,Futon,ふとん
+One,Five,Nouns,Bed,ベッド
+One,Five,Nouns,Room,へや
+One,Five,Nouns,Bookshelf,ほんだな｜｜本だな
+One,Five,Nouns,Window,まど
+One,Five,Nouns,Thing (tangible),もの
+One,Five,Nouns,Mountain,やま｜｜山
+One,Five,Nouns,Room,ルーム
+One,Five,Verbs,"To take (time), it costs",かかります
+One,Five,Demonstrative Words,That [+ noun] over there,あの
+One,Five,Demonstrative Words,This [+ noun],この
+One,Five,Demonstrative Words,That [+ noun],その
+One,Five,Demonstrative Words,Which [+ noun]?,どの
+One,Five,Adjectives,Bright,あかるい
+One,Five,Adjectives,Dark,くらい
+One,Five,Adjectives,"Cramped, Narrow",せまい
+One,Five,Adjectives,"Fast, Quick",はやい
+One,Five,Adjectives,"Spacious, Wide",ひろい
+One,Five,Adjectives,Quiet,しずか（な）
+One,Five,Particles,From,から
+One,Five,Particles,"By means of, by, with",で
+One,Five,Particles,"Until, to",まで
+One,Five,Suffixes,About ~ (Duration or quantity),〜ぐらい｜｜くらい
+One,Five,Suffixes,~ Hours,〜じかん
+One,Five,Conjunctions,But,でも
+One,Five,Expressions,Please Come in.,あがってください｜｜上がって下さい
+One,Five,Expressions,On foot,あるいて
+One,Five,Expressions,Welcome! Come in.,いらっしゃい
+One,Five,Expressions,Thank you. (Said before going inside someone's house or apartment),おじゃまします
+One,Five,Expressions,"Excuse me, anyone home?",ごめんください｜｜ごめん下さい
+One,Five,Question Words,"How long, how much, how many",どのぐらい｜｜どのくらい
+One,Six,Nouns,Part-time job,アルバイト
+One,Six,Nouns,Exercises,うんどう
+One,Six,Nouns,Music,おんがく
+One,Six,Nouns,Shopping,かいもの
+One,Six,Nouns,Game,ゲーム
+One,Six,Nouns,Concert,コンサート
+One,Six,Nouns,Next time,こんど｜｜今ど
+One,Six,Nouns,Magazine,ざっし
+One,Six,Nouns,"Walk, stroll",さんぽ
+One,Six,Nouns,Job,しごと
+One,Six,Nouns,Question,しつもん
+One,Six,Nouns,Jogging,ジョギング
+One,Six,Nouns,Newspaper,しんぶん
+One,Six,Nouns,Laundry,せんたく
+One,Six,Nouns,Cleaning,そうじ
+One,Six,Nouns,Letter,てがみ
+One,Six,Nouns,Tennis,テニス
+One,Six,Nouns,Friend,ともだち
+One,Six,Nouns,Party,パーティ
+One,Six,Nouns,Picnic,ピクニック
+One,Six,Nouns,Pool,プール
+One,Six,Nouns,E-mail,メール
+One,Six,Nouns,"Rest, absence, a day off",やすみ｜｜休み
+One,Six,Nouns,"A day off, holiday",やすみの日｜｜休みの日
+One,Six,Nouns,Parents,りょうしん
+One,Six,Nouns,"Cooking, cuisine",りょうり
+One,Six,Verbs,To meet,あいます
+One,Six,Verbs,To play,あそびます
+One,Six,Verbs,"To walk, to walk up towards",あるきます
+One,Six,Verbs,To say,いいます
+One,Six,Verbs,To swim,およぎます
+One,Six,Verbs,To write,かきます
+One,Six,Verbs,"To ask, to listen to",ききます（聞・聴）
+One,Six,Verbs,To talk,はなします
+One,Six,Verbs,To wait,まちます
+One,Six,Verbs,"To call, to invite",よびます
+One,Six,Verbs,To make (a phone call),かけます
+One,Six,Verbs,To go out,でかけます
+One,Six,Adjectives,Busy,いそがしい
+One,Six,Adjectives,Happy,うれしい
+One,Six,Adjectives,Interesting,おもしろい
+One,Six,Adjectives,Sad,かなしい
+One,Six,Adjectives,Lonely,さびしい
+One,Six,Adjectives,Fun,たのしい
+One,Six,Adjectives,Boring,つまらない
+One,Six,Adjectives,Difficult,むずかしい
+One,Six,Adjectives,"Easy, kind",やさしい（易・優）
+One,Six,Adjectives,"Healthy, cheerful, lively (person)",げんき（な）
+One,Six,Adjectives,"Sorry, regrettable",ざんねん（な）
+One,Six,Adjectives,"All right, no problem",大じょうぶ（な）
+One,Six,Adjectives,Tough,大へん（な）
+One,Six,Adjectives,Lively (place or event),にぎやか（な）
+One,Six,Adjectives,"Free, idle, unscheduled",ひま（な）
+One,Six,Question words,How?,どう
+One,Six,Adverbs,Together,いっしょに
+One,Six,Adverbs,By all means./I'd love to,ぜひ
+One,Six,Adverbs,Slowly,ゆっくり
+One,Six,Particles,"With, together with (association)",と
+One,Six,Particles,And (exhaustive listing),と
+One,Six,Particles,"In order to, for (purpose)",に
+One,Six,Particles,"To (goal, receiver)",に
+One,Six,Conjunctions,And,そして
+One,Six,Expressions,I'm a little busy,ちょっとつごうがわるくて
+One,Six,Expressions,"Sorry, I have some errands/business to attend to.",ちょっとようじがあって
+One,Six,Verbs in て form,To exist (inanimate),あって
+One,Six,Verbs in て form,To go,いって
+One,Six,Verbs in て form,To return,かえって
+One,Six,Verbs in て form,To drink,のんで
+One,Six,Verbs in て form,"To take (a bath), to enter",はいって
+One,Six,Verbs in て form,To read,よんで
+One,Six,Verbs in て form,To take (a shower),あびて
+One,Six,Verbs in て form,"To get up, to wake up",おきて
+One,Six,Verbs in て form,To eat,たべて
+One,Six,Verbs in て form,To go to bed,ねて
+One,Six,Verbs in て form,"To see, to watch",みて
+One,Six,Verbs in て form,To come,きて
+One,Six,Verbs in て form,To do,して
+One,Six,Verbs in て form,To exist (animate),いて
+One,Six,Verbs in て form,"To take (time), it costs",かかって
+One,Six,Verbs in て form,To meet,あって
+One,Six,Verbs in て form,To play,あそんで
+One,Six,Verbs in て form,To walk (up towards),あるいて
+One,Six,Verbs in て form,To say,いって
+One,Six,Verbs in て form,To swim,およいで
+One,Six,Verbs in て form,To write,かいて
+One,Six,Verbs in て form,"To ask, to listen to",きいて
+One,Six,Verbs in て form,To talk,はなして
+One,Six,Verbs in て form,To wait,まって
+One,Six,Verbs in て form,"To call, to invite",よんで
+One,Six,Verbs in て form,To make (a phone call),かけて
+One,Six,Verbs in て form,To go out,でかけて
+One,Seven,Nouns,Song,うた
+One,Seven,Nouns,"Tea, Green tea",おちゃ
+One,Seven,Nouns,Orange,オレンジ
+One,Seven,Nouns,"Karaoke, sing along",カラオケ
+One,Seven,Nouns,Cow's Milk,ぎゅうにゅう
+One,Seven,Nouns,Fruit,くだもの
+One,Seven,Nouns,Classical Music,クラシック
+One,Seven,Nouns,Cake,ケーキ
+One,Seven,Nouns,Black tea,こうちゃ
+One,Seven,Nouns,Cola,コーラ
+One,Seven,Nouns,Thing (intangible),こと
+One,Seven,Nouns,Golf,ゴルフ
+One,Seven,Nouns,Fish,さかな
+One,Seven,Nouns,"Rice wine, alcoholic beverage",さけ
+One,Seven,Nouns,Jazz,ジャズ
+One,Seven,Nouns,Juice,ジュース
+One,Seven,Nouns,Hobby,しゅみ
+One,Seven,Nouns,Dining,しょくじ
+One,Seven,Nouns,Skiing,スキー
+One,Seven,Nouns,Sports,スポーツ
+One,Seven,Nouns,"Physical exercise, calisthenics",たいそう
+One,Seven,Nouns,Food,たべもの
+One,Seven,Nouns,Egg,たまご
+One,Seven,Nouns,Fishing,つり
+One,Seven,Nouns,Tomato,トマト
+One,Seven,Nouns,Driving (for pleasure),ドライブ
+One,Seven,Nouns,Meat,にく
+One,Seven,Nouns,Carrot,にんじん
+One,Seven,Nouns,"Beverage, drink",のみもの
+One,Seven,Nouns,Hiking,ハイキング
+One,Seven,Nouns,Basketball,バスケットボール
+One,Seven,Nouns,Banana,バナナ
+One,Seven,Nouns,Hip-hop music,ヒップホップ
+One,Seven,Nouns,Beer,ビール
+One,Seven,Nouns,American football,フットボール
+One,Seven,Nouns,Pop music,ポップス
+One,Seven,Nouns,Water,水
+One,Seven,Nouns,"Milk (for babies), Creamer (for coffee)",ミルク
+One,Seven,Nouns,Baseball,やきゅう
+One,Seven,Nouns,Vegetable,やさい
+One,Seven,Nouns,Rap music,ラップ
+One,Seven,Nouns,Traveling,りょこう
+One,Seven,Nouns,Apple,りんご
+One,Seven,Nouns,Lettuce,レタス
+One,Seven,Nouns,Rock and roll,ロック
+One,Seven,Nouns,Wine,ワイン
+One,Seven,Verbs,To dine,しょくじする
+One,Seven,Verbs,To travel,りょこうする
+One,Seven,Verbs,To sing,うたう
+One,Seven,Verbs,(For something) to end,おわる
+One,Seven,Verbs,To make,つくる
+One,Seven,Verbs,To take (a photograph),とる
+One,Seven,Verbs,(For something) to begin,はじまる
+One,Seven,Adjectives,"Delicious, good, tasty",おいしい
+One,Seven,Adjectives,Expensive,たかい
+One,Seven,Adjectives,Inexpensive,やすい
+One,Seven,Adjectives,"Dislike, hate",きらい（な）
+One,Seven,Adjectives,Like,すき(な)
+One,Seven,Adverbs,More,もっと
+One,Seven,Particles,And (when listing examples),や
+One,Seven,Prefixes,Very much,大
+One,Seven,Conjunctions,"And, In addition, Then",それから
+One,Seven,Conjunctions,For example,たとえば
+One,Seven,Expressions,I neither like nor dislike it.,すくでもきらいでもありません
+One,Seven,Expressions,~is a bit,〜（は）ちょっと
+One,Seven,Expressions,How about ~?,〜（は）どうですか
+One,Eight,Nouns,Accessories,アクセサリー
+One,Eight,Nouns,Accessory department,アクセサリーうりば
+One,Eight,Nouns,Earring,イヤリング
+One,Eight,Nouns,Wristwatch,うでどけい
+One,Eight,Nouns,"Department, section (of a store)",うりば
+One,Eight,Nouns,"Customer, guest",おきゃくさん
+One,Eight,Nouns,Umbrella,かさ
+One,Eight,Nouns,Shoes,くつ
+One,Eight,Nouns,Socks,くつ下
+One,Eight,Nouns,Coat,コート
+One,Eight,Nouns,CD/DVD section,CD／DVDうりば
+One,Eight,Nouns,Jeans,ジーンズ
+One,Eight,Nouns,Jacket,ジャケット
+One,Eight,Nouns,Shirt,シャツ
+One,Eight,Nouns,Food,しょくひん
+One,Eight,Nouns,Food department,しょくひんうりば
+One,Eight,Nouns,Menswear,しんしふく
+One,Eight,Nouns,Menswear department,しんしふくうりば
+One,Eight,Nouns,Suit,スーツ
+One,Eight,Nouns,Skirt,スカート
+One,Eight,Nouns,"Stockings, pantyhose",ストッキング
+One,Eight,Nouns,Sweater,セーター
+One,Eight,Nouns,Sale,セール
+One,Eight,Nouns,Birthday,たんじょうび
+One,Eight,Nouns,Basement,ちか
+One,Eight,Nouns,T shirt,Tシャツ
+One,Eight,Nouns,Formal dress,ドレス
+One,Eight,Nouns,Tie,ネクタイ
+One,Eight,Nouns,Necklace,ネックレス
+One,Eight,Nouns,Box,はこ
+One,Eight,Nouns,"Trousers, shorts",パンツ
+One,Eight,Nouns,Handbag,ハンドバッグ
+One,Eight,Nouns,Clothing,ふく
+One,Eight,Nouns,Woman's clothing,ふじんふく
+One,Eight,Nouns,Woman's clothing section,ふじんふくうりば
+One,Eight,Nouns,Blouse,ブラウス
+One,Eight,Nouns,Stationery,ぶんぼうぐ
+One,Eight,Nouns,Stationery section,ぶんぼうぐうりば
+One,Eight,Nouns,Belt,ベルト
+One,Eight,Nouns,"Hat, cap",ぼうし
+One,Eight,Nouns,"Store, shop",みせ｜｜店
+One,Eight,Nouns,Ring,ゆびわ
+One,Eight,Nouns,Dress (informal),ワンピース
+One,Eight,Verbs,To buy,かう
+One,Eight,Verbs,To take,とる
+One,Eight,Verbs,To put,いれる
+One,Eight,Verbs,To put in a box,はこにいれる
+One,Eight,Verbs,To show,みせる
+One,Eight,Adverbs,"A little, a few",すこし
+One,Eight,Adverbs,"A lot, many, much",たくさん
+One,Eight,Adverbs,"A little, a few (casual)",ちょっと
+One,Eight,Adverbs,"~more, another~",もう
+One,Eight,Adverbs,A little more,もうすこし
+One,Eight,Adverbs,A little more (casual),もうちょっと
+One,Eight,Counters,Yen (Japanese currency),〜えん｜｜〜円
+One,Eight,Counters,Counter for floors of a building,〜かい
+One,Eight,Counters,Counter for bound objects,〜さつ
+One,Eight,Counters,General counter,〜つ
+One,Eight,Counters,Counter for fish and small four-legged animals,〜ひき
+One,Eight,Counters,"Counter for long, cylindrical objects",〜本
+One,Eight,Counters,Counter for thin objects,〜まい
+One,Eight,Question Words,How (polite form),いかが
+One,Eight,Question Words,How many,いくつ
+One,Eight,Question Words,How much (money),いくら
+One,Eight,Question Words,Why,どうして
+One,Eight,Japanese Origin Numbers,One,ひとつ
+One,Eight,Japanese Origin Numbers,Two,ふたつ
+One,Eight,Japanese Origin Numbers,Three,みっつ
+One,Eight,Japanese Origin Numbers,Four,よっつ
+One,Eight,Japanese Origin Numbers,Five,いつつ
+One,Eight,Japanese Origin Numbers,Six,むっつ
+One,Eight,Japanese Origin Numbers,Seven,ななつ
+One,Eight,Japanese Origin Numbers,Eight,やっつ
+One,Eight,Japanese Origin Numbers,Nine,ここのつ
+One,Eight,Japanese Origin Numbers,Ten,とお
+One,Eight,Numbers,Thousand,せん｜｜千
+One,Eight,Numbers,Hundred,ひゃく｜｜百
+One,Eight,Numbers,Ten thousand,まん｜｜万
+One,Eight,Expressions,Welcome,いらっしゃいませ
+One,Eight,Expressions,All together,ぜんぶで
+One,Eight,Expressions,Do you have ~ ? Do you carry ~ ?,〜はありませんか
+One,Eight,Expressions,Please say it in easier words,やさしいことばでいって下さい
+One,Eight,Expressions,Please give me ~,〜を下さい
+One,Nine,Nouns,Ice cream,アイスクリーム
+One,Nine,Nouns,Oil,あぶら
+One,Nine,Nouns,"fatty, oily",あぶらがおおい
+One,Nine,Nouns,Italian cuisine,イタリアりょうり
+One,Nine,Nouns,Japanese wheat noodles,うどん
+One,Nine,Nouns,Japanese curry and rice dish,カレーライス
+One,Nine,Nouns,Calorie,カロリー
+One,Nine,Nouns,Cookie,クッキー
+One,Nine,Nouns,Sashimi,（お）さしみ
+One,Nine,Nouns,Salad,サラダ
+One,Nine,Nouns,Sandwich,サンドイッチ
+One,Nine,Nouns,Soup,スープ
+One,Nine,Nouns,Sushi,（お）すし
+One,Nine,Nouns,Steak,ステーキ
+One,Nine,Nouns,Spaghetti,スパゲティ
+One,Nine,Nouns,Western-style fixed menu,セット
+One,Nine,Nouns,Hamburger set,ハンバーガーセット
+One,Nine,Nouns,Japanese buckwheat noodles,（お）そば
+One,Nine,Nouns,Cheese,チーズ
+One,Nine,Nouns,Chicken,チキン
+One,Nine,Nouns,Chinese-style fried rice,チャーハン
+One,Nine,Nouns,Chinese cuisine,ちゅうかりょうり
+One,Nine,Nouns,Order,ちゅうもん
+One,Nine,Nouns,Chocolate,チョコレート
+One,Nine,Nouns,A Japanese or Asian-style dish set,ていしょく
+One,Nine,Nouns,Sashimi set,さしみていしょく
+One,Nine,Nouns,Dessert,デザート
+One,Nine,Nouns,"Tempura (fish, shrimp, and vegetables battered and deep-fried)",てんぷら
+One,Nine,Nouns,Toast,トースト
+One,Nine,Nouns,Hamburger,ハンバーガー
+One,Nine,Nouns,Bread,パン
+One,Nine,Nouns,Beef,ビーフ
+One,Nine,Nouns,Pizza,ピザ
+One,Nine,Nouns,Fried chicken,フライドチキン
+One,Nine,Nouns,Pork,ポーク
+One,Nine,Nouns,Western-style cuisine,ようしょく
+One,Nine,Nouns,"Rice (served on plate, not bowl)",ライス
+One,Nine,Nouns,Chinese-style noodle soup,ラーメン
+One,Nine,Nouns,Lunch,ランチ
+One,Nine,Nouns,Lunch set A,Aランチ
+One,Nine,Nouns,Japanese cuisine,わしょく
+One,Nine,Verbs,To need something,いる
+One,Nine,Verbs,"To order, to ask (someone to do~)",たのむ
+One,Nine,Verbs,To order,ちゅうもんする
+One,Nine,Adjectives,Warm,あたたかい
+One,Nine,Adjectives,Hot,あつい
+One,Nine,Adjectives,Sweet,あまい
+One,Nine,Adjectives,"A lot, much",おおい
+One,Nine,Adjectives,"Hard, tough",かたい
+One,Nine,Adjectives,Spicy,からい
+One,Nine,Adjectives,Salty,しょっぱい｜｜しおからい
+One,Nine,Adjectives,"Little (in number), few",すくない
+One,Nine,Adjectives,Sour,すっぱい
+One,Nine,Adjectives,Cold,つめたい
+One,Nine,Adjectives,Bitter,にがい
+One,Nine,Adjectives,Low,ひくい
+One,Nine,Adjectives,Soft,やわらかい
+One,Nine,Prefix,Polite prefix,ご〜
+One,Nine,Expressions,Please do not bother/worry about it,いいえ｜｜どうぞおかまいなく
+One,Nine,Expressions,To decide on ~,〜にします
+One,Nine,Expressions,I would like to have ~,〜をおねがいします
+One,Ten,Nouns,"Leg, foot",あし｜｜足
+One,Ten,Nouns,Head,あたま
+One,Ten,Nouns,"Smart, intelligent",あたまがいい
+One,Ten,Nouns,Older brother (the speaker's),あに｜｜兄
+One,Ten,Nouns,Older sister (the speaker's),あね｜｜姉
+One,Ten,Nouns,Younger sister (the speaker's,いもうと｜｜妹
+One,Ten,Nouns,Younger sister (someone else's),いもうとさん｜｜妹さん
+One,Ten,Nouns,Mother (someone else's),おかあさん｜｜お母さん
+One,Ten,Nouns,Wife (someone else's),おくさん
+One,Ten,Nouns,Child (someone else's),おこさん｜｜お子さん
+One,Ten,Nouns,Grandfather (someone else's),おじいさん
+One,Ten,Nouns,Father (someone else's),おとうさん｜｜お父さん
+One,Ten,Nouns,Younger brother (the speaker's),おとうと｜｜弟
+One,Ten,Nouns,Younger brother (someone else's),おとうとさん｜｜弟さん
+One,Ten,Nouns,Male,おとこ｜｜男
+One,Ten,Nouns,Man,おとこの人｜｜男の人
+One,Ten,Nouns,Older brother (someone else's),おにいさん｜｜お兄さん
+One,Ten,Nouns,Older sister (someone else's),おねえさん｜｜お姉さん
+One,Ten,Nouns,Grandmother (someone else's),おばあさん
+One,Ten,Nouns,Female,おんな｜｜女
+One,Ten,Nouns,Woman,おんなの人｜｜女の人
+One,Ten,Nouns,Businessperson,かいしゃいん
+One,Ten,Nouns,Face,かお
+One,Ten,Nouns,"Family, speaker's family",かぞく｜｜家族
+One,Ten,Nouns,Hair,かみ・かみのけ
+One,Ten,Nouns,Sibling(s),きょうだい｜｜兄弟
+One,Ten,Nouns,Mouth,くち｜｜口
+One,Ten,Nouns,Marriage,けっこん
+One,Ten,Nouns,Child,こ｜｜子
+One,Ten,Nouns,Boy,おとこのこ｜｜男の子
+One,Ten,Nouns,Girl,おんなのこ｜｜女の子
+One,Ten,Nouns,Family (someone else's),ごかぞく｜｜ご家族
+One,Ten,Nouns,Siblings (someone else's),ごきょうだい｜｜ご兄弟
+One,Ten,Nouns,Husband (someone else's),ごしゅじん
+One,Ten,Nouns,Child,こども
+One,Ten,Nouns,Husband (the speaker's),おっと
+One,Ten,Nouns,"Back (part of body), Height (of a person)",せ
+One,Ten,Nouns,Personality,せいかく
+One,Ten,Nouns,Grandfather (the speaker's),そふ
+One,Ten,Nouns,Grandmother (the speaker's),そぼ
+One,Ten,Nouns,Father (the speaker's),ちち｜｜父
+One,Ten,Nouns,Wife (the speaker's),つま
+One,Ten,Nouns,"Hand, arm",て｜｜手
+One,Ten,Nouns,Age,とし｜｜年
+One,Ten,Nouns,"Elder, older",とし上｜｜年上
+One,Ten,Nouns,Younger,とし下｜｜年下
+One,Ten,Nouns,Nose,はな
+One,Ten,Nouns,Mother (the speaker's),はは｜｜母
+One,Ten,Nouns,Only child,ひとりっこ｜｜一人っ子
+One,Ten,Nouns,Blonde,ブロンド
+One,Ten,Nouns,"Center, middle, middle child",まん中
+One,Ten,Nouns,Ear,みみ｜｜耳
+One,Ten,Nouns,Eye,め｜｜目
+One,Ten,Nouns,Glasses,めがね
+One,Ten,Nouns,"Husband (someone else's, if you know them)",だんなさん
+One,Ten,Verbs,To marry,〜とけっこんする
+One,Ten,Verbs,To be married,けっこんしている
+One,Ten,Verbs,To think,おもう
+One,Ten,Verbs,To put on (a hat or cap),かぶる
+One,Ten,Verbs,To reside,すむ
+One,Ten,Verbs,To live in,〜にすんでいる
+One,Ten,Verbs,"To put on (skirt, pants, sucks, shoes)",はく
+One,Ten,Verbs,To gain weight,ふとる
+One,Ten,Verbs,To be fat,ふとっている
+One,Ten,Verbs,To understand,分かる
+One,Ten,Verbs,To put on (glasses),かける
+One,Ten,Verbs,"To put on (sweater, shirt, jacket)",きる
+One,Ten,Verbs,To become employed,つとめる
+One,Ten,Verbs,"To be employed at, work for",〜につとめている
+One,Ten,Verbs,To lose weight,やせる
+One,Ten,Verbs,To be thin,やせている
+One,Ten,Verbs,To put on (accessories),する
+One,Ten,Verbs,Resultant state,〜ている
+One,Ten,Adjectives,Cheerful,あかるい
+One,Ten,Adjectives,"Good looking, cool, neat",かっこいい
+One,Ten,Adjectives,"Cute, adorable",かわいい
+One,Ten,Adjectives,Square,しかくい
+One,Ten,Adjectives,Long,ながい
+One,Ten,Adjectives,Long/elongated,ほそながい
+One,Ten,Adjectives,Round,まるい
+One,Ten,Adjectives,Short (length),みじかい
+One,Ten,Adjectives,"Good at, skillful",じょうず（な）｜｜上手（な）
+One,Ten,Adjectives,Kind,しんせつ（な）
+One,Ten,Question word,How old,いくつ
+One,Ten,Question word,How old (polite),おいくつ
+One,Ten,Prefixes,Elementary (school),小〜
+One,Ten,Prefixes,Middle (school),中〜
+One,Ten,Suffixes,Person (polite),〜方
+One,Ten,Suffixes,~years old,〜さい
+One,Ten,Suffixes,~people,〜人
+One,Ten,Suffixes,~th (ordinal suffix),〜番（め）
+One,Ten,Conjunction,In addition,それに
+One,Ten,Expressions,"No, that's not the case",いいえ｜｜そんなことはありません
+One,Ten,Expressions,"No, I still have a long way to go",いいえ｜｜まだまだです
+One,Eleven,Nouns,"Fall, autumn",あき
+One,Eleven,Nouns,Rain,あめ｜｜雨
+One,Eleven,Nouns,Temperature,おんど｜｜温度
+One,Eleven,Nouns,Wind,かぜ｜｜風
+One,Eleven,Nouns,Air temperature,きおん｜｜気温
+One,Eleven,Nouns,Climate,きこう
+One,Eleven,Nouns,Season,きせつ
+One,Eleven,Nouns,North,きた｜｜北
+One,Eleven,Nouns,Last year,きょねん
+One,Eleven,Nouns,Cloud,くも
+One,Eleven,Nouns,Cloudy,くもり
+One,Eleven,Nouns,This morning,けさ
+One,Eleven,Nouns,This year,今年
+One,Eleven,Nouns,"Recent, recently",さいきん
+One,Eleven,Nouns,Humidity,しつど
+One,Eleven,Nouns,Typhoon,たいふう
+One,Eleven,Nouns,Rainy season,つゆ
+One,Eleven,Nouns,Weather,（お）てんき｜｜（お）天気
+One,Eleven,Nouns,Weather forecast,てんきよほう
+One,Eleven,Nouns,Summer,なつ
+One,Eleven,Nouns,Southwest,なんせい｜｜南西
+One,Eleven,Nouns,Southeast,なんとう｜｜南東
+One,Eleven,Nouns,West,にし｜｜西
+One,Eleven,Nouns,Shower (rain),にわかあめ｜｜にわか雨
+One,Eleven,Nouns,Spring,はる
+One,Eleven,Nouns,Clear skies,はれ｜｜晴れ
+One,Eleven,Nouns,East,ひがし｜｜東
+One,Eleven,Nouns,Winter,ふゆ
+One,Eleven,Nouns,Direction,方
+One,Eleven,Nouns,Northwest,ほくせい｜｜北西
+One,Eleven,Nouns,Northeast,ほくとう｜｜北東
+One,Eleven,Nouns,Minus,マイナス
+One,Eleven,Nouns,South,みなみ｜｜南
+One,Eleven,Nouns,Evening,ゆうがた
+One,Eleven,Nouns,Snow,ゆき｜｜雪
+One,Eleven,Nouns,Night,よる
+One,Eleven,Verbs,"To rise, to go up",上がる
+One,Eleven,Verbs,To become cloudy,くもる
+One,Eleven,Verbs,"To fall, to go down",下がる
+One,Eleven,Verbs,To come to know,しる
+One,Eleven,Verbs,To know,しっている
+One,Eleven,Verbs,Don't know,しらない
+One,Eleven,Verbs,To continue,つづく
+One,Eleven,Verbs,To accumulate,つもる
+One,Eleven,Verbs,To blow,ふく
+One,Eleven,Verbs,To fall,ふる
+One,Eleven,Verbs,To stop,やむ
+One,Eleven,Verbs,To become sunny,はれる｜｜晴れる
+One,Eleven,Verbs,To become,なる
+One,Eleven,Verbs,To make something/someone into,する
+One,Eleven,Adjectives,Warm (air temperature),あたたかい｜｜温かい
+One,Eleven,Adjectives,Hot (air temperature),あつい｜｜暑い
+One,Eleven,Adjectives,Cold,さむい｜｜寒い
+One,Eleven,Adjectives,Cool,すずしい
+One,Eleven,Adjectives,Strong,つよい
+One,Eleven,Adjectives,Early,はやい
+One,Eleven,Adjectives,Humid,むしあつい
+One,Eleven,Adjectives,Weak,よわい
+One,Eleven,Adjectives,Bad,わるい
+One,Eleven,Adjectives,"Unpleasant, yuck",いや（な）
+One,Eleven,Adjectives,Sudden,きゅう（な）
+One,Eleven,Suffixes,Month,〜月
+One,Eleven,Suffixes,"Degree, temperature",〜ど
+One,Eleven,Expressions,After,〜のち〜
+One,Eleven,Expressions,"Truly, really, indeed",ほんとう（に）｜｜ほんと（に）
+One,Twelve,Nouns,"Ocean, sea",うみ
+One,Twelve,Nouns,The year before last,おととし｜｜一昨年
+One,Twelve,Nouns,Memories,おもいで｜｜思い出
+One,Twelve,Nouns,Foreign countries,がいこく
+One,Twelve,Nouns,"Semester, quarter",がっき
+One,Twelve,Nouns,Kabuki (Japanese traditional performing art),かぶき
+One,Twelve,Nouns,"Traditional Japanese clothes, kimono",きもの
+One,Twelve,Nouns,Camping,キャンプ
+One,Twelve,Nouns,Church,きょうかい
+One,Twelve,Nouns,Christmas,クリスマス
+One,Twelve,Nouns,"Fight, quarrel",けんか
+One,Twelve,Nouns,This month,今月
+One,Twelve,Nouns,The new year,しょうがつ
+One,Twelve,Nouns,Shinto shrine,じんじゃ
+One,Twelve,Nouns,Aquarium,すいぞくかん
+One,Twelve,Nouns,Last month,先月
+One,Twelve,Nouns,Junior high school,中学
+One,Twelve,Nouns,Dating,デート
+One,Twelve,Nouns,Buddhist temple,てら
+One,Twelve,Nouns,Zoo,どうぶつえん
+One,Twelve,Nouns,"When, at the time of ~",時
+One,Twelve,Nouns,"Summer holidays, summer break",なつやすみ｜｜夏休み
+One,Twelve,Nouns,Spring break,はるやすみ｜｜春休み
+One,Twelve,Nouns,Winter break,ふゆやすみ｜｜冬休み
+One,Twelve,Nouns,Museum,はくぶつかん
+One,Twelve,Nouns,Valentine's day,バレンタインデー
+One,Twelve,Nouns,Halloween,ハロウイン
+One,Twelve,Nouns,A half-year,半年
+One,Twelve,Nouns,Airplane,ひこうき
+One,Twelve,Nouns,Art Museum,びじゅつかん
+One,Twelve,Nouns,"Present, gift",プレゼント
+One,Twelve,Nouns,Festival,まつり
+One,Twelve,Nouns,Musical,ミュージカル
+One,Twelve,Nouns,Mountain climbing,やまのぼり
+One,Twelve,Nouns,Amusement park,ゆうえんち
+One,Twelve,Nouns,Next month,来月
+One,Twelve,Verbs,To fight,けんかをする
+One,Twelve,Verbs,To go out on a date,デートする
+One,Twelve,Verbs,To cry,なく
+One,Twelve,Verbs,"To get on, to ride",のる
+One,Twelve,Verbs,"To receive, to get",もらう
+One,Twelve,Verbs,To be disappointed in love,しつれんする
+One,Twelve,Adverbs,For the first time,はじめて
+One,Twelve,Suffixes,~ times,〜かい｜｜〜回
+One,Twelve,Suffixes,counter for months,〜か月
+One,Twelve,Suffixes,"from ~, after ~",〜ご｜｜〜後
+One,Twelve,Suffixes,for ~ weeks,〜週間
+One,Twelve,Suffixes,~ times (up to three),〜度
+One,Twelve,Suffixes,day,〜日
+One,Twelve,Suffixes,"specific year, counter for year",〜年
+One,Twelve,Suffixes,~ ago,〜まえ｜｜〜前
+One,Twelve,Expressions,"Well, let's see...",えーと
+One,Twelve,Expressions,Happy new year!,あけましておめでとうございます｜｜明けましておめでとうございます
+One,Twelve,Irregular days of the month,First,一日
+One,Twelve,Irregular days of the month,Second,二日
+One,Twelve,Irregular days of the month,Third,三日
+One,Twelve,Irregular days of the month,Fourth,四日
+One,Twelve,Irregular days of the month,Fifth,五日
+One,Twelve,Irregular days of the month,Sixth,六日
+One,Twelve,Irregular days of the month,Seventh,七日
+One,Twelve,Irregular days of the month,Eighth,八日
+One,Twelve,Irregular days of the month,Ninth,九日
+One,Twelve,Irregular days of the month,Tenth,十日
+One,Twelve,Irregular days of the month,Fourteenth,十四日
+One,Twelve,Irregular days of the month,Seventeenth,十七日
+One,Twelve,Irregular days of the month,Nineteenth,十九日
+One,Twelve,Irregular days of the month,Twentieth,二十日
+One,Twelve,Irregular days of the month,Twenty-Fourth,二十四日
+One,Twelve,Irregular days of the month,Twenty-Seventh,二十七日
+One,Twelve,Irregular days of the month,Twenty-Ninth,二十九日
+Two,One,Nouns,Allergy,アレルギー
+Two,One,Nouns,Breath,いき
+Two,One,Nouns,Medical doctor,いしゃ
+Two,One,Nouns,Stomach,おなか
+Two,One,Nouns,"Facial skin tone, complexion",かおいろ
+Two,One,Nouns,Cold,かぜ
+Two,One,Nouns,Shoulders,かた
+Two,One,Nouns,Body,からだ
+Two,One,Nouns,"Feeling, spirits, mood",気分
+Two,One,Nouns,"Feeling, sensation",きもち
+Two,One,Nouns,"Medicine, drug, ointment",くすり
+Two,One,Nouns,Neck,くび
+Two,One,Nouns,Injury,けが
+Two,One,Nouns,Lower back,こし
+Two,One,Nouns,Symptom,しょうじょう
+Two,One,Nouns,Stress,ストレス
+Two,One,Nouns,Cough,せき
+Two,One,Nouns,"Back, upper back",せなか
+Two,One,Nouns,Diet,ダイエット
+Two,One,Nouns,Cigarette,たばこ｜｜タバコ
+Two,One,Nouns,"Fever, (high) temperature",ねつ
+Two,One,Nouns,Throat,のど
+Two,One,Nouns,Tooth,は
+Two,One,Nouns,Sickness,びょうき
+Two,One,Nouns,Massage,マッサージ
+Two,One,Nouns,"Chest, breast",むね
+Two,One,Nouns,"Overwork, overstrain",むり
+Two,One,Nouns,Finger,ゆび
+Two,One,Verbs,To move (something) (transition verb),うごかす
+Two,One,Verbs,To cut,きる
+Two,One,Verbs,To be stiff,こる
+Two,One,Verbs,To inhale,すう
+Two,One,Verbs,"To take out, to prescribe, to submit",出す
+Two,One,Verbs,To clog,つまる
+Two,One,Verbs,To measure,はかる
+Two,One,Verbs,"To exhale, to throw up",はく
+Two,One,Verbs,To run,はしる
+Two,One,Verbs,To catch (a cold),ひく
+Two,One,Verbs,"To rest, to be absent",休む
+Two,One,Verbs,To open,あける
+Two,One,Verbs,To raise (something),上げる
+Two,One,Verbs,To lower (something),下げる
+Two,One,Verbs,"To attach, apply (medicine), turn on",つける
+Two,One,Verbs,To grow tired,つかれる
+Two,One,Verbs,To be tired,つかれている
+Two,One,Verbs,To come out,出る
+Two,One,Verbs,To quit doing (something),やめる
+Two,One,Verbs,To forget,わすれる
+Two,One,Verbs,To be hospitalized,にゅういんする
+Two,One,Adjectives,"Hurt, painful",いたい
+Two,One,Adjectives,Itchy,かゆい
+Two,One,Adjectives,Serious (injury),ひどい
+Two,One,Adjectives,Bad,わるい
+Two,One,Adjectives,Various,いろいろ（な）
+Two,One,Adjectives,Healthy,けんこう（な）
+Two,One,Adverb,"Immediately, right away",すぐ
+Two,One,Particle,"From, to be absent from ~, to graduate from~",を
+Two,One,Expressions,"Well, uh, I'm sorry but... (that presents some problems.)",ええっと・すみません｜｜それはちょっと（こまるんですが）
+Two,One,Expressions,Please take care of yourself.,おだいじに
+Two,One,Expressions,"May I ~?, Is it ok to ~?",〜てもいいですか
+Two,One,Expressions,What's wrong?,どうしましたか｜｜どうしたんですか
+Two,One,Expressions,Should I do~?,〜たらいいですか
+Two,One,Expressions,I don't mind.,はい・いいえ｜｜かまいません
+Two,One,Expressions,"Yes, please.",はい・いいえ｜｜どうぞ
+Two,One,Expressions,"Yes, of course, sure.",はい・いいえ｜｜もちろん
+Two,One,Expressions,This is my first time...,はじめてなんですが
+Two,One,Expressions,"To push oneself too hard, to overwork",むりをする
+Two,One,Expressions,To lie down,よこになる
+Two,One,Expressions,Until late at night,よるおそくまで
+Two,Two,Nouns,Money,（お）金
+Two,Two,Nouns,Souvenir,（お）みやげ
+Two,Two,Nouns,Hot spring,おんせん
+Two,Two,Nouns,Overseas,かいがい
+Two,Two,Nouns,Guidebook,ガイドブック
+Two,Two,Nouns,Sightseeing,かんこう
+Two,Two,Nouns,Ticket,きっぷ
+Two,Two,Nouns,"Customer, guest",きゃく
+Two,Two,Nouns,Airport,くうこう
+Two,Two,Nouns,Country,くに
+Two,Two,Nouns,Credit card,クレジットカード
+Two,Two,Nouns,Plan,けいかく
+Two,Two,Nouns,Domestic,こくない
+Two,Two,Nouns,"Language, words, expressions",ことば
+Two,Two,Nouns,Time,時間
+Two,Two,Nouns,Preparation,じゅんび
+Two,Two,Nouns,Suitcase,スーツケース
+Two,Two,Nouns,Tour,ツアー
+Two,Two,Nouns,Digital camera,デジカメ
+Two,Two,Nouns,Train,でんしゃ
+Two,Two,Nouns,"One's belongings, luggage",にもつ
+Two,Two,Nouns,Location,ばしょ
+Two,Two,Nouns,Passport,パスポート
+Two,Two,Nouns,Day trip,日帰り
+Two,Two,Nouns,"Ship, boat",ふね
+Two,Two,Nouns,Lake,みずうみ
+Two,Two,Nouns,"Schedule, plan",よてい
+Two,Two,Nouns,Reservation,よやく
+Two,Two,Nouns,Japanese style inn,りょかん
+Two,Two,Adjective,Convenient,べんり（な）
+Two,Two,Verbs,To look for,さがす
+Two,Two,Verbs,To use,つかう
+Two,Two,Verbs,To arrive,つく
+Two,Two,Verbs,To stay,とまる
+Two,Two,Verbs,"To take off (shoes, clothes)",ぬぐ
+Two,Two,Verbs,To pay,はらう
+Two,Two,Verbs,To hold,持つ
+Two,Two,Verbs,"To be holding, to own",持っている
+Two,Two,Verbs,"To take, to bring something",持って行く
+Two,Two,Verbs,(For someone) To return,もどる
+Two,Two,Verbs,To answer,こたえる
+Two,Two,Verbs,To decide,きめる
+Two,Two,Verbs,To know,しっている
+Two,Two,Verbs,"To check, investigate, explore",しらべる
+Two,Two,Verbs,"To build, establish, make",たてる
+Two,Two,Verbs,"To leave, to have a fever",出る
+Two,Two,Adverbs,"Especially, in particular",とくに
+Two,Two,Adverbs,"Already, yet, any more",もう
+Two,Two,Adverbs,"Still, yet",まだ
+Two,Two,Suffix,~ nights,〜はく（ぱく）
+Two,Two,Conjunctions,However,けれども
+Two,Two,Conjunctions,During that time,その間（に）
+Two,Two,Conjunctions,After that,その後（で）
+Two,Two,Conjunctions,Before that,その前（に）
+Two,Two,Conjunctions,At that time,その時（に）
+Two,Two,Conjunctions,"Then, so",それで
+Two,Two,Conjunctions,So,だから
+Two,Two,Conjunctions,But,だけど
+Two,Two,Conjunctions,Next,つぎに
+Two,Two,Conjunctions,"Therefore, so",ですから
+Two,Two,Conjunctions,It's because,というのは
+Two,Two,Conjunctions,By the way,ところで
+Two,Two,Conjunctions,First (of all),まずはじめに
+Two,Two,Conjunctions,Also,また
+Two,Two,Expressions,About ~,〜について
+Two,Two,Expressions,Hello (on the phone),もしもし
+Two,Two,Expressions,"No, you have the wrong number",いいえ｜｜ちがいます（よ）
+Two,Three,Nouns,Engineer,エンジニア
+Two,Three,Nouns,Company,かいしゃ
+Two,Three,Nouns,Businessman,かいしゃいん
+Two,Three,Nouns,Trading Company,ぼうえきがい
+Two,Three,Nouns,Scholar,学者
+Two,Three,Nouns,Research,けんきゅう
+Two,Three,Nouns,"Wallet, purse",さいふ
+Two,Three,Nouns,Ceremony,しき
+Two,Three,Nouns,"Self, oneself, I",じぶん
+Two,Three,Nouns,Company President,しゃちょう
+Two,Three,Nouns,Freedom,じゆう
+Two,Three,Nouns,Getting a job,しゅうしょく
+Two,Three,Nouns,Invitation,しょうたい
+Two,Three,Nouns,Future,しょうらい
+Two,Three,Nouns,Farewell party,そうべつかい
+Two,Three,Nouns,Graduation,そつぎょう
+Two,Three,Nouns,"Electricity, electric light",でんき
+Two,Three,Nouns,Reunion party,どうそうかい
+Two,Three,Nouns,"Year, age",年
+Two,Three,Nouns,Entering a school,入学
+Two,Three,Nouns,"Moving (house, residence, etc)",ひっこし
+Two,Three,Nouns,"Ordinary, regular",ふつう
+Two,Three,Nouns,Lawyer,べんごし
+Two,Three,Nouns,"Response, reply",へんじ
+Two,Three,Nouns,Trading,ぼうえき
+Two,Three,Nouns,Trading Company,ぼうえきがいしゃ
+Two,Three,Nouns,"Warm water, hot water",ゆ
+Two,Three,Nouns,Study abroad,りゅうがく
+Two,Three,Verbs,(for something) to open,あく
+Two,Three,Verbs,"To get together, to gather",あつまる
+Two,Three,Verbs,To wake up (someone),起こす
+Two,Three,Verbs,To drop (something),おとす
+Two,Three,Verbs,(for something) to end,おわる
+Two,Three,Verbs,(for a telephone) to ring,かかる
+Two,Three,Verbs,(for something) to change,変わる
+Two,Three,Verbs,"To try to do one's best, to hang on",がんばる
+Two,Three,Verbs,(for something) to be decided,きまる
+Two,Three,Verbs,To turn off,けす
+Two,Three,Verbs,(for something) to close,しまる
+Two,Three,Verbs,To die,しぬ
+Two,Three,Verbs,To be different,ちがう
+Two,Three,Verbs,(for somethng) to turn on,つく
+Two,Three,Verbs,To cure; to fix; to repair (something),なおす
+Two,Three,Verbs,"(for something) to heal, to be fixed",なおる
+Two,Three,Verbs,"To pass away, to die; to disappear, to get lost, to run out of",なくなる
+Two,Three,Verbs,To leave (something),のこす
+Two,Three,Verbs,"(for something) to be left, to remain",のこる
+Two,Three,Verbs,(for something) to begin,はじまる
+Two,Three,Verbs,to work,はたらく
+Two,Three,Verbs,"to move (house, etc.), to relocate",ひっこす
+Two,Three,Verbs,"to chill, to let (something) cool down",ひやす
+Two,Three,Verbs,(for someone) to be mistaken,まちがう
+Two,Three,Verbs,To make (something) dirty,よごす
+Two,Three,Verbs,"To bring (water, bath) to boil",わかす
+Two,Three,Verbs,"(for water, bath) to be boiled",わく
+Two,Three,Verbs,To open (something),あける
+Two,Three,Verbs,"To collect, to gather together (something/someone)",あつめる
+Two,Three,Verbs,(for something/someone) to be born,生まれる
+Two,Three,Verbs,"To end (something), to finish (something)",おえる
+Two,Three,Verbs,(for something) to fall,おちる
+Two,Three,Verbs,to change (something),変える
+Two,Three,Verbs,"To think intellectually, to take (something) into consideration",かんがえる
+Two,Three,Verbs,"(for something) to go out, to go off",きえる
+Two,Three,Verbs,To close (something),しめる
+Two,Three,Verbs,To continue (something),つづける
+Two,Three,Verbs,to attend,出る
+Two,Three,Verbs,To give a ride (to someone),乗せる
+Two,Three,Verbs,To begin (something),はじめる
+Two,Three,Verbs,(for something) to cool down,ひえる
+Two,Three,Verbs,"To miss (something), to make a mistake",まちがえる
+Two,Three,Verbs,(for something) to become dirty,よごれる
+Two,Three,Adjectives,Young; used to describe teenagers and young people older than teenagers but not small children,わかい
+Two,Three,Adjectives,Same,おなじ
+Two,Three,Adjectives,"Free, free (independent) lifestyle",じゆう（な）
+Two,Three,Adjectives,Important,だいじ（な）
+Two,Three,Particles,"Or, either or",か
+Two,Three,Particles,by (some time),までに
+Two,Three,Suffixes,Member,〜いん
+Two,Three,Suffixes,Party,〜会
+Two,Three,Suffixes,Ceremony,〜しき
+Two,Three,Suffixes,Person of,〜者
+Two,Three,Suffixes,Letter of,〜じょう
+Two,Three,Suffixes,Retail store,〜や
+Two,Four,Nouns,Automatic teller machine (atm),エーティーエム
+Two,Four,Nouns,Meaning,いみ｜｜意味
+Two,Four,Nouns,Driver's license,うんてんめんきょしょう
+Two,Four,Nouns,Conversation,会話
+Two,Four,Nouns,Card,カード
+Two,Four,Nouns,Postage stamp,切手
+Two,Four,Nouns,Bank account,こうざ
+Two,Four,Nouns,Parcel Post,こづつみ
+Two,Four,Nouns,Residence card,ざいりゅうカード
+Two,Four,Nouns,Signature,サイン
+Two,Four,Nouns,Composition,さくぶん｜｜作文
+Two,Four,Nouns,"Examination, test",しけん｜｜試験
+Two,Four,Nouns,Tuition,じゅぎょうりょう
+Two,Four,Nouns,Address,じゅうしょ｜｜住所
+Two,Four,Nouns,Recommendation,すいせん
+Two,Four,Nouns,Recommendation letter,すいせんじょう
+Two,Four,Nouns,Explanation,せつめい
+Two,Four,Nouns,Parcel delivery service,たくはいびん
+Two,Four,Nouns,Vocabulary,たんご
+Two,Four,Nouns,Dollar,ドル
+Two,Four,Nouns,Postcard,葉書
+Two,Four,Nouns,Seal,はんこ
+Two,Four,Nouns,Envelope,ふうとう
+Two,Four,Nouns,Regular bank account,ふつうよきん
+Two,Four,Nouns,Grammar,ぶんぽう｜｜文法
+Two,Four,Nouns,Public mail collection box,ポスト
+Two,Four,Nouns,Mailbox,ゆうびんうけ｜｜郵便受け
+Two,Four,Nouns,Postal code,ゆうびんばんごう
+Two,Four,Nouns,Form,ようし｜｜用紙
+Two,Four,Nouns,Bank account (second def),よきん
+Two,Four,Nouns,"Report, term paper, term project",レポート
+Two,Four,Nouns,Practice,れんしゅう｜｜練習
+Two,Four,Nouns,Application form,もうしこみようし
+Two,Four,Verbs,To need,いる
+Two,Four,Verbs,To send,おくる｜｜送る
+Two,Four,Verbs,To return something,かえす
+Two,Four,Verbs,To lend,かす
+Two,Four,Verbs,To take (someone somewhere),つれていく
+Two,Four,Verbs,"To assist, help",てつだう
+Two,Four,Verbs,"(for something) to arrive, to be delivered",とどく
+Two,Four,Verbs,To withdraw (money),ひきだす｜｜引き出す
+Two,Four,Verbs,To open (an account),ひらく
+Two,Four,Verbs,To apply,もうしこむ
+Two,Four,Verbs,"To receive, to get",うける｜｜受ける
+Two,Four,Verbs,"To tell, to teach",おしえる｜｜教える
+Two,Four,Verbs,To memorize,おぼえる
+Two,Four,Verbs,"To remember, to recall",おぼえている
+Two,Four,Verbs,To change,変える
+Two,Four,Verbs,"To borrow, to rent (a house, apartment)",かりる
+Two,Four,Verbs,To save (money),ためる
+Two,Four,Verbs,"To deliver, send",とどける
+Two,Four,Verbs,To bring (something),持って来る
+Two,Four,Verbs,To bring (someone),つれてくる
+Two,Four,Adjectives,"Amazing, awesome, terrible",すごい
+Two,Four,Adjectives,"No good, impossible, hopeless, not useful, not acceptable",だめ（な）
+Two,Four,Suffixes,"How to, way of ~ing",〜方
+Two,Four,Suffixes,Card (for identification),〜しょう
+Two,Five,Nouns,Entrance,入り口｜｜入口
+Two,Five,Nouns,Movie theater,えいがかん
+Two,Five,Nouns,Pedestrian Crossing,おうだんほどう
+Two,Five,Nouns,Ticket gate,かいさつ（ぐち）
+Two,Five,Nouns,Stairs,かいだん
+Two,Five,Nouns,Local train,かくえきていしゃ
+Two,Five,Nouns,Gas station,ガソリンスタンド
+Two,Five,Nouns,Corner,かど
+Two,Five,Nouns,Express train,きゅうこう（れっしゃ）
+Two,Five,Nouns,Intersection,こうさてん
+Two,Five,Nouns,Japan railway,JR
+Two,Five,Nouns,City hall,しやくしょ
+Two,Five,Nouns,Traffic signal,しんごう
+Two,Five,Nouns,Embassy,たいしかん
+Two,Five,Nouns,Ambassador,たいし
+Two,Five,Nouns,Taxi,タクシー
+Two,Five,Nouns,Terminal,ターミナル
+Two,Five,Nouns,Bus depot,バスターミナル
+Two,Five,Nouns,Subway,ちかてつ
+Two,Five,Nouns,Map,ちず
+Two,Five,Nouns,Parking lot,ちゅうしゃじょう
+Two,Five,Nouns,Next,つぎ
+Two,Five,Nouns,"At the end of the street, T-road",つきあたり
+Two,Five,Nouns,Exit,出口
+Two,Five,Nouns,train,でんしゃ
+Two,Five,Nouns,"Road, street",どうろ
+Two,Five,Nouns,Limited express train,とっきゅう（れっしゃ）
+Two,Five,Nouns,Bridge,はし
+Two,Five,Nouns,Bus stop,バスてい
+Two,Five,Nouns,Local train (second def),ふつう（れっしゃ）
+Two,Five,Nouns,Area,へん
+Two,Five,Nouns,"Road, street, way",みち
+Two,Five,Nouns,Between,間
+Two,Five,Nouns,This side,こちらがわ
+Two,Five,Nouns,"Beyond, further ahead",先
+Two,Five,Nouns,Just before,手前
+Two,Five,Nouns,"The other side, the opposite side",むかいがわ
+Two,Five,Adjectives,"Close to, near",ちかい
+Two,Five,Adjectives,Far from,とおい
+Two,Five,Verbs,To become crowded,こむ
+Two,Five,Verbs,"To go through, to pass",とおる
+Two,Five,Verbs,(for someone or something) to stop,とまる
+Two,Five,Verbs,(for someone or something) to turn,まがる
+Two,Five,Verbs,To drop by,よる
+Two,Five,Verbs,"To cross (bridge, road, etc.)",わたる
+Two,Five,Verbs,To get off,おりる
+Two,Five,Verbs,to stop (something),とめる
+Two,Five,Verbs,"to transfer, to change transportation",のりかえる
+Two,Five,Verbs,can see,見える
+Two,Five,Adverbs,Straight,まっすぐ
+Two,Five,Adverbs,"Soon, shortly",すぐ
+Two,Five,Particles,Limit,で
+Two,Five,Particles,Place in which movement occurs,を
+Two,Five,Particles,"Out of ~, from ~",を
+Two,Five,Suffixes,Bound for ~,〜行き
+Two,Five,Suffixes,Side,〜がわ
+Two,Five,Suffixes,"Mansion, building",〜館
+Two,Five,Suffixes,~ entrance/exit,〜口
+Two,Five,Suffixes,~ line (train line),〜せん
+Two,Five,Suffixes,Ordinal numbers,〜つ目
+Two,Five,Suffixes,Track number (train),〜ばんせん
+Two,Five,Suffixes,Meter (distance measurement),〜メートル
+Two,Six,Nouns,"Food (for animals, fish)",えさ
+Two,Six,Nouns,Congratulatory gift,おいわい
+Two,Six,Nouns,"Confectionary, sweets",おかし
+Two,Six,Nouns,Thank-you gift,おかえし
+Two,Six,Nouns,Type of ornament,おきもの
+Two,Six,Nouns,Gift,おくりもの
+Two,Six,Nouns,"Middle-aged man, uncle",おじさん
+Two,Six,Nouns,Elderly man,おじいさん
+Two,Six,Nouns,End of year gift exchange,おせいぼ
+Two,Six,Nouns,Mid year gift exchange,お中元
+Two,Six,Nouns,"Middle aged woman, aunt",おばさん
+Two,Six,Nouns,Elderly woman,おばあさん
+Two,Six,Nouns,Sympathy gift,おみまい
+Two,Six,Nouns,Toy,おもちゃ
+Two,Six,Nouns,Thank you gift,おれい
+Two,Six,Nouns,Carnation,カーネーション
+Two,Six,Nouns,Candy,キャンディ
+Two,Six,Nouns,Neighborhood,近所
+Two,Six,Nouns,Neighbor,近所の人
+Two,Six,Nouns,Cosmetics,けしょうひん
+Two,Six,Nouns,Cosmetics (katakana),コスメ
+Two,Six,Nouns,One's junior,こうはい
+Two,Six,Nouns,"Coffee cup, mug",コーヒーカップ
+Two,Six,Nouns,"Boss, workplace superior",じょうし
+Two,Six,Nouns,Novel,しょうせつ
+Two,Six,Nouns,Dishes,しょっき
+Two,Six,Nouns,Sweets,スイーツ
+Two,Six,Nouns,Soap,せっけん
+Two,Six,Nouns,One's senior,せんぱい
+Two,Six,Nouns,Towel,タオル
+Two,Six,Nouns,Tablet computer,タブレット
+Two,Six,Nouns,Ticket for entertainment,チケット
+Two,Six,Nouns,Father's day,父の日
+Two,Six,Nouns,"Coworker, colleague",どうりょう
+Two,Six,Nouns,Animal,どうぶつ
+Two,Six,Nouns,DVD,DVD｜｜ディーブイディー
+Two,Six,Nouns,Doll,にんぎょう
+Two,Six,Nouns,Stuffed animal,ぬいぐるみ
+Two,Six,Nouns,Personal computer,パソコン
+Two,Six,Nouns,"Potted plant, house plant",はちうえ
+Two,Six,Nouns,Flower,はな
+Two,Six,Nouns,Mother's day,母の日
+Two,Six,Nouns,Rose,ばら｜｜バラ
+Two,Six,Nouns,Valentine's day,バレンタインデー
+Two,Six,Nouns,"Junior employee, subordinate",部下
+Two,Six,Nouns,Pet,ペット
+Two,Six,Nouns,Fruit,フルーツ
+Two,Six,Nouns,Ball,ボール
+Two,Six,Nouns,Western clothes,ようふく
+Two,Six,Nouns,Ribbon,リボン
+Two,Six,Nouns,Wine glass,ワイングラス
+Two,Six,Adjectives,Heavy,おもい
+Two,Six,Adjectives,Light,かるい
+Two,Six,Adjectives,"Precious, important",大切（な）
+Two,Six,Verbs,To receive,いただく
+Two,Six,Verbs,To choose,えらぶ
+Two,Six,Verbs,"to raise, keep (an animal)",かう
+Two,Six,Verbs,To give (from a social super to me or person in my in-group),下さる
+Two,Six,Verbs,To wrap,つつむ
+Two,Six,Verbs,To give (to a socially subordinate person),やる
+Two,Six,Verbs,To be pleased,よろこぶ
+Two,Six,Verbs,To give (to a socially equal person),あげる
+Two,Six,Verbs,To give (to a socially equal or subordinate in-group person),くれる
+Two,Six,Verbs,To give (to a socially superior out-group person),さしあげる
+Two,Six,Particle,"from 〜にもらう, to receive something from ~",に
+Two,Six,Prefix,Baby ~,子〜
+Two,Six,Suffixes,Congratulatory gift,〜いわい
+Two,Six,Suffixes,Suffix to convert an adjective to a noun for measurement,〜さ
+Two,Seven,Nouns,Taste,あじ｜｜味
+Two,Seven,Nouns,Strawberry,いちご｜｜苺
+Two,Seven,Nouns,Tablespoon,おおさじ｜｜大さじ
+Two,Seven,Nouns,Oven,オーブン
+Two,Seven,Nouns,Shrimp,えび｜｜エビ｜｜海老
+Two,Seven,Nouns,Shrimp Dumplings,えびだんご｜｜海老だんご
+Two,Seven,Nouns,Cup,カップ
+Two,Seven,Nouns,Measuring Cup,けいりょうカップ｜｜計量カップ
+Two,Seven,Nouns,Crab,かに｜｜カニ｜｜蟹
+Two,Seven,Nouns,Cabbage,キャベツ
+Two,Seven,Nouns,Beef,ぎゅうにく｜｜牛肉
+Two,Seven,Nouns,Cucumber,きゅうり
+Two,Seven,Nouns,Gram,グラム
+Two,Seven,Nouns,Teaspoon,こさじ｜｜小さじ
+Two,Seven,Nouns,Pepper (spice),こしょう
+Two,Seven,Nouns,Uncooked rice,こめ｜｜おこめ｜｜米｜｜お米
+Two,Seven,Nouns,Cornstarch,コーンスターチ
+Two,Seven,Nouns,Flour,こむぎこ｜｜小麦粉
+Two,Seven,Nouns,"Material(s), Ingredient(s)",ざいりょう｜｜材料
+Two,Seven,Nouns,Sugar,さとう｜｜砂糖
+Two,Seven,Nouns,Plate,さら｜｜おさら｜｜お皿
+Two,Seven,Nouns,Vegetable Oil (lit. salad oil),サラダゆ｜｜サラダあぶら｜｜サラダ油
+Two,Seven,Nouns,Salt,しお｜｜塩
+Two,Seven,Nouns,Potato,じゃがいも
+Two,Seven,Nouns,Jam,ジャム
+Two,Seven,Nouns,Soy sauce,しょうゆ｜｜しょう油
+Two,Seven,Nouns,Vinegar,す｜｜酢
+Two,Seven,Nouns,Rice cooker,すいはんき｜｜炊飯器
+Two,Seven,Nouns,Spoon,スプーン
+Two,Seven,Nouns,Sauce,ソース
+Two,Seven,Nouns,Broth,だし｜｜出汁
+Two,Seven,Nouns,Onion,たまねぎ｜｜玉ねぎ
+Two,Seven,Nouns,Rice bowl,ちゃわん｜｜茶碗｜｜おちゃわん｜｜お茶碗
+Two,Seven,Nouns,Microwave oven,でんしレンジ｜｜電子レンジ
+Two,Seven,Nouns,Chicken (meat),とりにく｜｜鶏肉｜｜鳥肉
+Two,Seven,Nouns,(Salad) Dressing,ドレッシング
+Two,Seven,Nouns,Knife,ナイフ
+Two,Seven,Nouns,Green onion,ねぎ
+Two,Seven,Nouns,Seaweed,のり｜｜海苔
+Two,Seven,Nouns,Pot,なべ｜｜鍋
+Two,Seven,Nouns,Chopstick(s),はし｜｜おはし｜｜箸｜｜お箸
+Two,Seven,Nouns,Butter,バター
+Two,Seven,Nouns,Fire,ひ｜｜火
+Two,Seven,Nouns,Fork,フォーク
+Two,Seven,Nouns,Pork,ぶたにく｜｜豚肉
+Two,Seven,Nouns,"Frying pan, skillet",フライパン
+Two,Seven,Nouns,Mixing bowl,ボウル
+Two,Seven,Nouns,"Butcher knife, kitchen knife",ほうちょう｜｜包丁
+Two,Seven,Nouns,Spinach,ほうれんそう｜｜ほうれん草
+Two,Seven,Nouns,Mayonnaise,マヨネーズ
+Two,Seven,Nouns,(electric) mixer,ミキサー
+Two,Seven,Nouns,Soybean past,みそ｜｜味噌
+Two,Seven,Verbs,To check the taste,あじをみる｜｜味をみる
+Two,Seven,Verbs,To wash,あらう｜｜洗う
+Two,Seven,Verbs,To let something cool down,さます｜｜冷ます
+Two,Seven,Verbs,To cook,たく｜｜炊く
+Two,Seven,Verbs,"To add, to make up (for a deficit)",たす｜｜足す
+Two,Seven,Verbs,"To bake, to fry, to grill",やく｜｜焼く
+Two,Seven,Verbs,To do,やる
+Two,Seven,Verbs,To steam,むす｜｜蒸す
+Two,Seven,Verbs,To deep-fry,あげる｜｜揚げる
+Two,Seven,Verbs,To heat up,あたためる｜｜温める
+Two,Seven,Verbs,"To stir-fry, to saute (cooking)",いためる｜｜炒める
+Two,Seven,Verbs,To pour,かける
+Two,Seven,Verbs,To add (an ingredient),くわえる｜｜加える
+Two,Seven,Verbs,"To dip, to soak, to pickle",つける｜｜漬ける｜｜浸ける
+Two,Seven,Verbs,"To boil, to stew",にる｜｜煮る
+Two,Seven,Verbs,To put on,のせる
+Two,Seven,Verbs,To mix,まぜる｜｜混ぜる
+Two,Seven,Verbs,"To boil, to poach",ゆでる｜｜茹でる
+Two,Seven,Verbs,To drain,みずをきる｜｜水をきる｜｜みずを切る｜｜水を切る
+Two,Seven,Adjectives,Thin,うすい｜｜薄い
+Two,Seven,Adjectives,To have little taste,あじがうすい｜｜味がうすい｜｜あじが薄い｜｜味が薄い
+Two,Seven,Adjectives,Thick,こい｜｜濃い
+Two,Seven,Adjectives,To have a strong taste,あじがこい｜｜味がこい｜｜あじが濃い｜｜味が濃い
+Two,Seven,Adjectives,Appropriate,てきとう（な）｜｜適当（な）
+Two,Seven,Adverbs,Little by little,少しずつ｜｜すこしずつ
+Two,Seven,Conjunctions,"Lastly, at last, finally",最後に｜｜さいごに
+Two,Eight,Nouns,A sense of relief,あんしん｜｜安心
+Two,Eight,Nouns,Bullying,いじめ
+Two,Eight,Nouns,Rabbit,うさぎ｜｜兎
+Two,Eight,Nouns,"Lie, falsehood",うそ｜｜嘘
+Two,Eight,Nouns,Rumor,うわさ｜｜噂
+Two,Eight,Nouns,A fire,かじ｜｜火事
+Two,Eight,Nouns,"Girlfriend, she",かのじょ｜｜彼女
+Two,Eight,Nouns,Lightning,かみなり｜｜雷
+Two,Eight,Nouns,"Turle, tortoise",かめ｜｜亀
+Two,Eight,Nouns,"Boyfriend, he",かれ｜｜彼｜｜かれし｜｜彼氏
+Two,Eight,Nouns,Whale,クジラ｜｜鯨
+Two,Eight,Nouns,Bear,くま｜｜熊
+Two,Eight,Nouns,Experience,けいけん｜｜経験
+Two,Eight,Nouns,A fight,けんか｜｜喧嘩
+Two,Eight,Nouns,Flood,こうずい｜｜洪水
+Two,Eight,Nouns,Traffic,こうつう｜｜交通
+Two,Eight,Nouns,Traffic accident,こうつうじこ｜｜交通事故
+Two,Eight,Nouns,"Disaster, calamity",さいがい｜｜災害
+Two,Eight,Nouns,Monkey,さる｜｜猿
+Two,Eight,Nouns,Accident,じこ｜｜事故
+Two,Eight,Nouns,Earthquake,じしん｜｜地震
+Two,Eight,Nouns,"Anxiety, anxious",しんぱい｜｜心配
+Two,Eight,Nouns,Elephant,ぞう｜｜象
+Two,Eight,Nouns,Tornado,たつまき｜｜竜巻
+Two,Eight,Nouns,Bird,とり｜｜鳥
+Two,Eight,Nouns,Thief,どろぼう｜｜泥棒
+Two,Eight,Nouns,Discovery,はっけん｜｜発見
+Two,Eight,Nouns,Crime,はんざい｜｜犯罪
+Two,Eight,Nouns,"Damage, loss",ひがい｜｜被害
+Two,Eight,Nouns,Snake,へび｜｜蛇
+Two,Eight,Nouns,Lion,ライオン
+Two,Eight,Nouns,"Bad-mouthing, speaking ill of a person",わるくち｜｜悪口
+Two,Eight,Verbs,To feel relieved,あんしんする｜｜安心する
+Two,Eight,Verbs,Being bullied,いじめにあう
+Two,Eight,Verbs,To tell a lie,嘘をつく｜｜うそをつく
+Two,Eight,Verbs,Lightning strikes,雷がおちる｜｜かみなりがおちる
+Two,Eight,Verbs,To have an experience,経験する｜｜けいけんする
+Two,Eight,Verbs,To be worried,心配する｜｜しんぱいする
+Two,Eight,Verbs,To discover,はっけんする｜｜発見する
+Two,Eight,Verbs,To encounter,あう｜｜遭う｜｜遇う
+Two,Eight,Verbs,To sell,うる｜｜売る
+Two,Eight,Verbs,To cause (something) to happen,おこす｜｜起こす
+Two,Eight,Verbs,To attack,おそう｜｜襲う
+Two,Eight,Verbs,To be surprised,おどろく｜｜驚く
+Two,Eight,Verbs,To be in trouble,こまる｜｜困る
+Two,Eight,Verbs,To destroy,こわす｜｜壊す
+Two,Eight,Verbs,To scold,しかる｜｜叱る
+Two,Eight,Verbs,To deceive,だます｜｜騙す
+Two,Eight,Verbs,To steal,ぬすむ｜｜盗む
+Two,Eight,Verbs,To step on,ふむ｜｜踏む
+Two,Eight,Verbs,To bully,いじめる｜｜苛める
+Two,Eight,Verbs,"To happen, to take place",おきる｜｜起きる
+Two,Eight,Verbs,"To throw away, to discard",すてる｜｜捨てる
+Two,Eight,Verbs,"To run away, to escape",にげる｜｜逃げる
+Two,Eight,Verbs,To increase,ふえる｜｜増える
+Two,Eight,Verbs,"To hit (as with a car), to crash into",ぶつける
+Two,Eight,Verbs,To praise,ほめる｜｜誉める
+Two,Eight,Verbs,To burn,やける｜｜焼ける
+Two,Eight,Verbs,To shake,ゆれる｜｜揺れる
+Two,Eight,Verbs,"To leave, to break up",わかれる｜｜別れる
+Two,Eight,Adjectives,"Frightening, Scary",こわい｜｜怖い
+Two,Eight,Adjectives,Safe,あんぜん（な）｜｜安全（な）｜｜あんぜん｜｜安全
+Two,Eight,Adjectives,Inconvenient,ふべん（な）｜｜ふべん｜｜不便（な）｜｜不便
+Two,Eight,Adjectives,Wasteful,むだ（な）｜｜むだ｜｜無駄（な）｜｜無駄
+Two,Nine,Nouns,A greeting,あいさつ｜｜挨拶
+Two,Nine,Nouns,Advice,アドバイス
+Two,Nine,Nouns,Animation,アニメ
+Two,Nine,Nouns,Flower arranging,いけばな｜｜生花｜｜生け花
+Two,Nine,Nouns,Islam,イスラムきょう｜｜イスラム教
+Two,Nine,Nouns,Prayer,いのり｜｜祈り
+Two,Nine,Nouns,Internet,インターネット｜｜ネット
+Two,Nine,Nouns,Bowing,おじぎ｜｜お辞儀
+Two,Nine,Nouns,Kiss,キス
+Two,Nine,Nouns,Education,きょういく｜｜教育
+Two,Nine,Nouns,Interest,きょうみ｜｜興味
+Two,Nine,Nouns,Christianity,キリストきょう｜｜キリスト教
+Two,Nine,Nouns,Art,げいじゅつ｜｜芸術
+Two,Nine,Nouns,Economy,けいざい｜｜経済
+Two,Nine,Nouns,Tea ceremony,さどう｜｜茶道
+Two,Nine,Nouns,Poetry,し｜｜詩
+Two,Nine,Nouns,Society,しゃかい｜｜社会
+Two,Nine,Nouns,Custom,しゅうかん｜｜習慣
+Two,Nine,Nouns,Religion,しゅうきょう｜｜宗教
+Two,Nine,Nouns,Calligraphy,しゅうじ｜｜習字
+Two,Nine,Nouns,Shinto religion,しんとう｜｜神道
+Two,Nine,Nouns,Formal japanese style sitting posture,せいざ｜｜正座
+Two,Nine,Nouns,Politics,せいじ｜｜政治
+Two,Nine,Nouns,World,せかい｜｜世界
+Two,Nine,Nouns,Request,たのみ｜｜頼み
+Two,Nine,Nouns,"Tip, gratuity",チップ
+Two,Nine,Nouns,"Keeping company with someone, associating with someone",つきあい
+Two,Nine,Nouns,A Japanese verse form (poem),はいく｜｜俳句
+Two,Nine,Nouns,Hug,ハグ
+Two,Nine,Nouns,Buddhism,ぶっきょう｜｜仏教
+Two,Nine,Nouns,Blog,ブログ
+Two,Nine,Nouns,Culture,ぶんか｜｜文化
+Two,Nine,Nouns,Other,ほか｜｜他
+Two,Nine,Nouns,"Cartoon, graphic novel",マンガ
+Two,Nine,Nouns,"Farewell, leave taking",みおくり｜｜見送り
+Two,Nine,Nouns,"All, everyone",みな｜｜みんな｜｜皆｜｜みなさん
+Two,Nine,Nouns,"Meeting, greeting",むかえ｜｜迎え
+Two,Nine,Nouns,Problem,もんだい｜｜問題
+Two,Nine,Nouns,Floor,ゆか｜｜床
+Two,Nine,Nouns,Judaism,ユダヤきょう｜｜ユダヤ教
+Two,Nine,Nouns,"Rakugo, a traditional storytelling performance",らくご｜｜落語
+Two,Nine,Nouns,Reason (for doing something),りゆう｜｜理由
+Two,Nine,Verbs,To greet,にあいさつする｜｜に挨拶する｜｜にあいさつをする｜｜に挨拶をする
+Two,Nine,Verbs,To advise,アドバイスをする
+Two,Nine,Verbs,To offer a prayer,おいのりをする｜｜お祈りをする
+Two,Nine,Verbs,To bow,おじぎをする｜｜お辞儀をする
+Two,Nine,Verbs,To kiss,キスをする
+Two,Nine,Verbs,Be interested in ~,にきょうみがある｜｜に興味がある
+Two,Nine,Verbs,To sit in formal Japanese style,せいざをする｜｜正座をする
+Two,Nine,Verbs,To hug,ハグをする
+Two,Nine,Verbs,To go pick someone up,むかえにいく｜｜迎えに行く
+Two,Nine,Verbs,To come pick someone up,むかえにくる｜｜迎えに来る
+Two,Nine,Verbs,To apologize,あやまる｜｜謝る
+Two,Nine,Verbs,To celebrate,いわう｜｜祝う
+Two,Nine,Verbs,"To refuse, to decline",ことわる｜｜断る
+Two,Nine,Verbs,To sit down,すわる｜｜座る
+Two,Nine,Verbs,"To go out with, to keep company with, to have a steady relationship",つきあう｜｜付き合う｜｜つき合う
+Two,Nine,Verbs,To learn,ならう｜｜習う
+Two,Nine,Verbs,To believe,しんじる｜｜信じる
+Two,Nine,Verbs,"To save, to help",たすける｜｜助ける
+Two,Nine,Adjectives,"Lonely, helpless",こころぼそい｜｜心細い
+Two,Nine,Adjectives,Rude,しつれい（な）｜｜失礼（な）
+Two,Nine,Adjectives,Polite,ていねい（な）｜｜丁寧（な）
+Two,Nine,Adjectives,Traditional,でんとうてき（な）｜｜伝統的（な）
+Two,Nine,Adverbs,Definitely,ぜったい（に）｜｜絶対（に）
+Two,Nine,Adverbs,Explicitly,はっきり

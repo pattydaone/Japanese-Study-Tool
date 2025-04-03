@@ -1,13 +1,12 @@
 #include <wx/wxprec.h>
+#include <unordered_map>
+#include <vector>
+#include <string>
+#include <CSVreader.h>
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
 #endif // WX_PRECOMP
-
-class TestApp : public wxApp {
-public:
-    virtual bool OnInit();
-};
 
 enum {
     ID_vocabulary_set_lbl = 1,
@@ -22,6 +21,9 @@ enum {
 };
 
 class Preferences : public wxFrame {
+    // Data
+    std::unordered_map<std::string, std::vector<std::string>> vocabulary;
+
     // Labels
     wxStaticText *vocabulary_set_lbl = new wxStaticText;
     wxStaticText *chapter_lbl = new wxStaticText;
@@ -32,7 +34,7 @@ class Preferences : public wxFrame {
     wxPoint PT_vocabulary_set_lbl {0,0};
     wxPoint PT_chapter_lbl {0,50};
     wxPoint PT_game_lbl {0,100};
-    wxPoint PT_lbox_lbl {200,0};
+    wxPoint PT_lbox_lbl {255,0};
 
     // Label sizes
     wxSize SZ_vocabulary_set_lbl {75, 25};
@@ -51,15 +53,15 @@ class Preferences : public wxFrame {
     wxPoint PT_game_combo { PT_game_lbl.x, PT_game_lbl.y + 25 };
 
     // Combo box sizes
-    wxSize SZ_vocabulary_set_combo {175, 25};
-    wxSize SZ_chapter_combo {175, 25};
-    wxSize SZ_game_combo {175, 25};
+    wxSize SZ_vocabulary_set_combo {230, 25};
+    wxSize SZ_chapter_combo {230, 25};
+    wxSize SZ_game_combo {230, 25};
 
     // Button
     wxButton *finished_button = new wxButton;
 
     // Button point
-    wxPoint PT_finished_button { PT_game_combo.x, PT_game_combo.y + 45};
+    wxPoint PT_finished_button { 0, 170 };
 
     // Button size
     wxSize SZ_finished_button {175, 25};
@@ -71,11 +73,11 @@ class Preferences : public wxFrame {
     wxPoint PT_vocabulary_types_lbox { PT_lbox_lbl.x, PT_lbox_lbl.y + 25};
 
     // List box size
-    wxSize SZ_vocabulary_types_lbox {150, 150};
+    wxSize SZ_vocabulary_types_lbox {200, 150};
 
 public:
     Preferences()
-        : wxFrame(NULL, wxID_ANY, "Japanese Study Tool") {
+        : wxFrame(NULL, wxID_ANY, "Japanese Study Tool", wxDefaultPosition, wxSize { 475, 200 }) {
         // Labels
         vocabulary_set_lbl -> Create(this, ID_vocabulary_set_lbl, "Vocabulary Set", PT_vocabulary_set_lbl, SZ_vocabulary_set_lbl);
         chapter_lbl -> Create(this, ID_chapter_lbl, "Chapter", PT_chapter_lbl, SZ_chapter_lbl);
@@ -102,6 +104,10 @@ public:
     }
 
 private:
+    void create_hashmap() {
+
+    }
+
     void set_chapters(wxCommandEvent& event) {
         wxMessageBox("PLACEHOLDER", "Set chapters.");
     }
@@ -115,10 +121,13 @@ private:
     }
 };
 
-bool TestApp::OnInit() {
-    Preferences *mainframe = new Preferences();
-    mainframe -> Show(true);
-    return true;
-}
+class App : public wxApp {
+public:
+    virtual bool OnInit() {
+        Preferences *mainframe = new Preferences();
+        mainframe -> Show(true);
+        return true;
+    }
+};
 
-wxIMPLEMENT_APP(TestApp);
+wxIMPLEMENT_APP(App);

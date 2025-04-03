@@ -1,0 +1,846 @@
+set,subset,vocab type,kun,on,meaning,kanji
+One,One,Hiragana,,,A,あ
+One,One,Hiragana,,,I,い
+One,One,Hiragana,,,U,う
+One,One,Hiragana,,,E,え
+One,One,Hiragana,,,O,お
+One,One,Hiragana,,,Ka,か
+One,One,Hiragana,,,Ki,き
+One,One,Hiragana,,,Ku,く
+One,One,Hiragana,,,Ke,け
+One,One,Hiragana,,,Ko,こ
+One,One,Hiragana,,,Sa,さ
+One,One,Hiragana,,,Shi,し
+One,One,Hiragana,,,Su,す
+One,One,Hiragana,,,Se,せ
+One,One,Hiragana,,,So,そ
+One,One,Hiragana,,,Ta,た
+One,One,Hiragana,,,Chi,ち
+One,One,Hiragana,,,Tsu,つ
+One,One,Hiragana,,,Te,て
+One,One,Hiragana,,,To,と
+One,One,Hiragana,,,Na,な
+One,One,Hiragana,,,Ni,に
+One,One,Hiragana,,,Nu,ぬ
+One,One,Hiragana,,,Ne,ね
+One,One,Hiragana,,,No,の
+One,One,Hiragana,,,Ha,は
+One,One,Hiragana,,,Hi,ひ
+One,One,Hiragana,,,Fu/hu,ふ
+One,One,Hiragana,,,He,へ
+One,One,Hiragana,,,Ho,ほ
+One,One,Hiragana,,,Ma,ま
+One,One,Hiragana,,,Mi,み
+One,One,Hiragana,,,Mu,む
+One,One,Hiragana,,,Me,め
+One,One,Hiragana,,,Mo,も
+One,One,Hiragana,,,Ya,や
+One,One,Hiragana,,,Yu,ゆ
+One,One,Hiragana,,,Yo,よ
+One,One,Hiragana,,,Ra,ら
+One,One,Hiragana,,,Ri,り
+One,One,Hiragana,,,Ru,る
+One,One,Hiragana,,,Re,れ
+One,One,Hiragana,,,Ro,ろ
+One,One,Hiragana,,,Wa,わ
+One,One,Hiragana,,,O (wo),を
+One,One,Hiragana,,,N,ん
+One,One,Hiragana,,,Ga,が
+One,One,Hiragana,,,Gi,ぎ
+One,One,Hiragana,,,Gu,ぐ
+One,One,Hiragana,,,Ge,げ
+One,One,Hiragana,,,Go,ご
+One,One,Hiragana,,,Za,ざ
+One,One,Hiragana,,,Ji,じ
+One,One,Hiragana,,,Zu,ず
+One,One,Hiragana,,,Ze,ぜ
+One,One,Hiragana,,,Zo,ぞ
+One,One,Hiragana,,,Da,だ
+One,One,Hiragana,,,Di,ぢ
+One,One,Hiragana,,,Du,づ
+One,One,Hiragana,,,De,で
+One,One,Hiragana,,,Do,ど
+One,One,Hiragana,,,Ba,ば
+One,One,Hiragana,,,Bi,び
+One,One,Hiragana,,,Bu,ぶ
+One,One,Hiragana,,,Be,べ
+One,One,Hiragana,,,Bo,ぼ
+One,One,Hiragana,,,Pa,ぱ
+One,One,Hiragana,,,Pi,ぴ
+One,One,Hiragana,,,Pu,ぷ
+One,One,Hiragana,,,Pe,ぺ
+One,One,Hiragana,,,Po,ぽ
+One,One,Hiragana,,,Kya,きゃ
+One,One,Hiragana,,,Kyu,きゅ
+One,One,Hiragana,,,Kyo,きょ
+One,One,Hiragana,,,Sha,しゃ
+One,One,Hiragana,,,Shu,しゅ
+One,One,Hiragana,,,Sho,しょ
+One,One,Hiragana,,,Cha,ちゃ
+One,One,Hiragana,,,Chu,ちゅ
+One,One,Hiragana,,,Cho,ちょ
+One,One,Hiragana,,,Nya,にゃ
+One,One,Hiragana,,,Nyu,にゅ
+One,One,Hiragana,,,Nyo,にょ
+One,One,Hiragana,,,Hia,ひゃ
+One,One,Hiragana,,,Ryu,ひゅ
+One,One,Hiragana,,,Hyo,ひょ
+One,One,Hiragana,,,Mia,みゃ
+One,One,Hiragana,,,Myu,みゅ
+One,One,Hiragana,,,Myo,みょ
+One,One,Hiragana,,,Rya,りゃ
+One,One,Hiragana,,,Ryu,りゅ
+One,One,Hiragana,,,Ryo,りょ
+One,One,Hiragana,,,Gya,ぎゃ
+One,One,Hiragana,,,Gyu,ぎゅ
+One,One,Hiragana,,,Gyo,ぎょ
+One,One,Hiragana,,,Ja,じゃ
+One,One,Hiragana,,,Ju,じゅ
+One,One,Hiragana,,,Jo,じょ
+One,One,Hiragana,,,Bya,びゃ
+One,One,Hiragana,,,Byu,びゅ
+One,One,Hiragana,,,Byo,びょ
+One,One,Hiragana,,,Pya,ぴゃ
+One,One,Hiragana,,,Pyu,ぴゅ
+One,One,Hiragana,,,Pyo,ぴょ
+One,Two,Katakana,,,あ,ア
+One,Two,Katakana,,,い,イ
+One,Two,Katakana,,,う,ウ
+One,Two,Katakana,,,え,エ
+One,Two,Katakana,,,お,オ
+One,Two,Katakana,,,か,カ
+One,Two,Katakana,,,き,キ
+One,Two,Katakana,,,く,ク
+One,Two,Katakana,,,け,ケ
+One,Two,Katakana,,,こ,コ
+One,Two,Katakana,,,さ,サ
+One,Two,Katakana,,,し,シ
+One,Two,Katakana,,,す,ス
+One,Two,Katakana,,,せ,セ
+One,Two,Katakana,,,そ,ソ
+One,Two,Katakana,,,た,タ
+One,Two,Katakana,,,ち,チ
+One,Two,Katakana,,,つ,ツ
+One,Two,Katakana,,,て,テ
+One,Two,Katakana,,,と,ト
+One,Two,Katakana,,,な,ナ
+One,Two,Katakana,,,に,ニ
+One,Two,Katakana,,,ぬ,ヌ
+One,Two,Katakana,,,ね,ネ
+One,Two,Katakana,,,の,ノ
+One,Two,Katakana,,,は,ハ
+One,Two,Katakana,,,ひ,ヒ
+One,Two,Katakana,,,ふ,フ
+One,Two,Katakana,,,へ,ヘ
+One,Two,Katakana,,,ほ,ホ
+One,Two,Katakana,,,ま,マ
+One,Two,Katakana,,,み,ミ
+One,Two,Katakana,,,む,ム
+One,Two,Katakana,,,め,メ
+One,Two,Katakana,,,も,モ
+One,Two,Katakana,,,や,ヤ
+One,Two,Katakana,,,ゆ,ユ
+One,Two,Katakana,,,よ,ヨ
+One,Two,Katakana,,,ら,ラ
+One,Two,Katakana,,,り,リ
+One,Two,Katakana,,,る,ル
+One,Two,Katakana,,,れ,レ
+One,Two,Katakana,,,ろ,ロ
+One,Two,Katakana,,,わ,ワ
+One,Two,Katakana,,,ん,ン
+One,Four,Kanji,おお（きい）,ダイ,"big,large",大
+One,Four,Kanji,まな（ぶ）,ガク・ガッ,"to study, learn",学
+One,Four,Kanji,,コウ,school,校
+One,Four,Kanji,さき,セン,"ahead, previous",先
+One,Four,Kanji,なま・う（まれる）,セイ,"life, to live",生
+One,Four,Kanji Words,,,Big,大きい
+One,Four,Kanji Words,,,School,学校
+One,Four,Kanji Words,,,College,大学
+One,Four,Kanji Words,,,Student,学生
+One,Four,Kanji Words,,,College student,大学生
+One,Four,Kanji Words,,,Teacher,先生
+One,Five,Kanji,やま,サン・ザン,mountain,山
+One,Five,Kanji,かわ・がわ,セン,river,川
+One,Five,Kanji,た・だ,デン,"rice paddy",田
+One,Five,Kanji,ひと,ジン・ニン,person,人
+One,Five,Kanji,うえ・かみ・あ（がる）,ジョウ,"on, up, above",上
+One,Five,Kanji,なか,チュウ,"in, middle, center",中
+One,Five,Kanji,した・くだ（さい）,カ・ゲ,"under, below",下
+One,Five,Kanji,ちい（さい）,ショウ,Small,小
+One,Five,Kanji,ひ・び,ニチ・ニ・ジツ・カ,"sun, day",日
+One,Five,Kanji,もと,ホン・ボン・ポン,"root, book",本
+One,Five,Kanji Words,,,Yamada,山田
+One,Five,Kanji Words,,,Yamakawa,山川
+One,Five,Kanji Words,,,Person,人
+One,Five,Kanji Words,,,Japanese (nationality; not language),日本人
+One,Five,Kanji Words,,,"Middle school, Junior high school",中学校
+One,Five,Kanji Words,,,Small,小さい
+One,Five,Kanji Words,,,Japan,日本
+One,Five,Kanji Words,,,Book,本
+One,Five,Kanji Words,,,Please write,かいて下さい
+One,Six,Kanji,いま,コン,now,今
+One,Six,Kanji,わたし・わたくし,シ,"I; private",私
+One,Six,Kanji,つき,ゲツ・ガツ,"moon, month",月
+One,Six,Kanji,ひ,カ,"fire",火
+One,Six,Kanji,みず,スイ,water,水
+One,Six,Kanji,き,モク,tree,木
+One,Six,Kanji,かね,キン,"gold, money, metal",金
+One,Six,Kanji,つち,ト・ド,"earth, soil, ground",土
+One,Six,Kanji,,ヨウ,day of the week,曜
+One,Six,Kanji,なに・なん,,what,何
+One,Six,Kanji,,シュウ,week,週
+One,Six,Kanji,すえ,マツ,end,末
+One,Six,Kanji,やす（む）,キュウ,to rest,休
+One,Six,Kanji Words,,,Now,今
+One,Six,Kanji Words,,,Today,今日
+One,Six,Kanji Words,,,This week,今週
+One,Six,Kanji Words,,,I (males and females),私
+One,Six,Kanji Words,,,"Moon, Month",月
+One,Six,Kanji Words,,,Monday,月曜日
+One,Six,Kanji Words,,,Fire,火
+One,Six,Kanji Words,,,Tuesday,火曜日
+One,Six,Kanji Words,,,Water,水
+One,Six,Kanji Words,,,Wednesday,水曜日
+One,Six,Kanji Words,,,Tree,木
+One,Six,Kanji Words,,,Thursday,木曜日
+One,Six,Kanji Words,,,"Gold, money, metal",金
+One,Six,Kanji Words,,,Friday,金曜日
+One,Six,Kanji Words,,,"Earth, soil, ground",土
+One,Six,Kanji Words,,,Saturday,土曜日
+One,Six,Kanji Words,,,Sunday,日曜日
+One,Six,Kanji Words,,,What,何
+One,Six,Kanji Words,,,Week,週
+One,Six,Kanji Words,,,Weekend,週末
+One,Six,Kanji Words,,,To rest,休
+One,Six,Kanji Words,,,A day off,休み
+One,Six,Kanji Words,,,Holiday,休みの日
+One,Six,Kanji Words,,,Today,今日
+One,Seven,Kanji,とき,ジ,"time, hour",時
+One,Seven,Kanji,あいだ,カン,"interval, duration",間
+One,Seven,Kanji,わ（ける）・わ（かる）,フン・ブン・プン,"to divide, to understand, minute",分
+One,Seven,Kanji,,ハン,half,半
+One,Seven,Kanji,,マイ,every,毎
+One,Seven,Kanji,とし,ネン,year,年
+One,Seven,Kanji,す（き）,コウ,to like,好
+One,Seven,Kanji,かた（る）,ゴ,"language, word",語
+One,Seven,Kanji,たか（い）,コウ,"high, expensive",高
+One,Seven,Kanji,,バン,"number, order, turn",番
+One,Seven,Kanji,かた,ホウ,"direction, person (polite)",方
+One,Seven,Kanji,あたら（しい）,シン,new,新
+One,Seven,Kanji,ふる（い）,コ,old,古
+One,Seven,Kanji,やす（い）,アン,"inexpensive, cheap",安
+One,Seven,Kanji,とも,ユウ,friend,友
+One,Seven,Kanji Words,,,8:30,８時半
+One,Seven,Kanji Words,,,3 hours,3時間
+One,Seven,Kanji Words,,,30 minutes,30分
+One,Seven,Kanji Words,,,To understand,分かる
+One,Seven,Kanji Words,,,Everyday,毎日
+One,Seven,Kanji Words,,,Every week,毎週
+One,Seven,Kanji Words,,,Every year,毎年
+One,Seven,Kanji Words,,,Every month,毎月
+One,Seven,Kanji Words,,,Like,好き
+One,Seven,Kanji Words,,,Really Like,大好き
+One,Seven,Kanji Words,,,Japanese,日本語
+One,Seven,Kanji Words,,,"Tall, expensive",高い
+One,Seven,Kanji Words,,,High school,高校
+One,Seven,Kanji Words,,,"Number one, first",一番
+One,Seven,Kanji Words,,,New,新しい
+One,Seven,Kanji Words,,,Old,古い
+One,Seven,Kanji Words,,,"Inexpensive, cheap",安い
+One,Seven,Kanji Words,,,Friend,友だち
+One,Eight,Kanji,ひと（つ）,イチ,one,一
+One,Eight,Kanji,ふた（つ）,ニ,two,二
+One,Eight,Kanji,みっ（つ）,サン,three,三
+One,Eight,Kanji,よ、よん・よっ（つ）,シ,four,四
+One,Eight,Kanji,いつ（つ）,ゴ,five,五
+One,Eight,Kanji,むっ（つ）,ロク・ロッ,six,六
+One,Eight,Kanji,なな（つ）,シチ,seven,七
+One,Eight,Kanji,やっ（つ）,ハチ・ハッ,eight,八
+One,Eight,Kanji,ここの（つ）,キュウ・ク,nine,九
+One,Eight,Kanji,とお,ジュウ・ジュッ,ten,十
+One,Eight,Kanji,,ヒャク・ビャク・ピャク,one hundred,百
+One,Eight,Kanji,,セン・ゼン,one thousand,千
+One,Eight,Kanji,,マン,ten thousand,万
+One,Eight,Kanji,,エン,yen (Japanese currency),円
+One,Eight,Kanji,みせ,テン,"store, shop",店
+One,Eight,Kanji Words,,,one o'clock,一時
+One,Eight,Kanji Words,,,"One thing (long, cylindrical)",一本
+One,Eight,Kanji Words,,,One thing (general),一つ
+One,Eight,Kanji Words,,,One,一
+One,Eight,Kanji Words,,,Two,二
+One,Eight,Kanji Words,,,Three,三
+One,Eight,Kanji Words,,,Four,四
+One,Eight,Kanji Words,,,Five,五
+One,Eight,Kanji Words,,,Six,六
+One,Eight,Kanji Words,,,Seven,七
+One,Eight,Kanji Words,,,Eight,八
+One,Eight,Kanji Words,,,Nine,九
+One,Eight,Kanji Words,,,Ten,十
+One,Eight,Kanji Words,,,One hundred,百
+One,Eight,Kanji Words,,,One thousand,千
+One,Eight,Kanji Words,,,Ten thousand,一万
+One,Eight,Kanji Words,,,Ten thousand yen,一万円
+One,Eight,Kanji Words,,,Shop clerk,店の人
+One,Eight,Kanji Words,,,Shop,店
+One,Nine,Kanji,い（く）,コウ,to go,行
+One,Nine,Kanji,く（る）,ライ,"to come, coming",来
+One,Nine,Kanji,かえ（る）,キ,"to return, to go home",帰
+One,Nine,Kanji,た（べる）,ショク,to eat,食
+One,Nine,Kanji,の（む）,イン,to drink,飲
+One,Nine,Kanji,み（る）,ケン,"to look at, to watch",見
+One,Nine,Kanji,き（く）,ブン,"to listen, to ask, to inquire",聞
+One,Nine,Kanji,よ（む）,ドク,to read,読
+One,Nine,Kanji,か（く）,ショ,"to write, writing",書
+One,Nine,Kanji,はな（す）,ワ,"to talk, to speak",話
+One,Nine,Kanji,で（る）・で（かける）・だ（す）,シュツ,"to come out, to leave, to mail, to turn in",出
+One,Nine,Kanji,あ（う）,カイ,"to meet, to see",会
+One,Nine,Kanji,か（う）,バイ,to buy,買
+One,Nine,Kanji,お（きる）,キ,to get up,起
+One,Nine,Kanji,ね（る）,シン,"to go to bed, to lie down",寝
+One,Nine,Kanji,つく（る）,サク,to make,作
+One,Nine,Kanji,はい（る）・い（れる）,ニュウ,to enter,入
+One,Nine,Kanji Words,,,To go,行く
+One,Nine,Kanji Words,,,To come,来る
+One,Nine,Kanji Words,,,Next week,来週
+One,Nine,Kanji Words,,,Next year,来年
+One,Nine,Kanji Words,,,To return,帰る
+One,Nine,Kanji Words,,,To eat,食べる
+One,Nine,Kanji Words,,,To drink,飲む
+One,Nine,Kanji Words,,,To see,見る
+One,Nine,Kanji Words,,,To listen,聞く
+One,Nine,Kanji Words,,,Newspaper,新聞
+One,Nine,Kanji Words,,,To read,読む
+One,Nine,Kanji Words,,,To write,書く
+One,Nine,Kanji Words,,,To speak,話す
+One,Nine,Kanji Words,,,To come out,出る
+One,Nine,Kanji Words,,,To go out,出かける
+One,Nine,Kanji Words,,,To meet,会う
+One,Nine,Kanji Words,,,Conversation,会話
+One,Nine,Kanji Words,,,To shop,買う
+One,Nine,Kanji Words,,,To get up,起きる
+One,Nine,Kanji Words,,,To go to sleep,寝る
+One,Nine,Kanji Words,,,To make,作る
+One,Nine,Kanji Words,,,To enter,入る
+One,Nine,Kanji Words,,,Dining hall,学食
+One,Nine,Kanji Words,,,To show,見せる
+One,Ten,Kanji,おとこ,ダン,"male, man",男
+One,Ten,Kanji,おんな,ジョ,"female, woman",女
+One,Ten,Kanji,め,モク,eye,目
+One,Ten,Kanji,くち・ぐち,コウ,mouth,口
+One,Ten,Kanji,みみ,ジ,ear,耳
+One,Ten,Kanji,あし,ソク,"foot, leg",足
+One,Ten,Kanji,て,シュ,hand,手
+One,Ten,Kanji,ちち・とう,,father,父
+One,Ten,Kanji,はは・かあ,,mother,母
+One,Ten,Kanji,あね・ねえ,シ,older sister,姉
+One,Ten,Kanji,あに・にい,ケイ・キョウ,older brother,兄
+One,Ten,Kanji,いもうと,マイ,younger sister,妹
+One,Ten,Kanji,おとうと,ダイ,younger brother,弟
+One,Ten,Kanji,いえ・うち,カ,house,家
+One,Ten,Kanji,,ゾク,tribe,族
+One,Ten,Kanji,,リョウ,both,両
+One,Ten,Kanji,おや,シン,parent,親
+One,Ten,Kanji,こ,シ,child,子
+One,Ten,Kanji Words,,,Man,男の人
+One,Ten,Kanji Words,,,Boy,男の子
+One,Ten,Kanji Words,,,Woman,女の人
+One,Ten,Kanji Words,,,Girl,女の子
+One,Ten,Kanji Words,,,Eye,目
+One,Ten,Kanji Words,,,th,番目
+One,Ten,Kanji Words,,,Mouth,口
+One,Ten,Kanji Words,,,Ear,耳
+One,Ten,Kanji Words,,,"Leg, foot",足
+One,Ten,Kanji Words,,,"Arm, hand",手
+One,Ten,Kanji Words,,,Skilled,上手
+One,Ten,Kanji Words,,,Father (speaker's),父
+One,Ten,Kanji Words,,,Father (someone else's),お父さん
+One,Ten,Kanji Words,,,Mother (speaker's),母
+One,Ten,Kanji Words,,,Mother (someone else's),お母さん
+One,Ten,Kanji Words,,,Older sister (speaker's),姉
+One,Ten,Kanji Words,,,Older sister (someone else's),お姉さん
+One,Ten,Kanji Words,,,Older brother (speaker's),兄
+One,Ten,Kanji Words,,,Older brother (someone else's),あ兄さん
+One,Ten,Kanji Words,,,Younger sister (speakers),妹
+One,Ten,Kanji Words,,,Younger brother (speaker's),弟
+One,Ten,Kanji Words,,,Siblings,兄弟
+One,Ten,Kanji Words,,,Family,家族
+One,Ten,Kanji Words,,,My home,私の家
+One,Ten,Kanji Words,,,Parents,両親
+One,Ten,Kanji Words,,,Child (someone else's),お子さん
+One,Ten,Kanji Words,,,Only Child,一人っこ
+One,Ten,Kanji Words,,,Elementary school student,小学生
+One,Ten,Kanji Words,,,Elementary school,小学校
+One,Ten,Kanji Words,,,Middle school student,中学生
+One,Ten,Kanji Words,,,Middle school,中学校
+One,Eleven,Kanji,,テン,heaven,天
+One,Eleven,Kanji,,キ,"spirit, mind",気
+One,Eleven,Kanji,あめ,ウ,rain,雨
+One,Eleven,Kanji,ゆき,セツ,snow,雪
+One,Eleven,Kanji,かぜ,フウ,wind,風
+One,Eleven,Kanji,は（れる）,セイ,"to clear, fine",晴
+One,Eleven,Kanji,あたた（かい）,オン,warm,温
+One,Eleven,Kanji,,ド,degree,度
+One,Eleven,Kanji,ひがし,トウ,east,東
+One,Eleven,Kanji,にし,セイ,west,西
+One,Eleven,Kanji,みなみ,ナン,south,南
+One,Eleven,Kanji,きた,ホク,north,北
+One,Eleven,Kanji,さむ（い）,カン,cold (weather),寒
+One,Eleven,Kanji,あつ（い）,ショ,hot,暑
+One,Eleven,Kanji,おお（い）,タ,"many, much",多
+One,Eleven,Kanji,すく（ない）・すこ（し）,ショウ,"a little, few",少
+One,Eleven,Kanji,つめ（たい）,レイ,cold,冷
+One,Eleven,Kanji Words,,,Weather,天気
+One,Eleven,Kanji Words,,,Tempura,天ぷら
+One,Eleven,Kanji Words,,,Air tempurature,気温
+One,Eleven,Kanji Words,,,Rain,雨
+One,Eleven,Kanji Words,,,Rain shower,にわか雨
+One,Eleven,Kanji Words,,,Snow,雪
+One,Eleven,Kanji Words,,,Wind,風
+One,Eleven,Kanji Words,,,To become sunny,晴れる
+One,Eleven,Kanji Words,,,Warm,温かい
+One,Eleven,Kanji Words,,,tempurature,温度
+One,Eleven,Kanji Words,,,What tempurature?,何度
+One,Eleven,Kanji Words,,,East,東
+One,Eleven,Kanji Words,,,West,西
+One,Eleven,Kanji Words,,,South,南
+One,Eleven,Kanji Words,,,Southeast,南東
+One,Eleven,Kanji Words,,,Southwest,南西
+One,Eleven,Kanji Words,,,North,北
+One,Eleven,Kanji Words,,,Northeast,北東
+One,Eleven,Kanji Words,,,Northwest,北西
+One,Eleven,Kanji Words,,,Cold,寒い
+One,Eleven,Kanji Words,,,Hot,暑い
+One,Eleven,Kanji Words,,,A lot,多い
+One,Eleven,Kanji Words,,,A few,少ない
+One,Eleven,Kanji Words,,,Cool,冷たい
+One,Eleven,Kanji Words,,,To go up,上がる
+One,Eleven,Kanji Words,,,To go down,下がる
+One,Eleven,Kanji Words,,,A little bit,少し
+One,Twelve,Kanji,はる,シュン,spring,春
+One,Twelve,Kanji,なつ,カ,summer,夏
+One,Twelve,Kanji,あき,シュウ,"autumn, fall",秋
+One,Twelve,Kanji,ふゆ,トウ,winter,冬
+One,Twelve,Kanji,あさ,チョウ,morning,朝
+One,Twelve,Kanji,ひる,チュウ,"noon, daytime",昼
+One,Twelve,Kanji,,バン,evening,晩
+One,Twelve,Kanji,,ゴ,noon,午
+One,Twelve,Kanji,まえ,ゼン,"before, front",前
+One,Twelve,Kanji,あと・うし（ろ）・のち,ゴ,"after, later",後
+One,Twelve,Kanji,さ（る）,キョ,"to leave, past",去
+One,Twelve,Kanji,,サク,"last ~ (yesterday, year)",昨
+One,Twelve,Kanji,とも・ども,キョウ,"attendant, companion",供
+One,Twelve,Kanji,もと,ゲン,"origin, former",元
+One,Twelve,Kanji,おも（う）,シ,to think,思
+One,Twelve,Kanji,あか（るい）,メイ,"bright, light",明
+One,Twelve,Kanji,まわ（る）,カイ,"times, frequency",回
+One,Twelve,Kanji Words,,,Spring,春
+One,Twelve,Kanji Words,,,Spring Break,春休み
+One,Twelve,Kanji Words,,,Summer,夏
+One,Twelve,Kanji Words,,,Summer Break,夏休み
+One,Twelve,Kanji Words,,,Autumn,秋
+One,Twelve,Kanji Words,,,Winter,冬
+One,Twelve,Kanji Words,,,Winter Break,冬休み
+One,Twelve,Kanji Words,,,This morning,今朝
+One,Twelve,Kanji Words,,,Every morning,毎朝
+One,Twelve,Kanji Words,,,This evening,今晩
+One,Twelve,Kanji Words,,,Every evening,毎晩
+One,Twelve,Kanji Words,,,A.M. (morning),午前
+One,Twelve,Kanji Words,,,P.M. (afternoon),午後
+One,Twelve,Kanji Words,,,After,後
+One,Twelve,Kanji Words,,,Last year　（きょ）,去年
+One,Twelve,Kanji Words,,,Last year　（さく）,昨年
+One,Twelve,Kanji Words,,,Yesterday,昨日
+One,Twelve,Kanji Words,,,The year before Last,一昨年
+One,Twelve,Kanji Words,,,Child,子供
+One,Twelve,Kanji Words,,,"Lively, healthy",元気
+One,Twelve,Kanji Words,,,to think,思う
+One,Twelve,Kanji Words,,,Memories,思い出
+One,Twelve,Kanji Words,,,"Bright, cheerful",明るい
+One,Twelve,Kanji Words,,,Tomorrow,明日
+One,Twelve,Kanji Words,,,Behind,後ろ
+One,Twelve,Kanji Words,,,The day before Yesterday,一昨日
+One,Twelve,Kanji Words,,,The day after Tomorrow,明後日
+Two,One,Kanji,やま（い）,ビョウ,sickness,病
+Two,One,Kanji,,イン,institution,院
+Two,One,Kanji,,イ,medical,医
+Two,One,Kanji,もの,シャ,person,者
+Two,One,Kanji,からだ,タイ・テイ,body,体
+Two,One,Kanji,は,シ,tooth,歯
+Two,One,Kanji,か（わる）,ヘン,"strange, to change",変
+Two,One,Kanji,あつ（い）,ネツ,"heat, fever",熱
+Two,One,Kanji,くすり,ヤク,"medicine, chemical",薬
+Two,One,Kanji,かお,ガン,face,顔
+Two,One,Kanji,いろ,ショク・シキ,color,色
+Two,One,Kanji,ゆび,シ,finger,指
+Two,One,Kanji,き（る）,セツ,to cut,切
+Two,One,Kanji,ある（く）,ホ,to walk,歩
+Two,One,Kanji,はし（る）,ソウ,to run,走
+Two,One,Kanji,つと（める）,ベン,exertion,勉
+Two,One,Kanji,つよ（い）,キョウ,strong,強
+Two,One,Kanji,わす（れる）,ボウ,to forget,忘
+Two,One,Kanji,はや（い）,ソウ,early,早
+Two,One,Kanji,も（つ）,ジ,"to hold, to have",持
+Two,One,Kanji,いた（い）,ツウ,"to hurt; pain",痛
+Two,One,Kanji,あたま,ズ,head,頭
+Two,One,Kanji,よこ,オウ,side,横
+Two,Two,Kanji,うみ,カイ,"sea, ocean",海
+Two,Two,Kanji,そと,ガイ,"outside, other",外
+Two,Two,Kanji,くに,コク・ゴク,"country, nation",国
+Two,Two,Kanji,たび,リョ,"travel, trip",旅
+Two,Two,Kanji,,カン,"(large) building, hall",館
+Two,Two,Kanji,あらかじ（め）,ヨ,in advance,予
+Two,Two,Kanji,さだ（める）,テイ,"decide, determine",定
+Two,Two,Kanji,,ヤク,"promise, approximately",約
+Two,Two,Kanji,はか（る）,ケイ,"measuring, plan",計
+Two,Two,Kanji,,カク・ガ,"picture, painting",画
+Two,Two,Kanji,,ニ・カ,"load, cargo, baggage",荷
+Two,Two,Kanji,もの,ブツ・モツ,"object, thing",物
+Two,Two,Kanji,こた（える）,トウ,"to answer, an answer",答
+Two,Two,Kanji,し（る）,チ,to know,知
+Two,Two,Kanji,と（まる）,ハク・パク,to stay overnight,泊
+Two,Two,Kanji,の（る）,ジョウ,"to ride, to get on",乗
+Two,Two,Kanji,つ（く）・き（る）,チャク,"to arrive, to put on",着
+Two,Two,Kanji,な,メイ・ミョウ,"name",名
+Two,Two,Kanji,そら,クウ,sky,空
+Two,Two,Kanji,みなと,コウ,port,港
+Two,Two,Kanji,もり,シン,forest,森
+Two,Two,Kanji,はやし,リン,woods,林
+Two,Two,Kanji,,,Kanji for Repetition,々
+Two,Two,Kanji Words,,,うみ,海
+Two,Two,Kanji Words,,,かいがい,海外
+Two,Two,Kanji Words,,,そと,外
+Two,Two,Kanji Words,,,がいこく,外国
+Two,Two,Kanji Words,,,くに,国
+Two,Two,Kanji Words,,,ちゅうごく,中国
+Two,Two,Kanji Words,,,りょかん,旅館
+Two,Two,Kanji Words,,,りょこう,旅行
+Two,Two,Kanji Words,,,よてい,予定
+Two,Two,Kanji Words,,,よやく,予約
+Two,Two,Kanji Words,,,けいかく,計画
+Two,Two,Kanji Words,,,はかる,計る
+Two,Two,Kanji Words,,,とけい,時計
+Two,Two,Kanji Words,,,にもつ,荷物
+Two,Two,Kanji Words,,,たべもの,食べ物
+Two,Two,Kanji Words,,,のみもの,飲み物
+Two,Two,Kanji Words,,,かいもの,買い物
+Two,Two,Kanji Words,,,がくせいかいかん,学生会館
+Two,Two,Kanji Words,,,こたえる,答える
+Two,Two,Kanji Words,,,しる,知る
+Two,Two,Kanji Words,,,とまる,泊まる
+Two,Two,Kanji Words,,,にはく,二泊
+Two,Two,Kanji Words,,,のる,乗る
+Two,Two,Kanji Words,,,つく,着く
+Two,Two,Kanji Words,,,きる,着る
+Two,Two,Kanji Words,,,きもの,着物
+Two,Two,Kanji Words,,,なまえ,名前
+Two,Two,Kanji Words,,,くうこう,空港
+Two,Two,Kanji Words,,,いろいろ,色々
+Two,Two,Kanji Words,,,ときどき,時々
+Two,Three,Kanji,い（う）・こと,ゲン・ゴン,"to say, to speak",言
+Two,Three,Kanji,は,ヨウ,leaf,葉
+Two,Three,Kanji,,カン,chinese,漢
+Two,Three,Kanji,,ジ,letter,字
+Two,Three,Kanji,,シツ・シチ・チ,"quality, matter",質
+Two,Three,Kanji,と（う）・と（い）,モン,question,問
+Two,Three,Kanji,,ソツ,to graduate,卒
+Two,Three,Kanji,わざ,ギョウ・ゴウ,"work, industry",業
+Two,Three,Kanji,さず（ける）,ジュ,"to confer, to give",授
+Two,Three,Kanji,つか（える）,シ・ジ,"to serve, to do",仕
+Two,Three,Kanji,こと,ジ,"abstract thing, affair",事
+Two,Three,Kanji,むす（ぶ）,ケツ・ケッ,"to tie, to bind",結
+Two,Three,Kanji,,コン,marriage,婚
+Two,Three,Kanji,,シキ,"style, ceremony",式
+Two,Three,Kanji,やしろ,シャ,"company, society",社
+Two,Three,Kanji,おな（じ）,ドウ,same,同
+Two,Three,Kanji,ちが（う）・ちが（い）,イ,"to differ, to violate",違
+Two,Three,Kanji,と（める）・と（まる）,リュウ・ル,"to keep, to stay",留
+Two,Three,Kanji,,タチ・ダチ,"to attain",達
+Two,Three,Kanji,,デン,electric,電
+Two,Three,Kanji,,エイ,"distinguished, england",英
+Two,Three,Kanji,,キャク,guest,客
+Two,Three,Kanji,のこ（る）・のこ（す）,ザン,"to be left, to leave",残
+Two,Three,Kanji Words,,,ことば,言葉
+Two,Three,Kanji Words,,,いう,言う
+Two,Three,Kanji Words,,,かんじ,漢字
+Two,Three,Kanji Words,,,しつもん,質問
+Two,Three,Kanji Words,,,そつぎょう,卒業
+Two,Three,Kanji Words,,,じゅぎょう,授業
+Two,Three,Kanji Words,,,しごと,仕事
+Two,Three,Kanji Words,,,しょくじ,食事
+Two,Three,Kanji Words,,,だいじ,大事
+Two,Three,Kanji Words,,,そつぎょうしき,卒業式
+Two,Three,Kanji Words,,,けっこんする,結婚する
+Two,Three,Kanji Words,,,けっこんしき,結婚式
+Two,Three,Kanji Words,,,かいしゃ,会社
+Two,Three,Kanji Words,,,おなじ,同じ
+Two,Three,Kanji Words,,,ちがう,違う
+Two,Three,Kanji Words,,,りゅうがくせい,留学生
+Two,Three,Kanji Words,,,ともだち,友達
+Two,Three,Kanji Words,,,でんき,電気
+Two,Three,Kanji Words,,,でんわ,電話
+Two,Three,Kanji Words,,,えいご,英語
+Two,Three,Kanji Words,,,きゃく,客
+Two,Three,Kanji Words,,,のこる,残る
+Two,Three,Kanji Words,,,のこす,残す
+Two,Three,Kanji Words,,,まちがう,間違う
+Two,Four,Kanji,,ユウ,mail,郵
+Two,Four,Kanji,たよ（り）,ベン・ビン,"post, convenient",便
+Two,Four,Kanji,,キョク,"bureau, limited part",局
+Two,Four,Kanji,,ギン,silver,銀
+Two,Four,Kanji,おく（る）,ソウ,to send,送
+Two,Four,Kanji,かみ,シ,paper,紙
+Two,Four,Kanji,す（む）,ジュウ,"to reside, to live",住
+Two,Four,Kanji,ところ,ショ,place,所
+Two,Four,Kanji,ひ（く）,イン,to pull,引
+Two,Four,Kanji,ね（る）,レン,"to train, practice",練
+Two,Four,Kanji,なら（う）,シュウ,"to learn, custom",習
+Two,Four,Kanji,やど,シュク,"lodge, in",宿
+Two,Four,Kanji,,ダイ,"totle, topic, problem",題
+Two,Four,Kanji,こころ（みる）・ため（す）,シ,"to try",試
+Two,Four,Kanji,,ケン,test,験
+Two,Four,Kanji,う（ける）,ジュ,to receive,受
+Two,Four,Kanji,おし（える）,キョウ,to teach,教
+Two,Four,Kanji,ふみ,ブン・モン,"sentence, letter, writing",文
+Two,Four,Kanji,,ホウ,"law, method",法
+Two,Four,Kanji,,イ,"mind, attention",意
+Two,Four,Kanji,あじ,ミ,taste,味
+Two,Four,Kanji,と（る）,シュ,to take,取
+Two,Four,Kanji,もち（いる）,ヨウ,"business, to use",用
+Two,Four,Kanji Words,,,ゆうびんきょく,郵便局
+Two,Four,Kanji Words,,,ぎんこう,銀行
+Two,Four,Kanji Words,,,おくる,送る
+Two,Four,Kanji Words,,,てがみ,手紙
+Two,Four,Kanji Words,,,ようし,用紙
+Two,Four,Kanji Words,,,ようじ,用事
+Two,Four,Kanji Words,,,すむ,住む
+Two,Four,Kanji Words,,,ところ,所
+Two,Four,Kanji Words,,,じゅうしょ,住所
+Two,Four,Kanji Words,,,ひきだす,引き出す
+Two,Four,Kanji Words,,,れんしゅう,練習
+Two,Four,Kanji Words,,,うける,受ける
+Two,Four,Kanji Words,,,しゅくだい,宿題
+Two,Four,Kanji Words,,,にゅうがくしけん,入学試験
+Two,Four,Kanji Words,,,おしえる,教える
+Two,Four,Kanji Words,,,ぶんぽう,文法
+Two,Four,Kanji Words,,,さくぶん,作文
+Two,Four,Kanji Words,,,ぶんがく,文学
+Two,Four,Kanji Words,,,いみ,意味
+Two,Four,Kanji Words,,,はがき,葉書
+Two,Four,Kanji Words,,,かいわ,会話
+Two,Four,Kanji Words,,,きって,切手
+Two,Five,Kanji,ば,ジョウ,place,場
+Two,Five,Kanji,てら,ジ,temple,寺
+Two,Five,Kanji,はし,キョウ,bridge,橋
+Two,Five,Kanji,まち,チョウ,town,町
+Two,Five,Kanji,うつ（る）・うつ（す）,エイ,"to reflect, to project",映
+Two,Five,Kanji,おおやけ,コウ,"public, official",公
+Two,Five,Kanji,その,エン,garden,園
+Two,Five,Kanji,はか（る）,ズ・ト,"drawing, diagram, to plan",図
+Two,Five,Kanji,,チ・ジ,"earth, land",地
+Two,Five,Kanji,,テツ,iron,鉄
+Two,Five,Kanji,,エキ,(train) station,駅
+Two,Five,Kanji,そだ（てる）・そだ（つ）,イク,"to grow up, to raise",育
+Two,Five,Kanji,みち,ドウ,"road, street, way",道
+Two,Five,Kanji,,ブ,"part, selection",部
+Two,Five,Kanji,,ヤ・オク,"roof, house, shop",屋
+Two,Five,Kanji,くるま,シャ,"vehicle, wheel",車
+Two,Five,Kanji,みぎ,ウ,right,右
+Two,Five,Kanji,ひだり,サ,left,左
+Two,Five,Kanji,ちか（い）,キン,"near, close",近
+Two,Five,Kanji,とお（い）,エン,"far, distant",遠
+Two,Five,Kanji,とお（る）,ツウ,"to go along, to pass",通
+Two,Five,Kanji,と（ぶ）,ヒ,to fly,飛
+Two,Five,Kanji,,キョウ・ケイ,capital,京
+Two,Five,Kanji Words,,,ばしょ,場所
+Two,Five,Kanji Words,,,てら,寺
+Two,Five,Kanji Words,,,はし,橋
+Two,Five,Kanji Words,,,まち,町
+Two,Five,Kanji Words,,,えいが,映画
+Two,Five,Kanji Words,,,えいがかん,映画館
+Two,Five,Kanji Words,,,こうえん,公園
+Two,Five,Kanji Words,,,としょかん,図書館
+Two,Five,Kanji Words,,,ちず,地図
+Two,Five,Kanji Words,,,ちか,地下
+Two,Five,Kanji Words,,,ちかてつ,地下鉄
+Two,Five,Kanji Words,,,えき,駅
+Two,Five,Kanji Words,,,たいいくかん,体育館
+Two,Five,Kanji Words,,,へや,部屋
+Two,Five,Kanji Words,,,ほんや,本屋
+Two,Five,Kanji Words,,,くるま,車
+Two,Five,Kanji Words,,,でんしゃ,電車
+Two,Five,Kanji Words,,,みぎて,右手
+Two,Five,Kanji Words,,,ひだりあし,左足
+Two,Five,Kanji Words,,,ちかい,近い
+Two,Five,Kanji Words,,,とおい,遠い
+Two,Five,Kanji Words,,,とおる,通る
+Two,Five,Kanji Words,,,とうきょう,東京
+Two,Six,Kanji,いぬ,ケン,dog,犬
+Two,Six,Kanji,はな,カ,flower,花
+Two,Six,Kanji,かたち,ケイ・ギョウ,"shape, form",形
+Two,Six,Kanji,,フク,"clothes, dress",服
+Two,Six,Kanji,や（める）,ジ,"word, to resign",辞
+Two,Six,Kanji,,レイ,courtesy,礼
+Two,Six,Kanji,いわ（う）,シュク,"to celebrate, congratulate",祝
+Two,Six,Kanji,,タン,birth,誕
+Two,Six,Kanji,みずか（ら）,ジ・シ,self,自
+Two,Six,Kanji,ころ（がる）・ころ（ぶ）,テン,"to roll over, to fall down",転
+Two,Six,Kanji,はこ（ぶ）,ウン,"to carry, luck",運
+Two,Six,Kanji,うご（く）,ドウ,to move,動
+Two,Six,Kanji,つか（う）,シ,to use,使
+Two,Six,Kanji,うつ（す）,シャ,"to photograph, to copy",写
+Two,Six,Kanji,ま,シン,"truth, exactly",真
+Two,Six,Kanji,,エ・カイ,picture,絵
+Two,Six,Kanji,,ザツ,miscellany,雑
+Two,Six,Kanji,,シ,"chronicle, magazine",誌
+Two,Six,Kanji,おと,オン,sound,音
+Two,Six,Kanji,たの（しむ）,ガク・ラク,"music, to enjoy",楽
+Two,Six,Kanji,,セ・セイ,"world, reign, age",世
+Two,Six,Kanji,いし,セキ,stone,石
+Two,Six,Kanji,,セツ,"theory, explanation",説
+Two,Six,Kanji Words,,,いぬ,犬
+Two,Six,Kanji Words,,,こいぬ,子犬
+Two,Six,Kanji Words,,,はな,花
+Two,Six,Kanji Words,,,にんぎょう,人形
+Two,Six,Kanji Words,,,じしょ,辞書
+Two,Six,Kanji Words,,,おれい,お礼
+Two,Six,Kanji Words,,,おいわい,お祝い
+Two,Six,Kanji Words,,,たんじょうび,誕生日
+Two,Six,Kanji Words,,,じてんしゃ,自転車
+Two,Six,Kanji Words,,,じぶん,自分
+Two,Six,Kanji Words,,,うんどう,運動
+Two,Six,Kanji Words,,,うんてん,運転
+Two,Six,Kanji Words,,,どうぶつえん,動物園
+Two,Six,Kanji Words,,,どうぶつ,動物
+Two,Six,Kanji Words,,,うごく,動く
+Two,Six,Kanji Words,,,つかう,使う
+Two,Six,Kanji Words,,,たいしかん,大使館
+Two,Six,Kanji Words,,,たいし,大使
+Two,Six,Kanji Words,,,しゃしん,写真
+Two,Six,Kanji Words,,,え,絵
+Two,Six,Kanji Words,,,ざっし,雑誌
+Two,Six,Kanji Words,,,おんがく,音楽
+Two,Six,Kanji Words,,,たのしい,楽しい
+Two,Six,Kanji Words,,,せわ,世話
+Two,Six,Kanji Words,,,しょうせつ,小説
+Two,Six,Kanji Words,,,せつめいする,説明する
+Two,Seven,Kanji,,リョウ,"material, ingredient",料
+Two,Seven,Kanji,,リ,"logic",理
+Two,Seven,Kanji,めし,ハン,"cooked rice, meal",飯
+Two,Seven,Kanji,の,ヤ,"field",野
+Two,Seven,Kanji,,サイ,vegetable,菜
+Two,Seven,Kanji,くだ,カ,"fruit, result",果
+Two,Seven,Kanji,さかな,ギョ,fish,魚
+Two,Seven,Kanji,とり,チョウ,bird,鳥
+Two,Seven,Kanji,,ニク,meat,肉
+Two,Seven,Kanji,あぶら,ユ,oil,油
+Two,Seven,Kanji,と（まる）・や（める,シ,to stop,止
+Two,Seven,Kanji,はじ（める）・はじ（まる）,シ,"to begin, to start",始
+Two,Seven,Kanji,お（わる）・お（える）,シュウ,"to end, to finish",終
+Two,Seven,Kanji,あら（う）,セン,to wash,洗
+Two,Seven,Kanji,わる（い）,アク,bad,悪
+Two,Seven,Kanji,くろ（い）,コク,black,黒
+Two,Seven,Kanji,しろ（い）,ハク,white,白
+Two,Seven,Kanji,あお（い）,セイ,blue,青
+Two,Seven,Kanji,あか（い）,セキ,red,赤
+Two,Seven,Kanji,,チャ・サ,"brown, tea",茶
+Two,Seven,Kanji,みじか（い）,タン,short,短
+Two,Seven,Kanji,なが（い）,チョウ,long,長
+Two,Seven,Kanji,や（く）・や（ける）,ショウ,"to burn, to bake",焼
+Two,Seven,Kanji Words,,,Cooking,料理
+Two,Seven,Kanji Words,,,Tuition Fee,授業料
+Two,Seven,Kanji Words,,,Vegetables,野菜
+Two,Seven,Kanji Words,,,Fish,魚
+Two,Seven,Kanji Words,,,Fish cuisine,魚料理
+Two,Seven,Kanji Words,,,Meat cuisine,肉料理
+Two,Seven,Kanji Words,,,Chicken (meat),鳥肉
+Two,Seven,Kanji Words,,,To stop,止める
+Two,Seven,Kanji Words,,,To begin,始める
+Two,Seven,Kanji Words,,,To end,終わる
+Two,Seven,Kanji Words,,,To wash,洗う
+Two,Seven,Kanji Words,,,Bad,悪い
+Two,Seven,Kanji Words,,,Black,黒い
+Two,Seven,Kanji Words,,,White,白い
+Two,Seven,Kanji Words,,,red,赤い
+Two,Seven,Kanji Words,,,Brown,茶色い
+Two,Seven,Kanji Words,,,Green tea,お茶
+Two,Seven,Kanji Words,,,Short,短い
+Two,Seven,Kanji Words,,,Long,長い
+Two,Seven,Kanji Words,,,(Company) president,社長
+Two,Seven,Kanji Words,,,To Cook,焼く
+Two,Seven,Kanji Words,,,Fruit,果物
+Two,Seven,Kanji Words,,,Oil,油
+Two,Seven,Kanji Words,,,Physics,物理学
+Two,Eight,Kanji,こころ,シン,"mind, heart",心
+Two,Eight,Kanji,くば（る）,ハイ・パイ,to deliver,配
+Two,Eight,Kanji,こま（る）,コン,to be in trouble,困
+Two,Eight,Kanji,むずか（しい）,ナン,difficult,難
+Two,Eight,Kanji,よわ（い）,ジャク,weak,弱
+Two,Eight,Kanji,まね（く）,ショウ,to invite,招
+Two,Eight,Kanji,ま（つ）,タイ,to wait,待
+Two,Eight,Kanji,よ（ぶ）,コ,to call,呼
+Two,Eight,Kanji,あそ（ぶ）,ユウ,"to play, idle",遊
+Two,Eight,Kanji,およ（ぐ）,エイ,to swim,泳
+Two,Eight,Kanji,たて（る）・た（つ）,ケン・コン,to build,建
+Two,Eight,Kanji,,ケイ・キョウ,passage of time,経
+Two,Eight,Kanji,う（る）,バイ,to sell,売
+Two,Eight,Kanji,まじ（わる）,コウ,"to intersect, to mix",交
+Two,Eight,Kanji,お（ちる）・お（とす）,ラク,"to fall, to drop",落
+Two,Eight,Kanji,くら（い）,アン,dark,暗
+Two,Eight,Kanji,,コウ,flood,洪
+Two,Eight,Kanji,,リ,advantage,利
+Two,Eight,Kanji,まった（く）,ゼン,"whole, entirely",全
+Two,Eight,Kanji,いそ（ぐ）,キュウ,"sudden, steep, hurry",急
+Two,Eight,Kanji,,コ,"deceased, old",故
+Two,Eight,Kanji,,ダイ・タイ,"pedestral, platform, counter for machines",台
+Two,Eight,Kanji,,フ,"not, un-(prefix)",不
+Two,Eight,Kanji Words,,,To swim,泳ぐ
+Two,Eight,Kanji Words,,,To sell,売る
+Two,Eight,Kanji Words,,,Sales floor,売り場
+Two,Eight,Kanji Words,,,To fall,落ちる
+Two,Eight,Kanji Words,,,To drop,落とす
+Two,Eight,Kanji Words,,,To wait,待つ
+Two,Eight,Kanji Words,,,To play,遊ぶ
+Two,Eight,Kanji Words,,,Amusement park,遊園地
+Two,Eight,Kanji Words,,,To call out,呼ぶ
+Two,Eight,Kanji Words,,,To invite,招待する
+Two,Eight,Kanji Words,,,Dark,暗い
+Two,Eight,Kanji Words,,,Anxious,心配
+Two,Eight,Kanji Words,,,To be in trouble,困る
+Two,Eight,Kanji Words,,,Experience,経験
+Two,Eight,Kanji Words,,,Accident,事故
+Two,Eight,Kanji Words,,,Traffic Accident,交通事故
+Two,Eight,Kanji Words,,,Flood,洪水
+Two,Eight,Kanji Words,,,Convenient,便利
+Two,Eight,Kanji Words,,,Inconvenient,不便
+Two,Eight,Kanji Words,,,Difficult,難しい
+Two,Eight,Kanji Words,,,Weak,弱い
+Two,Eight,Kanji Words,,,Safe,安全
+Two,Eight,Kanji Words,,,A sense of relief,安心
+Two,Eight,Kanji Words,,,Sudden,急な
+Two,Eight,Kanji Words,,,Express train,急行
+Two,Eight,Kanji Words,,,Building,建物
+Two,Eight,Kanji Words,,,Taiphoon,台風
+Two,Eight,Kanji Words,,,"Whole, all",全部
+Two,Nine,Kanji,わら（う）,ショウ,to laugh,笑
+Two,Nine,Kanji,な（く）,キュウ,to cry,泣
+Two,Nine,Kanji,たす（かる）・たす（ける）,ジョ,"to help, assist",助
+Two,Nine,Kanji,かんが（える）,コウ,to think,考
+Two,Nine,Kanji,はら（う）,フツ,to pay,払
+Two,Nine,Kanji,ば（ける）,カ,to turn (oneself) into,化
+Two,Nine,Kanji,しら（べる）,チョウ,"to check, investigate",調
+Two,Nine,Kanji,あつ（める）・あつ（まる）,シュウ,"to collect, to gather",集
+Two,Nine,Kanji,まと,テキ,"having attribute of, target",的
+Two,Nine,Kanji,,シツ,"to lose, to miss",失
+Two,Nine,Kanji,あ（たる）,トウ,"hit, target",当
+Two,Nine,Kanji,,キ,"period, term, time",期
+Two,Nine,Kanji,,ワ,"Japanese, peace",和
+Two,Nine,Kanji,おも（い）,ジュウ,"heavy, weight",重
+Two,Nine,Kanji,,カイ,world,界
+Two,Nine,Kanji,ただ（しい）,セイ・ショウ,"correct, right",正
+Two,Nine,Kanji,,ユウ,"reason, significance",由
+Two,Nine,Kanji,,シュウ・ソウ,"religion, sect",宗
+Two,Nine,Kanji,おさ（める）・なお（す）,ジ・チ,"government, healing",治
+Two,Nine,Kanji,つぎ,ジ,next,次
+Two,Nine,Kanji,あ（る）,ユウ,"to exist, to have",有
+Two,Nine,Kanji,もっと（も）,サイ,most,最
+Two,Nine,Kanji,おこす,キョウ・コウ,interest,興
