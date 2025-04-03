@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1743642834 source:/home/patrick/Japanese-Study-Tool/test.cpp
+1743723206 source:/home/patrick/Japanese-Study-Tool/test.cpp
 	<wx/wxprec.h>
 	<unordered_map>
 	<vector>
 	<string>
-	<CSVreader.h>
+	<fstream>
+	"CSVreader.h"
+	"Textreader.h"
 	<wx/wx.h>
 
 1742848317 /usr/include/wx-3.2/wx/wxprec.h
@@ -1643,7 +1645,7 @@
 1742848317 /usr/include/wx-3.2/wx/gtk/mdi.h
 	"wx/frame.h"
 
-1743642700 /home/patrick/Japanese-Study-Tool/CSVreader.h
+1743709301 /home/patrick/Japanese-Study-Tool/CSVreader.h
 	<iterator>
 	<iostream>
 	<fstream>
@@ -1660,4 +1662,9 @@
 	<vector>
 	<string>
 	<array>
+
+1743712122 /home/patrick/Japanese-Study-Tool/Textreader.h
+	<iostream>
+	<fstream>
+	<string>
 

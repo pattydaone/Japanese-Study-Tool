@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="testing" />
+		<Option title="Japanese-Study-Tool" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -39,7 +39,8 @@
 			<Add option="`wx-config --libs`" />
 		</Linker>
 		<Unit filename="CSVreader.h" />
-		<Unit filename="test.cpp" />
+		<Unit filename="Textreader.h" />
+		<Unit filename="main.cpp" />
 		<Unit filename="testing.cbp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

@@ -95,7 +95,8 @@ public:
         finished_button -> Create(this, ID_finished_button, "Finished!", PT_finished_button, SZ_finished_button);
 
         // List box
-        vocabulary_types_lbox -> Create(this, ID_vocabulary_types_lbox, PT_vocabulary_types_lbox, SZ_vocabulary_types_lbox);
+        vocabulary_types_lbox -> Create(this, ID_vocabulary_types_lbox, PT_vocabulary_types_lbox, SZ_vocabulary_types_lbox,
+                                        0, NULL, wxLB_EXTENDED);
 
         Bind(wxEVT_COMBOBOX, &Preferences::set_chapters, this, ID_vocabulary_set_combo);
         Bind(wxEVT_COMBOBOX, &Preferences::set_vocabulary_types, this, ID_chapter_combo);
@@ -119,6 +120,9 @@ private:
     }
 
     void set_chapters(wxCommandEvent& event) {
+        chapter_combo -> Clear();
+        vocabulary_types_lbox -> Clear();
+
         std::string path {"Book_/Available_Chapters.txt"};
         path.insert(5, vocabulary_set_combo -> GetStringSelection());
         std::string chapter_str;
@@ -131,7 +135,19 @@ private:
     }
 
     void set_vocabulary_types(wxCommandEvent& event) {
-        wxMessageBox("PLACEHOLDER", "Set vocabulary types.");
+        std::string path {"Book_"};
+        path += (vocabulary_set_combo -> GetStringSelection() + "/Chapter_");
+        path += chapter_combo -> GetStringSelection() + "_vocab_types.txt";
+
+        std::string vocabulary_types_str;
+        std::ifstream* vocabulary_types_file = new std::ifstream;
+        vocabulary_types_file -> open(path);
+
+        vocabulary_types_lbox -> Clear();
+        while (*vocabulary_types_file >> vocabulary_types_str) {
+            vocabulary_types_lbox -> Append(vocabulary_types_str);
+        }
+
     }
 
     void start_game(wxCommandEvent& event) {
