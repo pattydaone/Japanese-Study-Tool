@@ -2,9 +2,11 @@
 #include <unordered_map>
 #include <vector>
 #include <string>
+#include <string_view>
 #include <fstream>
 #include "CSVreader.h"
 #include "Textreader.h"
+#include "split.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -24,7 +26,10 @@ enum {
 
 class Preferences : public wxFrame {
     // Data
-    std::unordered_map<std::string, std::vector<std::string>> vocabulary;
+    std::ifstream csv_file;
+    CSVRow row;
+    std::string path { "Book_" };
+    std::unordered_map<std::string_view, std::vector<std::string_view>> vocabulary;
 
     // Labels
     wxStaticText *vocabulary_set_lbl = new wxStaticText;
@@ -111,23 +116,31 @@ public:
         }
     }
 
-    void create_widgets() {
-    }
-
 private:
-    void create_hashmap() {
+    void create_hashmap(const std::string_view& superset, const std::string_view& subset, const std::string_view& vocab_type) {
+        csv_file.open("vocabulary.csv");
+        std::vector<std::string_view> values;
+        values.reserve(4);
 
+        while (csv_file >> row) {
+            if (row[0] == superset && row[1] == subset && row[2] == vocab_type) {
+                split(row[4], values);
+                vocabulary.emplace(row[3], values);
+                values.clear();
+            }
+        }
     }
 
     void set_chapters(wxCommandEvent& event) {
         chapter_combo -> Clear();
         vocabulary_types_lbox -> Clear();
-
-        std::string path {"Book_/Available_Chapters.txt"};
-        path.insert(5, vocabulary_set_combo -> GetStringSelection());
         std::string chapter_str;
+
+        path.erase(5);
+        path += (vocabulary_set_combo -> GetStringSelection() + "/Available_Chapters.txt");
         std::ifstream* chapter_file = new std::ifstream;
         chapter_file -> open(path);
+        path.erase(path.find("Available"));
 
         while (*chapter_file >> chapter_str) {
             chapter_combo -> Append(chapter_str);
@@ -135,9 +148,8 @@ private:
     }
 
     void set_vocabulary_types(wxCommandEvent& event) {
-        std::string path {"Book_"};
-        path += (vocabulary_set_combo -> GetStringSelection() + "/Chapter_");
-        path += chapter_combo -> GetStringSelection() + "_vocab_types.txt";
+        if (path.find("/Chapter_") != std::string::npos) path.erase(path.find("/Chapter_"));
+        path += ("/Chapter_" + chapter_combo -> GetStringSelection() + "_vocab_types.txt");
 
         std::string vocabulary_types_str;
         std::ifstream* vocabulary_types_file = new std::ifstream;
@@ -151,6 +163,13 @@ private:
     }
 
     void start_game(wxCommandEvent& event) {
+        wxArrayInt vocabulary_type_indices;
+        vocabulary_types_lbox -> GetSelections(vocabulary_type_indices);
+        for (auto i : vocabulary_type_indices) {
+            create_hashmap((vocabulary_set_combo -> GetStringSelection()).ToStdString(),
+                           (chapter_combo -> GetStringSelection()).ToStdString(),
+                           (vocabulary_types_lbox -> GetString(i)).ToStdString());
+        }
         wxMessageBox("PLACEHOLDER", "Start game.");
     }
 };
