@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1743791390 source:/home/patrick/Japanese-Study-Tool/main.cpp
+1743811836 source:/home/patrick/Japanese-Study-Tool/main.cpp
 	<wx/wxprec.h>
 	<unordered_map>
 	<vector>
 	<string>
+	<string_view>
 	<fstream>
 	"CSVreader.h"
 	"Textreader.h"
+	"split.h"
+	"GameClass.h"
 	<wx/wx.h>
 
 1742848317 /usr/include/wx-3.2/wx/wxprec.h
@@ -1658,4 +1661,15 @@
 	<iostream>
 	<fstream>
 	<string>
+
+1743798708 /home/patrick/Japanese-Study-Tool/split.h
+	<vector>
+	<string_view>
+
+1743812258 /home/patrick/Japanese-Study-Tool/GameClass.h
+	<wx/wxprec.h>
+	<vector>
+	<string_view>
+	<numeric>
+	<wx/wx.h>
 

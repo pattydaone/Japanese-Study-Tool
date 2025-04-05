@@ -7,10 +7,13 @@
 #include "CSVreader.h"
 #include "Textreader.h"
 #include "split.h"
+#include "GameClass.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
 #endif // WX_PRECOMP
+
+using string_matrix = std::vector<std::vector<std::string_view>>;
 
 enum {
     ID_vocabulary_set_lbl = 1,
@@ -29,7 +32,8 @@ class Preferences : public wxFrame {
     std::ifstream csv_file;
     CSVRow row;
     std::string path { "Book_" };
-    std::unordered_map<std::string_view, std::vector<std::string_view>> vocabulary;
+    std::vector<std::string_view> vocabulary_vec;
+    string_matrix vocabulary_matrix;
 
     // Labels
     wxStaticText *vocabulary_set_lbl = new wxStaticText;
@@ -117,7 +121,7 @@ public:
     }
 
 private:
-    void create_hashmap(const std::string_view& superset, const std::string_view& subset, const std::string_view& vocab_type) {
+    void parse_csv(const std::string_view& superset, const std::string_view& subset, const std::string_view& vocab_type) {
         csv_file.open("vocabulary.csv");
         std::vector<std::string_view> values;
         values.reserve(4);
@@ -125,7 +129,8 @@ private:
         while (csv_file >> row) {
             if (row[0] == superset && row[1] == subset && row[2] == vocab_type) {
                 split(row[4], values);
-                vocabulary.emplace(row[3], values);
+                vocabulary_vec.emplace_back(row[3]);
+                vocabulary_matrix.emplace_back(values);
                 values.clear();
             }
         }
@@ -166,11 +171,24 @@ private:
         wxArrayInt vocabulary_type_indices;
         vocabulary_types_lbox -> GetSelections(vocabulary_type_indices);
         for (auto i : vocabulary_type_indices) {
-            create_hashmap((vocabulary_set_combo -> GetStringSelection()).ToStdString(),
+            /*
+            IMPORTANT: casting from wxString to std::string *could* be destructive, I am especially concerned about what it'll do
+            since I'm using a lot of non-english characters; if there are issues, look here.
+            */
+            parse_csv((vocabulary_set_combo -> GetStringSelection()).ToStdString(),
                            (chapter_combo -> GetStringSelection()).ToStdString(),
                            (vocabulary_types_lbox -> GetString(i)).ToStdString());
         }
-        wxMessageBox("PLACEHOLDER", "Start game.");
+
+
+    }
+};
+
+class Type : public Game {
+public:
+    Type(std::vector<std::string_view>& vec, string_matrix& matrix)
+        : Game(vec, matrix) {
+
     }
 };
 

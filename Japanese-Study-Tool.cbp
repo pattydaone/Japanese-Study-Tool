@@ -41,6 +41,7 @@
 		<Unit filename="CSVreader.h" />
 		<Unit filename="Textreader.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="split.h" />
 		<Unit filename="testing.cbp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
