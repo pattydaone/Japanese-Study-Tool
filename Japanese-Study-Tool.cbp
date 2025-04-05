@@ -39,6 +39,7 @@
 			<Add option="`wx-config --libs`" />
 		</Linker>
 		<Unit filename="CSVreader.h" />
+		<Unit filename="GameClass.h" />
 		<Unit filename="Textreader.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="split.h" />

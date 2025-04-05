@@ -185,6 +185,33 @@ private:
 };
 
 class Type : public Game {
+// Labels
+wxStaticText* static_turn = new wxStaticText;
+wxStaticText* variant_turn = new wxStaticText;
+wxStaticText* static_question = new wxStaticText;
+wxStaticText* variant_question = new wxStaticText;
+
+// Label points
+wxPoint PT_static_turn;
+wxPoint PT_variant_turn;
+wxPoint PT_static_question;
+wxPoint PT_variant_question;
+
+// Label sizes
+wxSize SZ_static_turn;
+wxSize SZ_variant_turn;
+wxSize SZ_static_question;
+wxSize SZ_variant_question;
+
+// Text control
+wxTextCtrl* entry = new wxTextCtrl;
+
+// Control point
+wxPoint PT_entry;
+
+// Control size
+wxSize SZ_entry;
+
 public:
     Type(std::vector<std::string_view>& vec, string_matrix& matrix)
         : Game(vec, matrix) {
