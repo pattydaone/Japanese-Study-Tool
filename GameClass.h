@@ -23,14 +23,14 @@ protected:
     int amnt_correct { 0 };
     int amnt_incorrect { 0 };
 
-    virtual void start_game() = 0;
-    virtual void check_answer() = 0;
-    virtual void start_from_end() = 0;
+    //virtual void start_game() = 0;
+    //virtual void check_answer() = 0;
+    //virtual void start_from_end() = 0;
 
 public:
     Game(const std::vector<std::string_view>& vec, const string_matrix& matrix )
-                : questions { vec }, answers { matrix }
-                , wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { 475, 200 })
+                : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { 475, 200 })
+                , questions { vec }, answers { matrix }
 
     {
         indices.reserve(vec.size());

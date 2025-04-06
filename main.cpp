@@ -15,19 +15,84 @@
 
 using string_matrix = std::vector<std::vector<std::string_view>>;
 
-enum {
-    ID_vocabulary_set_lbl = 1,
-    ID_chapter_lbl = 2,
-    ID_game_lbl = 3,
-    ID_lbox_lbl = 4,
-    ID_vocabulary_set_combo = 5,
-    ID_chapter_combo = 6,
-    ID_game_combo = 7,
-    ID_finished_button = 8,
-    ID_vocabulary_types_lbox = 9,
+class Type : public Game {
+    enum {
+        ID_static_turn,
+        ID_variant_turn,
+        ID_static_question,
+        ID_variant_question,
+        ID_entry,
+        ID_enter_button,
+    };
+
+
+// Labels
+wxStaticText* static_turn = new wxStaticText;
+wxStaticText* variant_turn = new wxStaticText;
+wxStaticText* static_question = new wxStaticText;
+wxStaticText* variant_question = new wxStaticText;
+
+// Label points
+wxPoint PT_static_turn { 0, 0 };
+wxPoint PT_variant_turn { PT_static_turn.x, PT_static_turn.y + 30 };
+wxPoint PT_static_question { 100, 0 };
+wxPoint PT_variant_question { PT_static_question.x, PT_static_question.y + 30 };
+
+// Label sizes
+wxSize SZ_static_turn { 50, 25 };
+wxSize SZ_variant_turn { 50, 25 };
+wxSize SZ_static_question { 100, 25 };
+wxSize SZ_variant_question { 100, 25 };
+
+// Text control
+wxTextCtrl* entry = new wxTextCtrl;
+
+// Control point
+wxPoint PT_entry { 100, 100 };
+
+// Control size
+wxSize SZ_entry { 100, 25 };
+
+// Button
+wxButton* enter_button = new wxButton;
+
+// Button point
+wxPoint PT_enter_button { PT_entry.x + SZ_entry.x, PT_entry.y };
+
+// Button size
+wxSize SZ_enter_button { 50, 25 };
+
+public:
+    Type(std::vector<std::string_view>& vec, string_matrix& matrix)
+        : Game(vec, matrix) {
+
+        // Labels
+        static_turn -> Create(this, ID_static_turn, "Turn:", PT_static_turn, SZ_static_turn);
+        variant_turn -> Create(this, ID_variant_turn, wxEmptyString, PT_variant_turn, SZ_variant_turn);
+        static_question -> Create(this, ID_static_question, "Word: ", PT_static_question, SZ_static_question);
+        variant_question -> Create(this, ID_variant_question, wxEmptyString, PT_variant_question, SZ_variant_question);
+
+        // Text Control
+        entry -> Create(this, ID_entry, wxEmptyString, PT_entry, SZ_entry);
+
+        // Button
+        enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
+    }
 };
 
 class Preferences : public wxFrame {
+    enum {
+        ID_vocabulary_set_lbl,
+        ID_chapter_lbl,
+        ID_game_lbl,
+        ID_lbox_lbl,
+        ID_vocabulary_set_combo,
+        ID_chapter_combo,
+        ID_game_combo,
+        ID_finished_button,
+        ID_vocabulary_types_lbox,
+    };
+
     // Data
     std::ifstream csv_file;
     CSVRow row;
@@ -180,41 +245,8 @@ private:
                            (vocabulary_types_lbox -> GetString(i)).ToStdString());
         }
 
-
-    }
-};
-
-class Type : public Game {
-// Labels
-wxStaticText* static_turn = new wxStaticText;
-wxStaticText* variant_turn = new wxStaticText;
-wxStaticText* static_question = new wxStaticText;
-wxStaticText* variant_question = new wxStaticText;
-
-// Label points
-wxPoint PT_static_turn;
-wxPoint PT_variant_turn;
-wxPoint PT_static_question;
-wxPoint PT_variant_question;
-
-// Label sizes
-wxSize SZ_static_turn;
-wxSize SZ_variant_turn;
-wxSize SZ_static_question;
-wxSize SZ_variant_question;
-
-// Text control
-wxTextCtrl* entry = new wxTextCtrl;
-
-// Control point
-wxPoint PT_entry;
-
-// Control size
-wxSize SZ_entry;
-
-public:
-    Type(std::vector<std::string_view>& vec, string_matrix& matrix)
-        : Game(vec, matrix) {
+        Type *type = new Type(vocabulary_vec, vocabulary_matrix);
+        type -> Show();
 
     }
 };
