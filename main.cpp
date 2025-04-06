@@ -25,42 +25,64 @@ class Type : public Game {
         ID_enter_button,
     };
 
+    // Data
+    wxString q;
+    std::vector<std::string_view> a;
+    std::string_view text_entry;
 
-// Labels
-wxStaticText* static_turn = new wxStaticText;
-wxStaticText* variant_turn = new wxStaticText;
-wxStaticText* static_question = new wxStaticText;
-wxStaticText* variant_question = new wxStaticText;
+    // Labels
+    wxStaticText* static_turn = new wxStaticText;
+    wxStaticText* variant_turn = new wxStaticText;
+    wxStaticText* static_question = new wxStaticText;
+    wxStaticText* variant_question = new wxStaticText;
+    wxStaticText* correct_label = new wxStaticText;
 
-// Label points
-wxPoint PT_static_turn { 0, 0 };
-wxPoint PT_variant_turn { PT_static_turn.x, PT_static_turn.y + 30 };
-wxPoint PT_static_question { 100, 0 };
-wxPoint PT_variant_question { PT_static_question.x, PT_static_question.y + 30 };
+    // Label points
+    wxPoint PT_static_turn { 0, 0 };
+    wxPoint PT_variant_turn { PT_static_turn.x, PT_static_turn.y + 30 };
+    wxPoint PT_static_question { 100, 0 };
+    wxPoint PT_variant_question { PT_static_question.x, PT_static_question.y + 30 };
+    wxPoint PT_correct_label {};
 
-// Label sizes
-wxSize SZ_static_turn { 50, 25 };
-wxSize SZ_variant_turn { 50, 25 };
-wxSize SZ_static_question { 100, 25 };
-wxSize SZ_variant_question { 100, 25 };
+    // Label sizes
+    wxSize SZ_static_turn { 50, 25 };
+    wxSize SZ_variant_turn { 50, 25 };
+    wxSize SZ_static_question { 100, 25 };
+    wxSize SZ_variant_question { 100, 25 };
+    wxSize SZ_correct_label {};
 
-// Text control
-wxTextCtrl* entry = new wxTextCtrl;
+    // Text control
+    wxTextCtrl* entry = new wxTextCtrl;
 
-// Control point
-wxPoint PT_entry { 100, 100 };
+    // Control point
+    wxPoint PT_entry { 100, 100 };
 
-// Control size
-wxSize SZ_entry { 100, 25 };
+    // Control size
+    wxSize SZ_entry { 100, 25 };
 
-// Button
-wxButton* enter_button = new wxButton;
+    // Button
+    wxButton* enter_button = new wxButton;
 
-// Button point
-wxPoint PT_enter_button { PT_entry.x + SZ_entry.x, PT_entry.y };
+    // Button point
+    wxPoint PT_enter_button { PT_entry.x + SZ_entry.x, PT_entry.y };
 
-// Button size
-wxSize SZ_enter_button { 50, 25 };
+    // Button size
+    wxSize SZ_enter_button { 50, 25 };
+
+    virtual void start_game(wxCommandEvent& event) {
+        ++turns;
+        variant_turn -> SetLabel(std::to_string(turns));
+        variant_question -> SetLabel(static_cast<std::string>(questions[indices[turns-1]]));
+    }
+
+    virtual void check_answer(wxCommandEvent& event) {
+        text_entry = (entry -> GetLineText(0)).ToStdString();
+
+        if (std::find(answers[turns - 1].begin(), answers[turns - 1].end(), text_entry) != answers[turns - 1].end()) {
+            ++amnt_correct;
+            // correct label
+        }
+    }
 
 public:
     Type(std::vector<std::string_view>& vec, string_matrix& matrix)
