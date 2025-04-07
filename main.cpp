@@ -10,11 +10,12 @@
 #include "GameClass.h"
 #include "Join.h"
 
+
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
 #endif // WX_PRECOMP
 
-using string_matrix = std::vector<std::vector<std::string_view>>;
+using string_matrix = std::vector<std::vector<std::string>>;
 
 class Type : public Game {
     enum {
@@ -28,8 +29,8 @@ class Type : public Game {
 
     // Data
     wxString q;
-    std::vector<std::string_view> a;
-    std::string_view text_entry;
+    std::vector<std::string> a;
+    std::string text_entry;
 
     // Labels
     wxStaticText* static_turn = new wxStaticText;
@@ -39,27 +40,27 @@ class Type : public Game {
     wxStaticText* correct_label = new wxStaticText;
 
     // Label points
-    wxPoint PT_static_turn { 0, 0 };
-    wxPoint PT_variant_turn { PT_static_turn.x, PT_static_turn.y + 30 };
-    wxPoint PT_static_question { 100, 0 };
-    wxPoint PT_variant_question { PT_static_question.x, PT_static_question.y + 30 };
+    wxPoint PT_static_turn { 10, 0 };
+    wxPoint PT_variant_turn { PT_static_turn.x - 10, PT_static_turn.y + 25 };
+    wxPoint PT_static_question { 0, 0 }; // x redefined later in terms of other variables for centering
+    wxPoint PT_variant_question { 0, PT_static_question.y + 25 }; // x, again, defined later
     wxPoint PT_correct_label {};
 
     // Label sizes
     wxSize SZ_static_turn { 50, 25 };
     wxSize SZ_variant_turn { 50, 25 };
-    wxSize SZ_static_question { 100, 25 };
-    wxSize SZ_variant_question { 100, 25 };
+    wxSize SZ_static_question { 50, 25 };
+    wxSize SZ_variant_question { 300, 25 };
     wxSize SZ_correct_label {};
 
     // Text control
     wxTextCtrl* entry = new wxTextCtrl;
 
     // Control point
-    wxPoint PT_entry { 100, 100 };
+    wxPoint PT_entry { 100, 75 };
 
     // Control size
-    wxSize SZ_entry { 100, 25 };
+    wxSize SZ_entry { 150, 25 };
 
     // Button
     wxButton* enter_button = new wxButton;
@@ -70,10 +71,11 @@ class Type : public Game {
     // Button size
     wxSize SZ_enter_button { 50, 25 };
 
-    virtual void start_game(wxCommandEvent& event) {
+    virtual void start_game() {
         ++turns;
         variant_turn -> SetLabel(std::to_string(turns));
-        variant_question -> SetLabel(static_cast<std::string>(questions[indices[turns-1]]));
+        variant_question -> SetLabel(questions[indices[turns-1]]);
+	variant_question -> Wrap(SZ_variant_question.x/2 + 50);
     }
 
     virtual void check_answer(wxCommandEvent& event) {
@@ -86,20 +88,26 @@ class Type : public Game {
     }
 
 public:
-    Type(std::vector<std::string_view>& vec, string_matrix& matrix)
+    Type(std::vector<std::string>& vec, string_matrix& matrix)
         : Game(vec, matrix) {
-
+	// Setting some label points
+	PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
+	PT_variant_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_variant_question.x)/2;
+	
         // Labels
         static_turn -> Create(this, ID_static_turn, "Turn:", PT_static_turn, SZ_static_turn);
-        variant_turn -> Create(this, ID_variant_turn, wxEmptyString, PT_variant_turn, SZ_variant_turn);
-        static_question -> Create(this, ID_static_question, "Word: ", PT_static_question, SZ_static_question);
-        variant_question -> Create(this, ID_variant_question, wxEmptyString, PT_variant_question, SZ_variant_question);
+        variant_turn -> Create(this, ID_variant_turn, wxEmptyString, PT_variant_turn, SZ_variant_turn, wxALIGN_CENTRE_HORIZONTAL);
+        static_question -> Create(this, ID_static_question, "Word: ", PT_static_question, SZ_static_question, wxALIGN_CENTRE_HORIZONTAL);
+        variant_question -> Create(this, ID_variant_question, wxEmptyString, PT_variant_question, SZ_variant_question, wxALIGN_CENTRE_HORIZONTAL);
 
         // Text Control
         entry -> Create(this, ID_entry, wxEmptyString, PT_entry, SZ_entry);
 
         // Button
         enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
+
+	// Start main loop
+	start_game();
     }
 };
 
@@ -120,7 +128,7 @@ class Preferences : public wxFrame {
     std::ifstream csv_file;
     CSVRow row;
     std::string path { "Book_" };
-    std::vector<std::string_view> vocabulary_vec;
+    std::vector<std::string> vocabulary_vec;
     string_matrix vocabulary_matrix;
 
     // Labels
@@ -200,18 +208,18 @@ public:
         Bind(wxEVT_BUTTON, &Preferences::start_game, this, ID_finished_button);
 
         std::string vocabulary_set_str;
-        std::ifstream* vocabulary_set_file = new std::ifstream;
-        vocabulary_set_file -> open("Available_books.txt");
+        std::ifstream vocabulary_set_file;
+        vocabulary_set_file.open("Available_books.txt");
 
-        while (*vocabulary_set_file >> vocabulary_set_str) {
+        while (vocabulary_set_file >> vocabulary_set_str) {
             vocabulary_set_combo -> Append(vocabulary_set_str);
         }
     }
 
 private:
-    void parse_csv(const std::string_view& superset, const std::string_view& subset, const std::string_view& vocab_type) {
+    void parse_csv(const std::string& superset, const std::string& subset, const std::string& vocab_type) {
         csv_file.open("vocabulary.csv");
-        std::vector<std::string_view> values;
+        std::vector<std::string> values;
         values.reserve(4);
 
         while (csv_file >> row) {
@@ -231,11 +239,11 @@ private:
 
         path.erase(5);
         path += (vocabulary_set_combo -> GetStringSelection() + "/Available_Chapters.txt");
-        std::ifstream* chapter_file = new std::ifstream;
-        chapter_file -> open(path);
+        std::ifstream chapter_file;
+        chapter_file.open(path);
         path.erase(path.find("Available"));
 
-        while (*chapter_file >> chapter_str) {
+        while (chapter_file >> chapter_str) {
             chapter_combo -> Append(chapter_str);
         }
     }
@@ -245,11 +253,11 @@ private:
         path += ("/Chapter_" + chapter_combo -> GetStringSelection() + "_vocab_types.txt");
 
         std::string vocabulary_types_str;
-        std::ifstream* vocabulary_types_file = new std::ifstream;
-        vocabulary_types_file -> open(path);
+        std::ifstream vocabulary_types_file;
+        vocabulary_types_file.open(path);
 
         vocabulary_types_lbox -> Clear();
-        while (*vocabulary_types_file >> vocabulary_types_str) {
+        while (vocabulary_types_file >> vocabulary_types_str) {
             vocabulary_types_lbox -> Append(vocabulary_types_str);
         }
 

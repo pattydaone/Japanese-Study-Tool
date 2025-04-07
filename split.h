@@ -4,7 +4,7 @@
 #include <vector>
 #include <string_view>
 
-void split(std::string_view str, std::vector<std::string_view>& vec) {
+void split(std::string_view str, std::vector<std::string>& vec) {
     std::size_t pos { 0 };
 
     while ((pos = str.find("｜｜", 0)) != std::string_view::npos) {

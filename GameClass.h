@@ -12,13 +12,13 @@
     #include <wx/wx.h>
 #endif // WX_PRECOMP
 
-using string_matrix = std::vector<std::vector<std::string_view>>;
+using string_matrix = std::vector<std::vector<std::string>>;
 
 class Game : public wxFrame {
 protected:
     // Data
     std::vector<int> indices;
-    std::vector<std::string_view> questions;
+    std::vector<std::string> questions;
     string_matrix answers;
     int turns { 0 };
     bool cycle = true;
@@ -27,17 +27,17 @@ protected:
     std::random_device rd;
     std::mt19937 g{ rd() };
 
-    virtual void start_game(wxCommandEvent& event) = 0;
+    virtual void start_game() = 0;
     virtual void check_answer(wxCommandEvent& event) = 0;
     //virtual void start_from_end() = 0;
 
 public:
-    Game(const std::vector<std::string_view>& vec, const string_matrix& matrix )
+    Game(const std::vector<std::string>& vec, const string_matrix& matrix )
                 : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { 475, 200 })
                 , questions { vec }, answers { matrix }
 
     {
-        indices.reserve(vec.size());
+        indices.resize(vec.size());
         std::iota(indices.begin(), indices.end(), 0);
         std::shuffle(indices.begin(), indices.end(), g);
     }
