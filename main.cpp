@@ -8,6 +8,7 @@
 #include "Textreader.h"
 #include "split.h"
 #include "GameClass.h"
+#include "Join.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
