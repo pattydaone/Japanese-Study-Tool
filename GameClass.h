@@ -29,7 +29,8 @@ protected:
 
     virtual void start_game() = 0;
     virtual void check_answer(wxCommandEvent& event) = 0;
-    //virtual void start_from_end() = 0;
+    virtual void end_frame() = 0;
+    virtual void start_from_end() = 0;
 
 public:
     Game(const std::vector<std::string>& vec, const string_matrix& matrix )
