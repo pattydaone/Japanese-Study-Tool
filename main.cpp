@@ -17,6 +17,10 @@
 
 using string_matrix = std::vector<std::vector<std::string>>;
 
+enum TimerId {
+    ID_timer,
+};
+
 class Type : public Game {
     enum {
         ID_static_turn,
@@ -33,6 +37,8 @@ class Type : public Game {
     wxString q;
     std::vector<std::string> a;
     std::string text_entry;
+    wxTimer timer;
+    wxDECLARE_EVENT_TABLE();
 
     // Labels
     wxStaticText* static_turn = new wxStaticText;
@@ -75,7 +81,7 @@ class Type : public Game {
 
     // Button size
     wxSize SZ_enter_button { 50, 25 };
-
+	
     virtual void start_game() {
         ++turns;
         variant_turn -> SetLabel(std::to_string(turns));
@@ -86,7 +92,7 @@ class Type : public Game {
     virtual void check_answer(wxCommandEvent& event) {
 	// TODO this shit wont fucking work at ALL kill yourself
 	entry -> SetWindowStyle(wxTE_READONLY);
-        text_entry = (entry -> GetLineText(0)).ToStdString();
+        text_entry = (entry -> GetLineText(0)).utf8_string();
 
         if (std::find(answers[turns - 1].begin(), answers[turns - 1].end(), text_entry) != answers[turns - 1].end()) {
             ++amnt_correct;
@@ -95,20 +101,10 @@ class Type : public Game {
 	else {
 	    ++amnt_incorrect;
 	    static_correct_label -> SetLabel("Incorrect :(");
-	    variant_correct_label -> SetLabel(join(answers[turns - 1]));
+	    variant_correct_label -> SetLabel(wxString::FromUTF8(join(answers[indices[turns - 1]])));
 	    variant_correct_label -> Wrap(SZ_variant_correct_label.x/2 + 50);
 	}
-	
-	wxSleep(2);
-
-	static_correct_label -> SetLabel(wxEmptyString);
-	variant_correct_label -> SetLabel(wxEmptyString);
-	if (turns < static_cast<int>(indices.size())) {
-	    entry -> SetLabel(wxEmptyString);
-	    entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
-	    start_game();
-	}
-	else { end_frame(); }
+	timer.StartOnce(2000);	
     }
 
     virtual void end_frame() {
@@ -129,7 +125,8 @@ class Type : public Game {
 
 public:
     Type(std::vector<std::string>& vec, string_matrix& matrix)
-        : Game(vec, matrix) {
+	: Game(vec, matrix)
+        , timer(this, ID_timer) {
 	// Setting some label points
 	PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
 	PT_variant_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_variant_question.x)/2;
@@ -147,12 +144,23 @@ public:
 	
 	// Button	
 	enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
-	
+
 	Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
 	Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
 
 	// Start main loop
 	start_game();
+    }
+
+    void restart_cycle(wxTimerEvent& event) {
+    	static_correct_label -> SetLabel(wxEmptyString);
+	variant_correct_label -> SetLabel(wxEmptyString);
+	if (turns < static_cast<int>(indices.size())) {
+		entry -> Clear();
+		entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
+		start_game();
+	}
+	else { end_frame(); }
     }
 };
 
@@ -316,16 +324,20 @@ private:
             IMPORTANT: casting from wxString to std::string *could* be destructive, I am especially concerned about what it'll do
             since I'm using a lot of non-english characters; if there are issues, look here.
             */
-            parse_csv((vocabulary_set_combo -> GetStringSelection()).ToStdString(),
-                           (chapter_combo -> GetStringSelection()).ToStdString(),
-                           (vocabulary_types_lbox -> GetString(i)).ToStdString());
+            parse_csv((vocabulary_set_combo -> GetStringSelection()).utf8_string(),
+                           (chapter_combo -> GetStringSelection()).utf8_string(),
+                           (vocabulary_types_lbox -> GetString(i)).utf8_string());
         }
-
+	
         Type *type = new Type(vocabulary_vec, vocabulary_matrix);
         type -> Show();
 
     }
 };
+
+wxBEGIN_EVENT_TABLE(Type, wxFrame)
+    EVT_TIMER(ID_timer, Type::restart_cycle)
+wxEND_EVENT_TABLE()
 
 class App : public wxApp {
 public:
