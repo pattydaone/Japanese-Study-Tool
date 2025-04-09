@@ -90,9 +90,11 @@ class Type : public Game {
     }
 
     virtual void check_answer(wxCommandEvent& event) {
-	// TODO this shit wont fucking work at ALL kill yourself
+	Unbind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
+	Unbind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
 	entry -> SetWindowStyle(wxTE_READONLY);
         text_entry = (entry -> GetLineText(0)).utf8_string();
+
 
         if (std::find(answers[turns - 1].begin(), answers[turns - 1].end(), text_entry) != answers[turns - 1].end()) {
             ++amnt_correct;
@@ -155,6 +157,8 @@ public:
     void restart_cycle(wxTimerEvent& event) {
     	static_correct_label -> SetLabel(wxEmptyString);
 	variant_correct_label -> SetLabel(wxEmptyString);
+	Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
+	Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
 	if (turns < static_cast<int>(indices.size())) {
 		entry -> Clear();
 		entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
@@ -283,6 +287,7 @@ private:
                 values.clear();
             }
         }
+	csv_file.close();
     }
 
     void set_chapters(wxCommandEvent& event) {
@@ -317,6 +322,8 @@ private:
     }
 
     void start_game(wxCommandEvent& event) {
+	vocabulary_vec.clear();
+	vocabulary_matrix.clear();
         wxArrayInt vocabulary_type_indices;
         vocabulary_types_lbox -> GetSelections(vocabulary_type_indices);
         for (auto i : vocabulary_type_indices) {
