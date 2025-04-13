@@ -18,7 +18,8 @@
 using string_matrix = std::vector<std::vector<std::string>>;
 
 enum TimerId {
-    ID_timer,
+    ID_type_timer,
+	ID_write_timer,
 };
 
 class Type : public Game {
@@ -29,8 +30,8 @@ class Type : public Game {
         ID_variant_question,
         ID_entry,
         ID_enter_button,
-	ID_static_correct_label,
-	ID_variant_correct_label,
+		ID_static_correct_label,
+		ID_variant_correct_label,
     };
 
     // Data
@@ -96,7 +97,7 @@ class Type : public Game {
         text_entry = (entry -> GetLineText(0)).utf8_string();
 
 
-        if (std::find(answers[turns - 1].begin(), answers[turns - 1].end(), text_entry) != answers[turns - 1].end()) {
+        if (std::find(answers[indices[turns - 1]].begin(), answers[indices[turns - 1]].end(), text_entry) != answers[indices[turns - 1]].end()) {
             ++amnt_correct;
 	    static_correct_label -> SetLabel("Correct!");
         }
@@ -127,45 +128,179 @@ class Type : public Game {
 
 public:
     Type(std::vector<std::string>& vec, string_matrix& matrix)
-	: Game(vec, matrix)
-        , timer(this, ID_timer) {
-	// Setting some label points
-	PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
-	PT_variant_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_variant_question.x)/2;
+		: Game(vec, matrix)
+    	, timer(this, TimerId::ID_type_timer) {
+		// Setting some label points
+		PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
+		PT_variant_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_variant_question.x)/2;
 	
         // Labels
         static_turn -> Create(this, ID_static_turn, "Turn:", PT_static_turn, SZ_static_turn);
         variant_turn -> Create(this, ID_variant_turn, wxEmptyString, PT_variant_turn, SZ_variant_turn, wxALIGN_CENTRE_HORIZONTAL);
         static_question -> Create(this, ID_static_question, "Word: ", PT_static_question, SZ_static_question, wxALIGN_CENTRE_HORIZONTAL);
         variant_question -> Create(this, ID_variant_question, wxEmptyString, PT_variant_question, SZ_variant_question, wxALIGN_CENTRE_HORIZONTAL);
-	static_correct_label -> Create(this, ID_static_correct_label, wxEmptyString, PT_static_correct_label, SZ_static_correct_label, wxALIGN_CENTRE_HORIZONTAL);
-	variant_correct_label -> Create(this, ID_variant_correct_label, wxEmptyString, PT_variant_correct_label, SZ_variant_correct_label, wxALIGN_CENTRE_HORIZONTAL);
+		static_correct_label -> Create(this, ID_static_correct_label, wxEmptyString, PT_static_correct_label, SZ_static_correct_label, wxALIGN_CENTRE_HORIZONTAL);
+		variant_correct_label -> Create(this, ID_variant_correct_label, wxEmptyString, PT_variant_correct_label, SZ_variant_correct_label, wxALIGN_CENTRE_HORIZONTAL);
 
-	// Text Control
-	entry -> Create(this, ID_entry, wxEmptyString, PT_entry, SZ_entry, wxTE_PROCESS_ENTER);
-	
-	// Button	
-	enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
+		// Text Control
+		entry -> Create(this, ID_entry, wxEmptyString, PT_entry, SZ_entry, wxTE_PROCESS_ENTER);
+		
+		// Button	
+		enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
 
-	Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
-	Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
+		Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
+		Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
 
-	// Start main loop
-	start_game();
+		// Start main loop
+		start_game();
     }
 
     void restart_cycle(wxTimerEvent& event) {
     	static_correct_label -> SetLabel(wxEmptyString);
-	variant_correct_label -> SetLabel(wxEmptyString);
-	Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
-	Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
-	if (turns < static_cast<int>(indices.size())) {
-		entry -> Clear();
-		entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
-		start_game();
+		variant_correct_label -> SetLabel(wxEmptyString);
+		Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
+		Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
+		if (turns < static_cast<int>(indices.size())) {
+			entry -> Clear();
+			entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
+			start_game();
+		}
+		else { end_frame(); }
+		}
+};
+
+class Write : public Game {
+	enum {
+		ID_write_timer,
+		ID_write_canvas,
+		ID_animation_canvas,
+		ID_static_on_label,
+		ID_static_kun_label,
+		ID_static_meaning_label,
+		ID_variant_on_label,
+		ID_variant_kun_label,
+		ID_variant_meaning_label,
+		ID_static_size_label,
+		ID_variant_size_label,
+		ID_enter_button,
+		ID_show_ans_button,
+		ID_undo_button,
+		ID_clear_button,
+		ID_size_slider,
+	};
+
+	// Data
+	wxTimer timer;
+	string_matrix& write_questions { answers }; 
+	std::vector<std::string>& write_answers { questions }; // Reordering these because data is stored opposite with respect to written vocabulary
+
+	// Canvas Frames
+	wxFrame* write_canvas = new wxFrame;
+	wxFrame* animation_canvas = new wxFrame;
+
+	// Paint dcs
+	wxPaintDC DC_write { write_canvas };
+	wxPaintDC DC_animation { animation_canvas };
+
+	// Canvas points
+	wxPoint PT_write_canvas;
+	wxPoint PT_animation_canvas;
+
+	// Canvas sizes
+	wxSize SZ_write_canvas;
+	wxSize SZ_animation_canvas;
+
+	// Labels
+	wxStaticText* static_on_label = new wxStaticText;
+	wxStaticText* variant_on_label = new wxStaticText;
+	wxStaticText* static_kun_label = new wxStaticText;
+	wxStaticText* variant_kun_label = new wxStaticText;
+	wxStaticText* static_meaning_label = new wxStaticText;
+	wxStaticText* variant_meaning_label = new wxStaticText;
+	wxStaticText* static_size_label = new wxStaticText;
+	wxStaticText* variant_size_label = new wxStaticText;
+
+	// Label points
+	wxPoint PT_static_on_label;
+	wxPoint PT_variant_on_label;
+	wxPoint PT_static_kun_label;
+	wxPoint PT_variant_kun_label;
+	wxPoint PT_static_meaning_label;
+	wxPoint PT_variant_meaning_label;
+	wxPoint PT_static_size_label;
+	wxPoint PT_variant_size_label;
+
+	// Label sizes
+	wxSize SZ_static_on_label;
+	wxSize SZ_variant_on_label;
+	wxSize SZ_static_kun_label;
+	wxSize SZ_variant_kun_label;
+	wxSize SZ_static_meaning_label;
+	wxSize SZ_variant_meaning_label;
+	wxSize SZ_static_size_label;
+	wxSize SZ_variant_size_label;
+
+	// Buttons
+	wxButton* enter_button = new wxButton;
+	wxButton* show_ans_button = new wxButton;
+	wxButton* undo_button = new wxButton;
+	wxButton* clear_button = new wxButton;
+
+	// Button points
+	wxPoint PT_enter_button;
+	wxPoint PT_show_ans_button;
+	wxPoint PT_undo_button;
+	wxPoint PT_clear_button;
+
+	// Button sizes
+	wxSize SZ_enter_button;
+	wxSize SZ_show_ans_button;
+	wxSize SZ_undo_button;
+	wxSize SZ_clear_button;
+
+	// Slider
+	wxSlider* size_slider = new wxSlider;
+
+	// Slider point
+	wxPoint PT_size_slider;
+
+	// Slider size
+	wxSize SZ_size_slider;
+
+	virtual void start_game() {
+		++turns;
+		variant_on_label -> SetLabel(write_questions[indices[turns - 1]][0]);
+		variant_kun_label -> SetLabel(write_questions[indices[turns - 1]][0]);
+		variant_meaning_label -> SetLabel(write_questions[indices[turns - 1]][0]);
 	}
-	else { end_frame(); }
-    }
+
+public:
+    Write(std::vector<std::string> vec, string_matrix matrix)
+		: Game(vec, matrix)
+		, timer(this, TimerId::ID_write_timer) {
+		// Labels
+		static_size_label -> Create(this, ID_static_size_label, "Size: ", PT_static_size_label, SZ_static_size_label);
+		variant_size_label -> Create(this, ID_variant_size_label, wxEmptyString, PT_variant_size_label, SZ_variant_size_label);
+		static_on_label -> Create(this, ID_static_on_label, "On reading:", PT_static_on_label, SZ_static_on_label);
+		variant_on_label -> Create(this, ID_variant_on_label, wxEmptyString, PT_variant_on_label, SZ_variant_on_label);
+		static_kun_label -> Create(this, ID_variant_kun_label, "Kun reading:", PT_static_kun_label, SZ_static_kun_label);
+		variant_kun_label -> Create(this, ID_variant_kun_label, wxEmptyString, PT_variant_kun_label, SZ_variant_kun_label);
+		static_meaning_label -> Create(this, ID_static_meaning_label, "Meaning:", PT_static_meaning_label, SZ_variant_meaning_label);
+		variant_meaning_label -> Create(this, ID_variant_meaning_label, wxEmptyString, PT_variant_meaning_label, SZ_variant_meaning_label);
+
+		// Buttons
+		enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
+		show_ans_button -> Create(this, ID_show_ans_button, "Show answer", PT_show_ans_button, SZ_show_ans_button);
+		undo_button -> Create(this, ID_undo_button, "Undo", PT_undo_button, SZ_undo_button);
+		clear_button -> Create(this, ID_clear_button, "Clear", PT_clear_button, SZ_clear_button);
+
+		// Slider
+		size_slider -> Create(this, ID_size_slider, 2, 0, 10, PT_size_slider, SZ_size_slider, wxSL_VERTICAL);
+
+		// Canvas'
+		write_canvas -> Create(this, ID_write_canvas, wxEmptyString, PT_write_canvas, SZ_write_canvas);
+		animation_canvas -> Create(this, ID_animation_canvas, wxEmptyString, PT_animation_canvas, SZ_animation_canvas);
+	}
 };
 
 class Preferences : public wxFrame {
@@ -246,12 +381,12 @@ public:
         vocabulary_set_lbl -> Create(this, ID_vocabulary_set_lbl, "Vocabulary Set", PT_vocabulary_set_lbl, SZ_vocabulary_set_lbl);
         chapter_lbl -> Create(this, ID_chapter_lbl, "Chapter", PT_chapter_lbl, SZ_chapter_lbl);
         game_lbl -> Create(this, ID_game_lbl, "Game", PT_game_lbl, SZ_game_lbl);
-        lbox_lbl -> Create(this, ID_lbox_lbl, "Select Vocabulary Word Type", PT_lbox_lbl, SZ_lbox_lbl);
+        lbox_lbl -> Create(this, ID_lbox_lbl, "Select Vocabulary Word Type", PT_lbox_lbl, SZ_lbox_lbl, 0);
 
         // Combo Boxes
         vocabulary_set_combo -> Create(this, ID_vocabulary_set_combo, "Please select a vocabulary set", PT_vocabulary_set_combo, SZ_vocabulary_set_combo);
         chapter_combo -> Create(this, ID_chapter_combo, "Please select a chapter", PT_chapter_combo, SZ_chapter_combo);
-        game_combo -> Create(this, ID_game_combo, "Please select a game", PT_game_combo, SZ_game_combo);
+        game_combo -> Create(this, ID_game_combo, "Please select a game", PT_game_combo, SZ_game_combo, {"Type", "Write"});
 
         // Button
         finished_button -> Create(this, ID_finished_button, "Finished!", PT_finished_button, SZ_finished_button);
@@ -335,15 +470,22 @@ private:
                            (chapter_combo -> GetStringSelection()).utf8_string(),
                            (vocabulary_types_lbox -> GetString(i)).utf8_string());
         }
-	
-        Type *type = new Type(vocabulary_vec, vocabulary_matrix);
-        type -> Show();
 
+		wxString game_inp { game_combo -> GetStringSelection() };
+
+		if (game_inp == "Type") {
+			Type *type = new Type(vocabulary_vec, vocabulary_matrix);
+			type -> Show();
+		}
+		else if (game_inp == "Write") {
+			// Write *write = new Write(vocabulary_vec, vocabulary_matrix);
+			// write -> Show();
+		}	
     }
 };
 
 wxBEGIN_EVENT_TABLE(Type, wxFrame)
-    EVT_TIMER(ID_timer, Type::restart_cycle)
+    EVT_TIMER(TimerId::ID_type_timer, Type::restart_cycle)
 wxEND_EVENT_TABLE()
 
 class App : public wxApp {

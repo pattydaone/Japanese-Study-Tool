@@ -11,14 +11,9 @@
 
 
 int main() {
-    std::vector<int> indices;
-    indices.resize(15);
+    std::vector<int> indices { 1, 2, 3, 4, 5, 6 };
+	std::cout << *(indices.begin()) << '\n';
+	std::cout << *(indices.end()) << '\n';
+	return 0;
 
-    if (indices.begin() == indices.end()) {std::cout << "Lol" << '\n';}
-
-    std::iota(indices.begin(), indices.end(), 0);
-
-    for (auto i : indices) {
-    	std::cout << i << '\n';
-    }
 }
