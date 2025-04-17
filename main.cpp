@@ -13,6 +13,7 @@
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
+	#include <wx/graphics.h>
 #endif // WX_PRECOMP
 
 using string_matrix = std::vector<std::vector<std::string>>;
@@ -128,7 +129,7 @@ class Type : public Game {
 
 public:
     Type(std::vector<std::string>& vec, string_matrix& matrix)
-		: Game(vec, matrix)
+		: Game(vec, matrix, 465, 200)
     	, timer(this, TimerId::ID_type_timer) {
 		// Setting some label points
 		PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
@@ -171,7 +172,6 @@ public:
 
 class Write : public Game {
 	enum {
-		ID_write_timer,
 		ID_write_canvas,
 		ID_animation_canvas,
 		ID_static_on_label,
@@ -192,22 +192,24 @@ class Write : public Game {
 	// Data
 	wxTimer timer;
 	string_matrix& write_questions { answers }; 
-	std::vector<std::string>& write_answers { questions }; // Reordering these because data is stored opposite with respect to written vocabulary
+	std::vector<std::string>& write_answers { questions }; 
+	// Reordering these because data is stored opposite with respect to written vocabulary
+	// This shit sucks but hopefully its ok since im using references.... should I even use a template class in the first place?
 
 	// Canvas Frames
 	wxFrame* write_canvas = new wxFrame;
 	wxFrame* animation_canvas = new wxFrame;
 
 	// Paint dcs
-	wxPaintDC DC_write { write_canvas };
-	wxPaintDC DC_animation { animation_canvas };
+	// wxPaintDC DC_write { write_canvas };
+	// wxPaintDC DC_animation { animation_canvas };
 
 	// Canvas points
-	wxPoint PT_write_canvas;
+	wxPoint PT_write_canvas { 50, 60 };
 	wxPoint PT_animation_canvas;
 
 	// Canvas sizes
-	wxSize SZ_write_canvas;
+	wxSize SZ_write_canvas { 425, 400 };
 	wxSize SZ_animation_canvas;
 
 	// Labels
@@ -221,24 +223,24 @@ class Write : public Game {
 	wxStaticText* variant_size_label = new wxStaticText;
 
 	// Label points
-	wxPoint PT_static_on_label;
-	wxPoint PT_variant_on_label;
-	wxPoint PT_static_kun_label;
-	wxPoint PT_variant_kun_label;
-	wxPoint PT_static_meaning_label;
-	wxPoint PT_variant_meaning_label;
-	wxPoint PT_static_size_label;
-	wxPoint PT_variant_size_label;
+	wxPoint PT_static_on_label { 100, 0 };
+	wxPoint PT_variant_on_label { PT_static_on_label.x, PT_static_on_label.y + 25 };
+	wxPoint PT_static_kun_label { 250, 0 };
+	wxPoint PT_variant_kun_label { PT_static_kun_label.x, PT_static_kun_label.y + 25 };
+	wxPoint PT_static_meaning_label { 400, 0 };
+	wxPoint PT_variant_meaning_label { PT_static_meaning_label.x, PT_static_meaning_label.y + 25 };
+	wxPoint PT_static_size_label { 15, 0 };
+	wxPoint PT_variant_size_label { PT_static_size_label.x, PT_static_size_label.y + 15 };
 
 	// Label sizes
-	wxSize SZ_static_on_label;
-	wxSize SZ_variant_on_label;
-	wxSize SZ_static_kun_label;
-	wxSize SZ_variant_kun_label;
-	wxSize SZ_static_meaning_label;
-	wxSize SZ_variant_meaning_label;
-	wxSize SZ_static_size_label;
-	wxSize SZ_variant_size_label;
+	wxSize SZ_static_on_label { 100, 25 };
+	wxSize SZ_variant_on_label { 100, 25 };
+	wxSize SZ_static_kun_label { 100, 25 };
+	wxSize SZ_variant_kun_label { 100, 25 };
+	wxSize SZ_static_meaning_label { 100, 25 };
+	wxSize SZ_variant_meaning_label { 100, 25 };
+	wxSize SZ_static_size_label { 100, 25 };
+	wxSize SZ_variant_size_label { 100, 25 };
 
 	// Buttons
 	wxButton* enter_button = new wxButton;
@@ -247,25 +249,25 @@ class Write : public Game {
 	wxButton* clear_button = new wxButton;
 
 	// Button points
-	wxPoint PT_enter_button;
-	wxPoint PT_show_ans_button;
-	wxPoint PT_undo_button;
-	wxPoint PT_clear_button;
+	wxPoint PT_enter_button { 500, 60 };
+	wxPoint PT_show_ans_button { PT_enter_button.x, PT_enter_button.y + 60 };
+	wxPoint PT_undo_button { PT_show_ans_button.x, PT_show_ans_button.y + 90 };
+	wxPoint PT_clear_button {PT_undo_button.x, PT_undo_button.y + 60 };
 
 	// Button sizes
-	wxSize SZ_enter_button;
-	wxSize SZ_show_ans_button;
-	wxSize SZ_undo_button;
-	wxSize SZ_clear_button;
+	wxSize SZ_enter_button { 50, 25 };
+	wxSize SZ_show_ans_button { 100, 25 };
+	wxSize SZ_undo_button { 50, 25 };
+	wxSize SZ_clear_button { 50, 25 };
 
 	// Slider
 	wxSlider* size_slider = new wxSlider;
 
 	// Slider point
-	wxPoint PT_size_slider;
+	wxPoint PT_size_slider { 0, 30 };
 
 	// Slider size
-	wxSize SZ_size_slider;
+	wxSize SZ_size_slider { 50, 400 };
 
 	virtual void start_game() {
 		++turns;
@@ -274,19 +276,37 @@ class Write : public Game {
 		variant_meaning_label -> SetLabel(write_questions[indices[turns - 1]][0]);
 	}
 
+	virtual void check_answer(wxCommandEvent& event) {
+		;
+	}
+
+	virtual void end_frame() {
+		;
+	}
+
+	virtual void start_from_end() {
+		;
+	}
+
+	void draw_line(wxPaintEvent &event) {
+		wxPaintDC write_dc(write_canvas);
+		wxGraphicsContext *write_gc = wxGraphicsContext::Create(write_dc);
+
+	}
+
 public:
     Write(std::vector<std::string> vec, string_matrix matrix)
-		: Game(vec, matrix)
+		: Game(vec, matrix, 600, 400)
 		, timer(this, TimerId::ID_write_timer) {
 		// Labels
-		static_size_label -> Create(this, ID_static_size_label, "Size: ", PT_static_size_label, SZ_static_size_label);
-		variant_size_label -> Create(this, ID_variant_size_label, wxEmptyString, PT_variant_size_label, SZ_variant_size_label);
-		static_on_label -> Create(this, ID_static_on_label, "On reading:", PT_static_on_label, SZ_static_on_label);
-		variant_on_label -> Create(this, ID_variant_on_label, wxEmptyString, PT_variant_on_label, SZ_variant_on_label);
-		static_kun_label -> Create(this, ID_variant_kun_label, "Kun reading:", PT_static_kun_label, SZ_static_kun_label);
-		variant_kun_label -> Create(this, ID_variant_kun_label, wxEmptyString, PT_variant_kun_label, SZ_variant_kun_label);
-		static_meaning_label -> Create(this, ID_static_meaning_label, "Meaning:", PT_static_meaning_label, SZ_variant_meaning_label);
-		variant_meaning_label -> Create(this, ID_variant_meaning_label, wxEmptyString, PT_variant_meaning_label, SZ_variant_meaning_label);
+		static_size_label -> Create(this, ID_static_size_label, "Size", PT_static_size_label, SZ_static_size_label);
+		variant_size_label -> Create(this, ID_variant_size_label, "25", PT_variant_size_label, SZ_variant_size_label);
+		static_on_label -> Create(this, ID_static_on_label, "On reading", PT_static_on_label, SZ_static_on_label);
+		variant_on_label -> Create(this, ID_variant_on_label, "Placeholder", PT_variant_on_label, SZ_variant_on_label);
+		static_kun_label -> Create(this, ID_variant_kun_label, "Kun reading", PT_static_kun_label, SZ_static_kun_label);
+		variant_kun_label -> Create(this, ID_variant_kun_label, "Placeholder", PT_variant_kun_label, SZ_variant_kun_label);
+		static_meaning_label -> Create(this, ID_static_meaning_label, "Meaning", PT_static_meaning_label, SZ_variant_meaning_label);
+		variant_meaning_label -> Create(this, ID_variant_meaning_label, "Placeholder", PT_variant_meaning_label, SZ_variant_meaning_label);
 
 		// Buttons
 		enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
@@ -297,9 +317,11 @@ public:
 		// Slider
 		size_slider -> Create(this, ID_size_slider, 2, 0, 10, PT_size_slider, SZ_size_slider, wxSL_VERTICAL);
 
-		// Canvas'
+		// Canvas
 		write_canvas -> Create(this, ID_write_canvas, wxEmptyString, PT_write_canvas, SZ_write_canvas);
-		animation_canvas -> Create(this, ID_animation_canvas, wxEmptyString, PT_animation_canvas, SZ_animation_canvas);
+		// animation_canvas -> Create(this, ID_animation_canvas, wxEmptyString, PT_animation_canvas, SZ_animation_canvas);
+
+		Bind(wxPaintEvent, &Write::draw_line, write_canvas, ID_write_canvas);
 	}
 };
 
@@ -478,8 +500,8 @@ private:
 			type -> Show();
 		}
 		else if (game_inp == "Write") {
-			// Write *write = new Write(vocabulary_vec, vocabulary_matrix);
-			// write -> Show();
+			Write *write = new Write(vocabulary_vec, vocabulary_matrix);
+			write -> Show();
 		}	
     }
 };

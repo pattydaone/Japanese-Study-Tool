@@ -33,8 +33,8 @@ protected:
     virtual void start_from_end() = 0;
 
 public:
-    Game(const std::vector<std::string>& vec, const string_matrix& matrix )
-                : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { 475, 200 })
+    Game(const std::vector<std::string>& vec, const string_matrix& matrix, int x, int y )
+                : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { x, y })
                 , questions { vec }, answers { matrix }
 
     {
