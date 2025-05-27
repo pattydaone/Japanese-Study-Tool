@@ -3,7 +3,6 @@
 
 #include <wx/wxprec.h>
 #include <vector>
-#include <string_view>
 #include <numeric>
 #include <algorithm>
 #include <random>

@@ -11,6 +11,7 @@ void split(std::string_view str, std::vector<std::string>& vec) {
         vec.emplace_back(str.substr(0, pos));
         str.remove_prefix(pos + 6);
     }
+    if (str.back() == '\r') { str.remove_suffix(1); }
     vec.emplace_back(str);
 }
 
