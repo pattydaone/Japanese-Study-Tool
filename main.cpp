@@ -204,9 +204,9 @@ class Write : public Game {
     std::vector<std::string>& write_answers { questions }; 
     
     // Each element in "drawn" follows a template: lastx, lasty, nextx, nexty, tag
-    std::vector<std::array<int, 5>> drawn { std::array<int, 5> {0,0,0,0,-1} };
+    std::vector<std::array<int, 5>> drawn { std::array<int, 5> { 0, 0, 0, 0, -1 } };
     std::vector<int> to_undo;
-    int tag {}, lastx {}, lasty {}, nextx {}, nexty {};
+    int tag {}, lastx {}, lasty {}, nextx {}, nexty {}, pen_size { 1 };
 
     // Canvas Frames
     wxPanel* write_canvas = new wxPanel;
@@ -219,6 +219,9 @@ class Write : public Game {
     // Canvas sizes
     wxSize SZ_write_canvas { 425, 400 };
     wxSize SZ_animation_canvas;
+
+    // Pen
+    wxPen pen {};
 
     // Labels
     wxStaticText* static_on_label = new wxStaticText;
@@ -332,7 +335,6 @@ class Write : public Game {
             int undo_tag = to_undo.back();
             to_undo.pop_back();
         
-        
             std::array<int, 5>* element = &(drawn.back());
             while ((*element)[4] == undo_tag) {
                     drawn.pop_back();
@@ -344,6 +346,7 @@ class Write : public Game {
     
     void paintEvent(wxPaintEvent &event) {
         wxPaintDC dc(write_canvas);
+        //dc.SetPen(pen);
 
         for (auto i : drawn) {
             dc.DrawLine(i[0], i[1], i[2], i[3]);
@@ -370,6 +373,12 @@ class Write : public Game {
             write_canvas -> Refresh();
         }
     }
+
+    void update_slider_value(wxCommandEvent& event) {
+        pen_size = size_slider -> GetValue();
+        variant_size_label -> SetLabel(std::to_string(pen_size));
+        pen.SetWidth(pen_size);
+    }
     
 public:
     Write(std::vector<std::string> vec, string_matrix matrix)
@@ -378,7 +387,7 @@ public:
  
         // Labels
         static_size_label -> Create(this, ID_static_size_label, "Size", PT_static_size_label, SZ_static_size_label);
-        variant_size_label -> Create(this, ID_variant_size_label, "25", PT_variant_size_label, SZ_variant_size_label);
+        variant_size_label -> Create(this, ID_variant_size_label, "2", PT_variant_size_label, SZ_variant_size_label);
         static_on_label -> Create(this, ID_static_on_label, "On reading", PT_static_on_label, SZ_static_on_label);
         variant_on_label -> Create(this, ID_variant_on_label, wxEmptyString, PT_variant_on_label, SZ_variant_on_label);
         static_kun_label -> Create(this, ID_variant_kun_label, "Kun reading", PT_static_kun_label, SZ_static_kun_label);
@@ -393,7 +402,7 @@ public:
         clear_button -> Create(this, ID_clear_button, "Clear", PT_clear_button, SZ_clear_button);
 
         // Slider
-        size_slider -> Create(this, ID_size_slider, 2, 0, 10, PT_size_slider, SZ_size_slider, wxSL_VERTICAL);
+        size_slider -> Create(this, ID_size_slider, 1, 1, 10, PT_size_slider, SZ_size_slider, wxSL_VERTICAL);
 
         // Canvas
         write_canvas -> Create(this, ID_write_canvas, PT_write_canvas, SZ_write_canvas);
@@ -408,6 +417,7 @@ public:
         Bind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
         Bind(wxEVT_BUTTON, &Write::undo, this, ID_undo_button);
         Bind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
+        Bind(wxEVT_SLIDER, &Write::update_slider_value, this, ID_size_slider);
 
         // Begin main loop
         start_game();
