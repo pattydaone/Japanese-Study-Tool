@@ -32,5 +32,5 @@
 *.app
 
 # extras
-.ycm_extra_config.py
+.ycm_extra_conf.py
 test.cpp
