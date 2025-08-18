@@ -1,14 +1,29 @@
-all:
-	echo "build, run"
+os := $(shell uname -s)
+flags :=
+libs :=
+compiler :=
+
+ifeq ($(os), Linux)
+	flags += $(shell wx-config --cppflags)
+	libs += $(shell wx-config --libs)
+	compiler += g++
+endif
+
+ifeq ($(os), Darwin)
+	flags += $(shell wx-config --cppflags)
+	libs += $(shell wx-config --libs)
+:wa
+	compiler += clang++
+endif
+
+all: build clean run
 build:
-	g++ -I/usr/lib/wx/include/gtk3-unicode-3.2 -I/usr/include/wx-3.2 -DWXUSINGDLL -D__WXGTK3__ -D__WXGTK__ -D_FILE_OFFSET_BITS=64 -Wall -g -I pwd -c main.cpp -o obj/Debug/main.o
-	g++ -o bin/Debug/testing obj/Debug/main.o  -lwx_gtk3u_xrc-3.2 -lwx_gtk3u_html-3.2 -lwx_gtk3u_qa-3.2 -lwx_gtk3u_core-3.2 -lwx_baseu_xml-3.2 -lwx_baseu_net-3.2 -lwx_baseu-3.2
+	$(compiler) $(flags) -Wall -g -c main.cpp -o main.o
+	$(compiler) -o bin/Debug/testing main.o $(libs)
+clean:
+	rm -f main.o
 run:
 	bin/Debug/testing
-br:
-	g++ -I/usr/lib/wx/include/gtk3-unicode-3.2 -I/usr/include/wx-3.2 -DWXUSINGDLL -D__WXGTK3__ -D__WXGTK__ -D_FILE_OFFSET_BITS=64 -Wall -g -I pwd -c main.cpp -o obj/Debug/main.o
-	g++ -o bin/Debug/testing obj/Debug/main.o  -lwx_gtk3u_xrc-3.2 -lwx_gtk3u_html-3.2 -lwx_gtk3u_qa-3.2 -lwx_gtk3u_core-3.2 -lwx_baseu_xml-3.2 -lwx_baseu_net-3.2 -lwx_baseu-3.2
-	bin/Debug/testing
-testbuild:
-	g++ -I/home/patrick/Japanese-Study-Tool test.cpp -o a.out
+testbuild: test.cpp
+	$(compiler) test.cpp -o a.out
 	./a.out
