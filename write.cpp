@@ -1,17 +1,20 @@
 #include <wx/wxprec.h>
 #include <vector>
 #include <string>
+#include <fstream>
 #include "GameClass.h"
 #include "constants.h"
+#include "canvas.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
     #include <wx/graphics.h>
+    #include <wx/dcbuffer.h>
 #endif // WX_PRECOMP
 
-using string_matrix = std::vector<std::vector<std::string>>;
 
-class Write : public Game {
+class Write : public wxFrame {
+    using string_matrix = std::vector<std::vector<std::string>>;
     enum {
         ID_write_canvas,
         ID_animation_canvas,
@@ -33,19 +36,15 @@ class Write : public Game {
     // Data
     wxTimer timer;
     wxDECLARE_EVENT_TABLE();
-    // Reordering these because data is stored opposite with respect to written vocabulary
-    // This shit sucks but hopefully its ok since im using references.... should I even use a template class in the first place?
-    string_matrix& write_questions { answers }; 
-    std::vector<std::string>& write_answers { questions }; 
+    GameData data;
+    string_matrix& write_questions; 
+    std::vector<std::string>& write_answers; 
+    int pen_size;
+    std::ifstream kanjiFile;
     
-    // Each element in "drawn" follows a template: lastx, lasty, nextx, nexty, tag, size
-    std::vector<std::array<int, 6>> drawn { std::array<int, 6> { 0, 0, 0, 0, -1, 1 } };
-    std::vector<int> to_undo;
-    int tag {}, lastx {}, lasty {}, nextx {}, nexty {}, pen_size { 1 };
-
     // Canvas Frames
-    wxPanel* write_canvas = new wxPanel;
-    wxPanel* animation_canvas = new wxPanel;
+    Canvas* write_canvas = new Canvas;
+    Canvas* animation_canvas = new Canvas;
 
     // Canvas points
     wxPoint PT_write_canvas { 50, 60 };
@@ -54,9 +53,6 @@ class Write : public Game {
     // Canvas sizes
     wxSize SZ_write_canvas { 425, 400 };
     wxSize SZ_animation_canvas;
-
-    // Pen
-    wxPen pen { *wxBLACK, pen_size, wxPENSTYLE_SOLID };
 
     // Labels
     wxStaticText* static_on_label = new wxStaticText;
@@ -115,33 +111,32 @@ class Write : public Game {
     // Slider size
     wxSize SZ_size_slider { 50, 400 };
 
-    virtual void start_game() {
-        ++turns;
-        variant_on_label -> SetLabel(wxString::FromUTF8(write_questions[indices[turns - 1]][0]));
-        variant_kun_label -> SetLabel(wxString::FromUTF8(write_questions[indices[turns - 1]][1]));
-        variant_meaning_label -> SetLabel(wxString::FromUTF8(write_questions[indices[turns - 1]][2]));
+    void start_game() {
+        ++data.turns;
+        variant_on_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][0]));
+        variant_kun_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][1]));
+        variant_meaning_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][2]));
     }
 
-    virtual void check_answer(wxCommandEvent& event) {
-        Unbind(wxEVT_BUTTON, &Write::clear, this, ID_clear_button);
+    void check_answer(wxCommandEvent& event) {
+        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
+        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
         Unbind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Unbind(wxEVT_BUTTON, &Write::undo, this, ID_undo_button);
         Unbind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
 
         animation(event);
         timer.StartOnce(2000);
     }
 
-    virtual void end_frame() {
+    void end_frame() {
     	int answer = wxMessageBox("You are done ! Would you like to play again?", "Play again?", wxYES_NO, this, 0, 125);
         if (answer == wxYES) { start_from_end(); }
         else { this -> Close(); }
         
     }
 
-    virtual void start_from_end() {
-        std::shuffle(indices.begin(), indices.end(), g);
-        turns = 0;
+    void start_from_end() {
+        data.reset();
         start_game();
     }
 
@@ -150,77 +145,31 @@ class Write : public Game {
     }
 
     void restart_cycle(wxTimerEvent& event) {
-        Bind(wxEVT_BUTTON, &Write::clear, this, ID_clear_button);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
         Bind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Bind(wxEVT_BUTTON, &Write::undo, this, ID_undo_button);
         Bind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
 
-        if (turns < (int)write_answers.size()) {
+        if (data.turns < (int)write_answers.size()) {
             start_game();
         } else { end_frame(); }
     }
 
-    void clear(wxCommandEvent& event) {
-        drawn.clear();
-        write_canvas -> Refresh();
-    }
-
-    void undo(wxCommandEvent& event) {
-        if (to_undo.size() != 0) { 
-            int undo_tag = to_undo.back();
-            to_undo.pop_back();
-        
-            std::array<int, 6>* element = &(drawn.back());
-            while ((*element)[4] == undo_tag) {
-                    drawn.pop_back();
-                    element = &(drawn.back());
-            }
-            write_canvas -> Refresh();
-        }
-    }
-    
-    void paintEvent(wxPaintEvent &event) {
-        wxPaintDC dc(write_canvas);
-
-        for (auto i : drawn) {
-            pen.SetWidth(i[5]);
-            dc.SetPen(pen);
-            dc.DrawLine(i[0], i[1], i[2], i[3]);
-        }
-    }
-
-    void mouse_lc(wxMouseEvent &event) {
-        lastx = event.GetX();
-        lasty = event.GetY();
-    }
-
-    void mouse_lc_release(wxMouseEvent &event) {
-        to_undo.push_back(tag);
-        ++tag;
-    }
-
-    void mouse_motion(wxMouseEvent &event) {
-        if (event.Dragging()) {
-            nextx = event.GetX();
-            nexty = event.GetY();
-            drawn.push_back(std::array<int, 6>{lastx, lasty, nextx, nexty, tag, size_slider -> GetValue()});
-            lastx = nextx;
-            lasty = nexty;
-            write_canvas -> Refresh();
-        }
-    }
-
     void update_slider_value(wxCommandEvent& event) {
         pen_size = size_slider -> GetValue();
+        write_canvas -> setPenSize(pen_size);
         variant_size_label -> SetLabel(std::to_string(pen_size));
-        pen.SetWidth(pen_size);
     }
-    
+
 public:
-    Write(std::vector<std::string> vec, string_matrix matrix)
-        : Game(vec, matrix, 600, 400)
-        , timer(this, TimerId::ID_write_timer) {
- 
+    Write(const std::vector<std::string>& vec, const string_matrix& matrix, int frameSizeX, int frameSizeY, const std::string& kanjiPath)
+        : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { frameSizeX, frameSizeY })
+        , timer(this, TimerId::ID_write_timer) 
+        , data { vec, matrix }
+        , write_questions { data.stringMatrix }
+        , write_answers { data.stringVec } 
+        , kanjiFile { kanjiPath } {
+
         // Labels
         static_size_label -> Create(this, ID_static_size_label, "Size", PT_static_size_label, SZ_static_size_label);
         variant_size_label -> Create(this, ID_variant_size_label, "2", PT_variant_size_label, SZ_variant_size_label);
@@ -245,13 +194,9 @@ public:
         // animation_canvas -> Create(this, ID_animation_canvas, wxEmptyString, PT_animation_canvas, SZ_animation_canvas);
         
         // Event binds
-        write_canvas -> Bind(wxEVT_LEFT_DOWN, &Write::mouse_lc, this);
-        write_canvas -> Bind(wxEVT_LEFT_UP, &Write::mouse_lc_release, this);
-        write_canvas -> Bind(wxEVT_MOTION, &Write::mouse_motion, this);
-        write_canvas -> Bind(wxEVT_PAINT, &Write::paintEvent, this);
-        Bind(wxEVT_BUTTON, &Write::clear, this, ID_clear_button);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
         Bind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Bind(wxEVT_BUTTON, &Write::undo, this, ID_undo_button);
         Bind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
         Bind(wxEVT_SLIDER, &Write::update_slider_value, this, ID_size_slider);
 
@@ -264,4 +209,3 @@ public:
 wxBEGIN_EVENT_TABLE(Write, wxFrame)
     EVT_TIMER(TimerId::ID_write_timer, Write::restart_cycle)
 wxEND_EVENT_TABLE()
-    

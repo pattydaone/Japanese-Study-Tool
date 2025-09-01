@@ -12,7 +12,7 @@
 
 using string_matrix = std::vector<std::vector<std::string>>;
 
-class Type : public Game {
+class Type : public wxFrame {
     enum {
         ID_static_turn,
         ID_variant_turn,
@@ -25,8 +25,10 @@ class Type : public Game {
     };
 
     // Data
+    GameData data;
     wxString q;
-    std::vector<std::string> a;
+    string_matrix& answers;
+    std::vector<std::string>& questions;
     std::string text_entry;
     wxTimer timer;
     wxDECLARE_EVENT_TABLE();
@@ -73,54 +75,54 @@ class Type : public Game {
     // Button size
     wxSize SZ_enter_button { 50, 25 };
 
-    virtual void start_game() {
-        ++turns;
-        variant_turn -> SetLabel(std::to_string(turns));
-        variant_question -> SetLabel(questions[indices[turns-1]]);
+    void start_game() {
+        ++data.turns;
+        variant_turn -> SetLabel(std::to_string(data.turns));
+        variant_question -> SetLabel(questions[data.getCurrentIndex()]);
         variant_question -> Wrap(SZ_variant_question.x/2 + 50);
     }
 
-    virtual void check_answer(wxCommandEvent& event) {
+    void check_answer(wxCommandEvent& event) {
         Unbind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
         Unbind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
         entry -> SetWindowStyle(wxTE_READONLY);
         text_entry = (entry -> GetLineText(0)).utf8_string();
 
 
-        if (std::find(answers[indices[turns - 1]].begin(), answers[indices[turns - 1]].end(), text_entry) != answers[indices[turns - 1]].end()) {
-            ++amnt_correct;
+        if (std::find(answers[data.getCurrentIndex()].begin(), answers[data.getCurrentIndex()].end(), text_entry) != answers[data.getCurrentIndex()].end()) {
+            ++data.amnt_correct;
             static_correct_label -> SetLabel("Correct!");
         }
 
         else {
-            ++amnt_incorrect;
+            ++data.amnt_incorrect;
             static_correct_label -> SetLabel("Incorrect :(");
-            variant_correct_label -> SetLabel(wxString::FromUTF8(join(answers[indices[turns - 1]])));
+            variant_correct_label -> SetLabel(wxString::FromUTF8(join(answers[data.getCurrentIndex()])));
             variant_correct_label -> Wrap(SZ_variant_correct_label.x/2 + 50);
         }
 
         timer.StartOnce(2000);	
     }
 
-    virtual void end_frame() {
-        double percentage { ((double)amnt_correct/(double)amnt_incorrect)*100 };
-    	int answer = wxMessageBox("You are done!\n You got " + std::to_string(amnt_correct) + " questions right and " + std::to_string(amnt_incorrect) + " questions wrong with a percentage of " 
+    void end_frame() {
+        double percentage { ((double)data.amnt_correct/(double)data.amnt_incorrect)*100 };
+    	int answer = wxMessageBox("You are done!\n You got " + std::to_string(data.amnt_correct) + " questions right and " + std::to_string(data.amnt_incorrect) + " questions wrong with a percentage of " 
                                   + std::to_string(percentage) + "!\n Would you like to play again?", "Play again?", wxYES_NO, this, 0, 125);
         if (answer == wxYES) { start_from_end(); }
         else { this -> Close(); }
     }
 
-    virtual void start_from_end() {
-    	turns = 0;
-        amnt_correct = 0;
-        amnt_incorrect = 0;
-        std::shuffle(indices.begin(), indices.end(), g);
+    void start_from_end() {
+        data.reset();
         start_game();
     }
 
 public:
-    Type(std::vector<std::string>& vec, string_matrix& matrix)
-        : Game(vec, matrix, 465, 200)
+    Type(std::vector<std::string>& vec, string_matrix& matrix, int frameSizeX, int frameSizeY)
+        : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { frameSizeX, frameSizeY })
+        , data { vec, matrix }
+        , answers { data.stringMatrix }
+        , questions { data.stringVec} 
         , timer(this, TimerId::ID_type_timer) {
         // Setting some label points
         PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
@@ -152,14 +154,13 @@ public:
         variant_correct_label -> SetLabel(wxEmptyString);
         Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
         Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
-        if (turns < static_cast<int>(indices.size())) {
+        if (data.turns < static_cast<int>(questions.size())) {
             entry -> Clear();
             entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
             start_game();
         }
 
         else { end_frame(); }
-
     }
 };
 

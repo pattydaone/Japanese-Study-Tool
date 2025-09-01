@@ -142,7 +142,7 @@ private:
 
             while (csv_file >> row) {
                 if (row[0] == superset && row[1] == subset && row[2] == vocab_type) {
-                    split(row[4], values);
+                    split(row[4], values, "｜｜");
                     vocabulary_vec.emplace_back(row[3]);
                     vocabulary_matrix.emplace_back(values);
                     values.clear();
@@ -203,13 +203,15 @@ private:
     	wxString game_inp { game_combo -> GetStringSelection() };
         
         if (is_kanji) {
+            if (path.find("_vocab_types.txt") != std::string::npos) path.erase(path.find("_vocab_types.txt"));
+            path += "_encoded_kanji.txt";
             if (game_inp == "Write") {
-                Write *write = new Write(vocabulary_vec, vocabulary_matrix);
+                Write *write = new Write(vocabulary_vec, vocabulary_matrix, 600, 400, path);
                 write -> Show();
             } else { /* TODO: Raise a useful error to the user here*/ }
         } else {
             if (game_inp == "Type") {
-                Type *type = new Type(vocabulary_vec, vocabulary_matrix);
+                Type *type = new Type(vocabulary_vec, vocabulary_matrix, 465, 200);
                 type -> Show();
             } else { /*TODO: Raise a useful error to the user here*/ }
         }

@@ -13,12 +13,10 @@
 
 using string_matrix = std::vector<std::vector<std::string>>;
 
-class Game : public wxFrame {
-protected:
-    // Data
+struct GameData {
     std::vector<int> indices;
-    std::vector<std::string> questions;
-    string_matrix answers;
+    std::vector<std::string> stringVec;
+    string_matrix stringMatrix;
     int turns { 0 };
     bool cycle = true;
     int amnt_correct { 0 };
@@ -26,19 +24,22 @@ protected:
     std::random_device rd;
     std::mt19937 g{ rd() };
 
-    virtual void start_game() = 0;
-    virtual void check_answer(wxCommandEvent& event) = 0;
-    virtual void end_frame() = 0;
-    virtual void start_from_end() = 0;
-
-public:
-    Game(const std::vector<std::string>& vec, const string_matrix& matrix, int x, int y )
-                : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { x, y })
-                , questions { vec }, answers { matrix }
-
+    GameData(const std::vector<std::string>& vec, const string_matrix& matrix)
+    : stringVec { vec }, stringMatrix { matrix }
     {
         indices.resize(vec.size());
         std::iota(indices.begin(), indices.end(), 0);
+        std::shuffle(indices.begin(), indices.end(), g);
+    }
+
+    int getCurrentIndex() {
+        return indices[turns - 1];
+    }
+
+    void reset() {
+        turns = 0;
+        amnt_correct = 0;
+        amnt_incorrect = 0;
         std::shuffle(indices.begin(), indices.end(), g);
     }
 
