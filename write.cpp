@@ -124,6 +124,7 @@ class Write : public wxFrame {
         Unbind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
         Unbind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
 
+        write_canvas -> clear();
         animation(event);
         timer.StartOnce(2000);
     }

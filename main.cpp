@@ -8,6 +8,7 @@
 #include "GameClass.h"
 #include "type.cpp"
 #include "write.cpp"
+#include "map.cpp"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -101,7 +102,7 @@ public:
         // Combo Boxes
         vocabulary_set_combo -> Create(this, ID_vocabulary_set_combo, "Please select a vocabulary set", PT_vocabulary_set_combo, SZ_vocabulary_set_combo);
         chapter_combo -> Create(this, ID_chapter_combo, "Please select a chapter", PT_chapter_combo, SZ_chapter_combo);
-        game_combo -> Create(this, ID_game_combo, "Please select a game", PT_game_combo, SZ_game_combo, {"Type", "Write"});
+        game_combo -> Create(this, ID_game_combo, "Please select a game", PT_game_combo, SZ_game_combo, {"Type", "Write", "Map"});
 
         // Button
         finished_button -> Create(this, ID_finished_button, "Finished!", PT_finished_button, SZ_finished_button);
@@ -142,7 +143,7 @@ private:
 
             while (csv_file >> row) {
                 if (row[0] == superset && row[1] == subset && row[2] == vocab_type) {
-                    split(row[4], values, "｜｜");
+                    split(row[4], values);
                     vocabulary_vec.emplace_back(row[3]);
                     vocabulary_matrix.emplace_back(values);
                     values.clear();
@@ -208,7 +209,14 @@ private:
             if (game_inp == "Write") {
                 Write *write = new Write(vocabulary_vec, vocabulary_matrix, 600, 400, path);
                 write -> Show();
-            } else { /* TODO: Raise a useful error to the user here*/ }
+            } 
+
+            else if (game_inp == "Map") {
+                Map *map = new Map(vocabulary_vec, 600, 400, path);
+                map -> Show();
+            }
+            
+            else { /* TODO: Raise a useful error to the user here*/ }
         } else {
             if (game_inp == "Type") {
                 Type *type = new Type(vocabulary_vec, vocabulary_matrix, 465, 200);
