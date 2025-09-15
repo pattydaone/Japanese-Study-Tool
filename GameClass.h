@@ -11,25 +11,25 @@
     #include <wx/wx.h>
 #endif // WX_PRECOMP
 
-using string_matrix = std::vector<std::vector<std::string>>;
+using stringMatrix = std::vector<std::vector<std::string>>;
 
 struct GameData {
     std::vector<int> indices;
     std::vector<std::string> stringVec;
-    string_matrix stringMatrix;
+    stringMatrix matrix;
     int turns { 0 };
     bool cycle = true;
-    int amnt_correct { 0 };
-    int amnt_incorrect { 0 };
-    std::random_device rd;
-    std::mt19937 g{ rd() };
+    int amountCorrect { 0 };
+    int amountIncorrect { 0 };
+    std::random_device randomDevice;
+    std::mt19937 generator { randomDevice() };
 
-    GameData(const std::vector<std::string>& vec, const string_matrix& matrix)
-    : stringVec { vec }, stringMatrix { matrix }
+    GameData(const std::vector<std::string>& vec, const stringMatrix& matrix)
+    : stringVec { vec }, matrix { matrix }
     {
         indices.resize(vec.size());
         std::iota(indices.begin(), indices.end(), 0);
-        std::shuffle(indices.begin(), indices.end(), g);
+        std::shuffle(indices.begin(), indices.end(), generator);
     }
 
     int getCurrentIndex() {
@@ -38,11 +38,10 @@ struct GameData {
 
     void reset() {
         turns = 0;
-        amnt_correct = 0;
-        amnt_incorrect = 0;
-        std::shuffle(indices.begin(), indices.end(), g);
+        amountCorrect = 0;
+        amountIncorrect = 0;
+        std::shuffle(indices.begin(), indices.end(), generator);
     }
-
 };
 
 #endif // GAMECLASS_H

@@ -16,18 +16,16 @@ class Canvas : public wxPanel {
 
     Lines drawn;
     std::vector<int> lineSizes;
-    int pen_size { 1 };
-    wxPen pen { *wxBLACK, pen_size, wxPENSTYLE_SOLID };
+    int penSize { 1 };
+    wxPen pen { *wxWHITE, penSize, wxPENSTYLE_SOLID };
 
     void paintEvent(wxPaintEvent &event) {
         wxAutoBufferedPaintDC dc(this);
-        dc.SetBackground(*wxWHITE_BRUSH);
         dc.Clear();
-
         for (std::size_t i = 0; i < drawn.size(); ++i) {
             pen.SetWidth(lineSizes[i]);
             dc.SetPen(pen);
-            dc.DrawLines(drawn[i].size(), &drawn[i][0]);
+            if (drawn[i].size() > 1) dc.DrawLines(drawn[i].size(), &drawn[i][0]);
         }
     }
 
@@ -39,7 +37,7 @@ class Canvas : public wxPanel {
 
     void mouse_lc(wxMouseEvent &event) {
         CaptureMouse();
-        lineSizes.push_back(pen_size);
+        lineSizes.push_back(penSize);
         drawn.push_back(Line());
         addPoint(event.GetPosition());
     }
@@ -56,13 +54,13 @@ class Canvas : public wxPanel {
         }
     }
 public:
-    Canvas() {
+    Canvas(wxWindow* parent, wxWindowID id, const wxPoint& pos, const wxSize& size)
+        : wxPanel(parent, id, pos, size) {
         SetBackgroundStyle(wxBG_STYLE_PAINT);
-
+        Bind(wxEVT_PAINT, &Canvas::paintEvent, this);
         Bind(wxEVT_LEFT_DOWN, &Canvas::mouse_lc, this);
         Bind(wxEVT_LEFT_UP, &Canvas::mouse_lc_release, this);
         Bind(wxEVT_MOTION, &Canvas::mouse_motion, this);
-        Bind(wxEVT_PAINT, &Canvas::paintEvent, this);
     }
 
     void undo(wxCommandEvent& event) {
@@ -89,17 +87,53 @@ public:
     }
 
     void setPenSize(int size) {
-        pen_size = size;
+        penSize = size;
     }
 
-    const Lines& getDrawing() {
+    Lines getDrawing() {
         return drawn;
     }
 
     const std::vector<int>& getSizes() {
         return lineSizes;
     }
-    
+};
+
+class AnimationCanvas : public wxPanel {
+    using Line = std::vector<wxPoint>;
+    using Lines = std::vector<Line>;
+    Lines* toDraw { nullptr };
+    wxPen pen { *wxWHITE, 1, wxPENSTYLE_SOLID };
+
+    void paintEvent(wxPaintEvent &event) {
+        wxAutoBufferedPaintDC dc(this);
+        dc.Clear();
+        dc.SetPen(pen);
+        if (toDraw != nullptr) {
+            for (std::size_t i = 0; i < toDraw -> size(); ++i) {
+                dc.DrawLines((*toDraw)[i].size(), &(*toDraw)[i][0]);
+            }
+        }
+    }
+
+public:
+    AnimationCanvas(wxWindow* parent, wxWindowID id, const wxPoint& pos, const wxSize& size)
+        : wxPanel(parent, id, pos, size) {
+        SetBackgroundStyle(wxBG_STYLE_PAINT);
+        Bind(wxEVT_PAINT, &AnimationCanvas::paintEvent, this);
+    }
+
+    void clear() {
+        toDraw = nullptr;
+        Refresh();
+        Update();
+    }
+
+    void setDrawing(Lines* const drawing) {
+        toDraw = drawing;
+        Refresh();
+        Update();
+    }
 };
 
 #endif

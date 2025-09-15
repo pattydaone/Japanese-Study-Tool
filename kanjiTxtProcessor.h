@@ -1,11 +1,17 @@
 #ifndef KANJITXTPROCESSOR_H
 #define KANJITXTPROCESSOR_H
 
+#include <wx/wxprec.h>
+#include <vector>
 #include <fstream>
 #include <unordered_map>
 #include <string>
-#include <wx/gdicmn.h>
-#include <vector>
+
+#ifndef WX_PRECOMP
+    #include <wx/wx.h>
+    #include <wx/graphics.h>
+    #include <wx/gdicmn.h>
+#endif // WX_PRECOMP
 
 inline std::ostream& operator<<(std::ostream& out, const wxPoint& point) {
     out << point.x << ", " << point.y;
@@ -25,7 +31,9 @@ class Processor {
     static void extractLine(std::ifstream& file, std::vector<wxPoint>& drawingLine) {
         std::string line;
         while (std::getline(file, line)) {
-            if (line == '\0') return;
+            if (line == "LINE") {
+                return;
+            }
             drawingLine.push_back(wxPoint());
             split(line, drawingLine.back());
         }
@@ -34,8 +42,11 @@ class Processor {
     static void extractDrawing(std::ifstream& file, Lines& drawing) {
         std::string line;
         while (std::getline(file, line)) {
-            if (line == "\0\0") return;
+            if (line == "DRAWING") return;
             drawing.push_back(std::vector<wxPoint>());
+            wxPoint point;
+            split(line, point);
+            drawing.back().push_back(point);
             extractLine(file, drawing.back());
         }
     }
@@ -51,9 +62,9 @@ public:
                 for (auto point : i) {
                     file << point << '\n';
                 }
-                file << '\0' << '\n';
+                file << "LINE" << '\n';
             }
-            file << '\0' << '\0' << '\n';
+            file << "DRAWING" << '\n';
         }
     }
 

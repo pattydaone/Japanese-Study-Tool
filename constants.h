@@ -2,8 +2,8 @@
 #define CONSTANTS_H
 
 enum TimerId {
-    ID_type_timer,
-    ID_write_timer,
+    ID_typeTimer,
+    ID_writeTimer,
 };
 
 #endif

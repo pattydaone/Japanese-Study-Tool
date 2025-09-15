@@ -10,55 +10,55 @@
     #include <wx/graphics.h>
 #endif // WX_PRECOMP
 
-using string_matrix = std::vector<std::vector<std::string>>;
+using stringMatrix = std::vector<std::vector<std::string>>;
 
 class Type : public wxFrame {
     enum {
-        ID_static_turn,
-        ID_variant_turn,
-        ID_static_question,
-        ID_variant_question,
+        ID_staticTurn,
+        ID_variantTurn,
+        ID_staticQuestion,
+        ID_variantQuestion,
         ID_entry,
-        ID_enter_button,
-        ID_static_correct_label,
-        ID_variant_correct_label,
+        ID_enterButton,
+        ID_staticCorrectLabel,
+        ID_variantCorrectLabel,
     };
 
     // Data
-    GameData data;
-    wxString q;
-    string_matrix& answers;
+    GameData                  data;
+    wxString                  question;
+    stringMatrix&             answers;
     std::vector<std::string>& questions;
-    std::string text_entry;
-    wxTimer timer;
+    std::string               textEntry;
+    wxTimer                   timer;
     wxDECLARE_EVENT_TABLE();
 
     // Labels
-    wxStaticText* static_turn = new wxStaticText;
-    wxStaticText* variant_turn = new wxStaticText;
-    wxStaticText* static_question = new wxStaticText;
-    wxStaticText* variant_question = new wxStaticText;
-    wxStaticText* static_correct_label = new wxStaticText;
-    wxStaticText* variant_correct_label = new wxStaticText;
+    wxStaticText* staticTurn;
+    wxStaticText* variantTurn;
+    wxStaticText* staticQuestion;
+    wxStaticText* variantQuestion;
+    wxStaticText* staticCorrectLabel;
+    wxStaticText* variantCorrectLabel;
 
     // Label points
-    wxPoint PT_static_turn { 10, 0 };
-    wxPoint PT_variant_turn { PT_static_turn.x - 10, PT_static_turn.y + 25 };
-    wxPoint PT_static_question { 0, 0 }; // x redefined later in terms of other variables for centering
-    wxPoint PT_variant_question { 0, PT_static_question.y + 25 }; // x, again, defined later
-    wxPoint PT_static_correct_label { 100, 100 };
-    wxPoint PT_variant_correct_label { 100, 125 };
+    wxPoint PT_staticTurn          { 10, 0 };
+    wxPoint PT_variantTurn         { PT_staticTurn.x - 10, PT_staticTurn.y + 25 };
+    wxPoint PT_staticQuestion      { 0, 0 }; // x redefined later in terms of other variables for centering
+    wxPoint PT_variantQuestion     { 0, PT_staticQuestion.y + 25 }; // x, again, defined later
+    wxPoint PT_staticCorrectLabel  { 100, 100 };
+    wxPoint PT_variantCorrectLabel { 100, 125 };
 
     // Label sizes
-    wxSize SZ_static_turn { 50, 25 };
-    wxSize SZ_variant_turn { 50, 25 };
-    wxSize SZ_static_question { 50, 25 };
-    wxSize SZ_variant_question { 300, 25 };
-    wxSize SZ_static_correct_label { 200, 25 };
-    wxSize SZ_variant_correct_label { 200, 25 };
+    wxSize SZ_staticTurn          { 50, 25 };
+    wxSize SZ_variantTurn         { 50, 25 };
+    wxSize SZ_staticQuestion      { 50, 25 };
+    wxSize SZ_variantQuestion     { 300, 25 };
+    wxSize SZ_staticCorrectLabel  { 200, 25 };
+    wxSize SZ_variantCorrectLabel { 200, 25 };
 
     // Text control
-    wxTextCtrl* entry = new wxTextCtrl;
+    wxTextCtrl* entry;
 
     // Control point
     wxPoint PT_entry { 100, 75 };
@@ -67,104 +67,104 @@ class Type : public wxFrame {
     wxSize SZ_entry { 150, 25 };
 
     // Button
-    wxButton* enter_button = new wxButton;
+    wxButton* enterButton;
 
     // Button point
-    wxPoint PT_enter_button { PT_entry.x + SZ_entry.x, PT_entry.y };
+    wxPoint PT_enterButton { PT_entry.x + SZ_entry.x, PT_entry.y };
 
     // Button size
-    wxSize SZ_enter_button { 50, 25 };
+    wxSize SZ_enterButton { 50, 25 };
 
-    void start_game() {
+    void startGame() {
         ++data.turns;
-        variant_turn -> SetLabel(std::to_string(data.turns));
-        variant_question -> SetLabel(questions[data.getCurrentIndex()]);
-        variant_question -> Wrap(SZ_variant_question.x/2 + 50);
+        variantTurn     -> SetLabel(std::to_string(data.turns));
+        variantQuestion -> SetLabel(questions[data.getCurrentIndex()]);
+        variantQuestion -> Wrap(SZ_variantQuestion.x/2 + 50);
     }
 
-    void check_answer(wxCommandEvent& event) {
-        Unbind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
-        Unbind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
+    void checkAnswer(wxCommandEvent& event) {
+        Unbind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);
+        Unbind(wxEVT_BUTTON, &Type::checkAnswer, this, ID_enterButton);
         entry -> SetWindowStyle(wxTE_READONLY);
-        text_entry = (entry -> GetLineText(0)).utf8_string();
+        textEntry = (entry -> GetLineText(0)).utf8_string();
 
 
-        if (std::find(answers[data.getCurrentIndex()].begin(), answers[data.getCurrentIndex()].end(), text_entry) != answers[data.getCurrentIndex()].end()) {
-            ++data.amnt_correct;
-            static_correct_label -> SetLabel("Correct!");
+        if (std::find(answers[data.getCurrentIndex()].begin(), answers[data.getCurrentIndex()].end(), textEntry) != answers[data.getCurrentIndex()].end()) {
+            ++data.amountCorrect;
+            staticCorrectLabel -> SetLabel("Correct!");
         }
 
         else {
-            ++data.amnt_incorrect;
-            static_correct_label -> SetLabel("Incorrect :(");
-            variant_correct_label -> SetLabel(wxString::FromUTF8(join(answers[data.getCurrentIndex()])));
-            variant_correct_label -> Wrap(SZ_variant_correct_label.x/2 + 50);
+            ++data.amountIncorrect;
+            staticCorrectLabel  -> SetLabel("Incorrect :(");
+            variantCorrectLabel -> SetLabel(wxString::FromUTF8(join(answers[data.getCurrentIndex()])));
+            variantCorrectLabel -> Wrap(SZ_variantCorrectLabel.x/2 + 50);
         }
 
         timer.StartOnce(2000);	
     }
 
-    void end_frame() {
-        double percentage { ((double)data.amnt_correct/(double)data.amnt_incorrect)*100 };
-    	int answer = wxMessageBox("You are done!\n You got " + std::to_string(data.amnt_correct) + " questions right and " + std::to_string(data.amnt_incorrect) + " questions wrong with a percentage of " 
+    void endFrame() {
+        double percentage { ((double)data.amountCorrect/(double)data.amountIncorrect)*100 };
+    	int    answer = wxMessageBox("You are done!\n You got " + std::to_string(data.amountCorrect) + " questions right and " + std::to_string(data.amountIncorrect) + " questions wrong with a percentage of " 
                                   + std::to_string(percentage) + "!\n Would you like to play again?", "Play again?", wxYES_NO, this, 0, 125);
-        if (answer == wxYES) { start_from_end(); }
+        if (answer == wxYES) { startFromEnd(); }
         else { this -> Close(); }
     }
 
-    void start_from_end() {
+    void startFromEnd() {
         data.reset();
-        start_game();
+        startGame();
     }
 
 public:
-    Type(std::vector<std::string>& vec, string_matrix& matrix, int frameSizeX, int frameSizeY)
+    Type(std::vector<std::string>& vec, stringMatrix& matrix, int frameSizeX, int frameSizeY)
         : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { frameSizeX, frameSizeY })
         , data { vec, matrix }
-        , answers { data.stringMatrix }
-        , questions { data.stringVec} 
-        , timer(this, TimerId::ID_type_timer) {
+        , answers { data.matrix }
+        , questions { data.stringVec } 
+        , timer(this, TimerId::ID_typeTimer)
+        {
         // Setting some label points
-        PT_static_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_static_question.x)/2;
-        PT_variant_question.x = PT_entry.x + (SZ_entry.x + SZ_enter_button.x - SZ_variant_question.x)/2;
+        PT_staticQuestion.x = PT_entry.x + (SZ_entry.x + SZ_enterButton.x - SZ_staticQuestion.x)/2;
+        PT_variantQuestion.x = PT_entry.x + (SZ_entry.x + SZ_enterButton.x - SZ_variantQuestion.x)/2;
 
         // Labels
-        static_turn -> Create(this, ID_static_turn, "Turn:", PT_static_turn, SZ_static_turn);
-        variant_turn -> Create(this, ID_variant_turn, wxEmptyString, PT_variant_turn, SZ_variant_turn, wxALIGN_CENTRE_HORIZONTAL);
-        static_question -> Create(this, ID_static_question, "Word: ", PT_static_question, SZ_static_question, wxALIGN_CENTRE_HORIZONTAL);
-        variant_question -> Create(this, ID_variant_question, wxEmptyString, PT_variant_question, SZ_variant_question, wxALIGN_CENTRE_HORIZONTAL);
-        static_correct_label -> Create(this, ID_static_correct_label, wxEmptyString, PT_static_correct_label, SZ_static_correct_label, wxALIGN_CENTRE_HORIZONTAL);
-        variant_correct_label -> Create(this, ID_variant_correct_label, wxEmptyString, PT_variant_correct_label, SZ_variant_correct_label, wxALIGN_CENTRE_HORIZONTAL);
+        staticTurn          = new wxStaticText(this, ID_staticTurn, "Turn:", PT_staticTurn, SZ_staticTurn);
+        variantTurn         = new wxStaticText(this, ID_variantTurn, wxEmptyString, PT_variantTurn, SZ_variantTurn, wxALIGN_CENTRE_HORIZONTAL);
+        staticQuestion      = new wxStaticText(this, ID_staticQuestion, "Word: ", PT_staticQuestion, SZ_staticQuestion, wxALIGN_CENTRE_HORIZONTAL);
+        variantQuestion     = new wxStaticText(this, ID_variantQuestion, wxEmptyString, PT_variantQuestion, SZ_variantQuestion, wxALIGN_CENTRE_HORIZONTAL);
+        staticCorrectLabel  = new wxStaticText(this, ID_staticCorrectLabel, wxEmptyString, PT_staticCorrectLabel, SZ_staticCorrectLabel, wxALIGN_CENTRE_HORIZONTAL);
+        variantCorrectLabel = new wxStaticText(this, ID_variantCorrectLabel, wxEmptyString, PT_variantCorrectLabel, SZ_variantCorrectLabel, wxALIGN_CENTRE_HORIZONTAL);
 
         // Text Control
-        entry -> Create(this, ID_entry, wxEmptyString, PT_entry, SZ_entry, wxTE_PROCESS_ENTER);
+        entry = new wxTextCtrl(this, ID_entry, wxEmptyString, PT_entry, SZ_entry, wxTE_PROCESS_ENTER);
 
         // Button	
-        enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
+        enterButton = new wxButton(this, ID_enterButton, "Enter", PT_enterButton, SZ_enterButton);
 
-        Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
-        Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
+        Bind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);
+        Bind(wxEVT_BUTTON, &Type::checkAnswer, this, ID_enterButton);
 
         // Start main loop
-        start_game();
+        startGame();
     }
 
     void restart_cycle(wxTimerEvent& event) {
-        static_correct_label -> SetLabel(wxEmptyString);
-        variant_correct_label -> SetLabel(wxEmptyString);
-        Bind(wxEVT_TEXT_ENTER, &Type::check_answer, this, ID_entry);
-        Bind(wxEVT_BUTTON, &Type::check_answer, this, ID_enter_button);
+        staticCorrectLabel-> SetLabel(wxEmptyString);
+        variantCorrectLabel-> SetLabel(wxEmptyString);
+        Bind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);
+        Bind(wxEVT_BUTTON, &Type::checkAnswer, this, ID_enterButton);
         if (data.turns < static_cast<int>(questions.size())) {
             entry -> Clear();
             entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
-            start_game();
+            startGame();
         }
 
-        else { end_frame(); }
+        else { endFrame(); }
     }
 };
 
 wxBEGIN_EVENT_TABLE(Type, wxFrame)
-    EVT_TIMER(TimerId::ID_type_timer, Type::restart_cycle)
+    EVT_TIMER(TimerId::ID_typeTimer, Type::restart_cycle)
 wxEND_EVENT_TABLE()
-

@@ -1,4 +1,4 @@
-set,subset,vocab type,kun,on,meaning,kanji
+set,subset,vocab type,kun,on,meaning,kan
 One,One,Hiragana,,,A,あ
 One,One,Hiragana,,,I,い
 One,One,Hiragana,,,U,う
@@ -844,3 +844,82 @@ Two,Nine,Kanji,つぎ,ジ,next,次
 Two,Nine,Kanji,あ（る）,ユウ,"to exist, to have",有
 Two,Nine,Kanji,もっと（も）,サイ,most,最
 Two,Nine,Kanji,おこす,キョウ・コウ,interest,興
+Two,Nine,Kanji Words,,,ぶんか,文化
+Two,Nine,Kanji Words,,,なおす,治す
+Two,Nine,Kanji Words,,,しらべる,調べる
+Two,Nine,Kanji Words,,,あつめる,集める
+Two,Nine,Kanji Words,,,あつまる,集まる
+Two,Nine,Kanji Words,,,にほんてき,日本的
+Two,Nine,Kanji Words,,,しつれい,失礼
+Two,Nine,Kanji Words,,,ほんとう,本当
+Two,Nine,Kanji Words,,,がっき,学期
+Two,Nine,Kanji Words,,,きまつ,期末
+Two,Nine,Kanji Words,,,わしょく,和食
+Two,Nine,Kanji Words,,,おもい,重い
+Two,Nine,Kanji Words,,,せかい,世界
+Two,Nine,Kanji Words,,,ただしい,正しい
+Two,Nine,Kanji Words,,,しょうがつ,正月
+Two,Nine,Kanji Words,,,りゆう,理由
+Two,Nine,Kanji Words,,,じゆう,自由
+Two,Nine,Kanji Words,,,しゅうきょう,宗教
+Two,Nine,Kanji Words,,,さいきん,最近
+Two,Nine,Kanji Words,,,なく,泣く
+Two,Nine,Kanji Words,,,わらう,笑う
+Two,Nine,Kanji Words,,,たすける,助ける
+Two,Nine,Kanji Words,,,かんがえる,考える
+Two,Nine,Kanji Words,,,はらう,払う
+Two,Nine,Kanji Words,,,ゆうめい（な）,有名（な）
+Two,Nine,Kanji Words,,,ありがとう,有り難う
+Two,Nine,Kanji Words,,,きょうみ,興味
+Two,Ten,Kanji,あい,ソウ,"each other, mutual",相
+Two,Ten,Kanji,,ダン,to talk,談
+Two,Ten,Kanji,か（す）,たイ,to lend,貸
+Two,Ten,Kanji,か（りる）,シャク,to borrow,借
+Two,Ten,Kanji,かえ（す）,ヘン,to return something,返
+Two,Ten,Kanji,ひら（く）・あ（く）・あ（ける）,カイ,to open,開
+Two,Ten,Kanji,し（める）・し（まる）,ヘイ,to close,閉
+Two,Ten,Kanji,つた（える）,デン,"to report, to transmit",伝
+Two,Ten,Kanji,おぼ（える）・さ（める）,カク,"to remember, awake",覚
+Two,Ten,Kanji,うた（う）,カ,"to sing, song",歌
+Two,Ten,Kanji,こえ,セイ,voice,声
+Two,Ten,Kanji,しず（か）,セイ,"quiet, calm",静
+Two,Ten,Kanji,よる,ヤ,"night, evening",夜
+Two,Ten,Kanji,なお（す）,チョク・ジキ,"to mend, to correct",直
+Two,Ten,Kanji,お（く）,チ,"to put, to place",置
+Two,Ten,Kanji,,キ,chronicle,記
+Two,Ten,Kanji,そそ（ぐ）,チュウ,to pour,注
+Two,Ten,Kanji,,ク,phrase,句
+Two,Ten,Kanji,あ（う）,ゴウ,to fit,合
+Two,Ten,Kanji,いそが（しい）,ボウ,busy,忙
+Two,Ten,Kanji,,ゼン・ネン,"so, yes",然
+Two,Ten,Kanji,,ゴウ,number,号
+Two,Ten,Kanji,むら,ソン,village,村
+Two,Ten,Kanji Words,,,ぜんぜん,全然
+Two,Ten,Kanji Words,,,ちゅうい,注意
+Two,Ten,Kanji Words,,,ちゅうもんする,注文する
+Two,Ten,Kanji Words,,,しりあい,知り合い
+Two,Ten,Kanji Words,,,つごうがわるい,都合が悪い
+Two,Ten,Kanji Words,,,おぼえる,覚える
+Two,Ten,Kanji Words,,,うた,歌
+Two,Ten,Kanji Words,,,うたう,歌う
+Two,Ten,Kanji Words,,,もんく,文句
+Two,Ten,Kanji Words,,,ばんごう,番号
+Two,Ten,Kanji Words,,,なおる,直る
+Two,Ten,Kanji Words,,,なおす,直す
+Two,Ten,Kanji Words,,,しょうじき,正直
+Two,Ten,Kanji Words,,,かす,貸す
+Two,Ten,Kanji Words,,,かりる,借りる
+Two,Ten,Kanji Words,,,かえす,返す
+Two,Ten,Kanji Words,,,おく,置く
+Two,Ten,Kanji Words,,,こえ,声
+Two,Ten,Kanji Words,,,あく,開く
+Two,Ten,Kanji Words,,,あける,開ける
+Two,Ten,Kanji Words,,,しめる,閉める
+Two,Ten,Kanji Words,,,しまる,閉まる
+Two,Ten,Kanji Words,,,てつだう,手伝う
+Two,Ten,Kanji Words,,,にっきをつける,日記をつける
+Two,Ten,Kanji Words,,,あいて,相手
+Two,Ten,Kanji Words,,,そうだん,相談
+Two,Ten,Kanji Words,,,よる,夜
+Two,Ten,Kanji Words,,,よなか,夜中
+Two,Ten,Kanji Words,,,しずか,静か

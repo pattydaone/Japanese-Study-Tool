@@ -2,9 +2,11 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <unordered_map>
 #include "GameClass.h"
 #include "constants.h"
 #include "canvas.h"
+#include "kanjiTxtProcessor.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -14,199 +16,203 @@
 
 
 class Write : public wxFrame {
-    using string_matrix = std::vector<std::vector<std::string>>;
+    using stringMatrix = std::vector<std::vector<std::string>>;
+    using Lines = std::vector<std::vector<wxPoint>>;
     enum {
-        ID_write_canvas,
-        ID_animation_canvas,
-        ID_static_on_label,
-        ID_static_kun_label,
-        ID_static_meaning_label,
-        ID_variant_on_label,
-        ID_variant_kun_label,
-        ID_variant_meaning_label,
-        ID_static_size_label,
-        ID_variant_size_label,
-        ID_enter_button,
-        ID_show_ans_button,
-        ID_undo_button,
-        ID_clear_button,
-        ID_size_slider,
+        ID_writeCanvas,
+        ID_animationCanvas,
+        ID_staticOnLabel,
+        ID_staticKunLabel,
+        ID_staticMeaningLabel,
+        ID_variantOnLabel,
+        ID_variantKunLabel,
+        ID_variantMeaningLabel,
+        ID_staticSizeLabel,
+        ID_variantSizeLabel,
+        ID_enterButton,
+        ID_showAnswerButton,
+        ID_undoButton,
+        ID_clearButton,
+        ID_sizeSlider,
     };
 
     // Data
     wxTimer timer;
     wxDECLARE_EVENT_TABLE();
     GameData data;
-    string_matrix& write_questions; 
-    std::vector<std::string>& write_answers; 
-    int pen_size;
+    stringMatrix& writeQuestions; 
+    std::vector<std::string>& writeAnswers; 
+    int penSize;
     std::ifstream kanjiFile;
+    std::unordered_map<std::string, Lines> encodedDrawings;
     
-    // Canvas Frames
-    Canvas* write_canvas = new Canvas;
-    Canvas* animation_canvas = new Canvas;
+    // Canvas
+    Canvas* writeCanvas;
+    AnimationCanvas* animationCanvas;
 
     // Canvas points
-    wxPoint PT_write_canvas { 50, 60 };
-    wxPoint PT_animation_canvas;
+    wxPoint PT_writeCanvas     { 50, 60 };
+    wxPoint PT_animationCanvas { 625, 60 };
 
     // Canvas sizes
-    wxSize SZ_write_canvas { 425, 400 };
-    wxSize SZ_animation_canvas;
+    wxSize SZ_writeCanvas     { 425, 400 };
+    wxSize SZ_animationCanvas { 425, 400 };
 
     // Labels
-    wxStaticText* static_on_label = new wxStaticText;
-    wxStaticText* variant_on_label = new wxStaticText;
-    wxStaticText* static_kun_label = new wxStaticText;
-    wxStaticText* variant_kun_label = new wxStaticText;
-    wxStaticText* static_meaning_label = new wxStaticText;
-    wxStaticText* variant_meaning_label = new wxStaticText;
-    wxStaticText* static_size_label = new wxStaticText;
-    wxStaticText* variant_size_label = new wxStaticText;
+    wxStaticText* staticOnLabel;
+    wxStaticText* variantOnLabel;
+    wxStaticText* staticKunLabel;
+    wxStaticText* variantKunLabel;
+    wxStaticText* staticMeaningLabel;
+    wxStaticText* variantMeaningLabel;
+    wxStaticText* staticSizeLabel;
+    wxStaticText* variantSizeLabel;
 
     // Label points
-    wxPoint PT_static_on_label { 100, 0 };
-    wxPoint PT_variant_on_label { PT_static_on_label.x, PT_static_on_label.y + 25 };
-    wxPoint PT_static_kun_label { 250, 0 };
-    wxPoint PT_variant_kun_label { PT_static_kun_label.x, PT_static_kun_label.y + 25 };
-    wxPoint PT_static_meaning_label { 400, 0 };
-    wxPoint PT_variant_meaning_label { PT_static_meaning_label.x, PT_static_meaning_label.y + 25 };
-    wxPoint PT_static_size_label { 15, 0 };
-    wxPoint PT_variant_size_label { PT_static_size_label.x, PT_static_size_label.y + 15 };
+    wxPoint PT_staticOnLabel       { 100, 0 };
+    wxPoint PT_variantOnLabel      { PT_staticOnLabel.x, PT_staticOnLabel.y + 25 };
+    wxPoint PT_staticKunLabel      { 250, 0 };
+    wxPoint PT_variantKunLabel     { PT_staticKunLabel.x, PT_staticKunLabel.y + 25 };
+    wxPoint PT_staticMeaningLabel  { 400, 0 };
+    wxPoint PT_variantMeaningLabel { PT_staticMeaningLabel.x, PT_staticMeaningLabel.y + 25 };
+    wxPoint PT_staticSizeLabel     { 15, 0 };
+    wxPoint PT_variantSizeLabel    { PT_staticSizeLabel.x, PT_staticSizeLabel.y + 15 };
 
     // Label sizes
-    wxSize SZ_static_on_label { 100, 25 };
-    wxSize SZ_variant_on_label { 100, 25 };
-    wxSize SZ_static_kun_label { 100, 25 };
-    wxSize SZ_variant_kun_label { 100, 25 };
-    wxSize SZ_static_meaning_label { 100, 25 };
-    wxSize SZ_variant_meaning_label { 100, 25 };
-    wxSize SZ_static_size_label { 100, 25 };
-    wxSize SZ_variant_size_label { 100, 25 };
+    wxSize SZ_staticOnLabel       { 100, 25 };
+    wxSize SZ_variantOnLabel      { 100, 25 };
+    wxSize SZ_staticKunLabel      { 100, 25 };
+    wxSize SZ_variantKunLabel     { 100, 25 };
+    wxSize SZ_staticMeaningLabel  { 100, 25 };
+    wxSize SZ_variantMeaningLabel { 100, 25 };
+    wxSize SZ_staticSizeLabel     { 100, 25 };
+    wxSize SZ_variantSizeLabel    { 100, 25 };
 
     // Buttons
-    wxButton* enter_button = new wxButton;
-    wxButton* show_ans_button = new wxButton;
-    wxButton* undo_button = new wxButton;
-    wxButton* clear_button = new wxButton;
+    wxButton* enterButton;
+    wxButton* showAnswerButton;
+    wxButton* undoButton;
+    wxButton* clearButton;
 
     // Button points
-    wxPoint PT_enter_button { 500, 60 };
-    wxPoint PT_show_ans_button { PT_enter_button.x, PT_enter_button.y + 60 };
-    wxPoint PT_undo_button { PT_show_ans_button.x, PT_show_ans_button.y + 90 };
-    wxPoint PT_clear_button {PT_undo_button.x, PT_undo_button.y + 60 };
+    wxPoint PT_enterButton      { 500, 60 };
+    wxPoint PT_showAnswerButton { PT_enterButton.x, PT_enterButton.y + 60 };
+    wxPoint PT_undoButton       { PT_showAnswerButton.x, PT_showAnswerButton.y + 90 };
+    wxPoint PT_clearButton      { PT_undoButton.x, PT_undoButton.y + 60 };
 
     // Button sizes
-    wxSize SZ_enter_button { 50, 25 };
-    wxSize SZ_show_ans_button { 100, 25 };
-    wxSize SZ_undo_button { 50, 25 };
-    wxSize SZ_clear_button { 50, 25 };
+    wxSize SZ_enterButton      { 50, 25 };
+    wxSize SZ_showAnswerButton { 100, 25 };
+    wxSize SZ_undoButton       { 50, 25 };
+    wxSize SZ_clearButton      { 50, 25 };
 
     // Slider
-    wxSlider* size_slider = new wxSlider;
+    wxSlider* sizeSlider;
 
     // Slider point
-    wxPoint PT_size_slider { 0, 30 };
+    wxPoint PT_sizeSlider { 0, 30 };
 
     // Slider size
-    wxSize SZ_size_slider { 50, 400 };
+    wxSize SZ_sizeSlider { 50, 400 };
 
-    void start_game() {
+    void startGame() {
+        writeCanvas -> clear();
+        animationCanvas -> clear();
         ++data.turns;
-        variant_on_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][0]));
-        variant_kun_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][1]));
-        variant_meaning_label -> SetLabel(wxString::FromUTF8(write_questions[data.indices[data.turns - 1]][2]));
+        variantOnLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][0]));
+        variantKunLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][1]));
+        variantMeaningLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][2]));
     }
 
-    void check_answer(wxCommandEvent& event) {
-        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
-        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
-        Unbind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Unbind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
+    void checkAnswer(wxCommandEvent& event) {
+        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> clear(event); }, ID_clearButton);
+        Unbind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> undo(event); }, ID_undoButton);
+        Unbind(wxEVT_BUTTON, &Write::checkAnswer, this, ID_enterButton);
+        Unbind(wxEVT_BUTTON, &Write::animation, this, ID_showAnswerButton);
 
-        write_canvas -> clear();
         animation(event);
         timer.StartOnce(2000);
     }
 
-    void end_frame() {
+    void endFrame() {
     	int answer = wxMessageBox("You are done ! Would you like to play again?", "Play again?", wxYES_NO, this, 0, 125);
-        if (answer == wxYES) { start_from_end(); }
+        if (answer == wxYES) { startFromEnd(); }
         else { this -> Close(); }
-        
     }
 
-    void start_from_end() {
+    void startFromEnd() {
         data.reset();
-        start_game();
+        startGame();
     }
 
     void animation(wxCommandEvent& event) {
-        ;
+        animationCanvas-> setDrawing(&encodedDrawings[writeAnswers[data.indices[data.turns - 1]]]);
     }
 
-    void restart_cycle(wxTimerEvent& event) {
-        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
-        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
-        Bind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Bind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
+    void restartCycle(wxTimerEvent& event) {
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> clear(event); }, ID_clearButton);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> undo(event); }, ID_undoButton);
+        Bind(wxEVT_BUTTON, &Write::checkAnswer, this, ID_enterButton);
+        Bind(wxEVT_BUTTON, &Write::animation, this, ID_showAnswerButton);
 
-        if (data.turns < (int)write_answers.size()) {
-            start_game();
-        } else { end_frame(); }
+        if (data.turns < (int)writeAnswers.size()) {
+            startGame();
+        } else { endFrame(); }
     }
 
     void update_slider_value(wxCommandEvent& event) {
-        pen_size = size_slider -> GetValue();
-        write_canvas -> setPenSize(pen_size);
-        variant_size_label -> SetLabel(std::to_string(pen_size));
+        penSize = sizeSlider -> GetValue();
+        writeCanvas -> setPenSize(penSize);
+        variantSizeLabel -> SetLabel(std::to_string(penSize));
     }
 
 public:
-    Write(const std::vector<std::string>& vec, const string_matrix& matrix, int frameSizeX, int frameSizeY, const std::string& kanjiPath)
+    Write(const std::vector<std::string>& vec, const stringMatrix& matrix, int frameSizeX, int frameSizeY, const std::string& kanjiPath)
         : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { frameSizeX, frameSizeY })
-        , timer(this, TimerId::ID_write_timer) 
+        , timer(this, TimerId::ID_writeTimer) 
         , data { vec, matrix }
-        , write_questions { data.stringMatrix }
-        , write_answers { data.stringVec } 
+        , writeQuestions{ data.matrix }
+        , writeAnswers{ data.stringVec } 
         , kanjiFile { kanjiPath } {
+        // Load in Kanjis
+        Processor::decodeFromTxt(encodedDrawings, kanjiPath);
 
         // Labels
-        static_size_label -> Create(this, ID_static_size_label, "Size", PT_static_size_label, SZ_static_size_label);
-        variant_size_label -> Create(this, ID_variant_size_label, "2", PT_variant_size_label, SZ_variant_size_label);
-        static_on_label -> Create(this, ID_static_on_label, "On reading", PT_static_on_label, SZ_static_on_label);
-        variant_on_label -> Create(this, ID_variant_on_label, wxEmptyString, PT_variant_on_label, SZ_variant_on_label);
-        static_kun_label -> Create(this, ID_variant_kun_label, "Kun reading", PT_static_kun_label, SZ_static_kun_label);
-        variant_kun_label -> Create(this, ID_variant_kun_label, wxEmptyString, PT_variant_kun_label, SZ_variant_kun_label);
-        static_meaning_label -> Create(this, ID_static_meaning_label, "Meaning", PT_static_meaning_label, SZ_variant_meaning_label);
-        variant_meaning_label -> Create(this, ID_variant_meaning_label, wxEmptyString, PT_variant_meaning_label, SZ_variant_meaning_label);
+        staticSizeLabel     = new wxStaticText(this, ID_staticSizeLabel, "Size", PT_staticSizeLabel, SZ_staticSizeLabel);
+        variantSizeLabel    = new wxStaticText(this, ID_variantSizeLabel, "2", PT_variantSizeLabel, SZ_variantSizeLabel);
+        staticOnLabel       = new wxStaticText(this, ID_staticOnLabel, "On reading", PT_staticOnLabel, SZ_staticOnLabel);
+        variantOnLabel      = new wxStaticText(this, ID_variantOnLabel, wxEmptyString, PT_variantOnLabel, SZ_variantOnLabel);
+        staticKunLabel      = new wxStaticText(this, ID_staticKunLabel, "Kun reading", PT_staticKunLabel, SZ_staticKunLabel);
+        variantKunLabel     = new wxStaticText(this, ID_variantKunLabel, wxEmptyString, PT_variantKunLabel, SZ_variantKunLabel);
+        staticMeaningLabel  = new wxStaticText(this, ID_staticMeaningLabel, "Meaning", PT_staticMeaningLabel, SZ_variantMeaningLabel);
+        variantMeaningLabel = new wxStaticText(this, ID_variantMeaningLabel, wxEmptyString, PT_variantMeaningLabel, SZ_variantMeaningLabel);
 
         // Buttons
-        enter_button -> Create(this, ID_enter_button, "Enter", PT_enter_button, SZ_enter_button);
-        show_ans_button -> Create(this, ID_show_ans_button, "Show answer", PT_show_ans_button, SZ_show_ans_button);
-        undo_button -> Create(this, ID_undo_button, "Undo", PT_undo_button, SZ_undo_button);
-        clear_button -> Create(this, ID_clear_button, "Clear", PT_clear_button, SZ_clear_button);
+        enterButton      = new wxButton(this, ID_enterButton, "Enter", PT_enterButton, SZ_enterButton);
+        showAnswerButton = new wxButton(this, ID_showAnswerButton, "Show answer", PT_showAnswerButton, SZ_showAnswerButton);
+        undoButton       = new wxButton(this, ID_undoButton, "Undo", PT_undoButton, SZ_undoButton);
+        clearButton      = new wxButton(this, ID_clearButton, "Clear", PT_clearButton, SZ_clearButton);
 
         // Slider
-        size_slider -> Create(this, ID_size_slider, 1, 1, 10, PT_size_slider, SZ_size_slider, wxSL_VERTICAL);
+        sizeSlider = new wxSlider(this, ID_sizeSlider, 1, 1, 10, PT_sizeSlider, SZ_sizeSlider, wxSL_VERTICAL);
 
         // Canvas
-        write_canvas -> Create(this, ID_write_canvas, PT_write_canvas, SZ_write_canvas);
-        // animation_canvas -> Create(this, ID_animation_canvas, wxEmptyString, PT_animation_canvas, SZ_animation_canvas);
-        
+        writeCanvas     = new Canvas(this, ID_writeCanvas, PT_writeCanvas, SZ_writeCanvas);
+        animationCanvas = new AnimationCanvas(this, ID_animationCanvas, PT_animationCanvas, SZ_animationCanvas);
+
         // Event binds
-        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> clear(event); }, ID_clear_button);
-        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { write_canvas -> undo(event); }, ID_undo_button);
-        Bind(wxEVT_BUTTON, &Write::check_answer, this, ID_enter_button);
-        Bind(wxEVT_BUTTON, &Write::animation, this, ID_show_ans_button);
-        Bind(wxEVT_SLIDER, &Write::update_slider_value, this, ID_size_slider);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> clear(event); }, ID_clearButton);
+        Bind(wxEVT_BUTTON, [this](wxCommandEvent& event) { writeCanvas -> undo(event); }, ID_undoButton);
+        Bind(wxEVT_BUTTON, &Write::checkAnswer, this, ID_enterButton);
+        Bind(wxEVT_BUTTON, &Write::animation, this, ID_showAnswerButton);
+        Bind(wxEVT_SLIDER, &Write::update_slider_value, this, ID_sizeSlider);
 
         // Begin main loop
-        start_game();
+        startGame();
     }
 
 };
 
 wxBEGIN_EVENT_TABLE(Write, wxFrame)
-    EVT_TIMER(TimerId::ID_write_timer, Write::restart_cycle)
+    EVT_TIMER(TimerId::ID_writeTimer, Write::restartCycle)
 wxEND_EVENT_TABLE()

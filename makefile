@@ -1,29 +1,41 @@
 os := $(shell uname -s)
-flags :=
-libs :=
+debugFlags :=
+releaseFlags :=
+debugLibs := 
+releaseLibs :=
 compiler :=
 
 ifeq ($(os), Linux)
-	flags += $(shell wx-config --cppflags)
-	libs += $(shell wx-config --libs)
-	compiler += g++
+	debugFlags += $(shell wx-config --cxxflags)
+	debugLibs  += $(shell wx-config --libs)
+	compiler   += g++
 endif
 
 ifeq ($(os), Darwin)
-	flags += $(shell wx-config --cppflags)
-	libs += $(shell wx-config --libs)
-:wa
-	compiler += clang++
+	releaseFlags += $(shell ~/Builds/wxWidgetsRELEASE/wx-config --cxxflags)
+	releaseLibs  += $(shell ~/Builds/wxWidgetsRELEASE/wx-config --libs)
+
+	# debugFlags   += -DwxDEBUG_LEVEL=0
+	debugFlags   += $(shell ~/Builds/wxWidgets/wx-config --cxxflags)
+	debugLibs    += $(shell ~/Builds/wxWidgets/wx-config --libs)
+
+	compiler     += clang++
 endif
 
 all: build clean run
+debug:
+	$(compiler) $(debugFlags) -Wc++17-extensions -Wall -g -O0 -c main.cpp -o main.o
+	$(compiler) -o bin/Debug/testing main.o $(debugLibs)
 build:
-	$(compiler) $(flags) -Wall -g -c main.cpp -o main.o
-	$(compiler) -o bin/Debug/testing main.o $(libs)
+	$(compiler) $(releaseFlags) -Wc++17-extensions -Wall -g -O1 -c main.cpp -o main.o
+	$(compiler) -o bin/Debug/testing main.o $(releaseLibs)
 clean:
 	rm -f main.o
 run:
 	bin/Debug/testing
-testbuild: test.cpp
-	$(compiler) test.cpp -o a.out
-	./a.out
+testbuild:
+	$(compiler) $(debugFlags) -Wc++17-extensions -Wall -g -O0 -c test.cpp -o a.o
+	$(compiler) -o bin/Debug/testcpp a.o $(debugLibs)
+	rm -f a.o
+testrun:
+	bin/Debug/testcpp

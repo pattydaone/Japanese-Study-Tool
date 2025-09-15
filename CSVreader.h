@@ -7,13 +7,9 @@
 #ifndef CSVREADER_H
 #define CSVREADER_H
 
-#include <iterator>
 #include <iostream>
-#include <fstream>
-#include <sstream>
 #include <vector>
 #include <string>
-#include <array>
 
 class CSVRow
 {
@@ -66,7 +62,7 @@ class CSVRow
         std::vector<std::string::size_type> q_data;
 };
 
-std::istream& operator>>(std::istream& str, CSVRow& data)
+inline std::istream& operator>>(std::istream& str, CSVRow& data)
 {
     data.readNextRow(str);
     return str;
