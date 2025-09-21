@@ -36,20 +36,21 @@ class Canvas : public wxPanel {
     }
 
     void mouse_lc(wxMouseEvent &event) {
-        CaptureMouse();
+        // CaptureMouse();
         lineSizes.push_back(penSize);
         drawn.push_back(Line());
         addPoint(event.GetPosition());
     }
 
     void mouse_lc_release(wxMouseEvent &event) {
+        /*
         if (HasCapture()) {
             ReleaseMouse();
-        }
+        }*/
     }
 
     void mouse_motion(wxMouseEvent &event) {
-        if (HasCapture() && event.Dragging() && event.LeftIsDown()) {
+        if (event.Dragging() && event.LeftIsDown()) {
             addPoint(event.GetPosition());
         }
     }

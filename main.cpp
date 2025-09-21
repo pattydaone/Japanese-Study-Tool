@@ -147,6 +147,7 @@ private:
                     values.clear();
                 }
             }
+            isKanji = false;
         }
         csvFile.close();
     }
@@ -209,7 +210,7 @@ private:
             } 
 
             else if (gameInput == "Map") {
-                Map* map = new Map(vocabularyVec, 600, 400, path);
+                Map* map = new Map(vocabularyMatrix, vocabularyVec, 600, 400, path);
                 map -> Show();
             }
             

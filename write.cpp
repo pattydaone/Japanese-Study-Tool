@@ -119,9 +119,9 @@ class Write : public wxFrame {
         writeCanvas -> clear();
         animationCanvas -> clear();
         ++data.turns;
-        variantOnLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][0]));
-        variantKunLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][1]));
-        variantMeaningLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][2]));
+        variantOnLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][KanjiPlacements::on]));
+        variantKunLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][KanjiPlacements::kun]));
+        variantMeaningLabel -> SetLabel(wxString::FromUTF8(writeQuestions[data.indices[data.turns - 1]][KanjiPlacements::meaning]));
     }
 
     void checkAnswer(wxCommandEvent& event) {

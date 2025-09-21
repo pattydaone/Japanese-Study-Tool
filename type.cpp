@@ -10,8 +10,6 @@
     #include <wx/graphics.h>
 #endif // WX_PRECOMP
 
-using stringMatrix = std::vector<std::vector<std::string>>;
-
 class Type : public wxFrame {
     enum {
         ID_staticTurn,
@@ -23,6 +21,7 @@ class Type : public wxFrame {
         ID_staticCorrectLabel,
         ID_variantCorrectLabel,
     };
+    using stringMatrix = std::vector<std::vector<std::string>>;
 
     // Data
     GameData                  data;
@@ -30,6 +29,7 @@ class Type : public wxFrame {
     stringMatrix&             answers;
     std::vector<std::string>& questions;
     std::string               textEntry;
+    wxTimer                   basicTimer;
     wxTimer                   timer;
     wxDECLARE_EVENT_TABLE();
 
@@ -57,13 +57,13 @@ class Type : public wxFrame {
     wxSize SZ_staticCorrectLabel  { 200, 25 };
     wxSize SZ_variantCorrectLabel { 200, 25 };
 
-    // Text control
+    // Text controls
     wxTextCtrl* entry;
 
-    // Control point
+    // Control points
     wxPoint PT_entry { 100, 75 };
 
-    // Control size
+    // Control sizes
     wxSize SZ_entry { 150, 25 };
 
     // Button
@@ -92,6 +92,7 @@ class Type : public wxFrame {
         if (std::find(answers[data.getCurrentIndex()].begin(), answers[data.getCurrentIndex()].end(), textEntry) != answers[data.getCurrentIndex()].end()) {
             ++data.amountCorrect;
             staticCorrectLabel -> SetLabel("Correct!");
+            timer.StartOnce(1000);
         }
 
         else {
@@ -99,13 +100,41 @@ class Type : public wxFrame {
             staticCorrectLabel  -> SetLabel("Incorrect :(");
             variantCorrectLabel -> SetLabel(wxString::FromUTF8(join(answers[data.getCurrentIndex()])));
             variantCorrectLabel -> Wrap(SZ_variantCorrectLabel.x/2 + 50);
+            ifWrong();
+        }
+    }
+
+    void checkSecondEntry(wxCommandEvent& event) {
+        textEntry = (entry -> GetLineText(0)).utf8_string();
+        if (std::find(answers[data.getCurrentIndex()].begin(), answers[data.getCurrentIndex()].end(), textEntry) != answers[data.getCurrentIndex()].end()) {
+            staticCorrectLabel -> SetLabel("Correct!");
+            variantCorrectLabel -> SetLabel(wxEmptyString);
+            timer.StartOnce(2000);
         }
 
-        timer.StartOnce(2000);	
+        else if (textEntry == "") {
+            Unbind(wxEVT_TEXT_ENTER, &Type::checkSecondEntry, this, ID_entry);
+            Unbind(wxEVT_BUTTON, &Type::checkSecondEntry, this, ID_enterButton);
+            restart_cycle();
+        }
+
+        else {
+            variantQuestion -> SetLabel("Still wrong. Try again.");
+            basicTimer.StartOnce(2000);
+            ifWrong();
+        }
+    }
+
+    void ifWrong() {
+        Bind(wxEVT_TEXT_ENTER, &Type::checkSecondEntry, this, ID_entry);
+        Bind(wxEVT_BUTTON, &Type::checkSecondEntry, this, ID_enterButton);
+        entry -> Clear();
+        entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
+        variantQuestion -> SetLabel("Please enter correct answer; Press enter immediately to skip.");
     }
 
     void endFrame() {
-        double percentage { ((double)data.amountCorrect/(double)data.amountIncorrect)*100 };
+        double percentage { ((double)data.amountCorrect/(double)data.turns)*100 };
     	int    answer = wxMessageBox("You are done!\n You got " + std::to_string(data.amountCorrect) + " questions right and " + std::to_string(data.amountIncorrect) + " questions wrong with a percentage of " 
                                   + std::to_string(percentage) + "!\n Would you like to play again?", "Play again?", wxYES_NO, this, 0, 125);
         if (answer == wxYES) { startFromEnd(); }
@@ -114,6 +143,10 @@ class Type : public wxFrame {
 
     void startFromEnd() {
         data.reset();
+        Bind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);
+        Bind(wxEVT_BUTTON, &Type::checkAnswer, this, ID_enterButton);
+        entry -> Clear();
+        entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
         startGame();
     }
 
@@ -151,6 +184,10 @@ public:
     }
 
     void restart_cycle(wxTimerEvent& event) {
+        restart_cycle();
+    }
+
+    void restart_cycle() {
         staticCorrectLabel-> SetLabel(wxEmptyString);
         variantCorrectLabel-> SetLabel(wxEmptyString);
         Bind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);

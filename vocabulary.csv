@@ -1,1525 +1,1868 @@
 set,subset,vocab type,eng,jpn,through five
-One,One,Nouns,Teacher,せんせい｜｜先生
-One,One,Suffixes,Mr./Mrs./Miss/Ms.,〜さん
-One,One,Suffixes,Professor,〜せんせい｜｜〜先生
-One,One,Expressions,"(Um,) excuse me",（あのう、）すみません
-One,One,Expressions,Thank you,ありがとうございます
-One,One,Expressions,How do you say that (over there) in Japanese?,あれはにほんごでなんといいますか｜｜あれは日本語でなんと言いますか
-One,One,Expressions,"No, I don't understand (it).",いいえ、わかりません｜｜いいえ、分かりません
-One,One,Expressions,Please say it/repeat after me.,いってください｜｜言って下さい
-One,One,Expressions,Please speak loudly. (Instructor request),おおきいこえでいってください｜｜大きい声で言って下さい
-One,One,Expressions,Please speak loudly. (Student request),おおきいこえでおねがいします｜｜大き声でお願いします
-One,One,Expressions,Good morning./Hello (casual),おはよう
-One,One,Expressions,Good morning.Hello (formal),おはようございます
-One,One,Expressions,Please write.,かいてください｜｜書いて下さい
-One,One,Expressions,Please listen.,きいてください｜｜聞いて下さい
-One,One,Expressions,How do you say this in Japanese?,これはにほんごでなんといいますか｜｜これは日本語で何と言いますか
-One,One,Expressions,Good afternoon./Hello,こんにちは
-One,One,Expressions,Good evening./Hello,こんばんは
-One,One,Expressions,Good bye,さようなら｜｜さよなら
-One,One,Expressions,Good bye (formal)/excuse me,しつれいします｜｜失礼します
-One,One,Expressions,See you later,じゃあ、また
-One,One,Expressions,I am sorry./Excuse me.,すみません
-One,One,Expressions,How do you say that in Japanese?,それはにほんごでなんといいますか｜｜それは日本語で何と言いますか
-One,One,Expressions,What does ~ mean?,〜ってなんですか｜｜〜って何ですか
-One,One,Expressions,You say ~. You call it ~.,〜といいます｜｜〜っていいます｜｜〜と言います｜｜〜って言います
-One,One,Expressions,You are welcome.,どういたしまして
-One,One,Expressions,"Yes, I understand (it).",はい、わかりました｜｜はい、分かりました
-One,One,Expressions,How do you do? I am (name). Pleased to meet you.,はじめまして。〜です。どうぞよろしく。｜｜初めまして。〜です。どうぞよろしく。
-One,One,Expressions,How do you say ~ in Japanese?,〜はにほんごでなんといいますか｜｜〜は日本語で何と言いますか
-One,One,Expressions,Please look at it.,みてください｜｜見て下さい
-One,One,Expressions,Please say it again. (Instructor request),もういちどいってください｜｜もう一度言って下さい
-One,One,Expressions,Please say it again. (Student request),もういちどおねがいします｜｜もう一度お願いします
-One,One,Expressions,Please say it slowly.,ゆっくりいってください｜｜ゆっくり言って下さい
-One,One,Expressions,Please read.,よんでください｜｜読んで下さい
-One,One,Expressions,Do you understand (it)?,わかりましたか｜｜分かりましたか
-One,Two,Nouns,Asian studies,あじあけんきゅう｜｜アジアけんきゅう｜｜アジア研究
-One,Two,Nouns,"America, the United States",あめりか｜｜アメリカ
-One,Two,Nouns,England,いぎりす｜｜イギリス
-One,Two,Nouns,"Freshman, first year student",いちねんせい｜｜いちねん｜｜一年生｜｜一年｜｜1年生｜｜１年
-One,Two,Nouns,Now,いま｜｜今
-One,Two,Nouns,English,えいご｜｜英語
-One,Two,Nouns,Australia,おーすとらりあ｜｜オーストラリア
-One,Two,Nouns,Student,がくせい｜｜学生
-One,Two,Nouns,Canada,かなだ｜｜カナダ
-One,Two,Nouns,South Korea,かんこく｜｜韓国
-One,Two,Nouns,"Management, business administration",けいえいがく｜｜経営学
-One,Two,Nouns,Engineering,こうがく｜｜工学
-One,Two,Nouns,High school,こうこう｜｜高校
-One,Two,Nouns,"P.M., afternoon",ごご｜｜午後
-One,Two,Nouns,"A.M., morning",ごぜん｜｜午前
-One,Two,Nouns,"This person, this way",こちら
-One,Two,Nouns,"Junior, third year student",さんねんせい｜｜3年生｜｜三年生
-One,Two,Nouns,Spain,すぺいん｜｜スペイン
-One,Two,Nouns,Major,せんこう｜｜専攻
-One,Two,Nouns,"College, university",だいがく｜｜大学
-One,Two,Nouns,Graduate student,だいがくいんせい｜｜大学院生
-One,Two,Nouns,College student,だいがくせい｜｜大学生
-One,Two,Nouns,Taiwan,たいわん｜｜台湾
-One,Two,Nouns,China,ちゅうごく｜｜中国
-One,Two,Nouns,Name,なまえ｜｜名前
-One,Two,Nouns,"Sophomore, second year student",にねんせい｜｜2年生｜｜二年生
-One,Two,Nouns,Japan,にほん｜｜日本｜｜にっぽん
-One,Two,Nouns,Business,びじねす｜｜ビジネス
-One,Two,Nouns,France,ふらんす｜｜フランス
-One,Two,Nouns,Literature,ぶんがく｜｜文学
-One,Two,Nouns,Mexico,めきしこ｜｜メキシコ
-One,Two,Nouns,"Senior, fourth year student",よねんせい｜｜四年生｜｜4年生
-One,Two,Nouns,Next year,らいねん｜｜来年
-One,Two,Nouns,International student,りゅうがくせい｜｜留学生
-One,Two,Nouns,History,れきし｜｜歴史
-One,Two,Pronouns,I (used by males),ぼく｜｜僕
-One,Two,Pronouns,I (used by males and females),わたし｜｜私
-One,Two,Verbs,To be,です
-One,Two,Time expressions,One o'clock,いちじ｜｜一時｜｜1時
-One,Two,Time expressions,Two o'clock,にじ｜｜2時｜｜二時
-One,Two,Time expressions,Three o'clock,さんじ｜｜三時｜｜3時
-One,Two,Time expressions,Four o'clock,よじ｜｜四時｜｜4時
-One,Two,Time expressions,Five o'clock,ごじ｜｜5時｜｜五時
-One,Two,Time expressions,Six o'clock,ろくじ｜｜六時｜｜6時
-One,Two,Time expressions,Seven o'clock,しちじ｜｜七時｜｜7時
-One,Two,Time expressions,Eight o'clock,はちじ｜｜8時｜｜八時
-One,Two,Time expressions,Nine o'clock,くじ｜｜九時｜｜9時
-One,Two,Time expressions,Ten o'clock,じゅうじ｜｜10時｜｜十時
-One,Two,Time expressions,Eleven o'clock,じゅういちじ｜｜十一時｜｜11時
-One,Two,Time expressions,Twelve o'clock,じゅうにじ｜｜十二時｜｜12時
-One,Two,Time expressions,Half past,はん｜｜半
-One,Two,Question words,Where,どこ
-One,Two,Question words,"Where (polite), which way",どちら
-One,Two,Question words,What,なに｜｜なん｜｜何
-One,Two,Particles,Question marker,か
-One,Two,Particles,"Noun modifier marker (of, 's)",の
-One,Two,Particles,Topic marker,は
-One,Two,Particles,"Similarity marker (also, too)",も
-One,Two,Prefix,Polite prefix,お〜
-One,Two,Suffixes,Language,〜ご｜｜〜語
-One,Two,Suffixes,O'clock,〜じ｜｜〜時
-One,Two,Suffixes,Nationality,〜じん｜｜〜人
-One,Two,Suffixes,Student,〜せい｜｜〜生
-One,Two,Suffixes,Year (in school),〜ねん｜｜〜年
-One,Two,Interjections,"Uh, well...",あのう
-One,Two,Interjections,"No, don't mention it, you're welcome",いいえ
-One,Two,Interjections,Yes (colloquial),ええ
-One,Two,Interjections,Yes (formal),はい
-One,Two,Expressions,"No, that's not so",いいえ、そうじゃありません｜｜いいえ、そうじゃないです
-One,Two,Expressions,"Yes, that's so",ええ、そうです
-One,Two,Expressions,Came from,〜からきました｜｜〜から来ました
-One,Two,Expressions,It is I who should be saying that. Thank you. Same here.,こちらこそ
-One,Two,Expressions,Is that so? I see.,そうですか
-One,Two,Expressions,It is called (colloquial),〜っていいます｜｜〜って言います
-One,Two,Expressions,Thank you very much,どうもありがとうございます
-One,Two,Expressions,Where are you from?,どこからきましたか｜｜どこから来ましたか
-One,Two,Expressions,Where are you from? (Polite),どちらからいらっしゃいましたか
-One,Three,Nouns,Morning,あさ｜｜朝
-One,Three,Nouns,Breakfast,あさごはん｜｜朝御飯
-One,Three,Nouns,The day after tomorrow,あさって｜｜明後日
-One,Three,Nouns,Tomorrow,あした｜｜明日
-One,Three,Nouns,Home,うち｜｜家
-One,Three,Nouns,Movie,えいが｜｜映画
-One,Three,Nouns,The day before yesterday,おととい｜｜一昨日
-One,Three,Nouns,Bath,おふろ｜｜お風呂
-One,Three,Nouns,School,がっこう｜｜学校
-One,Three,Nouns,Tuesday,かようび｜｜火曜日
-One,Three,Nouns,Yesterday,きのう｜｜昨日
-One,Three,Nouns,Today,きょう｜｜今日
-One,Three,Nouns,Friday,きんようび｜｜金曜日
-One,Three,Nouns,Class,クラス
-One,Three,Nouns,Monday,げつようび｜｜月曜日
-One,Three,Nouns,Coffee,コーヒー
-One,Three,Nouns,"Meal, cooked rice",ごはん｜｜ご飯
-One,Three,Nouns,This week,こんしゅう｜｜今週
-One,Three,Nouns,Tonight,こんばん｜｜今晩
-One,Three,Nouns,Shower,シャワー
-One,Three,Nouns,Weekend,しゅうまつ｜｜週末
-One,Three,Nouns,"Class, course",じゅぎょう｜｜授業
-One,Three,Nouns,Homework,しゅくだい｜｜宿題
-One,Three,Nouns,Wednesday,すいようび｜｜水曜日
-One,Three,Nouns,"Life, living",せいかつ｜｜生活
-One,Three,Nouns,Last week,せんしゅう｜｜先週
-One,Three,Nouns,Next,つぎ｜｜次
-One,Three,Nouns,"Television, TV",テレビ
-One,Three,Nouns,Telephone number,でんわばんごう｜｜電話番号
-One,Three,Nouns,Library,としょかん｜｜図書館
-One,Three,Nouns,Saturday,どようび｜｜土曜日
-One,Three,Nouns,Sunday,にちようび｜｜日曜日
-One,Three,Nouns,"Night, evening",ばん｜｜晩
-One,Three,Nouns,"Supper, dinner",ばんごはん｜｜晩御飯
-One,Three,Nouns,Afternoon,ひる｜｜昼
-One,Three,Nouns,Lunch,ひるごはん｜｜昼御飯
-One,Three,Nouns,Study,べんきょう｜｜勉強
-One,Three,Nouns,Book,ほん｜｜本
-One,Three,Nouns,Every morning,まいあさ｜｜毎朝
-One,Three,Nouns,Every week,まいしゅう｜｜毎週
-One,Three,Nouns,Every day,まいにち｜｜毎日
-One,Three,Nouns,Every night,まいばん｜｜毎晩
-One,Three,Nouns,thursday,もくようび｜｜木曜日
-One,Three,Verbs,"Exists; to be held, to have (inanimate objects only)",あります
-One,Three,Verbs,To go,いきます｜｜行きます
-One,Three,Verbs,"To return, to go home",かえります｜｜帰ります
-One,Three,Verbs,To drink,のみます｜｜飲みます
-One,Three,Verbs,"To enter, to take (a bath)",はいります｜｜入ります
-One,Three,Verbs,To read,よみます｜｜読みます
-One,Three,Verbs,To take a shower,あびます｜｜浴びます
-One,Three,Verbs,"To get up, to wake up",おきます｜｜起きます
-One,Three,Verbs,To eat,たべます｜｜食べます
-One,Three,Verbs,"To go to bed, to go to sleep",ねます｜｜寝ます
-One,Three,Verbs,"To see, to watch",みます｜｜見ます
-One,Three,Verbs,To come,きます｜｜来ます
-One,Three,Verbs,To do,します
-One,Three,Verbs,To study,べんきょうします｜｜勉強します
-One,Three,Question words,When,いつ
-One,Three,Numbers,Zero,ゼロ｜｜れい｜｜零
-One,Three,Numbers,One,いち｜｜一
-One,Three,Numbers,Two,に｜｜二
-One,Three,Numbers,Three,さん｜｜三
-One,Three,Numbers,Four,よん｜｜し｜｜四
-One,Three,Numbers,Five,ご｜｜五
-One,Three,Numbers,Six,ろく｜｜六
-One,Three,Numbers,Seven,なな｜｜しち｜｜七
-One,Three,Numbers,Eight,はち｜｜八
-One,Three,Numbers,Nine,きゅう｜｜く｜｜九
-One,Three,Numbers,ten,じゅう｜｜十
-One,Three,Counters,Minute(s),〜ふん｜｜〜ぷん｜｜〜分
-One,Three,Adverbs,Not very often (used with negative verb forms),あまり
-One,Three,Adverbs,Always,いつも
-One,Three,Adverbs,Not at all (used with negative verb forms),ぜんぜん｜｜全然
-One,Three,Adverbs,Usually,たいてい
-One,Three,Adverbs,Sometimes,ときどき｜｜時々
-One,Three,Adverbs,"Often, well",よく
-One,Three,Particles,"At, in, on, etc. (location of action or event)",で
-One,Three,Particles,"At, on, in (point in time)",に
-One,Three,Particles,"To (goal, activity)",に
-One,Three,Particles,To (direction),へ
-One,Three,Particles,Direct object marker,を
-One,Three,Prefixes,This,こん〜｜｜今〜
-One,Three,Prefixes,Every,まい〜｜｜毎〜
-One,Three,Suffixes,About (only used with time expressions),〜ごろ
-One,Three,Suffixes,Day (of the week),〜ようび｜｜〜曜日
-One,Three,Irregular minutes,One minute,いっぷん｜｜一分
-One,Three,Irregular minutes,Three minutes,さんぷん｜｜三分
-One,Three,Irregular minutes,Four minutes,よんふん｜｜よんぷん｜｜四分
-One,Three,Irregular minutes,Six minutes,ろっぷん｜｜六分
-One,Three,Irregular minutes,Eight minutes,はっぷん｜｜はちふん｜｜八分
-One,Three,Irregular minutes,Ten minutes,じゅっぷん｜｜じっぷん｜｜十分
-One,Three,Irregular minutes,How many minutes?,なんぷん｜｜何分
-One,Four,Nouns,Apartment,アパート
-One,Four,Nouns,Station,えき｜｜駅
-One,Four,Nouns,Pencil,えんぴつ｜｜鉛筆
-One,Four,Nouns,"Luggage, bag",かばん｜｜鞄
-One,Four,Nouns,"Coffee shop, café (recent term)",カフェ
-One,Four,Nouns,Coffee shop (traditional term),きっさてん｜｜喫茶店
-One,Four,Nouns,Textbook,きょうかしょ｜｜教科書
-One,Four,Nouns,Bank,ぎんこう｜｜銀行
-One,Four,Nouns,Eraser,けしゴム｜｜消しゴム
-One,Four,Nouns,Park,こうえん｜｜公園
-One,Four,Nouns,Police box,こうばん｜｜交番
-One,Four,Nouns,This area,このへん｜｜この辺
-One,Four,Nouns,Convenience store,コンビニ
-One,Four,Nouns,Dictionary,じしょ｜｜辞書
-One,Four,Nouns,Supermarket,スーパー
-One,Four,Nouns,"Building, structure",たてもの｜｜建物
-One,Four,Nouns,Test,テスト
-One,Four,Nouns,Department store,デパート
-One,Four,Nouns,Notebook,ノート
-One,Four,Nouns,Building (western),ビル
-One,Four,Nouns,Hospital,びょういん｜｜病院
-One,Four,Nouns,Pen,ペン
-One,Four,Nouns,Ballpoint pen,ボールペン
-One,Four,Nouns,Bookstore,ほんや｜｜本屋
-One,Four,Nouns,Town,まち｜｜町
-One,Four,Nouns,Post office,ゆうびんきょく｜｜郵便局
-One,Four,Nouns,Dormitory,りょう｜｜寮
-One,Four,Nouns,Restaurant,レストラン
-One,Four,Verbs,"(for inanimate objects) To be, to exist",あります
-One,Four,Verbs,"(for animate objects) To be, to exist",います
-One,Four,Demonstrative words,"Over there, that place (far from speaker and listener)",あそこ
-One,Four,Demonstrative words,"That, that object over there",あれ
-One,Four,Demonstrative words,"Here, this place",ここ
-One,Four,Demonstrative words,"This object, this",これ
-One,Four,Demonstrative words,"There, that place (close to listener or slightly removed from speaker and listener)",そこ
-One,Four,Demonstrative words,"That object, that (close to listener or slightly removed from speaker and listener)",それ
-One,Four,Adjectives,Blue,あおい｜｜青い
-One,Four,Adjectives,Red,あかい｜｜赤い
-One,Four,Adjectives,New,あたらしい｜｜新しい
-One,Four,Adjectives,Good,いい｜｜良い
-One,Four,Adjectives,Big,おおきい｜｜大きい
-One,Four,Adjectives,Yellow,きいろい｜｜黄色い
-One,Four,Adjectives,Black,くろい｜｜黒い
-One,Four,Adjectives,White,しろい｜｜白い
-One,Four,Adjectives,"Tall, high",たかい｜｜高い
-One,Four,Adjectives,Small,ちいさい｜｜小さい
-One,Four,Adjectives,Brown,ちゃいろい｜｜茶色い
-One,Four,Adjectives,Old,ふるい｜｜古い
-One,Four,Adjectives,"Clean, pretty, neat",きれい（な）｜｜綺麗（な）
-One,Four,Adjectives,Famous,ゆうめい（な）｜｜有名（な）
-One,Four,Adjectives,"Fine, splendid, nice",りっぱ（な）｜｜立派（な）
-One,Four,Question words,Who,だれ
-One,Four,Question words,Which one,どれ
-One,Four,Question words,What kind of,どんな
-One,Four,Adverbs,Very,どうも
-One,Four,Adverbs,Very (always used with an affirmative form),とても
-One,Four,Suffixes,Store,〜や｜｜〜屋
-One,Five,Location Nouns,"On, Above, Over",うえ｜｜上
-One,Five,Location Nouns,"Behind, In back of",うしろ｜｜後ろ
-One,Five,Location Nouns,"Under, Beneath",した｜｜下
-One,Five,Location Nouns,Outside,そと｜｜外
-One,Five,Location Nouns,"Near, In the vicinity of",ちかく｜｜近く
-One,Five,Location Nouns,Next to; (of same type),となり｜｜隣
-One,Five,Location Nouns,"In, Inside",なか｜｜中
-One,Five,Location Nouns,"To the left, Left side",ひだり｜｜左
-One,Five,Location Nouns,"In front of, In the front",まえ｜｜前
-One,Five,Location Nouns,To the right,みぎ｜｜右
-One,Five,Location Nouns,"Next to, Adjacent to; (of different type)",よこ｜｜横
-One,Five,Nouns,Chair,いす｜｜椅子
-One,Five,Nouns,Dog,いぬ｜｜犬
-One,Five,Nouns,Picture,え｜｜絵
-One,Five,Nouns,Japanese style closet,おしいれ｜｜押入れ｜｜押し入れ
-One,Five,Nouns,School cafeteria,がくしょく｜｜学しょく｜｜学食
-One,Five,Nouns,Student union,学生かいかん｜｜学生会館｜｜がくせいかいかん
-One,Five,Nouns,River,かわ｜｜川
-One,Five,Nouns,Tree,き｜｜木
-One,Five,Nouns,Classroom,きょうしつ｜｜教室
-One,Five,Nouns,Car,くるま｜｜車
-One,Five,Nouns,Cell Phone,けいたい（でんわ）｜｜携帯（電話）
-One,Five,Nouns,Chalkboard,こくばん｜｜黒板
-One,Five,Nouns,Computer,コンピュータ
-One,Five,Nouns,Bicycle,じてんしゃ｜｜自転車
-One,Five,Nouns,Photograph,しゃしん｜｜写真
-One,Five,Nouns,Sofa,ソファ
-One,Five,Nouns,Gym,たいいくかん｜｜体育館
-One,Five,Nouns,"Chest, Drawers",たんす｜｜タンス｜｜箪笥
-One,Five,Nouns,Desk,つくえ｜｜机
-One,Five,Nouns,Table,テーブル
-One,Five,Nouns,Telephone,でんわ｜｜電話
-One,Five,Nouns,Door,ドア
-One,Five,Nouns,"Toilet, Restroom",トイレ
-One,Five,Nouns,"Clock, Watch",とけい｜｜時計
-One,Five,Nouns,Place,ところ｜｜所
-One,Five,Nouns,Cat,ねこ｜｜猫
-One,Five,Nouns,Bus,バス
-One,Five,Nouns,Video,ビデオ
-One,Five,Nouns,Person,ひと｜｜人
-One,Five,Nouns,Futon,ふとん｜｜布団
-One,Five,Nouns,Bed,ベッド
-One,Five,Nouns,Room,へや｜｜部屋
-One,Five,Nouns,Bookshelf,ほんだな｜｜本だな｜｜本棚
-One,Five,Nouns,Window,まど｜｜窓
-One,Five,Nouns,Thing (tangible),もの｜｜物
-One,Five,Nouns,Mountain,やま｜｜山
-One,Five,Nouns,Room,ルーム
-One,Five,Verbs,"To take (time), it costs",かかります
-One,Five,Demonstrative Words,That [+ noun] over there,あの
-One,Five,Demonstrative Words,This [+ noun],この
-One,Five,Demonstrative Words,That [+ noun],その
-One,Five,Demonstrative Words,Which [+ noun]?,どの
-One,Five,Adjectives,Bright,あかるい｜｜明るい
-One,Five,Adjectives,Dark,くらい｜｜暗い
-One,Five,Adjectives,"Cramped, Narrow",せまい｜｜狭い
-One,Five,Adjectives,"Fast, Quick",はやい｜｜早い
-One,Five,Adjectives,"Spacious, Wide",ひろい｜｜広い
-One,Five,Adjectives,Quiet,しずか（な）｜｜静か（な）
-One,Five,Particles,From,から
-One,Five,Particles,"By means of, by, with",で
-One,Five,Particles,"Until, to",まで
-One,Five,Suffixes,About ~ (Duration or quantity),〜ぐらい｜｜〜くらい
-One,Five,Suffixes,~ Hours,〜じかん｜｜〜時間
-One,Five,Conjunctions,But,でも
-One,Five,Expressions,Please Come in.,あがってください｜｜上がって下さい
-One,Five,Expressions,On foot,あるいて｜｜歩いて
-One,Five,Expressions,Welcome! Come in.,いらっしゃい
-One,Five,Expressions,Thank you. (Said before going inside someone's house or apartment),おじゃまします
-One,Five,Expressions,"Excuse me, anyone home?",ごめんください｜｜ごめん下さい
-One,Five,Question Words,"How long, how much, how many",どのぐらい｜｜どのくらい
-One,Six,Nouns,Part-time job,アルバイト｜｜バイト
-One,Six,Nouns,Exercises,うんどう｜｜運動
-One,Six,Nouns,Music,おんがく｜｜音楽
-One,Six,Nouns,Shopping,かいもの｜｜買い物
-One,Six,Nouns,Game,ゲーム
-One,Six,Nouns,Concert,コンサート
-One,Six,Nouns,Next time,こんど｜｜今度
-One,Six,Nouns,Magazine,ざっし｜｜雑誌
-One,Six,Nouns,"Walk, stroll",さんぽ｜｜散歩
-One,Six,Nouns,Job,しごと｜｜仕事
-One,Six,Nouns,Question,しつもん｜｜質問
-One,Six,Nouns,Jogging,ジョギング
-One,Six,Nouns,Newspaper,しんぶん｜｜新聞
-One,Six,Nouns,Laundry,せんたく｜｜洗濯
-One,Six,Nouns,Cleaning,そうじ｜｜掃除
-One,Six,Nouns,Letter,てがみ｜｜手紙
-One,Six,Nouns,Tennis,テニス
-One,Six,Nouns,Friend,ともだち｜｜友達
-One,Six,Nouns,Party,パーティ
-One,Six,Nouns,Picnic,ピクニック
-One,Six,Nouns,Pool,プール
-One,Six,Nouns,E-mail,メール
-One,Six,Nouns,"Rest, absence, a day off",やすみ｜｜休み
-One,Six,Nouns,"A day off, holiday",やすみの日｜｜休みの日
-One,Six,Nouns,Parents,りょうしん｜｜両親
-One,Six,Nouns,"Cooking, cuisine",りょうり｜｜料理
-One,Six,Verbs,To meet,あいます｜｜会います
-One,Six,Verbs,To play,あそびます｜｜遊びます
-One,Six,Verbs,"To walk, to walk up towards",あるきます｜｜歩きます
-One,Six,Verbs,To say,いいます｜｜言います
-One,Six,Verbs,To swim,およぎます｜｜泳ぎます
-One,Six,Verbs,To write,かきます｜｜書きます
-One,Six,Verbs,"To ask, to listen to",ききます｜｜聴きます｜｜聞きます
-One,Six,Verbs,To talk,はなします｜｜話します
-One,Six,Verbs,To wait,まちます｜｜待ちます
-One,Six,Verbs,"To call, to invite",よびます｜｜呼びます
-One,Six,Verbs,To make (a phone call),かけます
-One,Six,Verbs,To go out,でかけます｜｜出かけます
-One,Six,Adjectives,Busy,いそがしい｜｜忙しい
-One,Six,Adjectives,Happy,うれしい｜｜嬉しい
-One,Six,Adjectives,Interesting,おもしろい｜｜面白い
-One,Six,Adjectives,Sad,かなしい｜｜悲しい
-One,Six,Adjectives,Lonely,さびしい｜｜寂しい
-One,Six,Adjectives,Fun,たのしい｜｜楽しい
-One,Six,Adjectives,Boring,つまらない
-One,Six,Adjectives,Difficult,むずかしい｜｜難しい
-One,Six,Adjectives,"Easy, kind",やさしい｜｜優しい｜｜易しい
-One,Six,Adjectives,"Healthy, cheerful, lively (person)",げんき（な）｜｜元気（な）
-One,Six,Adjectives,"Sorry, regrettable",ざんねん（な）｜｜残念（な）
-One,Six,Adjectives,"All right, no problem",だいじょうぶ（な）｜｜大丈夫（な）
-One,Six,Adjectives,Tough,たいへん（な）｜｜大変（な）
-One,Six,Adjectives,Lively (place or event),にぎやか（な）｜｜賑やか（な）
-One,Six,Adjectives,"Free, idle, unscheduled",ひま（な）｜｜暇（な）
-One,Six,Question words,How?,どう
-One,Six,Adverbs,Together,いっしょに｜｜一緒に
-One,Six,Adverbs,"By all means., I'd love to",ぜひ｜｜是非
-One,Six,Adverbs,Slowly,ゆっくり
-One,Six,Particles,"With, together with (association)",と
-One,Six,Particles,And (exhaustive listing),と
-One,Six,Particles,"In order to, for (purpose)",に
-One,Six,Particles,"To (goal, receiver)",に
-One,Six,Conjunctions,And,そして
-One,Six,Expressions,I'm a little busy,ちょっとつごうがわるくて｜｜ちょっと都合が悪くて
-One,Six,Expressions,"Sorry, I have some errands/business to attend to.",ちょっとようじがあって｜｜ちょっと用事があって
-One,Six,Verbs in て form,To exist (inanimate),あって
-One,Six,Verbs in て form,To go,いって｜｜行って
-One,Six,Verbs in て form,To return,かえって｜｜帰って
-One,Six,Verbs in て form,To drink,のんで｜｜飲んで
-One,Six,Verbs in て form,"To take (a bath), to enter",はいって｜｜入って
-One,Six,Verbs in て form,To read,よんで｜｜読んで
-One,Six,Verbs in て form,To take (a shower),あびて｜｜浴びて
-One,Six,Verbs in て form,"To get up, to wake up",おきて｜｜起きて
-One,Six,Verbs in て form,To eat,たべて｜｜食べて
-One,Six,Verbs in て form,To go to bed,ねて｜｜寝て
-One,Six,Verbs in て form,"To see, to watch",みて｜｜見て
-One,Six,Verbs in て form,To come,きて｜｜来て
-One,Six,Verbs in て form,To do,して
-One,Six,Verbs in て form,To exist (animate),いて
-One,Six,Verbs in て form,"To take (time), it costs",かかって
-One,Six,Verbs in て form,To meet,あって｜｜会って
-One,Six,Verbs in て form,To play,あそんで｜｜遊んで
-One,Six,Verbs in て form,To walk (up towards),あるいて｜｜歩いて
-One,Six,Verbs in て form,To say,いって｜｜言って
-One,Six,Verbs in て form,To swim,およいで｜｜泳いで
-One,Six,Verbs in て form,To write,かいて｜｜書いて
-One,Six,Verbs in て form,"To ask, to listen to",きいて｜｜聞いて｜｜聴いて
-One,Six,Verbs in て form,To talk,はなして｜｜話して
-One,Six,Verbs in て form,To wait,まって｜｜待って
-One,Six,Verbs in て form,"To call, to invite",よんで｜｜呼んで
-One,Six,Verbs in て form,To make (a phone call),かけて
-One,Six,Verbs in て form,To go out,でかけて｜｜出かけて
-One,Seven,Nouns,Song,うた｜｜歌
-One,Seven,Nouns,"Tea, Green tea",おちゃ｜｜お茶
-One,Seven,Nouns,Orange,オレンジ
-One,Seven,Nouns,"Karaoke, sing along",カラオケ
-One,Seven,Nouns,Cow's Milk,ぎゅうにゅう｜｜牛肉
-One,Seven,Nouns,Fruit,くだもの｜｜果物
-One,Seven,Nouns,Classical Music,クラシック
-One,Seven,Nouns,Cake,ケーキ
-One,Seven,Nouns,Black tea,こうちゃ｜｜紅茶
-One,Seven,Nouns,Cola,コーラ
-One,Seven,Nouns,Thing (intangible),こと｜｜事
-One,Seven,Nouns,Golf,ゴルフ
-One,Seven,Nouns,Fish,さかな｜｜魚
-One,Seven,Nouns,"Rice wine, alcoholic beverage",さけ｜｜酒｜｜おさけ｜｜お酒
-One,Seven,Nouns,Jazz,ジャズ
-One,Seven,Nouns,Juice,ジュース
-One,Seven,Nouns,Hobby,しゅみ｜｜趣味
-One,Seven,Nouns,Dining,しょくじ｜｜食事
-One,Seven,Nouns,Skiing,スキー
-One,Seven,Nouns,Sports,スポーツ
-One,Seven,Nouns,"Physical exercise, calisthenics",たいそう｜｜体操
-One,Seven,Nouns,Food,たべもの｜｜食べ物
-One,Seven,Nouns,Egg,たまご｜｜卵
-One,Seven,Nouns,Fishing,つり｜｜釣り
-One,Seven,Nouns,Tomato,トマト
-One,Seven,Nouns,Driving (for pleasure),ドライブ
-One,Seven,Nouns,Meat,にく｜｜肉
-One,Seven,Nouns,Carrot,にんじん
-One,Seven,Nouns,"Beverage, drink",のみもの｜｜飲み物
-One,Seven,Nouns,Hiking,ハイキング
-One,Seven,Nouns,Basketball,バスケットボール
-One,Seven,Nouns,Banana,バナナ
-One,Seven,Nouns,Hip-hop music,ヒップホップ
-One,Seven,Nouns,Beer,ビール
-One,Seven,Nouns,American football,フットボール
-One,Seven,Nouns,Pop music,ポップス
-One,Seven,Nouns,Water,水｜｜みず
-One,Seven,Nouns,"Milk (for babies), Creamer (for coffee)",ミルク
-One,Seven,Nouns,Baseball,やきゅう｜｜野球
-One,Seven,Nouns,Vegetable,やさい｜｜野菜
-One,Seven,Nouns,Rap music,ラップ
-One,Seven,Nouns,Traveling,りょこう｜｜旅行
-One,Seven,Nouns,Apple,りんご｜｜林檎
-One,Seven,Nouns,Lettuce,レタス
-One,Seven,Nouns,Rock and roll,ロック
-One,Seven,Nouns,Wine,ワイン
-One,Seven,Verbs,To dine,しょくじする｜｜食事する
-One,Seven,Verbs,To travel,りょこうする｜｜旅行する
-One,Seven,Verbs,To sing,うたう｜｜歌う
-One,Seven,Verbs,(For something) to end,おわる｜｜終わる
-One,Seven,Verbs,To make,つくる｜｜作る
-One,Seven,Verbs,To take (a photograph),とる｜｜取る｜｜撮る
-One,Seven,Verbs,(For something) to begin,はじまる｜｜始まる
-One,Seven,Adjectives,"Delicious, good, tasty",おいしい｜｜美味しい
-One,Seven,Adjectives,Expensive,たかい｜｜高い
-One,Seven,Adjectives,Inexpensive,やすい｜｜安い
-One,Seven,Adjectives,"Dislike, hate",きらい（な）｜｜嫌い（な）
-One,Seven,Adjectives,Like,すき(な)｜｜好き（な）
-One,Seven,Adverbs,More,もっと
-One,Seven,Particles,And (when listing examples),や
-One,Seven,Prefixes,Very much,大｜｜だい
-One,Seven,Conjunctions,"And, In addition, Then",それから
-One,Seven,Conjunctions,For example,たとえば
-One,Seven,Expressions,I neither like nor dislike it.,すきでもきらいでもありません｜｜好きでも嫌いでもありません
-One,Seven,Expressions,~is a bit,〜（は）ちょっと
-One,Seven,Expressions,How about ~?,〜（は）どうですか
-One,Eight,Nouns,Accessories,アクセサリー
-One,Eight,Nouns,Accessory department,アクセサリーうりば｜｜アクセサリー売り場
-One,Eight,Nouns,Earring,イヤリング
-One,Eight,Nouns,Wristwatch,うでどけい｜｜腕時計
-One,Eight,Nouns,"Department, section (of a store)",うりば｜｜売り場
-One,Eight,Nouns,"Customer, guest",おきゃくさん｜｜お客さん
-One,Eight,Nouns,Umbrella,かさ｜｜傘
-One,Eight,Nouns,Shoes,くつ｜｜靴
-One,Eight,Nouns,Socks,くつした｜｜靴下
-One,Eight,Nouns,Coat,コート
-One,Eight,Nouns,"CD section, DVD section",CDうりば｜｜DVDうりば｜｜CD売り場｜｜DVD売り場
-One,Eight,Nouns,Jeans,ジーンズ
-One,Eight,Nouns,Jacket,ジャケット
-One,Eight,Nouns,Shirt,シャツ
-One,Eight,Nouns,Food,しょくひん｜｜食品
-One,Eight,Nouns,Food department,しょくひんうりば｜｜食品売り場
-One,Eight,Nouns,Menswear,しんしふく｜｜紳士服
-One,Eight,Nouns,Menswear department,しんしふくうりば｜｜紳士服売り場
-One,Eight,Nouns,Suit,スーツ
-One,Eight,Nouns,Skirt,スカート
-One,Eight,Nouns,"Stockings, pantyhose",ストッキング
-One,Eight,Nouns,Sweater,セーター
-One,Eight,Nouns,Sale,セール
-One,Eight,Nouns,Birthday,たんじょうび｜｜誕生日
-One,Eight,Nouns,Basement,ちか｜｜地下
-One,Eight,Nouns,T shirt,Tシャツ
-One,Eight,Nouns,Formal dress,ドレス
-One,Eight,Nouns,Tie,ネクタイ
-One,Eight,Nouns,Necklace,ネックレス
-One,Eight,Nouns,Box,はこ｜｜箱
-One,Eight,Nouns,"Trousers, shorts",パンツ
-One,Eight,Nouns,Handbag,ハンドバッグ
-One,Eight,Nouns,Clothing,ふく｜｜服
-One,Eight,Nouns,Woman's clothing,ふじんふく｜｜婦人服
-One,Eight,Nouns,Woman's clothing section,ふじんふくうりば｜｜婦人服売り場
-One,Eight,Nouns,Blouse,ブラウス
-One,Eight,Nouns,Stationery,ぶんぼうぐ｜｜文房具
-One,Eight,Nouns,Stationery section,ぶんぼうぐうりば｜｜文房具売り場
-One,Eight,Nouns,Belt,ベルト
-One,Eight,Nouns,"Hat, cap",ぼうし｜｜帽子
-One,Eight,Nouns,"Store, shop",みせ｜｜店
-One,Eight,Nouns,Ring,ゆびわ｜｜指輪
-One,Eight,Nouns,Dress (informal),ワンピース
-One,Eight,Verbs,To buy,かう｜｜買う
-One,Eight,Verbs,To take,とる｜｜取る
-One,Eight,Verbs,To put,いれる｜｜入れる
-One,Eight,Verbs,To put in a box,はこにいれる｜｜箱に入れる
-One,Eight,Verbs,To show,みせる｜｜見せる
-One,Eight,Adverbs,"A little, a few",すこし｜｜少し
-One,Eight,Adverbs,"A lot, many, much",たくさん
-One,Eight,Adverbs,"A little, a few (casual)",ちょっと
-One,Eight,Adverbs,"~more, another~",もう
-One,Eight,Adverbs,A little more,もうすこし｜｜もう少し
-One,Eight,Adverbs,A little more (casual),もうちょっと
-One,Eight,Counters,Yen (Japanese currency),〜えん｜｜〜円
-One,Eight,Counters,Counter for floors of a building,〜かい｜｜〜階
-One,Eight,Counters,Counter for bound objects,〜さつ｜｜〜冊
-One,Eight,Counters,General counter,〜つ
-One,Eight,Counters,Counter for fish and small four-legged animals,〜ひき｜｜〜匹
-One,Eight,Counters,"Counter for long, cylindrical objects",〜本｜｜〜ほん
-One,Eight,Counters,Counter for thin objects,〜まい｜｜〜枚
-One,Eight,Question Words,How (polite form),いかが
-One,Eight,Question Words,How many,いくつ
-One,Eight,Question Words,How much (money),いくら
-One,Eight,Question Words,Why,どうして
-One,Eight,Japanese Origin Numbers,One,ひとつ｜｜一つ
-One,Eight,Japanese Origin Numbers,Two,ふたつ｜｜二つ
-One,Eight,Japanese Origin Numbers,Three,みっつ｜｜三つ
-One,Eight,Japanese Origin Numbers,Four,よっつ｜｜四つ
-One,Eight,Japanese Origin Numbers,Five,いつつ｜｜五つ
-One,Eight,Japanese Origin Numbers,Six,むっつ｜｜六つ
-One,Eight,Japanese Origin Numbers,Seven,ななつ｜｜七つ
-One,Eight,Japanese Origin Numbers,Eight,やっつ｜｜八つ
-One,Eight,Japanese Origin Numbers,Nine,ここのつ｜｜九つ
-One,Eight,Japanese Origin Numbers,Ten,とお｜｜十
-One,Eight,Numbers,Thousand,せん｜｜千
-One,Eight,Numbers,Hundred,ひゃく｜｜百
-One,Eight,Numbers,Ten thousand,まん｜｜万
-One,Eight,Expressions,Welcome,いらっしゃいませ
-One,Eight,Expressions,All together,ぜんぶで｜｜全部で
-One,Eight,Expressions,Do you have ~ ? Do you carry ~ ?,〜はありませんか
-One,Eight,Expressions,Please say it in easier words,やさしいことばでいってください｜｜易しい言葉で言って下さい｜｜優しい言葉で言って下さい
-One,Eight,Expressions,Please give me ~,〜を下さい｜｜〜をください
-One,Nine,Nouns,Ice cream,アイスクリーム
-One,Nine,Nouns,Oil,あぶら｜｜油
-One,Nine,Nouns,"fatty, oily",あぶらがおおい｜｜油がおおい｜｜油が多い｜｜あぶらが多い
-One,Nine,Nouns,Italian cuisine,イタリアりょうり｜｜イタリア料理
-One,Nine,Nouns,Japanese wheat noodles,うどん
-One,Nine,Nouns,Japanese curry and rice dish,カレーライス
-One,Nine,Nouns,Calorie,カロリー
-One,Nine,Nouns,Cookie,クッキー
-One,Nine,Nouns,Sashimi,さしみ｜｜おさしみ｜｜刺身｜｜お刺身
-One,Nine,Nouns,Salad,サラダ
-One,Nine,Nouns,Sandwich,サンドイッチ
-One,Nine,Nouns,Soup,スープ
-One,Nine,Nouns,Sushi,すし｜｜おすし
-One,Nine,Nouns,Steak,ステーキ
-One,Nine,Nouns,Spaghetti,スパゲティ
-One,Nine,Nouns,Western-style fixed menu,セット
-One,Nine,Nouns,Hamburger set,ハンバーガーセット
-One,Nine,Nouns,Japanese buckwheat noodles,そば｜｜おそば
-One,Nine,Nouns,Cheese,チーズ
-One,Nine,Nouns,Chicken,チキン
-One,Nine,Nouns,Chinese-style fried rice,チャーハン
-One,Nine,Nouns,Chinese cuisine,ちゅうかりょうり｜｜中華料理
-One,Nine,Nouns,Order,ちゅうもん｜｜注文
-One,Nine,Nouns,Chocolate,チョコレート
-One,Nine,Nouns,A Japanese or Asian-style dish set,ていしょく｜｜定食
-One,Nine,Nouns,Sashimi set,さしみていしょく｜｜刺身定食
-One,Nine,Nouns,Dessert,デザート
-One,Nine,Nouns,"Tempura (fish, shrimp, and vegetables battered and deep-fried)",てんぷら｜｜天ぷら
-One,Nine,Nouns,Toast,トースト
-One,Nine,Nouns,Hamburger,ハンバーガー
-One,Nine,Nouns,Bread,パン
-One,Nine,Nouns,Beef,ビーフ
-One,Nine,Nouns,Pizza,ピザ
-One,Nine,Nouns,Fried chicken,フライドチキン
-One,Nine,Nouns,Pork,ポーク
-One,Nine,Nouns,Western-style cuisine,ようしょく｜｜洋食
-One,Nine,Nouns,"Rice (served on plate, not bowl)",ライス
-One,Nine,Nouns,Chinese-style noodle soup,ラーメン
-One,Nine,Nouns,Lunch,ランチ
-One,Nine,Nouns,Lunch set A,Aランチ
-One,Nine,Nouns,Japanese cuisine,わしょく｜｜和食
-One,Nine,Verbs,To need something,いる｜｜要る
-One,Nine,Verbs,"To order, to ask (someone to do~)",たのむ｜｜頼む
-One,Nine,Verbs,To order,ちゅうもんする｜｜注文する
-One,Nine,Adjectives,Warm,あたたかい｜｜温かい
-One,Nine,Adjectives,Hot,あつい｜｜暑い
-One,Nine,Adjectives,Sweet,あまい｜｜甘い
-One,Nine,Adjectives,"A lot, much",おおい｜｜多い
-One,Nine,Adjectives,"Hard, tough",かたい｜｜硬い
-One,Nine,Adjectives,Spicy,からい
-One,Nine,Adjectives,Salty,しょっぱい｜｜しおからい｜｜塩っぱい｜｜塩辛い
-One,Nine,Adjectives,"Little (in number), few",すくない｜｜少ない
-One,Nine,Adjectives,Sour,すっぱい｜｜酸っぱい
-One,Nine,Adjectives,Cold,つめたい｜｜冷たい
-One,Nine,Adjectives,Bitter,にがい｜｜苦い
-One,Nine,Adjectives,Low,ひくい｜｜低い
-One,Nine,Adjectives,Soft,やわらかい｜｜柔らかい
-One,Nine,Prefix,Polite prefix,ご〜
-One,Nine,Expressions,Please do not bother/worry about it,いいえ、どうぞおかまいなく
-One,Nine,Expressions,To decide on ~,〜にします
-One,Nine,Expressions,I would like to have ~,〜をおねがいします｜｜〜をお願いします
-One,Ten,Nouns,"Leg, foot",あし｜｜足
-One,Ten,Nouns,Head,あたま｜｜頭
-One,Ten,Nouns,"Smart, intelligent",あたまがいい｜｜頭がいい
-One,Ten,Nouns,Older brother (the speaker's),あに｜｜兄
-One,Ten,Nouns,Older sister (the speaker's),あね｜｜姉
-One,Ten,Nouns,Younger sister (the speaker's,いもうと｜｜妹
-One,Ten,Nouns,Younger sister (someone else's),いもうとさん｜｜妹さん
-One,Ten,Nouns,Mother (someone else's),おかあさん｜｜お母さん
-One,Ten,Nouns,Wife (someone else's),おくさん｜｜奥さん
-One,Ten,Nouns,Child (someone else's),おこさん｜｜お子さん
-One,Ten,Nouns,Grandfather (someone else's),おじいさん｜｜お爺さん
-One,Ten,Nouns,Father (someone else's),おとうさん｜｜お父さん
-One,Ten,Nouns,Younger brother (the speaker's),おとうと｜｜弟
-One,Ten,Nouns,Younger brother (someone else's),おとうとさん｜｜弟さん
-One,Ten,Nouns,Male,おとこ｜｜男
-One,Ten,Nouns,Man,おとこのひと｜｜男の人
-One,Ten,Nouns,Older brother (someone else's),おにいさん｜｜お兄さん
-One,Ten,Nouns,Older sister (someone else's),おねえさん｜｜お姉さん
-One,Ten,Nouns,Grandmother (someone else's),おばあさん｜｜お婆さん
-One,Ten,Nouns,Female,おんな｜｜女
-One,Ten,Nouns,Woman,おんなのひと｜｜女の人
-One,Ten,Nouns,Business　person,かいしゃいん｜｜会社員
-One,Ten,Nouns,Face,かお｜｜顔
-One,Ten,Nouns,"Family, speaker's family",かぞく｜｜家族
-One,Ten,Nouns,Hair,かみ｜｜かみのけ｜｜髪｜｜髪の毛
-One,Ten,Nouns,Sibling(s),きょうだい｜｜兄弟
-One,Ten,Nouns,Mouth,くち｜｜口
-One,Ten,Nouns,Marriage,けっこん｜｜結婚
-One,Ten,Nouns,Child,こ｜｜子
-One,Ten,Nouns,Boy,おとこのこ｜｜男の子
-One,Ten,Nouns,Girl,おんなのこ｜｜女の子
-One,Ten,Nouns,Family (someone else's),ごかぞく｜｜ご家族
-One,Ten,Nouns,Siblings (someone else's),ごきょうだい｜｜ご兄弟
-One,Ten,Nouns,Husband (someone else's),ごしゅじん｜｜ご主人
-One,Ten,Nouns,Child,こども｜｜子供
-One,Ten,Nouns,Husband (the speaker's),おっと｜｜夫
-One,Ten,Nouns,"Back (part of body), Height (of a person)",せ｜｜背
-One,Ten,Nouns,Personality,せいかく｜｜性格
-One,Ten,Nouns,Grandfather (the speaker's),そふ｜｜祖父
-One,Ten,Nouns,Grandmother (the speaker's),そぼ｜｜祖母
-One,Ten,Nouns,Father (the speaker's),ちち｜｜父
-One,Ten,Nouns,Wife (the speaker's),つま｜｜妻
-One,Ten,Nouns,"Hand, arm",て｜｜手
-One,Ten,Nouns,Age,とし｜｜年
-One,Ten,Nouns,"Elder, older",としうえ｜｜年上
-One,Ten,Nouns,Younger,としした｜｜年下
-One,Ten,Nouns,Nose,はな｜｜鼻
-One,Ten,Nouns,Mother (the speaker's),はは｜｜母
-One,Ten,Nouns,Only child,ひとりっこ｜｜一人っ子
-One,Ten,Nouns,Blonde,ブロンド
-One,Ten,Nouns,"Center, middle, middle child",まん中
-One,Ten,Nouns,Ear,みみ｜｜耳
-One,Ten,Nouns,Eye,め｜｜目
-One,Ten,Nouns,Glasses,めがね
-One,Ten,Nouns,"Husband (someone else's, if you know them)",だんなさん
-One,Ten,Verbs,To marry,〜とけっこんする
-One,Ten,Verbs,To be married,けっこんしている
-One,Ten,Verbs,To think,おもう
-One,Ten,Verbs,To put on (a hat or cap),かぶる
-One,Ten,Verbs,To reside,すむ
-One,Ten,Verbs,To live in,〜にすんでいる
-One,Ten,Verbs,"To put on (skirt, pants, sucks, shoes)",はく
-One,Ten,Verbs,To gain weight,ふとる
-One,Ten,Verbs,To be fat,ふとっている
-One,Ten,Verbs,To understand,分かる
-One,Ten,Verbs,To put on (glasses),かける
-One,Ten,Verbs,"To put on (sweater, shirt, jacket)",きる
-One,Ten,Verbs,To become employed,つとめる
-One,Ten,Verbs,"To be employed at, work for",〜につとめている
-One,Ten,Verbs,To lose weight,やせる
-One,Ten,Verbs,To be thin,やせている
-One,Ten,Verbs,To put on (accessories),する
-One,Ten,Verbs,Resultant state,〜ている
-One,Ten,Adjectives,Cheerful,あかるい
-One,Ten,Adjectives,"Good looking, cool, neat",かっこいい
-One,Ten,Adjectives,"Cute, adorable",かわいい
-One,Ten,Adjectives,Square,しかくい
-One,Ten,Adjectives,Long,ながい
-One,Ten,Adjectives,Long/elongated,ほそながい
-One,Ten,Adjectives,Round,まるい
-One,Ten,Adjectives,Short (length),みじかい
-One,Ten,Adjectives,"Good at, skillful",じょうず（な）｜｜上手（な）
-One,Ten,Adjectives,Kind,しんせつ（な）
-One,Ten,Question word,How old,いくつ
-One,Ten,Question word,How old (polite),おいくつ
-One,Ten,Prefixes,Elementary (school),小〜
-One,Ten,Prefixes,Middle (school),中〜
-One,Ten,Suffixes,Person (polite),〜方
-One,Ten,Suffixes,~years old,〜さい
-One,Ten,Suffixes,~people,〜人
-One,Ten,Suffixes,~th (ordinal suffix),〜番（め）
-One,Ten,Conjunction,In addition,それに
-One,Ten,Expressions,"No, that's not the case",いいえ｜｜そんなことはありません
-One,Ten,Expressions,"No, I still have a long way to go",いいえ｜｜まだまだです
-One,Eleven,Nouns,"Fall, autumn",あき
-One,Eleven,Nouns,Rain,あめ｜｜雨
-One,Eleven,Nouns,Temperature,おんど｜｜温度
-One,Eleven,Nouns,Wind,かぜ｜｜風
-One,Eleven,Nouns,Air temperature,きおん｜｜気温
-One,Eleven,Nouns,Climate,きこう
-One,Eleven,Nouns,Season,きせつ
-One,Eleven,Nouns,North,きた｜｜北
-One,Eleven,Nouns,Last year,きょねん
-One,Eleven,Nouns,Cloud,くも
-One,Eleven,Nouns,Cloudy,くもり
-One,Eleven,Nouns,This morning,けさ
-One,Eleven,Nouns,This year,今年
-One,Eleven,Nouns,"Recent, recently",さいきん
-One,Eleven,Nouns,Humidity,しつど
-One,Eleven,Nouns,Typhoon,たいふう
-One,Eleven,Nouns,Rainy season,つゆ
-One,Eleven,Nouns,Weather,（お）てんき｜｜（お）天気
-One,Eleven,Nouns,Weather forecast,てんきよほう
-One,Eleven,Nouns,Summer,なつ
-One,Eleven,Nouns,Southwest,なんせい｜｜南西
-One,Eleven,Nouns,Southeast,なんとう｜｜南東
-One,Eleven,Nouns,West,にし｜｜西
-One,Eleven,Nouns,Shower (rain),にわかあめ｜｜にわか雨
-One,Eleven,Nouns,Spring,はる
-One,Eleven,Nouns,Clear skies,はれ｜｜晴れ
-One,Eleven,Nouns,East,ひがし｜｜東
-One,Eleven,Nouns,Winter,ふゆ
-One,Eleven,Nouns,Direction,方
-One,Eleven,Nouns,Northwest,ほくせい｜｜北西
-One,Eleven,Nouns,Northeast,ほくとう｜｜北東
-One,Eleven,Nouns,Minus,マイナス
-One,Eleven,Nouns,South,みなみ｜｜南
-One,Eleven,Nouns,Evening,ゆうがた
-One,Eleven,Nouns,Snow,ゆき｜｜雪
-One,Eleven,Nouns,Night,よる
-One,Eleven,Verbs,"To rise, to go up",上がる
-One,Eleven,Verbs,To become cloudy,くもる
-One,Eleven,Verbs,"To fall, to go down",下がる
-One,Eleven,Verbs,To come to know,しる
-One,Eleven,Verbs,To know,しっている
-One,Eleven,Verbs,Don't know,しらない
-One,Eleven,Verbs,To continue,つづく
-One,Eleven,Verbs,To accumulate,つもる
-One,Eleven,Verbs,To blow,ふく
-One,Eleven,Verbs,To fall,ふる
-One,Eleven,Verbs,To stop,やむ
-One,Eleven,Verbs,To become sunny,はれる｜｜晴れる
-One,Eleven,Verbs,To become,なる
-One,Eleven,Verbs,To make something/someone into,する
-One,Eleven,Adjectives,Warm (air temperature),あたたかい｜｜温かい
-One,Eleven,Adjectives,Hot (air temperature),あつい｜｜暑い
-One,Eleven,Adjectives,Cold,さむい｜｜寒い
-One,Eleven,Adjectives,Cool,すずしい
-One,Eleven,Adjectives,Strong,つよい
-One,Eleven,Adjectives,Early,はやい
-One,Eleven,Adjectives,Humid,むしあつい
-One,Eleven,Adjectives,Weak,よわい
-One,Eleven,Adjectives,Bad,わるい
-One,Eleven,Adjectives,"Unpleasant, yuck",いや（な）
-One,Eleven,Adjectives,Sudden,きゅう（な）
-One,Eleven,Suffixes,Month,〜月
-One,Eleven,Suffixes,"Degree, temperature",〜ど
-One,Eleven,Expressions,After,〜のち〜
-One,Eleven,Expressions,"Truly, really, indeed",ほんとう（に）｜｜ほんと（に）
-One,Twelve,Nouns,"Ocean, sea",うみ
-One,Twelve,Nouns,The year before last,おととし｜｜一昨年
-One,Twelve,Nouns,Memories,おもいで｜｜思い出
-One,Twelve,Nouns,Foreign countries,がいこく
-One,Twelve,Nouns,"Semester, quarter",がっき
-One,Twelve,Nouns,Kabuki (Japanese traditional performing art),かぶき
-One,Twelve,Nouns,"Traditional Japanese clothes, kimono",きもの
-One,Twelve,Nouns,Camping,キャンプ
-One,Twelve,Nouns,Church,きょうかい
-One,Twelve,Nouns,Christmas,クリスマス
-One,Twelve,Nouns,"Fight, quarrel",けんか
-One,Twelve,Nouns,This month,今月
-One,Twelve,Nouns,The new year,しょうがつ
-One,Twelve,Nouns,Shinto shrine,じんじゃ
-One,Twelve,Nouns,Aquarium,すいぞくかん
-One,Twelve,Nouns,Last month,先月
-One,Twelve,Nouns,Junior high school,中学
-One,Twelve,Nouns,Dating,デート
-One,Twelve,Nouns,Buddhist temple,てら
-One,Twelve,Nouns,Zoo,どうぶつえん
-One,Twelve,Nouns,"When, at the time of ~",時
-One,Twelve,Nouns,"Summer holidays, summer break",なつやすみ｜｜夏休み
-One,Twelve,Nouns,Spring break,はるやすみ｜｜春休み
-One,Twelve,Nouns,Winter break,ふゆやすみ｜｜冬休み
-One,Twelve,Nouns,Museum,はくぶつかん
-One,Twelve,Nouns,Valentine's day,バレンタインデー
-One,Twelve,Nouns,Halloween,ハロウイン
-One,Twelve,Nouns,A half-year,半年
-One,Twelve,Nouns,Airplane,ひこうき
-One,Twelve,Nouns,Art Museum,びじゅつかん
-One,Twelve,Nouns,"Present, gift",プレゼント
-One,Twelve,Nouns,Festival,まつり
-One,Twelve,Nouns,Musical,ミュージカル
-One,Twelve,Nouns,Mountain climbing,やまのぼり
-One,Twelve,Nouns,Amusement park,ゆうえんち
-One,Twelve,Nouns,Next month,来月
-One,Twelve,Verbs,To fight,けんかをする
-One,Twelve,Verbs,To go out on a date,デートする
-One,Twelve,Verbs,To cry,なく
-One,Twelve,Verbs,"To get on, to ride",のる
-One,Twelve,Verbs,"To receive, to get",もらう
-One,Twelve,Verbs,To be disappointed in love,しつれんする
-One,Twelve,Adverbs,For the first time,はじめて
-One,Twelve,Suffixes,~ times,〜かい｜｜〜回
-One,Twelve,Suffixes,counter for months,〜か月
-One,Twelve,Suffixes,"from ~, after ~",〜ご｜｜〜後
-One,Twelve,Suffixes,for ~ weeks,〜週間
-One,Twelve,Suffixes,~ times (up to three),〜度
-One,Twelve,Suffixes,day,〜日
-One,Twelve,Suffixes,"specific year, counter for year",〜年
-One,Twelve,Suffixes,~ ago,〜まえ｜｜〜前
-One,Twelve,Expressions,"Well, let's see...",えーと
-One,Twelve,Expressions,Happy new year!,あけましておめでとうございます｜｜明けましておめでとうございます
-One,Twelve,Irregular days of the month,First,一日
-One,Twelve,Irregular days of the month,Second,二日
-One,Twelve,Irregular days of the month,Third,三日
-One,Twelve,Irregular days of the month,Fourth,四日
-One,Twelve,Irregular days of the month,Fifth,五日
-One,Twelve,Irregular days of the month,Sixth,六日
-One,Twelve,Irregular days of the month,Seventh,七日
-One,Twelve,Irregular days of the month,Eighth,八日
-One,Twelve,Irregular days of the month,Ninth,九日
-One,Twelve,Irregular days of the month,Tenth,十日
-One,Twelve,Irregular days of the month,Fourteenth,十四日
-One,Twelve,Irregular days of the month,Seventeenth,十七日
-One,Twelve,Irregular days of the month,Nineteenth,十九日
-One,Twelve,Irregular days of the month,Twentieth,二十日
-One,Twelve,Irregular days of the month,Twenty-Fourth,二十四日
-One,Twelve,Irregular days of the month,Twenty-Seventh,二十七日
-One,Twelve,Irregular days of the month,Twenty-Ninth,二十九日
-Two,One,Nouns,Allergy,アレルギー
-Two,One,Nouns,Breath,いき
-Two,One,Nouns,Medical doctor,いしゃ
-Two,One,Nouns,Stomach,おなか
-Two,One,Nouns,"Facial skin tone, complexion",かおいろ
-Two,One,Nouns,Cold,かぜ
-Two,One,Nouns,Shoulders,かた
-Two,One,Nouns,Body,からだ
-Two,One,Nouns,"Feeling, spirits, mood",気分
-Two,One,Nouns,"Feeling, sensation",きもち
-Two,One,Nouns,"Medicine, drug, ointment",くすり
-Two,One,Nouns,Neck,くび
-Two,One,Nouns,Injury,けが
-Two,One,Nouns,Lower back,こし
-Two,One,Nouns,Symptom,しょうじょう
-Two,One,Nouns,Stress,ストレス
-Two,One,Nouns,Cough,せき
-Two,One,Nouns,"Back, upper back",せなか
-Two,One,Nouns,Diet,ダイエット
-Two,One,Nouns,Cigarette,たばこ｜｜タバコ
-Two,One,Nouns,"Fever, (high) temperature",ねつ
-Two,One,Nouns,Throat,のど
-Two,One,Nouns,Tooth,は
-Two,One,Nouns,Sickness,びょうき
-Two,One,Nouns,Massage,マッサージ
-Two,One,Nouns,"Chest, breast",むね
-Two,One,Nouns,"Overwork, overstrain",むり
-Two,One,Nouns,Finger,ゆび
-Two,One,Verbs,To move (something) (transition verb),うごかす
-Two,One,Verbs,To cut,きる
-Two,One,Verbs,To be stiff,こる
-Two,One,Verbs,To inhale,すう
-Two,One,Verbs,"To take out, to prescribe, to submit",出す
-Two,One,Verbs,To clog,つまる
-Two,One,Verbs,To measure,はかる
-Two,One,Verbs,"To exhale, to throw up",はく
-Two,One,Verbs,To run,はしる
-Two,One,Verbs,To catch (a cold),ひく
-Two,One,Verbs,"To rest, to be absent",休む
-Two,One,Verbs,To open,あける
-Two,One,Verbs,To raise (something),上げる
-Two,One,Verbs,To lower (something),下げる
-Two,One,Verbs,"To attach, apply (medicine), turn on",つける
-Two,One,Verbs,To grow tired,つかれる
-Two,One,Verbs,To be tired,つかれている
-Two,One,Verbs,To come out,出る
-Two,One,Verbs,To quit doing (something),やめる
-Two,One,Verbs,To forget,わすれる
-Two,One,Verbs,To be hospitalized,にゅういんする
-Two,One,Adjectives,"Hurt, painful",いたい
-Two,One,Adjectives,Itchy,かゆい
-Two,One,Adjectives,Serious (injury),ひどい
-Two,One,Adjectives,Bad,わるい
-Two,One,Adjectives,Various,いろいろ（な）
-Two,One,Adjectives,Healthy,けんこう（な）
-Two,One,Adverb,"Immediately, right away",すぐ
-Two,One,Particle,"From, to be absent from ~, to graduate from~",を
-Two,One,Expressions,"Well, uh, I'm sorry but... (that presents some problems.)",ええっと・すみません｜｜それはちょっと（こまるんですが）
-Two,One,Expressions,Please take care of yourself.,おだいじに
-Two,One,Expressions,"May I ~?, Is it ok to ~?",〜てもいいですか
-Two,One,Expressions,What's wrong?,どうしましたか｜｜どうしたんですか
-Two,One,Expressions,Should I do~?,〜たらいいですか
-Two,One,Expressions,I don't mind.,はい・いいえ｜｜かまいません
-Two,One,Expressions,"Yes, please.",はい・いいえ｜｜どうぞ
-Two,One,Expressions,"Yes, of course, sure.",はい・いいえ｜｜もちろん
-Two,One,Expressions,This is my first time...,はじめてなんですが
-Two,One,Expressions,"To push oneself too hard, to overwork",むりをする
-Two,One,Expressions,To lie down,よこになる
-Two,One,Expressions,Until late at night,よるおそくまで
-Two,Two,Nouns,Money,（お）金
-Two,Two,Nouns,Souvenir,（お）みやげ
-Two,Two,Nouns,Hot spring,おんせん
-Two,Two,Nouns,Overseas,かいがい
-Two,Two,Nouns,Guidebook,ガイドブック
-Two,Two,Nouns,Sightseeing,かんこう
-Two,Two,Nouns,Ticket,きっぷ
-Two,Two,Nouns,"Customer, guest",きゃく
-Two,Two,Nouns,Airport,くうこう
-Two,Two,Nouns,Country,くに
-Two,Two,Nouns,Credit card,クレジットカード
-Two,Two,Nouns,Plan,けいかく
-Two,Two,Nouns,Domestic,こくない
-Two,Two,Nouns,"Language, words, expressions",ことば
-Two,Two,Nouns,Time,時間
-Two,Two,Nouns,Preparation,じゅんび
-Two,Two,Nouns,Suitcase,スーツケース
-Two,Two,Nouns,Tour,ツアー
-Two,Two,Nouns,Digital camera,デジカメ
-Two,Two,Nouns,Train,でんしゃ
-Two,Two,Nouns,"One's belongings, luggage",にもつ
-Two,Two,Nouns,Location,ばしょ
-Two,Two,Nouns,Passport,パスポート
-Two,Two,Nouns,Day trip,日帰り
-Two,Two,Nouns,"Ship, boat",ふね
-Two,Two,Nouns,Lake,みずうみ
-Two,Two,Nouns,"Schedule, plan",よてい
-Two,Two,Nouns,Reservation,よやく
-Two,Two,Nouns,Japanese style inn,りょかん
-Two,Two,Adjective,Convenient,べんり（な）
-Two,Two,Verbs,To look for,さがす
-Two,Two,Verbs,To use,つかう
-Two,Two,Verbs,To arrive,つく
-Two,Two,Verbs,To stay,とまる
-Two,Two,Verbs,"To take off (shoes, clothes)",ぬぐ
-Two,Two,Verbs,To pay,はらう
-Two,Two,Verbs,To hold,持つ
-Two,Two,Verbs,"To be holding, to own",持っている
-Two,Two,Verbs,"To take, to bring something",持って行く
-Two,Two,Verbs,(For someone) To return,もどる
-Two,Two,Verbs,To answer,こたえる
-Two,Two,Verbs,To decide,きめる
-Two,Two,Verbs,To know,しっている
-Two,Two,Verbs,"To check, investigate, explore",しらべる
-Two,Two,Verbs,"To build, establish, make",たてる
-Two,Two,Verbs,"To leave, to have a fever",出る
-Two,Two,Adverbs,"Especially, in particular",とくに
-Two,Two,Adverbs,"Already, yet, any more",もう
-Two,Two,Adverbs,"Still, yet",まだ
-Two,Two,Suffix,~ nights,〜はく（ぱく）
-Two,Two,Conjunctions,However,けれども
-Two,Two,Conjunctions,During that time,その間（に）
-Two,Two,Conjunctions,After that,その後（で）
-Two,Two,Conjunctions,Before that,その前（に）
-Two,Two,Conjunctions,At that time,その時（に）
-Two,Two,Conjunctions,"Then, so",それで
-Two,Two,Conjunctions,So,だから
-Two,Two,Conjunctions,But,だけど
-Two,Two,Conjunctions,Next,つぎに
-Two,Two,Conjunctions,"Therefore, so",ですから
-Two,Two,Conjunctions,It's because,というのは
-Two,Two,Conjunctions,By the way,ところで
-Two,Two,Conjunctions,First (of all),まずはじめに
-Two,Two,Conjunctions,Also,また
-Two,Two,Expressions,About ~,〜について
-Two,Two,Expressions,Hello (on the phone),もしもし
-Two,Two,Expressions,"No, you have the wrong number",いいえ｜｜ちがいます（よ）
-Two,Three,Nouns,Engineer,エンジニア
-Two,Three,Nouns,Company,かいしゃ
-Two,Three,Nouns,Businessman,かいしゃいん
-Two,Three,Nouns,Trading Company,ぼうえきがい
-Two,Three,Nouns,Scholar,学者
-Two,Three,Nouns,Research,けんきゅう
-Two,Three,Nouns,"Wallet, purse",さいふ
-Two,Three,Nouns,Ceremony,しき
-Two,Three,Nouns,"Self, oneself, I",じぶん
-Two,Three,Nouns,Company President,しゃちょう
-Two,Three,Nouns,Freedom,じゆう
-Two,Three,Nouns,Getting a job,しゅうしょく
-Two,Three,Nouns,Invitation,しょうたい
-Two,Three,Nouns,Future,しょうらい
-Two,Three,Nouns,Farewell party,そうべつかい
-Two,Three,Nouns,Graduation,そつぎょう
-Two,Three,Nouns,"Electricity, electric light",でんき
-Two,Three,Nouns,Reunion party,どうそうかい
-Two,Three,Nouns,"Year, age",年
-Two,Three,Nouns,Entering a school,入学
-Two,Three,Nouns,"Moving (house, residence, etc)",ひっこし
-Two,Three,Nouns,"Ordinary, regular",ふつう
-Two,Three,Nouns,Lawyer,べんごし
-Two,Three,Nouns,"Response, reply",へんじ
-Two,Three,Nouns,Trading,ぼうえき
-Two,Three,Nouns,Trading Company,ぼうえきがいしゃ
-Two,Three,Nouns,"Warm water, hot water",ゆ
-Two,Three,Nouns,Study abroad,りゅうがく
-Two,Three,Verbs,(for something) to open,あく
-Two,Three,Verbs,"To get together, to gather",あつまる
-Two,Three,Verbs,To wake up (someone),起こす
-Two,Three,Verbs,To drop (something),おとす
-Two,Three,Verbs,(for something) to end,おわる
-Two,Three,Verbs,(for a telephone) to ring,かかる
-Two,Three,Verbs,(for something) to change,変わる
-Two,Three,Verbs,"To try to do one's best, to hang on",がんばる
-Two,Three,Verbs,(for something) to be decided,きまる
-Two,Three,Verbs,To turn off,けす
-Two,Three,Verbs,(for something) to close,しまる
-Two,Three,Verbs,To die,しぬ
-Two,Three,Verbs,To be different,ちがう
-Two,Three,Verbs,(for somethng) to turn on,つく
-Two,Three,Verbs,To cure; to fix; to repair (something),なおす
-Two,Three,Verbs,"(for something) to heal, to be fixed",なおる
-Two,Three,Verbs,"To pass away, to die; to disappear, to get lost, to run out of",なくなる
-Two,Three,Verbs,To leave (something),のこす
-Two,Three,Verbs,"(for something) to be left, to remain",のこる
-Two,Three,Verbs,(for something) to begin,はじまる
-Two,Three,Verbs,to work,はたらく
-Two,Three,Verbs,"to move (house, etc.), to relocate",ひっこす
-Two,Three,Verbs,"to chill, to let (something) cool down",ひやす
-Two,Three,Verbs,(for someone) to be mistaken,まちがう
-Two,Three,Verbs,To make (something) dirty,よごす
-Two,Three,Verbs,"To bring (water, bath) to boil",わかす
-Two,Three,Verbs,"(for water, bath) to be boiled",わく
-Two,Three,Verbs,To open (something),あける
-Two,Three,Verbs,"To collect, to gather together (something/someone)",あつめる
-Two,Three,Verbs,(for something/someone) to be born,生まれる
-Two,Three,Verbs,"To end (something), to finish (something)",おえる
-Two,Three,Verbs,(for something) to fall,おちる
-Two,Three,Verbs,to change (something),変える
-Two,Three,Verbs,"To think intellectually, to take (something) into consideration",かんがえる
-Two,Three,Verbs,"(for something) to go out, to go off",きえる
-Two,Three,Verbs,To close (something),しめる
-Two,Three,Verbs,To continue (something),つづける
-Two,Three,Verbs,to attend,出る
-Two,Three,Verbs,To give a ride (to someone),乗せる
-Two,Three,Verbs,To begin (something),はじめる
-Two,Three,Verbs,(for something) to cool down,ひえる
-Two,Three,Verbs,"To miss (something), to make a mistake",まちがえる
-Two,Three,Verbs,(for something) to become dirty,よごれる
-Two,Three,Adjectives,Young; used to describe teenagers and young people older than teenagers but not small children,わかい
-Two,Three,Adjectives,Same,おなじ
-Two,Three,Adjectives,"Free, free (independent) lifestyle",じゆう（な）
-Two,Three,Adjectives,Important,だいじ（な）
-Two,Three,Particles,"Or, either or",か
-Two,Three,Particles,by (some time),までに
-Two,Three,Suffixes,Member,〜いん
-Two,Three,Suffixes,Party,〜会
-Two,Three,Suffixes,Ceremony,〜しき
-Two,Three,Suffixes,Person of,〜者
-Two,Three,Suffixes,Letter of,〜じょう
-Two,Three,Suffixes,Retail store,〜や
-Two,Four,Nouns,Automatic teller machine (atm),エーティーエム
-Two,Four,Nouns,Meaning,いみ｜｜意味
-Two,Four,Nouns,Driver's license,うんてんめんきょしょう
-Two,Four,Nouns,Conversation,会話
-Two,Four,Nouns,Card,カード
-Two,Four,Nouns,Postage stamp,切手
-Two,Four,Nouns,Bank account,こうざ
-Two,Four,Nouns,Parcel Post,こづつみ
-Two,Four,Nouns,Residence card,ざいりゅうカード
-Two,Four,Nouns,Signature,サイン
-Two,Four,Nouns,Composition,さくぶん｜｜作文
-Two,Four,Nouns,"Examination, test",しけん｜｜試験
-Two,Four,Nouns,Tuition,じゅぎょうりょう
-Two,Four,Nouns,Address,じゅうしょ｜｜住所
-Two,Four,Nouns,Recommendation,すいせん
-Two,Four,Nouns,Recommendation letter,すいせんじょう
-Two,Four,Nouns,Explanation,せつめい
-Two,Four,Nouns,Parcel delivery service,たくはいびん
-Two,Four,Nouns,Vocabulary,たんご
-Two,Four,Nouns,Dollar,ドル
-Two,Four,Nouns,Postcard,葉書
-Two,Four,Nouns,Seal,はんこ
-Two,Four,Nouns,Envelope,ふうとう
-Two,Four,Nouns,Regular bank account,ふつうよきん
-Two,Four,Nouns,Grammar,ぶんぽう｜｜文法
-Two,Four,Nouns,Public mail collection box,ポスト
-Two,Four,Nouns,Mailbox,ゆうびんうけ｜｜郵便受け
-Two,Four,Nouns,Postal code,ゆうびんばんごう
-Two,Four,Nouns,Form,ようし｜｜用紙
-Two,Four,Nouns,Bank account (second def),よきん
-Two,Four,Nouns,"Report, term paper, term project",レポート
-Two,Four,Nouns,Practice,れんしゅう｜｜練習
-Two,Four,Nouns,Application form,もうしこみようし
-Two,Four,Verbs,To need,いる
-Two,Four,Verbs,To send,おくる｜｜送る
-Two,Four,Verbs,To return something,かえす
-Two,Four,Verbs,To lend,かす
-Two,Four,Verbs,To take (someone somewhere),つれていく
-Two,Four,Verbs,"To assist, help",てつだう
-Two,Four,Verbs,"(for something) to arrive, to be delivered",とどく
-Two,Four,Verbs,To withdraw (money),ひきだす｜｜引き出す
-Two,Four,Verbs,To open (an account),ひらく
-Two,Four,Verbs,To apply,もうしこむ
-Two,Four,Verbs,"To receive, to get",うける｜｜受ける
-Two,Four,Verbs,"To tell, to teach",おしえる｜｜教える
-Two,Four,Verbs,To memorize,おぼえる
-Two,Four,Verbs,"To remember, to recall",おぼえている
-Two,Four,Verbs,To change,変える
-Two,Four,Verbs,"To borrow, to rent (a house, apartment)",かりる
-Two,Four,Verbs,To save (money),ためる
-Two,Four,Verbs,"To deliver, send",とどける
-Two,Four,Verbs,To bring (something),持って来る
-Two,Four,Verbs,To bring (someone),つれてくる
-Two,Four,Adjectives,"Amazing, awesome, terrible",すごい
-Two,Four,Adjectives,"No good, impossible, hopeless, not useful, not acceptable",だめ（な）
-Two,Four,Suffixes,"How to, way of ~ing",〜方
-Two,Four,Suffixes,Card (for identification),〜しょう
-Two,Five,Nouns,Entrance,入り口｜｜入口
-Two,Five,Nouns,Movie theater,えいがかん
-Two,Five,Nouns,Pedestrian Crossing,おうだんほどう
-Two,Five,Nouns,Ticket gate,かいさつ（ぐち）
-Two,Five,Nouns,Stairs,かいだん
-Two,Five,Nouns,Local train,かくえきていしゃ
-Two,Five,Nouns,Gas station,ガソリンスタンド
-Two,Five,Nouns,Corner,かど
-Two,Five,Nouns,Express train,きゅうこう（れっしゃ）
-Two,Five,Nouns,Intersection,こうさてん
-Two,Five,Nouns,Japan railway,JR
-Two,Five,Nouns,City hall,しやくしょ
-Two,Five,Nouns,Traffic signal,しんごう
-Two,Five,Nouns,Embassy,たいしかん
-Two,Five,Nouns,Ambassador,たいし
-Two,Five,Nouns,Taxi,タクシー
-Two,Five,Nouns,Terminal,ターミナル
-Two,Five,Nouns,Bus depot,バスターミナル
-Two,Five,Nouns,Subway,ちかてつ
-Two,Five,Nouns,Map,ちず
-Two,Five,Nouns,Parking lot,ちゅうしゃじょう
-Two,Five,Nouns,Next,つぎ
-Two,Five,Nouns,"At the end of the street, T-road",つきあたり
-Two,Five,Nouns,Exit,出口
-Two,Five,Nouns,train,でんしゃ
-Two,Five,Nouns,"Road, street",どうろ
-Two,Five,Nouns,Limited express train,とっきゅう（れっしゃ）
-Two,Five,Nouns,Bridge,はし
-Two,Five,Nouns,Bus stop,バスてい
-Two,Five,Nouns,Local train (second def),ふつう（れっしゃ）
-Two,Five,Nouns,Area,へん
-Two,Five,Nouns,"Road, street, way",みち
-Two,Five,Nouns,Between,間
-Two,Five,Nouns,This side,こちらがわ
-Two,Five,Nouns,"Beyond, further ahead",先
-Two,Five,Nouns,Just before,手前
-Two,Five,Nouns,"The other side, the opposite side",むかいがわ
-Two,Five,Adjectives,"Close to, near",ちかい
-Two,Five,Adjectives,Far from,とおい
-Two,Five,Verbs,To become crowded,こむ
-Two,Five,Verbs,"To go through, to pass",とおる
-Two,Five,Verbs,(for someone or something) to stop,とまる
-Two,Five,Verbs,(for someone or something) to turn,まがる
-Two,Five,Verbs,To drop by,よる
-Two,Five,Verbs,"To cross (bridge, road, etc.)",わたる
-Two,Five,Verbs,To get off,おりる
-Two,Five,Verbs,to stop (something),とめる
-Two,Five,Verbs,"to transfer, to change transportation",のりかえる
-Two,Five,Verbs,can see,見える
-Two,Five,Adverbs,Straight,まっすぐ
-Two,Five,Adverbs,"Soon, shortly",すぐ
-Two,Five,Particles,Limit,で
-Two,Five,Particles,Place in which movement occurs,を
-Two,Five,Particles,"Out of ~, from ~",を
-Two,Five,Suffixes,Bound for ~,〜行き
-Two,Five,Suffixes,Side,〜がわ
-Two,Five,Suffixes,"Mansion, building",〜館
-Two,Five,Suffixes,~ entrance/exit,〜口
-Two,Five,Suffixes,~ line (train line),〜せん
-Two,Five,Suffixes,Ordinal numbers,〜つ目
-Two,Five,Suffixes,Track number (train),〜ばんせん
-Two,Five,Suffixes,Meter (distance measurement),〜メートル
-Two,Six,Nouns,"Food (for animals, fish)",えさ
-Two,Six,Nouns,Congratulatory gift,おいわい
-Two,Six,Nouns,"Confectionary, sweets",おかし
-Two,Six,Nouns,Thank-you gift,おかえし
-Two,Six,Nouns,Type of ornament,おきもの
-Two,Six,Nouns,Gift,おくりもの
-Two,Six,Nouns,"Middle-aged man, uncle",おじさん
-Two,Six,Nouns,Elderly man,おじいさん
-Two,Six,Nouns,End of year gift exchange,おせいぼ
-Two,Six,Nouns,Mid year gift exchange,お中元
-Two,Six,Nouns,"Middle aged woman, aunt",おばさん
-Two,Six,Nouns,Elderly woman,おばあさん
-Two,Six,Nouns,Sympathy gift,おみまい
-Two,Six,Nouns,Toy,おもちゃ
-Two,Six,Nouns,Thank you gift,おれい
-Two,Six,Nouns,Carnation,カーネーション
-Two,Six,Nouns,Candy,キャンディ
-Two,Six,Nouns,Neighborhood,近所
-Two,Six,Nouns,Neighbor,近所の人
-Two,Six,Nouns,Cosmetics,けしょうひん
-Two,Six,Nouns,Cosmetics (katakana),コスメ
-Two,Six,Nouns,One's junior,こうはい
-Two,Six,Nouns,"Coffee cup, mug",コーヒーカップ
-Two,Six,Nouns,"Boss, workplace superior",じょうし
-Two,Six,Nouns,Novel,しょうせつ
-Two,Six,Nouns,Dishes,しょっき
-Two,Six,Nouns,Sweets,スイーツ
-Two,Six,Nouns,Soap,せっけん
-Two,Six,Nouns,One's senior,せんぱい
-Two,Six,Nouns,Towel,タオル
-Two,Six,Nouns,Tablet computer,タブレット
-Two,Six,Nouns,Ticket for entertainment,チケット
-Two,Six,Nouns,Father's day,父の日
-Two,Six,Nouns,"Coworker, colleague",どうりょう
-Two,Six,Nouns,Animal,どうぶつ
-Two,Six,Nouns,DVD,DVD｜｜ディーブイディー
-Two,Six,Nouns,Doll,にんぎょう
-Two,Six,Nouns,Stuffed animal,ぬいぐるみ
-Two,Six,Nouns,Personal computer,パソコン
-Two,Six,Nouns,"Potted plant, house plant",はちうえ
-Two,Six,Nouns,Flower,はな
-Two,Six,Nouns,Mother's day,母の日
-Two,Six,Nouns,Rose,ばら｜｜バラ
-Two,Six,Nouns,Valentine's day,バレンタインデー
-Two,Six,Nouns,"Junior employee, subordinate",部下
-Two,Six,Nouns,Pet,ペット
-Two,Six,Nouns,Fruit,フルーツ
-Two,Six,Nouns,Ball,ボール
-Two,Six,Nouns,Western clothes,ようふく
-Two,Six,Nouns,Ribbon,リボン
-Two,Six,Nouns,Wine glass,ワイングラス
-Two,Six,Adjectives,Heavy,おもい
-Two,Six,Adjectives,Light,かるい
-Two,Six,Adjectives,"Precious, important",大切（な）
-Two,Six,Verbs,To receive,いただく
-Two,Six,Verbs,To choose,えらぶ
-Two,Six,Verbs,"to raise, keep (an animal)",かう
-Two,Six,Verbs,To give (from a social super to me or person in my in-group),下さる
-Two,Six,Verbs,To wrap,つつむ
-Two,Six,Verbs,To give (to a socially subordinate person),やる
-Two,Six,Verbs,To be pleased,よろこぶ
-Two,Six,Verbs,To give (to a socially equal person),あげる
-Two,Six,Verbs,To give (to a socially equal or subordinate in-group person),くれる
-Two,Six,Verbs,To give (to a socially superior out-group person),さしあげる
-Two,Six,Particle,"from 〜にもらう, to receive something from ~",に
-Two,Six,Prefix,Baby ~,子〜
-Two,Six,Suffixes,Congratulatory gift,〜いわい
-Two,Six,Suffixes,Suffix to convert an adjective to a noun for measurement,〜さ
-Two,Seven,Nouns,Taste,あじ｜｜味
-Two,Seven,Nouns,Strawberry,いちご｜｜苺
-Two,Seven,Nouns,Tablespoon,おおさじ｜｜大さじ
-Two,Seven,Nouns,Oven,オーブン
-Two,Seven,Nouns,Shrimp,えび｜｜エビ｜｜海老
-Two,Seven,Nouns,Shrimp Dumplings,えびだんご｜｜海老だんご
-Two,Seven,Nouns,Cup,カップ
-Two,Seven,Nouns,Measuring Cup,けいりょうカップ｜｜計量カップ
-Two,Seven,Nouns,Crab,かに｜｜カニ｜｜蟹
-Two,Seven,Nouns,Cabbage,キャベツ
-Two,Seven,Nouns,Beef,ぎゅうにく｜｜牛肉
-Two,Seven,Nouns,Cucumber,きゅうり
-Two,Seven,Nouns,Gram,グラム
-Two,Seven,Nouns,Teaspoon,こさじ｜｜小さじ
-Two,Seven,Nouns,Pepper (spice),こしょう
-Two,Seven,Nouns,Uncooked rice,こめ｜｜おこめ｜｜米｜｜お米
-Two,Seven,Nouns,Cornstarch,コーンスターチ
-Two,Seven,Nouns,Flour,こむぎこ｜｜小麦粉
-Two,Seven,Nouns,"Material(s), Ingredient(s)",ざいりょう｜｜材料
-Two,Seven,Nouns,Sugar,さとう｜｜砂糖
-Two,Seven,Nouns,Plate,さら｜｜おさら｜｜お皿
-Two,Seven,Nouns,Vegetable Oil (lit. salad oil),サラダゆ｜｜サラダあぶら｜｜サラダ油
-Two,Seven,Nouns,Salt,しお｜｜塩
-Two,Seven,Nouns,Potato,じゃがいも
-Two,Seven,Nouns,Jam,ジャム
-Two,Seven,Nouns,Soy sauce,しょうゆ｜｜しょう油
-Two,Seven,Nouns,Vinegar,す｜｜酢
-Two,Seven,Nouns,Rice cooker,すいはんき｜｜炊飯器
-Two,Seven,Nouns,Spoon,スプーン
-Two,Seven,Nouns,Sauce,ソース
-Two,Seven,Nouns,Broth,だし｜｜出汁
-Two,Seven,Nouns,Onion,たまねぎ｜｜玉ねぎ
-Two,Seven,Nouns,Rice bowl,ちゃわん｜｜茶碗｜｜おちゃわん｜｜お茶碗
-Two,Seven,Nouns,Microwave oven,でんしレンジ｜｜電子レンジ
-Two,Seven,Nouns,Chicken (meat),とりにく｜｜鶏肉｜｜鳥肉
-Two,Seven,Nouns,(Salad) Dressing,ドレッシング
-Two,Seven,Nouns,Knife,ナイフ
-Two,Seven,Nouns,Green onion,ねぎ
-Two,Seven,Nouns,Seaweed,のり｜｜海苔
-Two,Seven,Nouns,Pot,なべ｜｜鍋
-Two,Seven,Nouns,Chopstick(s),はし｜｜おはし｜｜箸｜｜お箸
-Two,Seven,Nouns,Butter,バター
-Two,Seven,Nouns,Fire,ひ｜｜火
-Two,Seven,Nouns,Fork,フォーク
-Two,Seven,Nouns,Pork,ぶたにく｜｜豚肉
-Two,Seven,Nouns,"Frying pan, skillet",フライパン
-Two,Seven,Nouns,Mixing bowl,ボウル
-Two,Seven,Nouns,"Butcher knife, kitchen knife",ほうちょう｜｜包丁
-Two,Seven,Nouns,Spinach,ほうれんそう｜｜ほうれん草
-Two,Seven,Nouns,Mayonnaise,マヨネーズ
-Two,Seven,Nouns,(electric) mixer,ミキサー
-Two,Seven,Nouns,Soybean past,みそ｜｜味噌
-Two,Seven,Verbs,To check the taste,あじをみる｜｜味をみる
-Two,Seven,Verbs,To wash,あらう｜｜洗う
-Two,Seven,Verbs,To let something cool down,さます｜｜冷ます
-Two,Seven,Verbs,To cook,たく｜｜炊く
-Two,Seven,Verbs,"To add, to make up (for a deficit)",たす｜｜足す
-Two,Seven,Verbs,"To bake, to fry, to grill",やく｜｜焼く
-Two,Seven,Verbs,To do,やる
-Two,Seven,Verbs,To steam,むす｜｜蒸す
-Two,Seven,Verbs,To deep-fry,あげる｜｜揚げる
-Two,Seven,Verbs,To heat up,あたためる｜｜温める
-Two,Seven,Verbs,"To stir-fry, to saute (cooking)",いためる｜｜炒める
-Two,Seven,Verbs,To pour,かける
-Two,Seven,Verbs,To add (an ingredient),くわえる｜｜加える
-Two,Seven,Verbs,"To dip, to soak, to pickle",つける｜｜漬ける｜｜浸ける
-Two,Seven,Verbs,"To boil, to stew",にる｜｜煮る
-Two,Seven,Verbs,To put on,のせる
-Two,Seven,Verbs,To mix,まぜる｜｜混ぜる
-Two,Seven,Verbs,"To boil, to poach",ゆでる｜｜茹でる
-Two,Seven,Verbs,To drain,みずをきる｜｜水をきる｜｜みずを切る｜｜水を切る
-Two,Seven,Adjectives,Thin,うすい｜｜薄い
-Two,Seven,Adjectives,To have little taste,あじがうすい｜｜味がうすい｜｜あじが薄い｜｜味が薄い
-Two,Seven,Adjectives,Thick,こい｜｜濃い
-Two,Seven,Adjectives,To have a strong taste,あじがこい｜｜味がこい｜｜あじが濃い｜｜味が濃い
-Two,Seven,Adjectives,Appropriate,てきとう（な）｜｜適当（な）
-Two,Seven,Adverbs,Little by little,少しずつ｜｜すこしずつ
-Two,Seven,Conjunctions,"Lastly, at last, finally",最後に｜｜さいごに
-Two,Eight,Nouns,A sense of relief,あんしん｜｜安心
-Two,Eight,Nouns,Bullying,いじめ
-Two,Eight,Nouns,Rabbit,うさぎ｜｜兎
-Two,Eight,Nouns,"Lie, falsehood",うそ｜｜嘘
-Two,Eight,Nouns,Rumor,うわさ｜｜噂
-Two,Eight,Nouns,A fire,かじ｜｜火事
-Two,Eight,Nouns,"Girlfriend, she",かのじょ｜｜彼女
-Two,Eight,Nouns,Lightning,かみなり｜｜雷
-Two,Eight,Nouns,"Turle, tortoise",かめ｜｜亀
-Two,Eight,Nouns,"Boyfriend, he",かれ｜｜彼｜｜かれし｜｜彼氏
-Two,Eight,Nouns,Whale,クジラ｜｜鯨
-Two,Eight,Nouns,Bear,くま｜｜熊
-Two,Eight,Nouns,Experience,けいけん｜｜経験
-Two,Eight,Nouns,A fight,けんか｜｜喧嘩
-Two,Eight,Nouns,Flood,こうずい｜｜洪水
-Two,Eight,Nouns,Traffic,こうつう｜｜交通
-Two,Eight,Nouns,Traffic accident,こうつうじこ｜｜交通事故
-Two,Eight,Nouns,"Disaster, calamity",さいがい｜｜災害
-Two,Eight,Nouns,Monkey,さる｜｜猿
-Two,Eight,Nouns,Accident,じこ｜｜事故
-Two,Eight,Nouns,Earthquake,じしん｜｜地震
-Two,Eight,Nouns,"Anxiety, anxious",しんぱい｜｜心配
-Two,Eight,Nouns,Elephant,ぞう｜｜象
-Two,Eight,Nouns,Tornado,たつまき｜｜竜巻
-Two,Eight,Nouns,Bird,とり｜｜鳥
-Two,Eight,Nouns,Thief,どろぼう｜｜泥棒
-Two,Eight,Nouns,Discovery,はっけん｜｜発見
-Two,Eight,Nouns,Crime,はんざい｜｜犯罪
-Two,Eight,Nouns,"Damage, loss",ひがい｜｜被害
-Two,Eight,Nouns,Snake,へび｜｜蛇
-Two,Eight,Nouns,Lion,ライオン
-Two,Eight,Nouns,"Bad-mouthing, speaking ill of a person",わるくち｜｜悪口
-Two,Eight,Verbs,To feel relieved,あんしんする｜｜安心する
-Two,Eight,Verbs,Being bullied,いじめにあう
-Two,Eight,Verbs,To tell a lie,嘘をつく｜｜うそをつく
-Two,Eight,Verbs,Lightning strikes,雷がおちる｜｜かみなりがおちる
-Two,Eight,Verbs,To have an experience,経験する｜｜けいけんする
-Two,Eight,Verbs,To be worried,心配する｜｜しんぱいする
-Two,Eight,Verbs,To discover,はっけんする｜｜発見する
-Two,Eight,Verbs,To encounter,あう｜｜遭う｜｜遇う
-Two,Eight,Verbs,To sell,うる｜｜売る
-Two,Eight,Verbs,To cause (something) to happen,おこす｜｜起こす
-Two,Eight,Verbs,To attack,おそう｜｜襲う
-Two,Eight,Verbs,To be surprised,おどろく｜｜驚く
-Two,Eight,Verbs,To be in trouble,こまる｜｜困る
-Two,Eight,Verbs,To destroy,こわす｜｜壊す
-Two,Eight,Verbs,To scold,しかる｜｜叱る
-Two,Eight,Verbs,To deceive,だます｜｜騙す
-Two,Eight,Verbs,To steal,ぬすむ｜｜盗む
-Two,Eight,Verbs,To step on,ふむ｜｜踏む
-Two,Eight,Verbs,To bully,いじめる｜｜苛める
-Two,Eight,Verbs,"To happen, to take place",おきる｜｜起きる
-Two,Eight,Verbs,"To throw away, to discard",すてる｜｜捨てる
-Two,Eight,Verbs,"To run away, to escape",にげる｜｜逃げる
-Two,Eight,Verbs,To increase,ふえる｜｜増える
-Two,Eight,Verbs,"To hit (as with a car), to crash into",ぶつける
-Two,Eight,Verbs,To praise,ほめる｜｜誉める
-Two,Eight,Verbs,To burn,やける｜｜焼ける
-Two,Eight,Verbs,To shake,ゆれる｜｜揺れる
-Two,Eight,Verbs,"To leave, to break up",わかれる｜｜別れる
-Two,Eight,Adjectives,"Frightening, Scary",こわい｜｜怖い
-Two,Eight,Adjectives,Safe,あんぜん（な）｜｜安全（な）｜｜あんぜん｜｜安全
-Two,Eight,Adjectives,Inconvenient,ふべん（な）｜｜ふべん｜｜不便（な）｜｜不便
-Two,Eight,Adjectives,Wasteful,むだ（な）｜｜むだ｜｜無駄（な）｜｜無駄
-Two,Nine,Nouns,A greeting,あいさつ｜｜挨拶
-Two,Nine,Nouns,Advice,アドバイス
-Two,Nine,Nouns,Animation,アニメ
-Two,Nine,Nouns,Flower arranging,いけばな｜｜生花｜｜生け花
-Two,Nine,Nouns,Islam,イスラムきょう｜｜イスラム教
-Two,Nine,Nouns,Prayer,いのり｜｜祈り
-Two,Nine,Nouns,Internet,インターネット｜｜ネット
-Two,Nine,Nouns,Bowing,おじぎ｜｜お辞儀
-Two,Nine,Nouns,Kiss,キス
-Two,Nine,Nouns,Education,きょういく｜｜教育
-Two,Nine,Nouns,Interest,きょうみ｜｜興味
-Two,Nine,Nouns,Christianity,キリストきょう｜｜キリスト教
-Two,Nine,Nouns,Art,げいじゅつ｜｜芸術
-Two,Nine,Nouns,Economy,けいざい｜｜経済
-Two,Nine,Nouns,Tea ceremony,さどう｜｜茶道
-Two,Nine,Nouns,Poetry,し｜｜詩
-Two,Nine,Nouns,Society,しゃかい｜｜社会
-Two,Nine,Nouns,Custom,しゅうかん｜｜習慣
-Two,Nine,Nouns,Religion,しゅうきょう｜｜宗教
-Two,Nine,Nouns,Calligraphy,しゅうじ｜｜習字
-Two,Nine,Nouns,Shinto religion,しんとう｜｜神道
-Two,Nine,Nouns,Formal japanese style sitting posture,せいざ｜｜正座
-Two,Nine,Nouns,Politics,せいじ｜｜政治
-Two,Nine,Nouns,World,せかい｜｜世界
-Two,Nine,Nouns,Request,たのみ｜｜頼み
-Two,Nine,Nouns,"Tip, gratuity",チップ
-Two,Nine,Nouns,"Keeping company with someone, associating with someone",つきあい
-Two,Nine,Nouns,A Japanese verse form (poem),はいく｜｜俳句
-Two,Nine,Nouns,Hug,ハグ
-Two,Nine,Nouns,Buddhism,ぶっきょう｜｜仏教
-Two,Nine,Nouns,Blog,ブログ
-Two,Nine,Nouns,Culture,ぶんか｜｜文化
-Two,Nine,Nouns,Other,ほか｜｜他
-Two,Nine,Nouns,"Cartoon, graphic novel",マンガ
-Two,Nine,Nouns,"Farewell, leave taking",みおくり｜｜見送り
-Two,Nine,Nouns,"All, everyone",みな｜｜みんな｜｜皆｜｜みなさん
-Two,Nine,Nouns,"Meeting, greeting",むかえ｜｜迎え
-Two,Nine,Nouns,Problem,もんだい｜｜問題
-Two,Nine,Nouns,Floor,ゆか｜｜床
-Two,Nine,Nouns,Judaism,ユダヤきょう｜｜ユダヤ教
-Two,Nine,Nouns,"Rakugo, a traditional storytelling performance",らくご｜｜落語
-Two,Nine,Nouns,Reason (for doing something),りゆう｜｜理由
-Two,Nine,Verbs,To greet,にあいさつする｜｜に挨拶する｜｜にあいさつをする｜｜に挨拶をする
-Two,Nine,Verbs,To advise,アドバイスをする
-Two,Nine,Verbs,To offer a prayer,おいのりをする｜｜お祈りをする
-Two,Nine,Verbs,To bow,おじぎをする｜｜お辞儀をする
-Two,Nine,Verbs,To kiss,キスをする
-Two,Nine,Verbs,Be interested in ~,にきょうみがある｜｜に興味がある
-Two,Nine,Verbs,To sit in formal Japanese style,せいざをする｜｜正座をする
-Two,Nine,Verbs,To hug,ハグをする
-Two,Nine,Verbs,To go pick someone up,むかえにいく｜｜迎えに行く
-Two,Nine,Verbs,To come pick someone up,むかえにくる｜｜迎えに来る
-Two,Nine,Verbs,To apologize,あやまる｜｜謝る
-Two,Nine,Verbs,To celebrate,いわう｜｜祝う
-Two,Nine,Verbs,"To refuse, to decline",ことわる｜｜断る
-Two,Nine,Verbs,To sit down,すわる｜｜座る
-Two,Nine,Verbs,"To go out with, to keep company with, to have a steady relationship",つきあう｜｜付き合う｜｜つき合う
-Two,Nine,Verbs,To learn,ならう｜｜習う
-Two,Nine,Verbs,To believe,しんじる｜｜信じる
-Two,Nine,Verbs,"To save, to help",たすける｜｜助ける
-Two,Nine,Adjectives,"Lonely, helpless",こころぼそい｜｜心細い
-Two,Nine,Adjectives,Rude,しつれい（な）｜｜失礼（な）
-Two,Nine,Adjectives,Polite,ていねい（な）｜｜丁寧（な）
-Two,Nine,Adjectives,Traditional,でんとうてき（な）｜｜伝統的（な）
-Two,Nine,Adverbs,Definitely,ぜったい（に）｜｜絶対（に）
-Two,Nine,Adverbs,Explicitly,はっきり
-Two,Ten,Nouns,"Companion, conversation partner, the other party",あいて｜｜相手
-Two,Ten,Nouns,baby,あかちゃん｜｜赤ちゃん
-Two,Ten,Nouns,"landlord, landlady",おおや｜｜大家
-Two,Ten,Nouns,sound,おと｜｜音
-Two,Ten,Nouns,adult,おとな｜｜大人
-Two,Ten,Nouns,key,かぎ｜｜鍵
-Two,Ten,Nouns,wall,かべ｜｜壁
-Two,Ten,Nouns,child,こ｜｜子
-Two,Ten,Nouns,"trash, garbage",ごみ｜｜ゴミ
-Two,Ten,Nouns,acquaintance,しりあい｜｜知り合い
-Two,Ten,Nouns,older,としうえ｜｜年上
-Two,Ten,Nouns,younger,としした｜｜年下
-Two,Ten,Nouns,relationship (among people),なか｜｜仲
-Two,Ten,Nouns,diary,にっき｜｜日記
-Two,Ten,Nouns,day,ひ｜｜日
-Two,Ten,Nouns,piano,ピアノ
-Two,Ten,Nouns,truth,ほんとう｜｜本当
-Two,Ten,Nouns,trouble,めいわく｜｜迷惑
-Two,Ten,Nouns,"late at night, the middle of the night",よなか｜｜夜中
-Two,Ten,Nouns,complaint,もんく｜｜文句
-Two,Ten,Nouns,graffiti,らくがき｜｜落書き
-Two,Ten,Nouns,"attention, warning",ちゅうい｜｜注意
-Two,Ten,Nouns,consultation,そうだん｜｜相談
-Two,Ten,Adjectives,"noisy, shut up!",うるさい
-Two,Ten,Adjectives,dirty,きたない｜｜汚い
-Two,Ten,Adjectives,"cannot stand, unbearable",たまらない
-Two,Ten,Adjectives,low,ひくい｜｜低い
-Two,Ten,Adjectives,happy,しあわせ（な）｜｜幸せ（な）
-Two,Ten,Adjectives,honest,しょうじき（な）｜｜正直（な）
-Two,Ten,Adjectives,"troublesome, annoying",めいわく（な）｜｜迷惑（な）
-Two,Ten,Verbs,to lock,かぎをかける｜｜鍵をかける
-Two,Ten,Verbs,to keep a diary,にっきをつける｜｜日記をつける｜｜にっきを付ける｜｜日記を付ける
-Two,Ten,Verbs,to give (someone) problems,めいわくをかける｜｜迷惑をかける
-Two,Ten,Verbs,to complain,もんくをいう｜｜文句をいう｜｜もんくを言う｜｜文句を言う
-Two,Ten,Verbs,to write graffiti,らくがきをする｜｜落書きをする
-Two,Ten,Verbs,"to warn, to call attention to",ちゅういする｜｜注意する｜｜ちゅういをする｜｜注意をする
-Two,Ten,Verbs,to consult with,相談する｜｜そうだんする
-Two,Ten,Verbs,to get angry,おこる｜｜怒る
-Two,Ten,Verbs,to tease,からかう
-Two,Ten,Verbs,to make noise,さわぐ｜｜騒ぐ
-Two,Ten,Verbs,"to hit, to slap",たたく
-Two,Ten,Verbs,to play (a stringed instrument),ひく｜｜弾く
-Two,Ten,Verbs,to forgive,ゆるす｜｜許す
-Two,Ten,Verbs,to be late,おくれる｜｜遅れる
-Two,Ten,Verbs,"to hang, hook",かける｜｜掛ける
-Two,Ten,Verbs,"to clean up, to organize",かたづける｜｜片付ける
-Two,Ten,Verbs,to stand something up,たてる｜｜立てる
-Two,Ten,Verbs,to make noise,おとをたてる｜｜音をたてる｜｜おとを立てる｜｜音を立てる
-Two,Ten,Verbs,to write (in a diary),つける｜｜付ける
+Nakama One,One,Nouns,Teacher,せんせい｜｜先生
+Nakama One,One,Suffixes,Mr./Mrs./Miss/Ms.,〜さん
+Nakama One,One,Suffixes,Professor,〜せんせい｜｜〜先生
+Nakama One,One,Expressions,"(Um,) excuse me",（あのう、）すみません
+Nakama One,One,Expressions,Thank you,ありがとうございます
+Nakama One,One,Expressions,How do you say that (over there) in Japanese?,あれはにほんごでなんといいますか｜｜あれは日本語でなんと言いますか
+Nakama One,One,Expressions,"No, I don't understand (it).",いいえ、わかりません｜｜いいえ、分かりません
+Nakama One,One,Expressions,Please say it/repeat after me.,いってください｜｜言って下さい
+Nakama One,One,Expressions,Please speak loudly. (Instructor request),おおきいこえでいってください｜｜大きい声で言って下さい
+Nakama One,One,Expressions,Please speak loudly. (Student request),おおきいこえでおねがいします｜｜大き声でお願いします
+Nakama One,One,Expressions,Good morning./Hello (casual),おはよう
+Nakama One,One,Expressions,Good morning.Hello (formal),おはようございます
+Nakama One,One,Expressions,Please write.,かいてください｜｜書いて下さい
+Nakama One,One,Expressions,Please listen.,きいてください｜｜聞いて下さい
+Nakama One,One,Expressions,How do you say this in Japanese?,これはにほんごでなんといいますか｜｜これは日本語で何と言いますか
+Nakama One,One,Expressions,Good afternoon./Hello,こんにちは
+Nakama One,One,Expressions,Good evening./Hello,こんばんは
+Nakama One,One,Expressions,Good bye,さようなら｜｜さよなら
+Nakama One,One,Expressions,Good bye (formal)/excuse me,しつれいします｜｜失礼します
+Nakama One,One,Expressions,See you later,じゃあ、また
+Nakama One,One,Expressions,I am sorry./Excuse me.,すみません
+Nakama One,One,Expressions,How do you say that in Japanese?,それはにほんごでなんといいますか｜｜それは日本語で何と言いますか
+Nakama One,One,Expressions,What does ~ mean?,〜ってなんですか｜｜〜って何ですか
+Nakama One,One,Expressions,You say ~. You call it ~.,〜といいます｜｜〜っていいます｜｜〜と言います｜｜〜って言います
+Nakama One,One,Expressions,You are welcome.,どういたしまして
+Nakama One,One,Expressions,"Yes, I understand (it).",はい、わかりました｜｜はい、分かりました
+Nakama One,One,Expressions,How do you do? I am (name). Pleased to meet you.,はじめまして。〜です。どうぞよろしく。｜｜初めまして。〜です。どうぞよろしく。
+Nakama One,One,Expressions,How do you say ~ in Japanese?,〜はにほんごでなんといいますか｜｜〜は日本語で何と言いますか
+Nakama One,One,Expressions,Please look at it.,みてください｜｜見て下さい
+Nakama One,One,Expressions,Please say it again. (Instructor request),もういちどいってください｜｜もう一度言って下さい
+Nakama One,One,Expressions,Please say it again. (Student request),もういちどおねがいします｜｜もう一度お願いします
+Nakama One,One,Expressions,Please say it slowly.,ゆっくりいってください｜｜ゆっくり言って下さい
+Nakama One,One,Expressions,Please read.,よんでください｜｜読んで下さい
+Nakama One,One,Expressions,Do you understand (it)?,わかりましたか｜｜分かりましたか
+Nakama One,Two,Nouns,Asian studies,あじあけんきゅう｜｜アジアけんきゅう｜｜アジア研究
+Nakama One,Two,Nouns,"America, the United States",あめりか｜｜アメリカ
+Nakama One,Two,Nouns,England,いぎりす｜｜イギリス
+Nakama One,Two,Nouns,"Freshman, first year student",いちねんせい｜｜いちねん｜｜一年生｜｜一年｜｜1年生｜｜１年
+Nakama One,Two,Nouns,Now,いま｜｜今
+Nakama One,Two,Nouns,English,えいご｜｜英語
+Nakama One,Two,Nouns,Australia,おーすとらりあ｜｜オーストラリア
+Nakama One,Two,Nouns,Student,がくせい｜｜学生
+Nakama One,Two,Nouns,Canada,かなだ｜｜カナダ
+Nakama One,Two,Nouns,South Korea,かんこく｜｜韓国
+Nakama One,Two,Nouns,"Management, business administration",けいえいがく｜｜経営学
+Nakama One,Two,Nouns,Engineering,こうがく｜｜工学
+Nakama One,Two,Nouns,High school,こうこう｜｜高校
+Nakama One,Two,Nouns,"P.M., afternoon",ごご｜｜午後
+Nakama One,Two,Nouns,"A.M., morning",ごぜん｜｜午前
+Nakama One,Two,Nouns,"This person, this way",こちら
+Nakama One,Two,Nouns,"Junior, third year student",さんねんせい｜｜3年生｜｜三年生
+Nakama One,Two,Nouns,Spain,すぺいん｜｜スペイン
+Nakama One,Two,Nouns,Major,せんこう｜｜専攻
+Nakama One,Two,Nouns,"College, university",だいがく｜｜大学
+Nakama One,Two,Nouns,Graduate student,だいがくいんせい｜｜大学院生
+Nakama One,Two,Nouns,College student,だいがくせい｜｜大学生
+Nakama One,Two,Nouns,Taiwan,たいわん｜｜台湾
+Nakama One,Two,Nouns,China,ちゅうごく｜｜中国
+Nakama One,Two,Nouns,Name,なまえ｜｜名前
+Nakama One,Two,Nouns,"Sophomore, second year student",にねんせい｜｜2年生｜｜二年生
+Nakama One,Two,Nouns,Japan,にほん｜｜日本｜｜にっぽん
+Nakama One,Two,Nouns,Business,びじねす｜｜ビジネス
+Nakama One,Two,Nouns,France,ふらんす｜｜フランス
+Nakama One,Two,Nouns,Literature,ぶんがく｜｜文学
+Nakama One,Two,Nouns,Mexico,めきしこ｜｜メキシコ
+Nakama One,Two,Nouns,"Senior, fourth year student",よねんせい｜｜四年生｜｜4年生
+Nakama One,Two,Nouns,Next year,らいねん｜｜来年
+Nakama One,Two,Nouns,International student,りゅうがくせい｜｜留学生
+Nakama One,Two,Nouns,History,れきし｜｜歴史
+Nakama One,Two,Pronouns,I (used by males),ぼく｜｜僕
+Nakama One,Two,Pronouns,I (used by males and females),わたし｜｜私
+Nakama One,Two,Verbs,To be,です
+Nakama One,Two,Time expressions,One o'clock,いちじ｜｜一時｜｜1時
+Nakama One,Two,Time expressions,Two o'clock,にじ｜｜2時｜｜二時
+Nakama One,Two,Time expressions,Three o'clock,さんじ｜｜三時｜｜3時
+Nakama One,Two,Time expressions,Four o'clock,よじ｜｜四時｜｜4時
+Nakama One,Two,Time expressions,Five o'clock,ごじ｜｜5時｜｜五時
+Nakama One,Two,Time expressions,Six o'clock,ろくじ｜｜六時｜｜6時
+Nakama One,Two,Time expressions,Seven o'clock,しちじ｜｜七時｜｜7時
+Nakama One,Two,Time expressions,Eight o'clock,はちじ｜｜8時｜｜八時
+Nakama One,Two,Time expressions,Nine o'clock,くじ｜｜九時｜｜9時
+Nakama One,Two,Time expressions,Ten o'clock,じゅうじ｜｜10時｜｜十時
+Nakama One,Two,Time expressions,Eleven o'clock,じゅういちじ｜｜十一時｜｜11時
+Nakama One,Two,Time expressions,Twelve o'clock,じゅうにじ｜｜十二時｜｜12時
+Nakama One,Two,Time expressions,Half past,はん｜｜半
+Nakama One,Two,Question words,Where,どこ
+Nakama One,Two,Question words,"Where (polite), which way",どちら
+Nakama One,Two,Question words,What,なに｜｜なん｜｜何
+Nakama One,Two,Particles,Question marker,か
+Nakama One,Two,Particles,"Noun modifier marker (of, 's)",の
+Nakama One,Two,Particles,Topic marker,は
+Nakama One,Two,Particles,"Similarity marker (also, too)",も
+Nakama One,Two,Prefix,Polite prefix,お〜
+Nakama One,Two,Suffixes,Language,〜ご｜｜〜語
+Nakama One,Two,Suffixes,O'clock,〜じ｜｜〜時
+Nakama One,Two,Suffixes,Nationality,〜じん｜｜〜人
+Nakama One,Two,Suffixes,Student,〜せい｜｜〜生
+Nakama One,Two,Suffixes,Year (in school),〜ねん｜｜〜年
+Nakama One,Two,Interjections,"Uh, well...",あのう
+Nakama One,Two,Interjections,"No, don't mention it, you're welcome",いいえ
+Nakama One,Two,Interjections,Yes (colloquial),ええ
+Nakama One,Two,Interjections,Yes (formal),はい
+Nakama One,Two,Expressions,"No, that's not so",いいえ、そうじゃありません｜｜いいえ、そうじゃないです
+Nakama One,Two,Expressions,"Yes, that's so",ええ、そうです
+Nakama One,Two,Expressions,Came from,〜からきました｜｜〜から来ました
+Nakama One,Two,Expressions,It is I who should be saying that. Thank you. Same here.,こちらこそ
+Nakama One,Two,Expressions,Is that so? I see.,そうですか
+Nakama One,Two,Expressions,It is called (colloquial),〜っていいます｜｜〜って言います
+Nakama One,Two,Expressions,Thank you very much,どうもありがとうございます
+Nakama One,Two,Expressions,Where are you from?,どこからきましたか｜｜どこから来ましたか
+Nakama One,Two,Expressions,Where are you from? (Polite),どちらからいらっしゃいましたか
+Nakama One,Three,Nouns,Morning,あさ｜｜朝
+Nakama One,Three,Nouns,Breakfast,あさごはん｜｜朝御飯
+Nakama One,Three,Nouns,The day after tomorrow,あさって｜｜明後日
+Nakama One,Three,Nouns,Tomorrow,あした｜｜明日
+Nakama One,Three,Nouns,Home,うち｜｜家
+Nakama One,Three,Nouns,Movie,えいが｜｜映画
+Nakama One,Three,Nouns,The day before yesterday,おととい｜｜一昨日
+Nakama One,Three,Nouns,Bath,おふろ｜｜お風呂
+Nakama One,Three,Nouns,School,がっこう｜｜学校
+Nakama One,Three,Nouns,Tuesday,かようび｜｜火曜日
+Nakama One,Three,Nouns,Yesterday,きのう｜｜昨日
+Nakama One,Three,Nouns,Today,きょう｜｜今日
+Nakama One,Three,Nouns,Friday,きんようび｜｜金曜日
+Nakama One,Three,Nouns,Class,クラス
+Nakama One,Three,Nouns,Monday,げつようび｜｜月曜日
+Nakama One,Three,Nouns,Coffee,コーヒー
+Nakama One,Three,Nouns,"Meal, cooked rice",ごはん｜｜ご飯
+Nakama One,Three,Nouns,This week,こんしゅう｜｜今週
+Nakama One,Three,Nouns,Tonight,こんばん｜｜今晩
+Nakama One,Three,Nouns,Shower,シャワー
+Nakama One,Three,Nouns,Weekend,しゅうまつ｜｜週末
+Nakama One,Three,Nouns,"Class, course",じゅぎょう｜｜授業
+Nakama One,Three,Nouns,Homework,しゅくだい｜｜宿題
+Nakama One,Three,Nouns,Wednesday,すいようび｜｜水曜日
+Nakama One,Three,Nouns,"Life, living",せいかつ｜｜生活
+Nakama One,Three,Nouns,Last week,せんしゅう｜｜先週
+Nakama One,Three,Nouns,Next,つぎ｜｜次
+Nakama One,Three,Nouns,"Television, TV",テレビ
+Nakama One,Three,Nouns,Telephone number,でんわばんごう｜｜電話番号
+Nakama One,Three,Nouns,Library,としょかん｜｜図書館
+Nakama One,Three,Nouns,Saturday,どようび｜｜土曜日
+Nakama One,Three,Nouns,Sunday,にちようび｜｜日曜日
+Nakama One,Three,Nouns,"Night, evening",ばん｜｜晩
+Nakama One,Three,Nouns,"Supper, dinner",ばんごはん｜｜晩御飯
+Nakama One,Three,Nouns,Afternoon,ひる｜｜昼
+Nakama One,Three,Nouns,Lunch,ひるごはん｜｜昼御飯
+Nakama One,Three,Nouns,Study,べんきょう｜｜勉強
+Nakama One,Three,Nouns,Book,ほん｜｜本
+Nakama One,Three,Nouns,Every morning,まいあさ｜｜毎朝
+Nakama One,Three,Nouns,Every week,まいしゅう｜｜毎週
+Nakama One,Three,Nouns,Every day,まいにち｜｜毎日
+Nakama One,Three,Nouns,Every night,まいばん｜｜毎晩
+Nakama One,Three,Nouns,thursday,もくようび｜｜木曜日
+Nakama One,Three,Verbs,"Exists; to be held, to have (inanimate objects only)",あります
+Nakama One,Three,Verbs,To go,いきます｜｜行きます
+Nakama One,Three,Verbs,"To return, to go home",かえります｜｜帰ります
+Nakama One,Three,Verbs,To drink,のみます｜｜飲みます
+Nakama One,Three,Verbs,"To enter, to take (a bath)",はいります｜｜入ります
+Nakama One,Three,Verbs,To read,よみます｜｜読みます
+Nakama One,Three,Verbs,To take a shower,あびます｜｜浴びます
+Nakama One,Three,Verbs,"To get up, to wake up",おきます｜｜起きます
+Nakama One,Three,Verbs,To eat,たべます｜｜食べます
+Nakama One,Three,Verbs,"To go to bed, to go to sleep",ねます｜｜寝ます
+Nakama One,Three,Verbs,"To see, to watch",みます｜｜見ます
+Nakama One,Three,Verbs,To come,きます｜｜来ます
+Nakama One,Three,Verbs,To do,します
+Nakama One,Three,Verbs,To study,べんきょうします｜｜勉強します
+Nakama One,Three,Question words,When,いつ
+Nakama One,Three,Numbers,Zero,ゼロ｜｜れい｜｜零
+Nakama One,Three,Numbers,One,いち｜｜一
+Nakama One,Three,Numbers,Two,に｜｜二
+Nakama One,Three,Numbers,Three,さん｜｜三
+Nakama One,Three,Numbers,Four,よん｜｜し｜｜四
+Nakama One,Three,Numbers,Five,ご｜｜五
+Nakama One,Three,Numbers,Six,ろく｜｜六
+Nakama One,Three,Numbers,Seven,なな｜｜しち｜｜七
+Nakama One,Three,Numbers,Eight,はち｜｜八
+Nakama One,Three,Numbers,Nine,きゅう｜｜く｜｜九
+Nakama One,Three,Numbers,ten,じゅう｜｜十
+Nakama One,Three,Counters,Minute(s),〜ふん｜｜〜ぷん｜｜〜分
+Nakama One,Three,Adverbs,Not very often (used with negative verb forms),あまり
+Nakama One,Three,Adverbs,Always,いつも
+Nakama One,Three,Adverbs,Not at all (used with negative verb forms),ぜんぜん｜｜全然
+Nakama One,Three,Adverbs,Usually,たいてい
+Nakama One,Three,Adverbs,Sometimes,ときどき｜｜時々
+Nakama One,Three,Adverbs,"Often, well",よく
+Nakama One,Three,Particles,"At, in, on, etc. (location of action or event)",で
+Nakama One,Three,Particles,"At, on, in (point in time)",に
+Nakama One,Three,Particles,"To (goal, activity)",に
+Nakama One,Three,Particles,To (direction),へ
+Nakama One,Three,Particles,Direct object marker,を
+Nakama One,Three,Prefixes,This,こん〜｜｜今〜
+Nakama One,Three,Prefixes,Every,まい〜｜｜毎〜
+Nakama One,Three,Suffixes,About (only used with time expressions),〜ごろ
+Nakama One,Three,Suffixes,Day (of the week),〜ようび｜｜〜曜日
+Nakama One,Three,Irregular minutes,One minute,いっぷん｜｜一分
+Nakama One,Three,Irregular minutes,Three minutes,さんぷん｜｜三分
+Nakama One,Three,Irregular minutes,Four minutes,よんふん｜｜よんぷん｜｜四分
+Nakama One,Three,Irregular minutes,Six minutes,ろっぷん｜｜六分
+Nakama One,Three,Irregular minutes,Eight minutes,はっぷん｜｜はちふん｜｜八分
+Nakama One,Three,Irregular minutes,Ten minutes,じゅっぷん｜｜じっぷん｜｜十分
+Nakama One,Three,Irregular minutes,How many minutes?,なんぷん｜｜何分
+Nakama One,Four,Nouns,Apartment,アパート
+Nakama One,Four,Nouns,Station,えき｜｜駅
+Nakama One,Four,Nouns,Pencil,えんぴつ｜｜鉛筆
+Nakama One,Four,Nouns,"Luggage, bag",かばん｜｜鞄
+Nakama One,Four,Nouns,"Coffee shop, café (recent term)",カフェ
+Nakama One,Four,Nouns,Coffee shop (traditional term),きっさてん｜｜喫茶店
+Nakama One,Four,Nouns,Textbook,きょうかしょ｜｜教科書
+Nakama One,Four,Nouns,Bank,ぎんこう｜｜銀行
+Nakama One,Four,Nouns,Eraser,けしゴム｜｜消しゴム
+Nakama One,Four,Nouns,Park,こうえん｜｜公園
+Nakama One,Four,Nouns,Police box,こうばん｜｜交番
+Nakama One,Four,Nouns,This area,このへん｜｜この辺
+Nakama One,Four,Nouns,Convenience store,コンビニ
+Nakama One,Four,Nouns,Dictionary,じしょ｜｜辞書
+Nakama One,Four,Nouns,Supermarket,スーパー
+Nakama One,Four,Nouns,"Building, structure",たてもの｜｜建物
+Nakama One,Four,Nouns,Test,テスト
+Nakama One,Four,Nouns,Department store,デパート
+Nakama One,Four,Nouns,Notebook,ノート
+Nakama One,Four,Nouns,Building (western),ビル
+Nakama One,Four,Nouns,Hospital,びょういん｜｜病院
+Nakama One,Four,Nouns,Pen,ペン
+Nakama One,Four,Nouns,Ballpoint pen,ボールペン
+Nakama One,Four,Nouns,Bookstore,ほんや｜｜本屋
+Nakama One,Four,Nouns,Town,まち｜｜町
+Nakama One,Four,Nouns,Post office,ゆうびんきょく｜｜郵便局
+Nakama One,Four,Nouns,Dormitory,りょう｜｜寮
+Nakama One,Four,Nouns,Restaurant,レストラン
+Nakama One,Four,Verbs,"(for inanimate objects) To be, to exist",あります
+Nakama One,Four,Verbs,"(for animate objects) To be, to exist",います
+Nakama One,Four,Demonstrative words,"Over there, that place (far from speaker and listener)",あそこ
+Nakama One,Four,Demonstrative words,"That, that object over there",あれ
+Nakama One,Four,Demonstrative words,"Here, this place",ここ
+Nakama One,Four,Demonstrative words,"This object, this",これ
+Nakama One,Four,Demonstrative words,"There, that place (close to listener or slightly removed from speaker and listener)",そこ
+Nakama One,Four,Demonstrative words,"That object, that (close to listener or slightly removed from speaker and listener)",それ
+Nakama One,Four,Adjectives,Blue,あおい｜｜青い
+Nakama One,Four,Adjectives,Red,あかい｜｜赤い
+Nakama One,Four,Adjectives,New,あたらしい｜｜新しい
+Nakama One,Four,Adjectives,Good,いい｜｜良い
+Nakama One,Four,Adjectives,Big,おおきい｜｜大きい
+Nakama One,Four,Adjectives,Yellow,きいろい｜｜黄色い
+Nakama One,Four,Adjectives,Black,くろい｜｜黒い
+Nakama One,Four,Adjectives,White,しろい｜｜白い
+Nakama One,Four,Adjectives,"Tall, high",たかい｜｜高い
+Nakama One,Four,Adjectives,Small,ちいさい｜｜小さい
+Nakama One,Four,Adjectives,Brown,ちゃいろい｜｜茶色い
+Nakama One,Four,Adjectives,Old,ふるい｜｜古い
+Nakama One,Four,Adjectives,"Clean, pretty, neat",きれい（な）｜｜綺麗（な）
+Nakama One,Four,Adjectives,Famous,ゆうめい（な）｜｜有名（な）
+Nakama One,Four,Adjectives,"Fine, splendid, nice",りっぱ（な）｜｜立派（な）
+Nakama One,Four,Question words,Who,だれ
+Nakama One,Four,Question words,Which one,どれ
+Nakama One,Four,Question words,What kind of,どんな
+Nakama One,Four,Adverbs,Very,どうも
+Nakama One,Four,Adverbs,Very (always used with an affirmative form),とても
+Nakama One,Four,Suffixes,Store,〜や｜｜〜屋
+Nakama One,Five,Location Nouns,"On, Above, Over",うえ｜｜上
+Nakama One,Five,Location Nouns,"Behind, In back of",うしろ｜｜後ろ
+Nakama One,Five,Location Nouns,"Under, Beneath",した｜｜下
+Nakama One,Five,Location Nouns,Outside,そと｜｜外
+Nakama One,Five,Location Nouns,"Near, In the vicinity of",ちかく｜｜近く
+Nakama One,Five,Location Nouns,Next to; (of same type),となり｜｜隣
+Nakama One,Five,Location Nouns,"In, Inside",なか｜｜中
+Nakama One,Five,Location Nouns,"To the left, Left side",ひだり｜｜左
+Nakama One,Five,Location Nouns,"In front of, In the front",まえ｜｜前
+Nakama One,Five,Location Nouns,To the right,みぎ｜｜右
+Nakama One,Five,Location Nouns,"Next to, Adjacent to; (of different type)",よこ｜｜横
+Nakama One,Five,Nouns,Chair,いす｜｜椅子
+Nakama One,Five,Nouns,Dog,いぬ｜｜犬
+Nakama One,Five,Nouns,Picture,え｜｜絵
+Nakama One,Five,Nouns,Japanese style closet,おしいれ｜｜押入れ｜｜押し入れ
+Nakama One,Five,Nouns,School cafeteria,がくしょく｜｜学しょく｜｜学食
+Nakama One,Five,Nouns,Student union,学生かいかん｜｜学生会館｜｜がくせいかいかん
+Nakama One,Five,Nouns,River,かわ｜｜川
+Nakama One,Five,Nouns,Tree,き｜｜木
+Nakama One,Five,Nouns,Classroom,きょうしつ｜｜教室
+Nakama One,Five,Nouns,Car,くるま｜｜車
+Nakama One,Five,Nouns,Cell Phone,けいたい（でんわ）｜｜携帯（電話）
+Nakama One,Five,Nouns,Chalkboard,こくばん｜｜黒板
+Nakama One,Five,Nouns,Computer,コンピュータ
+Nakama One,Five,Nouns,Bicycle,じてんしゃ｜｜自転車
+Nakama One,Five,Nouns,Photograph,しゃしん｜｜写真
+Nakama One,Five,Nouns,Sofa,ソファ
+Nakama One,Five,Nouns,Gym,たいいくかん｜｜体育館
+Nakama One,Five,Nouns,"Chest, Drawers",たんす｜｜タンス｜｜箪笥
+Nakama One,Five,Nouns,Desk,つくえ｜｜机
+Nakama One,Five,Nouns,Table,テーブル
+Nakama One,Five,Nouns,Telephone,でんわ｜｜電話
+Nakama One,Five,Nouns,Door,ドア
+Nakama One,Five,Nouns,"Toilet, Restroom",トイレ
+Nakama One,Five,Nouns,"Clock, Watch",とけい｜｜時計
+Nakama One,Five,Nouns,Place,ところ｜｜所
+Nakama One,Five,Nouns,Cat,ねこ｜｜猫
+Nakama One,Five,Nouns,Bus,バス
+Nakama One,Five,Nouns,Video,ビデオ
+Nakama One,Five,Nouns,Person,ひと｜｜人
+Nakama One,Five,Nouns,Futon,ふとん｜｜布団
+Nakama One,Five,Nouns,Bed,ベッド
+Nakama One,Five,Nouns,Room,へや｜｜部屋
+Nakama One,Five,Nouns,Bookshelf,ほんだな｜｜本だな｜｜本棚
+Nakama One,Five,Nouns,Window,まど｜｜窓
+Nakama One,Five,Nouns,Thing (tangible),もの｜｜物
+Nakama One,Five,Nouns,Mountain,やま｜｜山
+Nakama One,Five,Nouns,Room,ルーム
+Nakama One,Five,Verbs,"To take (time), it costs",かかります
+Nakama One,Five,Demonstrative Words,That [+ noun] over there,あの
+Nakama One,Five,Demonstrative Words,This [+ noun],この
+Nakama One,Five,Demonstrative Words,That [+ noun],その
+Nakama One,Five,Demonstrative Words,Which [+ noun]?,どの
+Nakama One,Five,Adjectives,Bright,あかるい｜｜明るい
+Nakama One,Five,Adjectives,Dark,くらい｜｜暗い
+Nakama One,Five,Adjectives,"Cramped, Narrow",せまい｜｜狭い
+Nakama One,Five,Adjectives,"Fast, Quick",はやい｜｜早い
+Nakama One,Five,Adjectives,"Spacious, Wide",ひろい｜｜広い
+Nakama One,Five,Adjectives,Quiet,しずか（な）｜｜静か（な）
+Nakama One,Five,Particles,From,から
+Nakama One,Five,Particles,"By means of, by, with",で
+Nakama One,Five,Particles,"Until, to",まで
+Nakama One,Five,Suffixes,About ~ (Duration or quantity),〜ぐらい｜｜〜くらい
+Nakama One,Five,Suffixes,~ Hours,〜じかん｜｜〜時間
+Nakama One,Five,Conjunctions,But,でも
+Nakama One,Five,Expressions,Please Come in.,あがってください｜｜上がって下さい
+Nakama One,Five,Expressions,On foot,あるいて｜｜歩いて
+Nakama One,Five,Expressions,Welcome! Come in.,いらっしゃい
+Nakama One,Five,Expressions,Thank you. (Said before going inside someone's house or apartment),おじゃまします
+Nakama One,Five,Expressions,"Excuse me, anyone home?",ごめんください｜｜ごめん下さい
+Nakama One,Five,Question Words,"How long, how much, how many",どのぐらい｜｜どのくらい
+Nakama One,Six,Nouns,Part-time job,アルバイト｜｜バイト
+Nakama One,Six,Nouns,Exercises,うんどう｜｜運動
+Nakama One,Six,Nouns,Music,おんがく｜｜音楽
+Nakama One,Six,Nouns,Shopping,かいもの｜｜買い物
+Nakama One,Six,Nouns,Game,ゲーム
+Nakama One,Six,Nouns,Concert,コンサート
+Nakama One,Six,Nouns,Next time,こんど｜｜今度
+Nakama One,Six,Nouns,Magazine,ざっし｜｜雑誌
+Nakama One,Six,Nouns,"Walk, stroll",さんぽ｜｜散歩
+Nakama One,Six,Nouns,Job,しごと｜｜仕事
+Nakama One,Six,Nouns,Question,しつもん｜｜質問
+Nakama One,Six,Nouns,Jogging,ジョギング
+Nakama One,Six,Nouns,Newspaper,しんぶん｜｜新聞
+Nakama One,Six,Nouns,Laundry,せんたく｜｜洗濯
+Nakama One,Six,Nouns,Cleaning,そうじ｜｜掃除
+Nakama One,Six,Nouns,Letter,てがみ｜｜手紙
+Nakama One,Six,Nouns,Tennis,テニス
+Nakama One,Six,Nouns,Friend,ともだち｜｜友達
+Nakama One,Six,Nouns,Party,パーティ
+Nakama One,Six,Nouns,Picnic,ピクニック
+Nakama One,Six,Nouns,Pool,プール
+Nakama One,Six,Nouns,E-mail,メール
+Nakama One,Six,Nouns,"Rest, absence, a day off",やすみ｜｜休み
+Nakama One,Six,Nouns,"A day off, holiday",やすみの日｜｜休みの日
+Nakama One,Six,Nouns,Parents,りょうしん｜｜両親
+Nakama One,Six,Nouns,"Cooking, cuisine",りょうり｜｜料理
+Nakama One,Six,Verbs,To meet,あいます｜｜会います
+Nakama One,Six,Verbs,To play,あそびます｜｜遊びます
+Nakama One,Six,Verbs,"To walk, to walk up towards",あるきます｜｜歩きます
+Nakama One,Six,Verbs,To say,いいます｜｜言います
+Nakama One,Six,Verbs,To swim,およぎます｜｜泳ぎます
+Nakama One,Six,Verbs,To write,かきます｜｜書きます
+Nakama One,Six,Verbs,"To ask, to listen to",ききます｜｜聴きます｜｜聞きます
+Nakama One,Six,Verbs,To talk,はなします｜｜話します
+Nakama One,Six,Verbs,To wait,まちます｜｜待ちます
+Nakama One,Six,Verbs,"To call, to invite",よびます｜｜呼びます
+Nakama One,Six,Verbs,To make (a phone call),かけます
+Nakama One,Six,Verbs,To go out,でかけます｜｜出かけます
+Nakama One,Six,Adjectives,Busy,いそがしい｜｜忙しい
+Nakama One,Six,Adjectives,Happy,うれしい｜｜嬉しい
+Nakama One,Six,Adjectives,Interesting,おもしろい｜｜面白い
+Nakama One,Six,Adjectives,Sad,かなしい｜｜悲しい
+Nakama One,Six,Adjectives,Lonely,さびしい｜｜寂しい
+Nakama One,Six,Adjectives,Fun,たのしい｜｜楽しい
+Nakama One,Six,Adjectives,Boring,つまらない
+Nakama One,Six,Adjectives,Difficult,むずかしい｜｜難しい
+Nakama One,Six,Adjectives,"Easy, kind",やさしい｜｜優しい｜｜易しい
+Nakama One,Six,Adjectives,"Healthy, cheerful, lively (person)",げんき（な）｜｜元気（な）
+Nakama One,Six,Adjectives,"Sorry, regrettable",ざんねん（な）｜｜残念（な）
+Nakama One,Six,Adjectives,"All right, no problem",だいじょうぶ（な）｜｜大丈夫（な）
+Nakama One,Six,Adjectives,Tough,たいへん（な）｜｜大変（な）
+Nakama One,Six,Adjectives,Lively (place or event),にぎやか（な）｜｜賑やか（な）
+Nakama One,Six,Adjectives,"Free, idle, unscheduled",ひま（な）｜｜暇（な）
+Nakama One,Six,Question words,How?,どう
+Nakama One,Six,Adverbs,Together,いっしょに｜｜一緒に
+Nakama One,Six,Adverbs,"By all means., I'd love to",ぜひ｜｜是非
+Nakama One,Six,Adverbs,Slowly,ゆっくり
+Nakama One,Six,Particles,"With, together with (association)",と
+Nakama One,Six,Particles,And (exhaustive listing),と
+Nakama One,Six,Particles,"In order to, for (purpose)",に
+Nakama One,Six,Particles,"To (goal, receiver)",に
+Nakama One,Six,Conjunctions,And,そして
+Nakama One,Six,Expressions,I'm a little busy,ちょっとつごうがわるくて｜｜ちょっと都合が悪くて
+Nakama One,Six,Expressions,"Sorry, I have some errands/business to attend to.",ちょっとようじがあって｜｜ちょっと用事があって
+Nakama One,Six,Verbs in て form,To exist (inanimate),あって
+Nakama One,Six,Verbs in て form,To go,いって｜｜行って
+Nakama One,Six,Verbs in て form,To return,かえって｜｜帰って
+Nakama One,Six,Verbs in て form,To drink,のんで｜｜飲んで
+Nakama One,Six,Verbs in て form,"To take (a bath), to enter",はいって｜｜入って
+Nakama One,Six,Verbs in て form,To read,よんで｜｜読んで
+Nakama One,Six,Verbs in て form,To take (a shower),あびて｜｜浴びて
+Nakama One,Six,Verbs in て form,"To get up, to wake up",おきて｜｜起きて
+Nakama One,Six,Verbs in て form,To eat,たべて｜｜食べて
+Nakama One,Six,Verbs in て form,To go to bed,ねて｜｜寝て
+Nakama One,Six,Verbs in て form,"To see, to watch",みて｜｜見て
+Nakama One,Six,Verbs in て form,To come,きて｜｜来て
+Nakama One,Six,Verbs in て form,To do,して
+Nakama One,Six,Verbs in て form,To exist (animate),いて
+Nakama One,Six,Verbs in て form,"To take (time), it costs",かかって
+Nakama One,Six,Verbs in て form,To meet,あって｜｜会って
+Nakama One,Six,Verbs in て form,To play,あそんで｜｜遊んで
+Nakama One,Six,Verbs in て form,To walk (up towards),あるいて｜｜歩いて
+Nakama One,Six,Verbs in て form,To say,いって｜｜言って
+Nakama One,Six,Verbs in て form,To swim,およいで｜｜泳いで
+Nakama One,Six,Verbs in て form,To write,かいて｜｜書いて
+Nakama One,Six,Verbs in て form,"To ask, to listen to",きいて｜｜聞いて｜｜聴いて
+Nakama One,Six,Verbs in て form,To talk,はなして｜｜話して
+Nakama One,Six,Verbs in て form,To wait,まって｜｜待って
+Nakama One,Six,Verbs in て form,"To call, to invite",よんで｜｜呼んで
+Nakama One,Six,Verbs in て form,To make (a phone call),かけて
+Nakama One,Six,Verbs in て form,To go out,でかけて｜｜出かけて
+Nakama One,Seven,Nouns,Song,うた｜｜歌
+Nakama One,Seven,Nouns,"Tea, Green tea",おちゃ｜｜お茶
+Nakama One,Seven,Nouns,Orange,オレンジ
+Nakama One,Seven,Nouns,"Karaoke, sing along",カラオケ
+Nakama One,Seven,Nouns,Cow's Milk,ぎゅうにゅう｜｜牛肉
+Nakama One,Seven,Nouns,Fruit,くだもの｜｜果物
+Nakama One,Seven,Nouns,Classical Music,クラシック
+Nakama One,Seven,Nouns,Cake,ケーキ
+Nakama One,Seven,Nouns,Black tea,こうちゃ｜｜紅茶
+Nakama One,Seven,Nouns,Cola,コーラ
+Nakama One,Seven,Nouns,Thing (intangible),こと｜｜事
+Nakama One,Seven,Nouns,Golf,ゴルフ
+Nakama One,Seven,Nouns,Fish,さかな｜｜魚
+Nakama One,Seven,Nouns,"Rice wine, alcoholic beverage",さけ｜｜酒｜｜おさけ｜｜お酒
+Nakama One,Seven,Nouns,Jazz,ジャズ
+Nakama One,Seven,Nouns,Juice,ジュース
+Nakama One,Seven,Nouns,Hobby,しゅみ｜｜趣味
+Nakama One,Seven,Nouns,Dining,しょくじ｜｜食事
+Nakama One,Seven,Nouns,Skiing,スキー
+Nakama One,Seven,Nouns,Sports,スポーツ
+Nakama One,Seven,Nouns,"Physical exercise, calisthenics",たいそう｜｜体操
+Nakama One,Seven,Nouns,Food,たべもの｜｜食べ物
+Nakama One,Seven,Nouns,Egg,たまご｜｜卵
+Nakama One,Seven,Nouns,Fishing,つり｜｜釣り
+Nakama One,Seven,Nouns,Tomato,トマト
+Nakama One,Seven,Nouns,Driving (for pleasure),ドライブ
+Nakama One,Seven,Nouns,Meat,にく｜｜肉
+Nakama One,Seven,Nouns,Carrot,にんじん
+Nakama One,Seven,Nouns,"Beverage, drink",のみもの｜｜飲み物
+Nakama One,Seven,Nouns,Hiking,ハイキング
+Nakama One,Seven,Nouns,Basketball,バスケットボール
+Nakama One,Seven,Nouns,Banana,バナナ
+Nakama One,Seven,Nouns,Hip-hop music,ヒップホップ
+Nakama One,Seven,Nouns,Beer,ビール
+Nakama One,Seven,Nouns,American football,フットボール
+Nakama One,Seven,Nouns,Pop music,ポップス
+Nakama One,Seven,Nouns,Water,水｜｜みず
+Nakama One,Seven,Nouns,"Milk (for babies), Creamer (for coffee)",ミルク
+Nakama One,Seven,Nouns,Baseball,やきゅう｜｜野球
+Nakama One,Seven,Nouns,Vegetable,やさい｜｜野菜
+Nakama One,Seven,Nouns,Rap music,ラップ
+Nakama One,Seven,Nouns,Traveling,りょこう｜｜旅行
+Nakama One,Seven,Nouns,Apple,りんご｜｜林檎
+Nakama One,Seven,Nouns,Lettuce,レタス
+Nakama One,Seven,Nouns,Rock and roll,ロック
+Nakama One,Seven,Nouns,Wine,ワイン
+Nakama One,Seven,Verbs,To dine,しょくじする｜｜食事する
+Nakama One,Seven,Verbs,To travel,りょこうする｜｜旅行する
+Nakama One,Seven,Verbs,To sing,うたう｜｜歌う
+Nakama One,Seven,Verbs,(For something) to end,おわる｜｜終わる
+Nakama One,Seven,Verbs,To make,つくる｜｜作る
+Nakama One,Seven,Verbs,To take (a photograph),とる｜｜取る｜｜撮る
+Nakama One,Seven,Verbs,(For something) to begin,はじまる｜｜始まる
+Nakama One,Seven,Adjectives,"Delicious, good, tasty",おいしい｜｜美味しい
+Nakama One,Seven,Adjectives,Expensive,たかい｜｜高い
+Nakama One,Seven,Adjectives,Inexpensive,やすい｜｜安い
+Nakama One,Seven,Adjectives,"Dislike, hate",きらい（な）｜｜嫌い（な）
+Nakama One,Seven,Adjectives,Like,すき(な)｜｜好き（な）
+Nakama One,Seven,Adverbs,More,もっと
+Nakama One,Seven,Particles,And (when listing examples),や
+Nakama One,Seven,Prefixes,Very much,大｜｜だい
+Nakama One,Seven,Conjunctions,"And, In addition, Then",それから
+Nakama One,Seven,Conjunctions,For example,たとえば
+Nakama One,Seven,Expressions,I neither like nor dislike it.,すきでもきらいでもありません｜｜好きでも嫌いでもありません
+Nakama One,Seven,Expressions,~is a bit,〜（は）ちょっと
+Nakama One,Seven,Expressions,How about ~?,〜（は）どうですか
+Nakama One,Eight,Nouns,Accessories,アクセサリー
+Nakama One,Eight,Nouns,Accessory department,アクセサリーうりば｜｜アクセサリー売り場
+Nakama One,Eight,Nouns,Earring,イヤリング
+Nakama One,Eight,Nouns,Wristwatch,うでどけい｜｜腕時計
+Nakama One,Eight,Nouns,"Department, section (of a store)",うりば｜｜売り場
+Nakama One,Eight,Nouns,"Customer, guest",おきゃくさん｜｜お客さん
+Nakama One,Eight,Nouns,Umbrella,かさ｜｜傘
+Nakama One,Eight,Nouns,Shoes,くつ｜｜靴
+Nakama One,Eight,Nouns,Socks,くつした｜｜靴下
+Nakama One,Eight,Nouns,Coat,コート
+Nakama One,Eight,Nouns,"CD section, DVD section",CDうりば｜｜DVDうりば｜｜CD売り場｜｜DVD売り場
+Nakama One,Eight,Nouns,Jeans,ジーンズ
+Nakama One,Eight,Nouns,Jacket,ジャケット
+Nakama One,Eight,Nouns,Shirt,シャツ
+Nakama One,Eight,Nouns,Food,しょくひん｜｜食品
+Nakama One,Eight,Nouns,Food department,しょくひんうりば｜｜食品売り場
+Nakama One,Eight,Nouns,Menswear,しんしふく｜｜紳士服
+Nakama One,Eight,Nouns,Menswear department,しんしふくうりば｜｜紳士服売り場
+Nakama One,Eight,Nouns,Suit,スーツ
+Nakama One,Eight,Nouns,Skirt,スカート
+Nakama One,Eight,Nouns,"Stockings, pantyhose",ストッキング
+Nakama One,Eight,Nouns,Sweater,セーター
+Nakama One,Eight,Nouns,Sale,セール
+Nakama One,Eight,Nouns,Birthday,たんじょうび｜｜誕生日
+Nakama One,Eight,Nouns,Basement,ちか｜｜地下
+Nakama One,Eight,Nouns,T shirt,Tシャツ
+Nakama One,Eight,Nouns,Formal dress,ドレス
+Nakama One,Eight,Nouns,Tie,ネクタイ
+Nakama One,Eight,Nouns,Necklace,ネックレス
+Nakama One,Eight,Nouns,Box,はこ｜｜箱
+Nakama One,Eight,Nouns,"Trousers, shorts",パンツ
+Nakama One,Eight,Nouns,Handbag,ハンドバッグ
+Nakama One,Eight,Nouns,Clothing,ふく｜｜服
+Nakama One,Eight,Nouns,Woman's clothing,ふじんふく｜｜婦人服
+Nakama One,Eight,Nouns,Woman's clothing section,ふじんふくうりば｜｜婦人服売り場
+Nakama One,Eight,Nouns,Blouse,ブラウス
+Nakama One,Eight,Nouns,Stationery,ぶんぼうぐ｜｜文房具
+Nakama One,Eight,Nouns,Stationery section,ぶんぼうぐうりば｜｜文房具売り場
+Nakama One,Eight,Nouns,Belt,ベルト
+Nakama One,Eight,Nouns,"Hat, cap",ぼうし｜｜帽子
+Nakama One,Eight,Nouns,"Store, shop",みせ｜｜店
+Nakama One,Eight,Nouns,Ring,ゆびわ｜｜指輪
+Nakama One,Eight,Nouns,Dress (informal),ワンピース
+Nakama One,Eight,Verbs,To buy,かう｜｜買う
+Nakama One,Eight,Verbs,To take,とる｜｜取る
+Nakama One,Eight,Verbs,To put,いれる｜｜入れる
+Nakama One,Eight,Verbs,To put in a box,はこにいれる｜｜箱に入れる
+Nakama One,Eight,Verbs,To show,みせる｜｜見せる
+Nakama One,Eight,Adverbs,"A little, a few",すこし｜｜少し
+Nakama One,Eight,Adverbs,"A lot, many, much",たくさん
+Nakama One,Eight,Adverbs,"A little, a few (casual)",ちょっと
+Nakama One,Eight,Adverbs,"~more, another~",もう
+Nakama One,Eight,Adverbs,A little more,もうすこし｜｜もう少し
+Nakama One,Eight,Adverbs,A little more (casual),もうちょっと
+Nakama One,Eight,Counters,Yen (Japanese currency),〜えん｜｜〜円
+Nakama One,Eight,Counters,Counter for floors of a building,〜かい｜｜〜階
+Nakama One,Eight,Counters,Counter for bound objects,〜さつ｜｜〜冊
+Nakama One,Eight,Counters,General counter,〜つ
+Nakama One,Eight,Counters,Counter for fish and small four-legged animals,〜ひき｜｜〜匹
+Nakama One,Eight,Counters,"Counter for long, cylindrical objects",〜本｜｜〜ほん
+Nakama One,Eight,Counters,Counter for thin objects,〜まい｜｜〜枚
+Nakama One,Eight,Question Words,How (polite form),いかが
+Nakama One,Eight,Question Words,How many,いくつ
+Nakama One,Eight,Question Words,How much (money),いくら
+Nakama One,Eight,Question Words,Why,どうして
+Nakama One,Eight,Japanese Origin Numbers,One,ひとつ｜｜一つ
+Nakama One,Eight,Japanese Origin Numbers,Two,ふたつ｜｜二つ
+Nakama One,Eight,Japanese Origin Numbers,Three,みっつ｜｜三つ
+Nakama One,Eight,Japanese Origin Numbers,Four,よっつ｜｜四つ
+Nakama One,Eight,Japanese Origin Numbers,Five,いつつ｜｜五つ
+Nakama One,Eight,Japanese Origin Numbers,Six,むっつ｜｜六つ
+Nakama One,Eight,Japanese Origin Numbers,Seven,ななつ｜｜七つ
+Nakama One,Eight,Japanese Origin Numbers,Eight,やっつ｜｜八つ
+Nakama One,Eight,Japanese Origin Numbers,Nine,ここのつ｜｜九つ
+Nakama One,Eight,Japanese Origin Numbers,Ten,とお｜｜十
+Nakama One,Eight,Numbers,Thousand,せん｜｜千
+Nakama One,Eight,Numbers,Hundred,ひゃく｜｜百
+Nakama One,Eight,Numbers,Ten thousand,まん｜｜万
+Nakama One,Eight,Expressions,Welcome,いらっしゃいませ
+Nakama One,Eight,Expressions,All together,ぜんぶで｜｜全部で
+Nakama One,Eight,Expressions,Do you have ~ ? Do you carry ~ ?,〜はありませんか
+Nakama One,Eight,Expressions,Please say it in easier words,やさしいことばでいってください｜｜易しい言葉で言って下さい｜｜優しい言葉で言って下さい
+Nakama One,Eight,Expressions,Please give me ~,〜を下さい｜｜〜をください
+Nakama One,Nine,Nouns,Ice cream,アイスクリーム
+Nakama One,Nine,Nouns,Oil,あぶら｜｜油
+Nakama One,Nine,Nouns,"fatty, oily",あぶらがおおい｜｜油がおおい｜｜油が多い｜｜あぶらが多い
+Nakama One,Nine,Nouns,Italian cuisine,イタリアりょうり｜｜イタリア料理
+Nakama One,Nine,Nouns,Japanese wheat noodles,うどん
+Nakama One,Nine,Nouns,Japanese curry and rice dish,カレーライス
+Nakama One,Nine,Nouns,Calorie,カロリー
+Nakama One,Nine,Nouns,Cookie,クッキー
+Nakama One,Nine,Nouns,Sashimi,さしみ｜｜おさしみ｜｜刺身｜｜お刺身
+Nakama One,Nine,Nouns,Salad,サラダ
+Nakama One,Nine,Nouns,Sandwich,サンドイッチ
+Nakama One,Nine,Nouns,Soup,スープ
+Nakama One,Nine,Nouns,Sushi,すし｜｜おすし
+Nakama One,Nine,Nouns,Steak,ステーキ
+Nakama One,Nine,Nouns,Spaghetti,スパゲティ
+Nakama One,Nine,Nouns,Western-style fixed menu,セット
+Nakama One,Nine,Nouns,Hamburger set,ハンバーガーセット
+Nakama One,Nine,Nouns,Japanese buckwheat noodles,そば｜｜おそば
+Nakama One,Nine,Nouns,Cheese,チーズ
+Nakama One,Nine,Nouns,Chicken,チキン
+Nakama One,Nine,Nouns,Chinese-style fried rice,チャーハン
+Nakama One,Nine,Nouns,Chinese cuisine,ちゅうかりょうり｜｜中華料理
+Nakama One,Nine,Nouns,Order,ちゅうもん｜｜注文
+Nakama One,Nine,Nouns,Chocolate,チョコレート
+Nakama One,Nine,Nouns,A Japanese or Asian-style dish set,ていしょく｜｜定食
+Nakama One,Nine,Nouns,Sashimi set,さしみていしょく｜｜刺身定食
+Nakama One,Nine,Nouns,Dessert,デザート
+Nakama One,Nine,Nouns,"Tempura (fish, shrimp, and vegetables battered and deep-fried)",てんぷら｜｜天ぷら
+Nakama One,Nine,Nouns,Toast,トースト
+Nakama One,Nine,Nouns,Hamburger,ハンバーガー
+Nakama One,Nine,Nouns,Bread,パン
+Nakama One,Nine,Nouns,Beef,ビーフ
+Nakama One,Nine,Nouns,Pizza,ピザ
+Nakama One,Nine,Nouns,Fried chicken,フライドチキン
+Nakama One,Nine,Nouns,Pork,ポーク
+Nakama One,Nine,Nouns,Western-style cuisine,ようしょく｜｜洋食
+Nakama One,Nine,Nouns,"Rice (served on plate, not bowl)",ライス
+Nakama One,Nine,Nouns,Chinese-style noodle soup,ラーメン
+Nakama One,Nine,Nouns,Lunch,ランチ
+Nakama One,Nine,Nouns,Lunch set A,Aランチ
+Nakama One,Nine,Nouns,Japanese cuisine,わしょく｜｜和食
+Nakama One,Nine,Verbs,To need something,いる｜｜要る
+Nakama One,Nine,Verbs,"To order, to ask (someone to do~)",たのむ｜｜頼む
+Nakama One,Nine,Verbs,To order,ちゅうもんする｜｜注文する
+Nakama One,Nine,Adjectives,Warm,あたたかい｜｜温かい
+Nakama One,Nine,Adjectives,Hot,あつい｜｜暑い
+Nakama One,Nine,Adjectives,Sweet,あまい｜｜甘い
+Nakama One,Nine,Adjectives,"A lot, much",おおい｜｜多い
+Nakama One,Nine,Adjectives,"Hard, tough",かたい｜｜硬い
+Nakama One,Nine,Adjectives,Spicy,からい
+Nakama One,Nine,Adjectives,Salty,しょっぱい｜｜しおからい｜｜塩っぱい｜｜塩辛い
+Nakama One,Nine,Adjectives,"Little (in number), few",すくない｜｜少ない
+Nakama One,Nine,Adjectives,Sour,すっぱい｜｜酸っぱい
+Nakama One,Nine,Adjectives,Cold,つめたい｜｜冷たい
+Nakama One,Nine,Adjectives,Bitter,にがい｜｜苦い
+Nakama One,Nine,Adjectives,Low,ひくい｜｜低い
+Nakama One,Nine,Adjectives,Soft,やわらかい｜｜柔らかい
+Nakama One,Nine,Prefix,Polite prefix,ご〜
+Nakama One,Nine,Expressions,Please do not bother/worry about it,いいえ、どうぞおかまいなく
+Nakama One,Nine,Expressions,To decide on ~,〜にします
+Nakama One,Nine,Expressions,I would like to have ~,〜をおねがいします｜｜〜をお願いします
+Nakama One,Ten,Nouns,"Leg, foot",あし｜｜足
+Nakama One,Ten,Nouns,Head,あたま｜｜頭
+Nakama One,Ten,Nouns,"Smart, intelligent",あたまがいい｜｜頭がいい
+Nakama One,Ten,Nouns,Older brother (the speaker's),あに｜｜兄
+Nakama One,Ten,Nouns,Older sister (the speaker's),あね｜｜姉
+Nakama One,Ten,Nouns,Younger sister (the speaker's,いもうと｜｜妹
+Nakama One,Ten,Nouns,Younger sister (someone else's),いもうとさん｜｜妹さん
+Nakama One,Ten,Nouns,Mother (someone else's),おかあさん｜｜お母さん
+Nakama One,Ten,Nouns,Wife (someone else's),おくさん｜｜奥さん
+Nakama One,Ten,Nouns,Child (someone else's),おこさん｜｜お子さん
+Nakama One,Ten,Nouns,Grandfather (someone else's),おじいさん｜｜お爺さん
+Nakama One,Ten,Nouns,Father (someone else's),おとうさん｜｜お父さん
+Nakama One,Ten,Nouns,Younger brother (the speaker's),おとうと｜｜弟
+Nakama One,Ten,Nouns,Younger brother (someone else's),おとうとさん｜｜弟さん
+Nakama One,Ten,Nouns,Male,おとこ｜｜男
+Nakama One,Ten,Nouns,Man,おとこのひと｜｜男の人
+Nakama One,Ten,Nouns,Older brother (someone else's),おにいさん｜｜お兄さん
+Nakama One,Ten,Nouns,Older sister (someone else's),おねえさん｜｜お姉さん
+Nakama One,Ten,Nouns,Grandmother (someone else's),おばあさん｜｜お婆さん
+Nakama One,Ten,Nouns,Female,おんな｜｜女
+Nakama One,Ten,Nouns,Woman,おんなのひと｜｜女の人
+Nakama One,Ten,Nouns,Business　person,かいしゃいん｜｜会社員
+Nakama One,Ten,Nouns,Face,かお｜｜顔
+Nakama One,Ten,Nouns,"Family, speaker's family",かぞく｜｜家族
+Nakama One,Ten,Nouns,Hair,かみ｜｜かみのけ｜｜髪｜｜髪の毛
+Nakama One,Ten,Nouns,Sibling(s),きょうだい｜｜兄弟
+Nakama One,Ten,Nouns,Mouth,くち｜｜口
+Nakama One,Ten,Nouns,Marriage,けっこん｜｜結婚
+Nakama One,Ten,Nouns,Child,こ｜｜子
+Nakama One,Ten,Nouns,Boy,おとこのこ｜｜男の子
+Nakama One,Ten,Nouns,Girl,おんなのこ｜｜女の子
+Nakama One,Ten,Nouns,Family (someone else's),ごかぞく｜｜ご家族
+Nakama One,Ten,Nouns,Siblings (someone else's),ごきょうだい｜｜ご兄弟
+Nakama One,Ten,Nouns,Husband (someone else's),ごしゅじん｜｜ご主人
+Nakama One,Ten,Nouns,Child,こども｜｜子供
+Nakama One,Ten,Nouns,Husband (the speaker's),おっと｜｜夫
+Nakama One,Ten,Nouns,"Back (part of body), Height (of a person)",せ｜｜背
+Nakama One,Ten,Nouns,Personality,せいかく｜｜性格
+Nakama One,Ten,Nouns,Grandfather (the speaker's),そふ｜｜祖父
+Nakama One,Ten,Nouns,Grandmother (the speaker's),そぼ｜｜祖母
+Nakama One,Ten,Nouns,Father (the speaker's),ちち｜｜父
+Nakama One,Ten,Nouns,Wife (the speaker's),つま｜｜妻
+Nakama One,Ten,Nouns,"Hand, arm",て｜｜手
+Nakama One,Ten,Nouns,Age,とし｜｜年
+Nakama One,Ten,Nouns,"Elder, older",としうえ｜｜年上
+Nakama One,Ten,Nouns,Younger,としした｜｜年下
+Nakama One,Ten,Nouns,Nose,はな｜｜鼻
+Nakama One,Ten,Nouns,Mother (the speaker's),はは｜｜母
+Nakama One,Ten,Nouns,Only child,ひとりっこ｜｜一人っ子
+Nakama One,Ten,Nouns,Blonde,ブロンド
+Nakama One,Ten,Nouns,"Center, middle, middle child",まん中
+Nakama One,Ten,Nouns,Ear,みみ｜｜耳
+Nakama One,Ten,Nouns,Eye,め｜｜目
+Nakama One,Ten,Nouns,Glasses,めがね
+Nakama One,Ten,Nouns,"Husband (someone else's, if you know them)",だんなさん
+Nakama One,Ten,Verbs,To marry,〜とけっこんする
+Nakama One,Ten,Verbs,To be married,けっこんしている
+Nakama One,Ten,Verbs,To think,おもう
+Nakama One,Ten,Verbs,To put on (a hat or cap),かぶる
+Nakama One,Ten,Verbs,To reside,すむ
+Nakama One,Ten,Verbs,To live in,〜にすんでいる
+Nakama One,Ten,Verbs,"To put on (skirt, pants, sucks, shoes)",はく
+Nakama One,Ten,Verbs,To gain weight,ふとる
+Nakama One,Ten,Verbs,To be fat,ふとっている
+Nakama One,Ten,Verbs,To understand,分かる
+Nakama One,Ten,Verbs,To put on (glasses),かける
+Nakama One,Ten,Verbs,"To put on (sweater, shirt, jacket)",きる
+Nakama One,Ten,Verbs,To become employed,つとめる
+Nakama One,Ten,Verbs,"To be employed at, work for",〜につとめている
+Nakama One,Ten,Verbs,To lose weight,やせる
+Nakama One,Ten,Verbs,To be thin,やせている
+Nakama One,Ten,Verbs,To put on (accessories),する
+Nakama One,Ten,Verbs,Resultant state,〜ている
+Nakama One,Ten,Adjectives,Cheerful,あかるい
+Nakama One,Ten,Adjectives,"Good looking, cool, neat",かっこいい
+Nakama One,Ten,Adjectives,"Cute, adorable",かわいい
+Nakama One,Ten,Adjectives,Square,しかくい
+Nakama One,Ten,Adjectives,Long,ながい
+Nakama One,Ten,Adjectives,Long/elongated,ほそながい
+Nakama One,Ten,Adjectives,Round,まるい
+Nakama One,Ten,Adjectives,Short (length),みじかい
+Nakama One,Ten,Adjectives,"Good at, skillful",じょうず（な）｜｜上手（な）
+Nakama One,Ten,Adjectives,Kind,しんせつ（な）
+Nakama One,Ten,Question word,How old,いくつ
+Nakama One,Ten,Question word,How old (polite),おいくつ
+Nakama One,Ten,Prefixes,Elementary (school),小〜
+Nakama One,Ten,Prefixes,Middle (school),中〜
+Nakama One,Ten,Suffixes,Person (polite),〜方
+Nakama One,Ten,Suffixes,~years old,〜さい
+Nakama One,Ten,Suffixes,~people,〜人
+Nakama One,Ten,Suffixes,~th (ordinal suffix),〜番（め）
+Nakama One,Ten,Conjunction,In addition,それに
+Nakama One,Ten,Expressions,"No, that's not the case",いいえ｜｜そんなことはありません
+Nakama One,Ten,Expressions,"No, I still have a long way to go",いいえ｜｜まだまだです
+Nakama One,Eleven,Nouns,"Fall, autumn",あき
+Nakama One,Eleven,Nouns,Rain,あめ｜｜雨
+Nakama One,Eleven,Nouns,Temperature,おんど｜｜温度
+Nakama One,Eleven,Nouns,Wind,かぜ｜｜風
+Nakama One,Eleven,Nouns,Air temperature,きおん｜｜気温
+Nakama One,Eleven,Nouns,Climate,きこう
+Nakama One,Eleven,Nouns,Season,きせつ
+Nakama One,Eleven,Nouns,North,きた｜｜北
+Nakama One,Eleven,Nouns,Last year,きょねん
+Nakama One,Eleven,Nouns,Cloud,くも
+Nakama One,Eleven,Nouns,Cloudy,くもり
+Nakama One,Eleven,Nouns,This morning,けさ
+Nakama One,Eleven,Nouns,This year,今年
+Nakama One,Eleven,Nouns,"Recent, recently",さいきん
+Nakama One,Eleven,Nouns,Humidity,しつど
+Nakama One,Eleven,Nouns,Typhoon,たいふう
+Nakama One,Eleven,Nouns,Rainy season,つゆ
+Nakama One,Eleven,Nouns,Weather,（お）てんき｜｜（お）天気
+Nakama One,Eleven,Nouns,Weather forecast,てんきよほう
+Nakama One,Eleven,Nouns,Summer,なつ
+Nakama One,Eleven,Nouns,Southwest,なんせい｜｜南西
+Nakama One,Eleven,Nouns,Southeast,なんとう｜｜南東
+Nakama One,Eleven,Nouns,West,にし｜｜西
+Nakama One,Eleven,Nouns,Shower (rain),にわかあめ｜｜にわか雨
+Nakama One,Eleven,Nouns,Spring,はる
+Nakama One,Eleven,Nouns,Clear skies,はれ｜｜晴れ
+Nakama One,Eleven,Nouns,East,ひがし｜｜東
+Nakama One,Eleven,Nouns,Winter,ふゆ
+Nakama One,Eleven,Nouns,Direction,方
+Nakama One,Eleven,Nouns,Northwest,ほくせい｜｜北西
+Nakama One,Eleven,Nouns,Northeast,ほくとう｜｜北東
+Nakama One,Eleven,Nouns,Minus,マイナス
+Nakama One,Eleven,Nouns,South,みなみ｜｜南
+Nakama One,Eleven,Nouns,Evening,ゆうがた
+Nakama One,Eleven,Nouns,Snow,ゆき｜｜雪
+Nakama One,Eleven,Nouns,Night,よる
+Nakama One,Eleven,Verbs,"To rise, to go up",上がる
+Nakama One,Eleven,Verbs,To become cloudy,くもる
+Nakama One,Eleven,Verbs,"To fall, to go down",下がる
+Nakama One,Eleven,Verbs,To come to know,しる
+Nakama One,Eleven,Verbs,To know,しっている
+Nakama One,Eleven,Verbs,Don't know,しらない
+Nakama One,Eleven,Verbs,To continue,つづく
+Nakama One,Eleven,Verbs,To accumulate,つもる
+Nakama One,Eleven,Verbs,To blow,ふく
+Nakama One,Eleven,Verbs,To fall,ふる
+Nakama One,Eleven,Verbs,To stop,やむ
+Nakama One,Eleven,Verbs,To become sunny,はれる｜｜晴れる
+Nakama One,Eleven,Verbs,To become,なる
+Nakama One,Eleven,Verbs,To make something/someone into,する
+Nakama One,Eleven,Adjectives,Warm (air temperature),あたたかい｜｜温かい
+Nakama One,Eleven,Adjectives,Hot (air temperature),あつい｜｜暑い
+Nakama One,Eleven,Adjectives,Cold,さむい｜｜寒い
+Nakama One,Eleven,Adjectives,Cool,すずしい
+Nakama One,Eleven,Adjectives,Strong,つよい
+Nakama One,Eleven,Adjectives,Early,はやい
+Nakama One,Eleven,Adjectives,Humid,むしあつい
+Nakama One,Eleven,Adjectives,Weak,よわい
+Nakama One,Eleven,Adjectives,Bad,わるい
+Nakama One,Eleven,Adjectives,"Unpleasant, yuck",いや（な）
+Nakama One,Eleven,Adjectives,Sudden,きゅう（な）
+Nakama One,Eleven,Suffixes,Month,〜月
+Nakama One,Eleven,Suffixes,"Degree, temperature",〜ど
+Nakama One,Eleven,Expressions,After,〜のち〜
+Nakama One,Eleven,Expressions,"Truly, really, indeed",ほんとう（に）｜｜ほんと（に）
+Nakama One,Twelve,Nouns,"Ocean, sea",うみ
+Nakama One,Twelve,Nouns,The year before last,おととし｜｜一昨年
+Nakama One,Twelve,Nouns,Memories,おもいで｜｜思い出
+Nakama One,Twelve,Nouns,Foreign countries,がいこく
+Nakama One,Twelve,Nouns,"Semester, quarter",がっき
+Nakama One,Twelve,Nouns,Kabuki (Japanese traditional performing art),かぶき
+Nakama One,Twelve,Nouns,"Traditional Japanese clothes, kimono",きもの
+Nakama One,Twelve,Nouns,Camping,キャンプ
+Nakama One,Twelve,Nouns,Church,きょうかい
+Nakama One,Twelve,Nouns,Christmas,クリスマス
+Nakama One,Twelve,Nouns,"Fight, quarrel",けんか
+Nakama One,Twelve,Nouns,This month,今月
+Nakama One,Twelve,Nouns,The new year,しょうがつ
+Nakama One,Twelve,Nouns,Shinto shrine,じんじゃ
+Nakama One,Twelve,Nouns,Aquarium,すいぞくかん
+Nakama One,Twelve,Nouns,Last month,先月
+Nakama One,Twelve,Nouns,Junior high school,中学
+Nakama One,Twelve,Nouns,Dating,デート
+Nakama One,Twelve,Nouns,Buddhist temple,てら
+Nakama One,Twelve,Nouns,Zoo,どうぶつえん
+Nakama One,Twelve,Nouns,"When, at the time of ~",時
+Nakama One,Twelve,Nouns,"Summer holidays, summer break",なつやすみ｜｜夏休み
+Nakama One,Twelve,Nouns,Spring break,はるやすみ｜｜春休み
+Nakama One,Twelve,Nouns,Winter break,ふゆやすみ｜｜冬休み
+Nakama One,Twelve,Nouns,Museum,はくぶつかん
+Nakama One,Twelve,Nouns,Valentine's day,バレンタインデー
+Nakama One,Twelve,Nouns,Halloween,ハロウイン
+Nakama One,Twelve,Nouns,A half-year,半年
+Nakama One,Twelve,Nouns,Airplane,ひこうき
+Nakama One,Twelve,Nouns,Art Museum,びじゅつかん
+Nakama One,Twelve,Nouns,"Present, gift",プレゼント
+Nakama One,Twelve,Nouns,Festival,まつり
+Nakama One,Twelve,Nouns,Musical,ミュージカル
+Nakama One,Twelve,Nouns,Mountain climbing,やまのぼり
+Nakama One,Twelve,Nouns,Amusement park,ゆうえんち
+Nakama One,Twelve,Nouns,Next month,来月
+Nakama One,Twelve,Verbs,To fight,けんかをする
+Nakama One,Twelve,Verbs,To go out on a date,デートする
+Nakama One,Twelve,Verbs,To cry,なく
+Nakama One,Twelve,Verbs,"To get on, to ride",のる
+Nakama One,Twelve,Verbs,"To receive, to get",もらう
+Nakama One,Twelve,Verbs,To be disappointed in love,しつれんする
+Nakama One,Twelve,Adverbs,For the first time,はじめて
+Nakama One,Twelve,Suffixes,~ times,〜かい｜｜〜回
+Nakama One,Twelve,Suffixes,counter for months,〜か月
+Nakama One,Twelve,Suffixes,"from ~, after ~",〜ご｜｜〜後
+Nakama One,Twelve,Suffixes,for ~ weeks,〜週間
+Nakama One,Twelve,Suffixes,~ times (up to three),〜度
+Nakama One,Twelve,Suffixes,day,〜日
+Nakama One,Twelve,Suffixes,"specific year, counter for year",〜年
+Nakama One,Twelve,Suffixes,~ ago,〜まえ｜｜〜前
+Nakama One,Twelve,Expressions,"Well, let's see...",えーと
+Nakama One,Twelve,Expressions,Happy new year!,あけましておめでとうございます｜｜明けましておめでとうございます
+Nakama One,Twelve,Irregular days of the month,First,一日
+Nakama One,Twelve,Irregular days of the month,Second,二日
+Nakama One,Twelve,Irregular days of the month,Third,三日
+Nakama One,Twelve,Irregular days of the month,Fourth,四日
+Nakama One,Twelve,Irregular days of the month,Fifth,五日
+Nakama One,Twelve,Irregular days of the month,Sixth,六日
+Nakama One,Twelve,Irregular days of the month,Seventh,七日
+Nakama One,Twelve,Irregular days of the month,Eighth,八日
+Nakama One,Twelve,Irregular days of the month,Ninth,九日
+Nakama One,Twelve,Irregular days of the month,Tenth,十日
+Nakama One,Twelve,Irregular days of the month,Fourteenth,十四日
+Nakama One,Twelve,Irregular days of the month,Seventeenth,十七日
+Nakama One,Twelve,Irregular days of the month,Nineteenth,十九日
+Nakama One,Twelve,Irregular days of the month,Twentieth,二十日
+Nakama One,Twelve,Irregular days of the month,Twenty-Fourth,二十四日
+Nakama One,Twelve,Irregular days of the month,Twenty-Seventh,二十七日
+Nakama One,Twelve,Irregular days of the month,Twenty-Ninth,二十九日
+Nakama Two,One,Nouns,Allergy,アレルギー
+Nakama One,One,Nouns,Breath,いき
+Nakama Two,One,Nouns,Medical doctor,いしゃ
+Nakama Two,One,Nouns,Stomach,おなか
+Nakama Two,One,Nouns,"Facial skin tone, complexion",かおいろ
+Nakama Two,One,Nouns,Cold,かぜ
+Nakama Two,One,Nouns,Shoulders,かた
+Nakama Two,One,Nouns,Body,からだ
+Nakama Two,One,Nouns,"Feeling, spirits, mood",気分
+Nakama Two,One,Nouns,"Feeling, sensation",きもち
+Nakama Two,One,Nouns,"Medicine, drug, ointment",くすり
+Nakama Two,One,Nouns,Neck,くび
+Nakama Two,One,Nouns,Injury,けが
+Nakama Two,One,Nouns,Lower back,こし
+Nakama Two,One,Nouns,Symptom,しょうじょう
+Nakama Two,One,Nouns,Stress,ストレス
+Nakama Two,One,Nouns,Cough,せき
+Nakama Two,One,Nouns,"Back, upper back",せなか
+Nakama Two,One,Nouns,Diet,ダイエット
+Nakama Two,One,Nouns,Cigarette,たばこ｜｜タバコ
+Nakama Two,One,Nouns,"Fever, (high) temperature",ねつ
+Nakama Two,One,Nouns,Throat,のど
+Nakama Two,One,Nouns,Tooth,は
+Nakama Two,One,Nouns,Sickness,びょうき
+Nakama Two,One,Nouns,Massage,マッサージ
+Nakama Two,One,Nouns,"Chest, breast",むね
+Nakama Two,One,Nouns,"Overwork, overstrain",むり
+Nakama Two,One,Nouns,Finger,ゆび
+Nakama Two,One,Verbs,To move (something) (transition verb),うごかす
+Nakama Two,One,Verbs,To cut,きる
+Nakama Two,One,Verbs,To be stiff,こる
+Nakama Two,One,Verbs,To inhale,すう
+Nakama Two,One,Verbs,"To take out, to prescribe, to submit",出す
+Nakama Two,One,Verbs,To clog,つまる
+Nakama Two,One,Verbs,To measure,はかる
+Nakama Two,One,Verbs,"To exhale, to throw up",はく
+Nakama Two,One,Verbs,To run,はしる
+Nakama Two,One,Verbs,To catch (a cold),ひく
+Nakama Two,One,Verbs,"To rest, to be absent",休む
+Nakama Two,One,Verbs,To open,あける
+Nakama Two,One,Verbs,To raise (something),上げる
+Nakama Two,One,Verbs,To lower (something),下げる
+Nakama Two,One,Verbs,"To attach, apply (medicine), turn on",つける
+Nakama Two,One,Verbs,To grow tired,つかれる
+Nakama Two,One,Verbs,To be tired,つかれている
+Nakama Two,One,Verbs,To come out,出る
+Nakama Two,One,Verbs,To quit doing (something),やめる
+Nakama Two,One,Verbs,To forget,わすれる
+Nakama Two,One,Verbs,To be hospitalized,にゅういんする
+Nakama Two,One,Adjectives,"Hurt, painful",いたい
+Nakama Two,One,Adjectives,Itchy,かゆい
+Nakama Two,One,Adjectives,Serious (injury),ひどい
+Nakama Two,One,Adjectives,Bad,わるい
+Nakama Two,One,Adjectives,Various,いろいろ（な）
+Nakama Two,One,Adjectives,Healthy,けんこう（な）
+Nakama Two,One,Adverb,"Immediately, right away",すぐ
+Nakama Two,One,Particle,"From, to be absent from ~, to graduate from~",を
+Nakama Two,One,Expressions,"Well, uh, I'm sorry but... (that presents some problems.)",ええっと・すみません｜｜それはちょっと（こまるんですが）
+Nakama Two,One,Expressions,Please take care of yourself.,おだいじに
+Nakama Two,One,Expressions,"May I ~?, Is it ok to ~?",〜てもいいですか
+Nakama Two,One,Expressions,What's wrong?,どうしましたか｜｜どうしたんですか
+Nakama Two,One,Expressions,Should I do~?,〜たらいいですか
+Nakama Two,One,Expressions,I don't mind.,はい・いいえ｜｜かまいません
+Nakama Two,One,Expressions,"Yes, please.",はい・いいえ｜｜どうぞ
+Nakama Two,One,Expressions,"Yes, of course, sure.",はい・いいえ｜｜もちろん
+Nakama Two,One,Expressions,This is my first time...,はじめてなんですが
+Nakama Two,One,Expressions,"To push oneself too hard, to overwork",むりをする
+Nakama Two,One,Expressions,To lie down,よこになる
+Nakama Two,One,Expressions,Until late at night,よるおそくまで
+Nakama Two,Two,Nouns,Money,（お）金
+Nakama Two,Two,Nouns,Souvenir,（お）みやげ
+Nakama Two,Two,Nouns,Hot spring,おんせん
+Nakama Two,Two,Nouns,Overseas,かいがい
+Nakama Two,Two,Nouns,Guidebook,ガイドブック
+Nakama Two,Two,Nouns,Sightseeing,かんこう
+Nakama Two,Two,Nouns,Ticket,きっぷ
+Nakama Two,Two,Nouns,"Customer, guest",きゃく
+Nakama Two,Two,Nouns,Airport,くうこう
+Nakama Two,Two,Nouns,Country,くに
+Nakama Two,Two,Nouns,Credit card,クレジットカード
+Nakama Two,Two,Nouns,Plan,けいかく
+Nakama Two,Two,Nouns,Domestic,こくない
+Nakama Two,Two,Nouns,"Language, words, expressions",ことば
+Nakama Two,Two,Nouns,Time,時間
+Nakama Two,Two,Nouns,Preparation,じゅんび
+Nakama Two,Two,Nouns,Suitcase,スーツケース
+Nakama Two,Two,Nouns,Tour,ツアー
+Nakama Two,Two,Nouns,Digital camera,デジカメ
+Nakama Two,Two,Nouns,Train,でんしゃ
+Nakama Two,Two,Nouns,"One's belongings, luggage",にもつ
+Nakama Two,Two,Nouns,Location,ばしょ
+Nakama Two,Two,Nouns,Passport,パスポート
+Nakama Two,Two,Nouns,Day trip,日帰り
+Nakama Two,Two,Nouns,"Ship, boat",ふね
+Nakama Two,Two,Nouns,Lake,みずうみ
+Nakama Two,Two,Nouns,"Schedule, plan",よてい
+Nakama Two,Two,Nouns,Reservation,よやく
+Nakama Two,Two,Nouns,Japanese style inn,りょかん
+Nakama Two,Two,Adjective,Convenient,べんり（な）
+Nakama Two,Two,Verbs,To look for,さがす
+Nakama Two,Two,Verbs,To use,つかう
+Nakama Two,Two,Verbs,To arrive,つく
+Nakama Two,Two,Verbs,To stay,とまる
+Nakama Two,Two,Verbs,"To take off (shoes, clothes)",ぬぐ
+Nakama Two,Two,Verbs,To pay,はらう
+Nakama Two,Two,Verbs,To hold,持つ
+Nakama Two,Two,Verbs,"To be holding, to own",持っている
+Nakama Two,Two,Verbs,"To take, to bring something",持って行く
+Nakama Two,Two,Verbs,(For someone) To return,もどる
+Nakama Two,Two,Verbs,To answer,こたえる
+Nakama Two,Two,Verbs,To decide,きめる
+Nakama Two,Two,Verbs,To know,しっている
+Nakama Two,Two,Verbs,"To check, investigate, explore",しらべる
+Nakama Two,Two,Verbs,"To build, establish, make",たてる
+Nakama Two,Two,Verbs,"To leave, to have a fever",出る
+Nakama Two,Two,Adverbs,"Especially, in particular",とくに
+Nakama Two,Two,Adverbs,"Already, yet, any more",もう
+Nakama Two,Two,Adverbs,"Still, yet",まだ
+Nakama Two,Two,Suffix,~ nights,〜はく（ぱく）
+Nakama Two,Two,Conjunctions,However,けれども
+Nakama Two,Two,Conjunctions,During that time,その間（に）
+Nakama Two,Two,Conjunctions,After that,その後（で）
+Nakama Two,Two,Conjunctions,Before that,その前（に）
+Nakama Two,Two,Conjunctions,At that time,その時（に）
+Nakama Two,Two,Conjunctions,"Then, so",それで
+Nakama Two,Two,Conjunctions,So,だから
+Nakama Two,Two,Conjunctions,But,だけど
+Nakama Two,Two,Conjunctions,Next,つぎに
+Nakama Two,Two,Conjunctions,"Therefore, so",ですから
+Nakama Two,Two,Conjunctions,It's because,というのは
+Nakama Two,Two,Conjunctions,By the way,ところで
+Nakama Two,Two,Conjunctions,First (of all),まずはじめに
+Nakama Two,Two,Conjunctions,Also,また
+Nakama Two,Two,Expressions,About ~,〜について
+Nakama Two,Two,Expressions,Hello (on the phone),もしもし
+Nakama Two,Two,Expressions,"No, you have the wrong number",いいえ｜｜ちがいます（よ）
+Nakama Two,Three,Nouns,Engineer,エンジニア
+Nakama Two,Three,Nouns,Company,かいしゃ
+Nakama Two,Three,Nouns,Businessman,かいしゃいん
+Nakama Two,Three,Nouns,Trading Company,ぼうえきがい
+Nakama Two,Three,Nouns,Scholar,学者
+Nakama Two,Three,Nouns,Research,けんきゅう
+Nakama Two,Three,Nouns,"Wallet, purse",さいふ
+Nakama Two,Three,Nouns,Ceremony,しき
+Nakama Two,Three,Nouns,"Self, oneself, I",じぶん
+Nakama Two,Three,Nouns,Company President,しゃちょう
+Nakama Two,Three,Nouns,Freedom,じゆう
+Nakama Two,Three,Nouns,Getting a job,しゅうしょく
+Nakama Two,Three,Nouns,Invitation,しょうたい
+Nakama Two,Three,Nouns,Future,しょうらい
+Nakama Two,Three,Nouns,Farewell party,そうべつかい
+Nakama Two,Three,Nouns,Graduation,そつぎょう
+Nakama Two,Three,Nouns,"Electricity, electric light",でんき
+Nakama Two,Three,Nouns,Reunion party,どうそうかい
+Nakama Two,Three,Nouns,"Year, age",年
+Nakama Two,Three,Nouns,Entering a school,入学
+Nakama Two,Three,Nouns,"Moving (house, residence, etc)",ひっこし
+Nakama Two,Three,Nouns,"Ordinary, regular",ふつう
+Nakama Two,Three,Nouns,Lawyer,べんごし
+Nakama Two,Three,Nouns,"Response, reply",へんじ
+Nakama Two,Three,Nouns,Trading,ぼうえき
+Nakama Two,Three,Nouns,Trading Company,ぼうえきがいしゃ
+Nakama Two,Three,Nouns,"Warm water, hot water",ゆ
+Nakama Two,Three,Nouns,Study abroad,りゅうがく
+Nakama Two,Three,Verbs,(for something) to open,あく
+Nakama Two,Three,Verbs,"To get together, to gather",あつまる
+Nakama Two,Three,Verbs,To wake up (someone),起こす
+Nakama Two,Three,Verbs,To drop (something),おとす
+Nakama Two,Three,Verbs,(for something) to end,おわる
+Nakama Two,Three,Verbs,(for a telephone) to ring,かかる
+Nakama Two,Three,Verbs,(for something) to change,変わる
+Nakama Two,Three,Verbs,"To try to do one's best, to hang on",がんばる
+Nakama Two,Three,Verbs,(for something) to be decided,きまる
+Nakama Two,Three,Verbs,To turn off,けす
+Nakama Two,Three,Verbs,(for something) to close,しまる
+Nakama Two,Three,Verbs,To die,しぬ
+Nakama Two,Three,Verbs,To be different,ちがう
+Nakama Two,Three,Verbs,(for somethng) to turn on,つく
+Nakama Two,Three,Verbs,To cure; to fix; to repair (something),なおす
+Nakama Two,Three,Verbs,"(for something) to heal, to be fixed",なおる
+Nakama Two,Three,Verbs,"To pass away, to die; to disappear, to get lost, to run out of",なくなる
+Nakama Two,Three,Verbs,To leave (something),のこす
+Nakama Two,Three,Verbs,"(for something) to be left, to remain",のこる
+Nakama Two,Three,Verbs,(for something) to begin,はじまる
+Nakama Two,Three,Verbs,to work,はたらく
+Nakama Two,Three,Verbs,"to move (house, etc.), to relocate",ひっこす
+Nakama Two,Three,Verbs,"to chill, to let (something) cool down",ひやす
+Nakama Two,Three,Verbs,(for someone) to be mistaken,まちがう
+Nakama Two,Three,Verbs,To make (something) dirty,よごす
+Nakama Two,Three,Verbs,"To bring (water, bath) to boil",わかす
+Nakama Two,Three,Verbs,"(for water, bath) to be boiled",わく
+Nakama Two,Three,Verbs,To open (something),あける
+Nakama Two,Three,Verbs,"To collect, to gather together (something/someone)",あつめる
+Nakama Two,Three,Verbs,(for something/someone) to be born,生まれる
+Nakama Two,Three,Verbs,"To end (something), to finish (something)",おえる
+Nakama Two,Three,Verbs,(for something) to fall,おちる
+Nakama Two,Three,Verbs,to change (something),変える
+Nakama Two,Three,Verbs,"To think intellectually, to take (something) into consideration",かんがえる
+Nakama Two,Three,Verbs,"(for something) to go out, to go off",きえる
+Nakama Two,Three,Verbs,To close (something),しめる
+Nakama Two,Three,Verbs,To continue (something),つづける
+Nakama Two,Three,Verbs,to attend,出る
+Nakama Two,Three,Verbs,To give a ride (to someone),乗せる
+Nakama Two,Three,Verbs,To begin (something),はじめる
+Nakama Two,Three,Verbs,(for something) to cool down,ひえる
+Nakama Two,Three,Verbs,"To miss (something), to make a mistake",まちがえる
+Nakama Two,Three,Verbs,(for something) to become dirty,よごれる
+Nakama Two,Three,Adjectives,Young; used to describe teenagers and young people older than teenagers but not small children,わかい
+Nakama Two,Three,Adjectives,Same,おなじ
+Nakama Two,Three,Adjectives,"Free, free (independent) lifestyle",じゆう（な）
+Nakama Two,Three,Adjectives,Important,だいじ（な）
+Nakama Two,Three,Particles,"Or, either or",か
+Nakama Two,Three,Particles,by (some time),までに
+Nakama Two,Three,Suffixes,Member,〜いん
+Nakama Two,Three,Suffixes,Party,〜会
+Nakama Two,Three,Suffixes,Ceremony,〜しき
+Nakama Two,Three,Suffixes,Person of,〜者
+Nakama Two,Three,Suffixes,Letter of,〜じょう
+Nakama Two,Three,Suffixes,Retail store,〜や
+Nakama Two,Four,Nouns,Automatic teller machine (atm),エーティーエム
+Nakama Two,Four,Nouns,Meaning,いみ｜｜意味
+Nakama Two,Four,Nouns,Driver's license,うんてんめんきょしょう
+Nakama Two,Four,Nouns,Conversation,会話
+Nakama Two,Four,Nouns,Card,カード
+Nakama Two,Four,Nouns,Postage stamp,切手
+Nakama Two,Four,Nouns,Bank account,こうざ
+Nakama Two,Four,Nouns,Parcel Post,こづつみ
+Nakama Two,Four,Nouns,Residence card,ざいりゅうカード
+Nakama Two,Four,Nouns,Signature,サイン
+Nakama Two,Four,Nouns,Composition,さくぶん｜｜作文
+Nakama Two,Four,Nouns,"Examination, test",しけん｜｜試験
+Nakama Two,Four,Nouns,Tuition,じゅぎょうりょう
+Nakama Two,Four,Nouns,Address,じゅうしょ｜｜住所
+Nakama Two,Four,Nouns,Recommendation,すいせん
+Nakama Two,Four,Nouns,Recommendation letter,すいせんじょう
+Nakama Two,Four,Nouns,Explanation,せつめい
+Nakama Two,Four,Nouns,Parcel delivery service,たくはいびん
+Nakama Two,Four,Nouns,Vocabulary,たんご
+Nakama Two,Four,Nouns,Dollar,ドル
+Nakama Two,Four,Nouns,Postcard,葉書
+Nakama Two,Four,Nouns,Seal,はんこ
+Nakama Two,Four,Nouns,Envelope,ふうとう
+Nakama Two,Four,Nouns,Regular bank account,ふつうよきん
+Nakama Two,Four,Nouns,Grammar,ぶんぽう｜｜文法
+Nakama Two,Four,Nouns,Public mail collection box,ポスト
+Nakama Two,Four,Nouns,Mailbox,ゆうびんうけ｜｜郵便受け
+Nakama Two,Four,Nouns,Postal code,ゆうびんばんごう
+Nakama Two,Four,Nouns,Form,ようし｜｜用紙
+Nakama Two,Four,Nouns,Bank account (second def),よきん
+Nakama Two,Four,Nouns,"Report, term paper, term project",レポート
+Nakama Two,Four,Nouns,Practice,れんしゅう｜｜練習
+Nakama Two,Four,Nouns,Application form,もうしこみようし
+Nakama Two,Four,Verbs,To need,いる
+Nakama Two,Four,Verbs,To send,おくる｜｜送る
+Nakama Two,Four,Verbs,To return something,かえす
+Nakama Two,Four,Verbs,To lend,かす
+Nakama Two,Four,Verbs,To take (someone somewhere),つれていく
+Nakama Two,Four,Verbs,"To assist, help",てつだう
+Nakama Two,Four,Verbs,"(for something) to arrive, to be delivered",とどく
+Nakama Two,Four,Verbs,To withdraw (money),ひきだす｜｜引き出す
+Nakama Two,Four,Verbs,To open (an account),ひらく
+Nakama Two,Four,Verbs,To apply,もうしこむ
+Nakama Two,Four,Verbs,"To receive, to get",うける｜｜受ける
+Nakama Two,Four,Verbs,"To tell, to teach",おしえる｜｜教える
+Nakama Two,Four,Verbs,To memorize,おぼえる
+Nakama Two,Four,Verbs,"To remember, to recall",おぼえている
+Nakama Two,Four,Verbs,To change,変える
+Nakama Two,Four,Verbs,"To borrow, to rent (a house, apartment)",かりる
+Nakama Two,Four,Verbs,To save (money),ためる
+Nakama Two,Four,Verbs,"To deliver, send",とどける
+Nakama Two,Four,Verbs,To bring (something),持って来る
+Nakama Two,Four,Verbs,To bring (someone),つれてくる
+Nakama Two,Four,Adjectives,"Amazing, awesome, terrible",すごい
+Nakama Two,Four,Adjectives,"No good, impossible, hopeless, not useful, not acceptable",だめ（な）
+Nakama Two,Four,Suffixes,"How to, way of ~ing",〜方
+Nakama Two,Four,Suffixes,Card (for identification),〜しょう
+Nakama Two,Five,Nouns,Entrance,入り口｜｜入口
+Nakama Two,Five,Nouns,Movie theater,えいがかん
+Nakama Two,Five,Nouns,Pedestrian Crossing,おうだんほどう
+Nakama Two,Five,Nouns,Ticket gate,かいさつ（ぐち）
+Nakama Two,Five,Nouns,Stairs,かいだん
+Nakama Two,Five,Nouns,Local train,かくえきていしゃ
+Nakama Two,Five,Nouns,Gas station,ガソリンスタンド
+Nakama Two,Five,Nouns,Corner,かど
+Nakama Two,Five,Nouns,Express train,きゅうこう（れっしゃ）
+Nakama Two,Five,Nouns,Intersection,こうさてん
+Nakama Two,Five,Nouns,Japan railway,JR
+Nakama Two,Five,Nouns,City hall,しやくしょ
+Nakama Two,Five,Nouns,Traffic signal,しんごう
+Nakama Two,Five,Nouns,Embassy,たいしかん
+Nakama Two,Five,Nouns,Ambassador,たいし
+Nakama Two,Five,Nouns,Taxi,タクシー
+Nakama Two,Five,Nouns,Terminal,ターミナル
+Nakama Two,Five,Nouns,Bus depot,バスターミナル
+Nakama Two,Five,Nouns,Subway,ちかてつ
+Nakama Two,Five,Nouns,Map,ちず
+Nakama Two,Five,Nouns,Parking lot,ちゅうしゃじょう
+Nakama Two,Five,Nouns,Next,つぎ
+Nakama Two,Five,Nouns,"At the end of the street, T-road",つきあたり
+Nakama Two,Five,Nouns,Exit,出口
+Nakama Two,Five,Nouns,train,でんしゃ
+Nakama Two,Five,Nouns,"Road, street",どうろ
+Nakama Two,Five,Nouns,Limited express train,とっきゅう（れっしゃ）
+Nakama Two,Five,Nouns,Bridge,はし
+Nakama Two,Five,Nouns,Bus stop,バスてい
+Nakama Two,Five,Nouns,Local train (second def),ふつう（れっしゃ）
+Nakama Two,Five,Nouns,Area,へん
+Nakama Two,Five,Nouns,"Road, street, way",みち
+Nakama Two,Five,Nouns,Between,間
+Nakama Two,Five,Nouns,This side,こちらがわ
+Nakama Two,Five,Nouns,"Beyond, further ahead",先
+Nakama Two,Five,Nouns,Just before,手前
+Nakama Two,Five,Nouns,"The other side, the opposite side",むかいがわ
+Nakama Two,Five,Adjectives,"Close to, near",ちかい
+Nakama Two,Five,Adjectives,Far from,とおい
+Nakama Two,Five,Verbs,To become crowded,こむ
+Nakama Two,Five,Verbs,"To go through, to pass",とおる
+Nakama Two,Five,Verbs,(for someone or something) to stop,とまる
+Nakama Two,Five,Verbs,(for someone or something) to turn,まがる
+Nakama Two,Five,Verbs,To drop by,よる
+Nakama Two,Five,Verbs,"To cross (bridge, road, etc.)",わたる
+Nakama Two,Five,Verbs,To get off,おりる
+Nakama Two,Five,Verbs,to stop (something),とめる
+Nakama Two,Five,Verbs,"to transfer, to change transportation",のりかえる
+Nakama Two,Five,Verbs,can see,見える
+Nakama Two,Five,Adverbs,Straight,まっすぐ
+Nakama Two,Five,Adverbs,"Soon, shortly",すぐ
+Nakama Two,Five,Particles,Limit,で
+Nakama Two,Five,Particles,Place in which movement occurs,を
+Nakama Two,Five,Particles,"Out of ~, from ~",を
+Nakama Two,Five,Suffixes,Bound for ~,〜行き
+Nakama Two,Five,Suffixes,Side,〜がわ
+Nakama Two,Five,Suffixes,"Mansion, building",〜館
+Nakama Two,Five,Suffixes,~ entrance/exit,〜口
+Nakama Two,Five,Suffixes,~ line (train line),〜せん
+Nakama Two,Five,Suffixes,Ordinal numbers,〜つ目
+Nakama Two,Five,Suffixes,Track number (train),〜ばんせん
+Nakama Two,Five,Suffixes,Meter (distance measurement),〜メートル
+Nakama Two,Six,Nouns,"Food (for animals, fish)",えさ
+Nakama Two,Six,Nouns,Congratulatory gift,おいわい
+Nakama Two,Six,Nouns,"Confectionary, sweets",おかし
+Nakama Two,Six,Nouns,Thank-you gift,おかえし
+Nakama Two,Six,Nouns,Type of ornament,おきもの
+Nakama Two,Six,Nouns,Gift,おくりもの
+Nakama Two,Six,Nouns,"Middle-aged man, uncle",おじさん
+Nakama Two,Six,Nouns,Elderly man,おじいさん
+Nakama Two,Six,Nouns,End of year gift exchange,おせいぼ
+Nakama Two,Six,Nouns,Mid year gift exchange,お中元
+Nakama Two,Six,Nouns,"Middle aged woman, aunt",おばさん
+Nakama Two,Six,Nouns,Elderly woman,おばあさん
+Nakama Two,Six,Nouns,Sympathy gift,おみまい
+Nakama Two,Six,Nouns,Toy,おもちゃ
+Nakama Two,Six,Nouns,Thank you gift,おれい
+Nakama Two,Six,Nouns,Carnation,カーネーション
+Nakama Two,Six,Nouns,Candy,キャンディ
+Nakama Two,Six,Nouns,Neighborhood,近所
+Nakama Two,Six,Nouns,Neighbor,近所の人
+Nakama Two,Six,Nouns,Cosmetics,けしょうひん
+Nakama Two,Six,Nouns,Cosmetics (katakana),コスメ
+Nakama Two,Six,Nouns,One's junior,こうはい
+Nakama Two,Six,Nouns,"Coffee cup, mug",コーヒーカップ
+Nakama Two,Six,Nouns,"Boss, workplace superior",じょうし
+Nakama Two,Six,Nouns,Novel,しょうせつ
+Nakama Two,Six,Nouns,Dishes,しょっき
+Nakama Two,Six,Nouns,Sweets,スイーツ
+Nakama Two,Six,Nouns,Soap,せっけん
+Nakama Two,Six,Nouns,One's senior,せんぱい
+Nakama Two,Six,Nouns,Towel,タオル
+Nakama Two,Six,Nouns,Tablet computer,タブレット
+Nakama Two,Six,Nouns,Ticket for entertainment,チケット
+Nakama Two,Six,Nouns,Father's day,父の日
+Nakama Two,Six,Nouns,"Coworker, colleague",どうりょう
+Nakama Two,Six,Nouns,Animal,どうぶつ
+Nakama Two,Six,Nouns,DVD,DVD｜｜ディーブイディー
+Nakama Two,Six,Nouns,Doll,にんぎょう
+Nakama Two,Six,Nouns,Stuffed animal,ぬいぐるみ
+Nakama Two,Six,Nouns,Personal computer,パソコン
+Nakama Two,Six,Nouns,"Potted plant, house plant",はちうえ
+Nakama Two,Six,Nouns,Flower,はな
+Nakama Two,Six,Nouns,Mother's day,母の日
+Nakama Two,Six,Nouns,Rose,ばら｜｜バラ
+Nakama Two,Six,Nouns,Valentine's day,バレンタインデー
+Nakama Two,Six,Nouns,"Junior employee, subordinate",部下
+Nakama Two,Six,Nouns,Pet,ペット
+Nakama Two,Six,Nouns,Fruit,フルーツ
+Nakama Two,Six,Nouns,Ball,ボール
+Nakama Two,Six,Nouns,Western clothes,ようふく
+Nakama Two,Six,Nouns,Ribbon,リボン
+Nakama Two,Six,Nouns,Wine glass,ワイングラス
+Nakama Two,Six,Adjectives,Heavy,おもい
+Nakama Two,Six,Adjectives,Light,かるい
+Nakama Two,Six,Adjectives,"Precious, important",大切（な）
+Nakama Two,Six,Verbs,To receive,いただく
+Nakama Two,Six,Verbs,To choose,えらぶ
+Nakama Two,Six,Verbs,"to raise, keep (an animal)",かう
+Nakama Two,Six,Verbs,To give (from a social super to me or person in my in-group),下さる
+Nakama Two,Six,Verbs,To wrap,つつむ
+Nakama Two,Six,Verbs,To give (to a socially subordinate person),やる
+Nakama Two,Six,Verbs,To be pleased,よろこぶ
+Nakama Two,Six,Verbs,To give (to a socially equal person),あげる
+Nakama Two,Six,Verbs,To give (to a socially equal or subordinate in-group person),くれる
+Nakama Two,Six,Verbs,To give (to a socially superior out-group person),さしあげる
+Nakama Two,Six,Particle,"from 〜にもらう, to receive something from ~",に
+Nakama Two,Six,Prefix,Baby ~,子〜
+Nakama Two,Six,Suffixes,Congratulatory gift,〜いわい
+Nakama Two,Six,Suffixes,Suffix to convert an adjective to a noun for measurement,〜さ
+Nakama Two,Seven,Nouns,Taste,あじ｜｜味
+Nakama Two,Seven,Nouns,Strawberry,いちご｜｜苺
+Nakama Two,Seven,Nouns,Tablespoon,おおさじ｜｜大さじ
+Nakama Two,Seven,Nouns,Oven,オーブン
+Nakama Two,Seven,Nouns,Shrimp,えび｜｜エビ｜｜海老
+Nakama Two,Seven,Nouns,Shrimp Dumplings,えびだんご｜｜海老だんご
+Nakama Two,Seven,Nouns,Cup,カップ
+Nakama Two,Seven,Nouns,Measuring Cup,けいりょうカップ｜｜計量カップ
+Nakama Two,Seven,Nouns,Crab,かに｜｜カニ｜｜蟹
+Nakama Two,Seven,Nouns,Cabbage,キャベツ
+Nakama Two,Seven,Nouns,Beef,ぎゅうにく｜｜牛肉
+Nakama Two,Seven,Nouns,Cucumber,きゅうり
+Nakama Two,Seven,Nouns,Gram,グラム
+Nakama Two,Seven,Nouns,Teaspoon,こさじ｜｜小さじ
+Nakama Two,Seven,Nouns,Pepper (spice),こしょう
+Nakama Two,Seven,Nouns,Uncooked rice,こめ｜｜おこめ｜｜米｜｜お米
+Nakama Two,Seven,Nouns,Cornstarch,コーンスターチ
+Nakama Two,Seven,Nouns,Flour,こむぎこ｜｜小麦粉
+Nakama Two,Seven,Nouns,"Material(s), Ingredient(s)",ざいりょう｜｜材料
+Nakama Two,Seven,Nouns,Sugar,さとう｜｜砂糖
+Nakama Two,Seven,Nouns,Plate,さら｜｜おさら｜｜お皿
+Nakama Two,Seven,Nouns,Vegetable Oil (lit. salad oil),サラダゆ｜｜サラダあぶら｜｜サラダ油
+Nakama Two,Seven,Nouns,Salt,しお｜｜塩
+Nakama Two,Seven,Nouns,Potato,じゃがいも
+Nakama Two,Seven,Nouns,Jam,ジャム
+Nakama Two,Seven,Nouns,Soy sauce,しょうゆ｜｜しょう油
+Nakama Two,Seven,Nouns,Vinegar,す｜｜酢
+Nakama Two,Seven,Nouns,Rice cooker,すいはんき｜｜炊飯器
+Nakama Two,Seven,Nouns,Spoon,スプーン
+Nakama Two,Seven,Nouns,Sauce,ソース
+Nakama Two,Seven,Nouns,Broth,だし｜｜出汁
+Nakama Two,Seven,Nouns,Onion,たまねぎ｜｜玉ねぎ
+Nakama Two,Seven,Nouns,Rice bowl,ちゃわん｜｜茶碗｜｜おちゃわん｜｜お茶碗
+Nakama Two,Seven,Nouns,Microwave oven,でんしレンジ｜｜電子レンジ
+Nakama Two,Seven,Nouns,Chicken (meat),とりにく｜｜鶏肉｜｜鳥肉
+Nakama Two,Seven,Nouns,(Salad) Dressing,ドレッシング
+Nakama Two,Seven,Nouns,Knife,ナイフ
+Nakama Two,Seven,Nouns,Green onion,ねぎ
+Nakama Two,Seven,Nouns,Seaweed,のり｜｜海苔
+Nakama Two,Seven,Nouns,Pot,なべ｜｜鍋
+Nakama Two,Seven,Nouns,Chopstick(s),はし｜｜おはし｜｜箸｜｜お箸
+Nakama Two,Seven,Nouns,Butter,バター
+Nakama Two,Seven,Nouns,Fire,ひ｜｜火
+Nakama Two,Seven,Nouns,Fork,フォーク
+Nakama Two,Seven,Nouns,Pork,ぶたにく｜｜豚肉
+Nakama Two,Seven,Nouns,"Frying pan, skillet",フライパン
+Nakama Two,Seven,Nouns,Mixing bowl,ボウル
+Nakama Two,Seven,Nouns,"Butcher knife, kitchen knife",ほうちょう｜｜包丁
+Nakama Two,Seven,Nouns,Spinach,ほうれんそう｜｜ほうれん草
+Nakama Two,Seven,Nouns,Mayonnaise,マヨネーズ
+Nakama Two,Seven,Nouns,(electric) mixer,ミキサー
+Nakama Two,Seven,Nouns,Soybean past,みそ｜｜味噌
+Nakama Two,Seven,Verbs,To check the taste,あじをみる｜｜味をみる
+Nakama Two,Seven,Verbs,To wash,あらう｜｜洗う
+Nakama Two,Seven,Verbs,To let something cool down,さます｜｜冷ます
+Nakama Two,Seven,Verbs,To cook,たく｜｜炊く
+Nakama Two,Seven,Verbs,"To add, to make up (for a deficit)",たす｜｜足す
+Nakama Two,Seven,Verbs,"To bake, to fry, to grill",やく｜｜焼く
+Nakama Two,Seven,Verbs,To do,やる
+Nakama Two,Seven,Verbs,To steam,むす｜｜蒸す
+Nakama Two,Seven,Verbs,To deep-fry,あげる｜｜揚げる
+Nakama Two,Seven,Verbs,To heat up,あたためる｜｜温める
+Nakama Two,Seven,Verbs,"To stir-fry, to saute (cooking)",いためる｜｜炒める
+Nakama Two,Seven,Verbs,To pour,かける
+Nakama Two,Seven,Verbs,To add (an ingredient),くわえる｜｜加える
+Nakama Two,Seven,Verbs,"To dip, to soak, to pickle",つける｜｜漬ける｜｜浸ける
+Nakama Two,Seven,Verbs,"To boil, to stew",にる｜｜煮る
+Nakama Two,Seven,Verbs,To put on,のせる
+Nakama Two,Seven,Verbs,To mix,まぜる｜｜混ぜる
+Nakama Two,Seven,Verbs,"To boil, to poach",ゆでる｜｜茹でる
+Nakama Two,Seven,Verbs,To drain,みずをきる｜｜水をきる｜｜みずを切る｜｜水を切る
+Nakama Two,Seven,Adjectives,Thin,うすい｜｜薄い
+Nakama Two,Seven,Adjectives,To have little taste,あじがうすい｜｜味がうすい｜｜あじが薄い｜｜味が薄い
+Nakama Two,Seven,Adjectives,Thick,こい｜｜濃い
+Nakama Two,Seven,Adjectives,To have a strong taste,あじがこい｜｜味がこい｜｜あじが濃い｜｜味が濃い
+Nakama Two,Seven,Adjectives,Appropriate,てきとう（な）｜｜適当（な）
+Nakama Two,Seven,Adverbs,Little by little,少しずつ｜｜すこしずつ
+Nakama Two,Seven,Conjunctions,"Lastly, at last, finally",最後に｜｜さいごに
+Nakama Two,Eight,Nouns,A sense of relief,あんしん｜｜安心
+Nakama Two,Eight,Nouns,Bullying,いじめ
+Nakama Two,Eight,Nouns,Rabbit,うさぎ｜｜兎
+Nakama Two,Eight,Nouns,"Lie, falsehood",うそ｜｜嘘
+Nakama Two,Eight,Nouns,Rumor,うわさ｜｜噂
+Nakama Two,Eight,Nouns,A fire,かじ｜｜火事
+Nakama Two,Eight,Nouns,"Girlfriend, she",かのじょ｜｜彼女
+Nakama Two,Eight,Nouns,Lightning,かみなり｜｜雷
+Nakama Two,Eight,Nouns,"Turle, tortoise",かめ｜｜亀
+Nakama Two,Eight,Nouns,"Boyfriend, he",かれ｜｜彼｜｜かれし｜｜彼氏
+Nakama Two,Eight,Nouns,Whale,クジラ｜｜鯨
+Nakama Two,Eight,Nouns,Bear,くま｜｜熊
+Nakama Two,Eight,Nouns,Experience,けいけん｜｜経験
+Nakama Two,Eight,Nouns,A fight,けんか｜｜喧嘩
+Nakama Two,Eight,Nouns,Flood,こうずい｜｜洪水
+Nakama Two,Eight,Nouns,Traffic,こうつう｜｜交通
+Nakama Two,Eight,Nouns,Traffic accident,こうつうじこ｜｜交通事故
+Nakama Two,Eight,Nouns,"Disaster, calamity",さいがい｜｜災害
+Nakama Two,Eight,Nouns,Monkey,さる｜｜猿
+Nakama Two,Eight,Nouns,Accident,じこ｜｜事故
+Nakama Two,Eight,Nouns,Earthquake,じしん｜｜地震
+Nakama Two,Eight,Nouns,"Anxiety, anxious",しんぱい｜｜心配
+Nakama Two,Eight,Nouns,Elephant,ぞう｜｜象
+Nakama Two,Eight,Nouns,Tornado,たつまき｜｜竜巻
+Nakama Two,Eight,Nouns,Bird,とり｜｜鳥
+Nakama Two,Eight,Nouns,Thief,どろぼう｜｜泥棒
+Nakama Two,Eight,Nouns,Discovery,はっけん｜｜発見
+Nakama Two,Eight,Nouns,Crime,はんざい｜｜犯罪
+Nakama Two,Eight,Nouns,"Damage, loss",ひがい｜｜被害
+Nakama Two,Eight,Nouns,Snake,へび｜｜蛇
+Nakama Two,Eight,Nouns,Lion,ライオン
+Nakama Two,Eight,Nouns,"Bad-mouthing, speaking ill of a person",わるくち｜｜悪口
+Nakama Two,Eight,Verbs,To feel relieved,あんしんする｜｜安心する
+Nakama Two,Eight,Verbs,Being bullied,いじめにあう
+Nakama Two,Eight,Verbs,To tell a lie,嘘をつく｜｜うそをつく
+Nakama Two,Eight,Verbs,Lightning strikes,雷がおちる｜｜かみなりがおちる
+Nakama Two,Eight,Verbs,To have an experience,経験する｜｜けいけんする
+Nakama Two,Eight,Verbs,To be worried,心配する｜｜しんぱいする
+Nakama Two,Eight,Verbs,To discover,はっけんする｜｜発見する
+Nakama Two,Eight,Verbs,To encounter,あう｜｜遭う｜｜遇う
+Nakama Two,Eight,Verbs,To sell,うる｜｜売る
+Nakama Two,Eight,Verbs,To cause (something) to happen,おこす｜｜起こす
+Nakama Two,Eight,Verbs,To attack,おそう｜｜襲う
+Nakama Two,Eight,Verbs,To be surprised,おどろく｜｜驚く
+Nakama Two,Eight,Verbs,To be in trouble,こまる｜｜困る
+Nakama Two,Eight,Verbs,To destroy,こわす｜｜壊す
+Nakama Two,Eight,Verbs,To scold,しかる｜｜叱る
+Nakama Two,Eight,Verbs,To deceive,だます｜｜騙す
+Nakama Two,Eight,Verbs,To steal,ぬすむ｜｜盗む
+Nakama Two,Eight,Verbs,To step on,ふむ｜｜踏む
+Nakama Two,Eight,Verbs,To bully,いじめる｜｜苛める
+Nakama Two,Eight,Verbs,"To happen, to take place",おきる｜｜起きる
+Nakama Two,Eight,Verbs,"To throw away, to discard",すてる｜｜捨てる
+Nakama Two,Eight,Verbs,"To run away, to escape",にげる｜｜逃げる
+Nakama Two,Eight,Verbs,To increase,ふえる｜｜増える
+Nakama Two,Eight,Verbs,"To hit (as with a car), to crash into",ぶつける
+Nakama Two,Eight,Verbs,To praise,ほめる｜｜誉める
+Nakama Two,Eight,Verbs,To burn,やける｜｜焼ける
+Nakama Two,Eight,Verbs,To shake,ゆれる｜｜揺れる
+Nakama Two,Eight,Verbs,"To leave, to break up",わかれる｜｜別れる
+Nakama Two,Eight,Adjectives,"Frightening, Scary",こわい｜｜怖い
+Nakama Two,Eight,Adjectives,Safe,あんぜん（な）｜｜安全（な）｜｜あんぜん｜｜安全
+Nakama Two,Eight,Adjectives,Inconvenient,ふべん（な）｜｜ふべん｜｜不便（な）｜｜不便
+Nakama Two,Eight,Adjectives,Wasteful,むだ（な）｜｜むだ｜｜無駄（な）｜｜無駄
+Nakama Two,Nine,Nouns,A greeting,あいさつ｜｜挨拶
+Nakama Two,Nine,Nouns,Advice,アドバイス
+Nakama Two,Nine,Nouns,Animation,アニメ
+Nakama Two,Nine,Nouns,Flower arranging,いけばな｜｜生花｜｜生け花
+Nakama Two,Nine,Nouns,Islam,イスラムきょう｜｜イスラム教
+Nakama Two,Nine,Nouns,Prayer,いのり｜｜祈り
+Nakama Two,Nine,Nouns,Internet,インターネット｜｜ネット
+Nakama Two,Nine,Nouns,Bowing,おじぎ｜｜お辞儀
+Nakama Two,Nine,Nouns,Kiss,キス
+Nakama Two,Nine,Nouns,Education,きょういく｜｜教育
+Nakama Two,Nine,Nouns,Interest,きょうみ｜｜興味
+Nakama Two,Nine,Nouns,Christianity,キリストきょう｜｜キリスト教
+Nakama Two,Nine,Nouns,Art,げいじゅつ｜｜芸術
+Nakama Two,Nine,Nouns,Economy,けいざい｜｜経済
+Nakama Two,Nine,Nouns,Tea ceremony,さどう｜｜茶道
+Nakama Two,Nine,Nouns,Poetry,し｜｜詩
+Nakama Two,Nine,Nouns,Society,しゃかい｜｜社会
+Nakama Two,Nine,Nouns,Custom,しゅうかん｜｜習慣
+Nakama Two,Nine,Nouns,Religion,しゅうきょう｜｜宗教
+Nakama Two,Nine,Nouns,Calligraphy,しゅうじ｜｜習字
+Nakama Two,Nine,Nouns,Shinto religion,しんとう｜｜神道
+Nakama Two,Nine,Nouns,Formal japanese style sitting posture,せいざ｜｜正座
+Nakama Two,Nine,Nouns,Politics,せいじ｜｜政治
+Nakama Two,Nine,Nouns,World,せかい｜｜世界
+Nakama Two,Nine,Nouns,Request,たのみ｜｜頼み
+Nakama Two,Nine,Nouns,"Tip, gratuity",チップ
+Nakama Two,Nine,Nouns,"Keeping company with someone, associating with someone",つきあい
+Nakama Two,Nine,Nouns,A Japanese verse form (poem),はいく｜｜俳句
+Nakama Two,Nine,Nouns,Hug,ハグ
+Nakama Two,Nine,Nouns,Buddhism,ぶっきょう｜｜仏教
+Nakama Two,Nine,Nouns,Blog,ブログ
+Nakama Two,Nine,Nouns,Culture,ぶんか｜｜文化
+Nakama Two,Nine,Nouns,Other,ほか｜｜他
+Nakama Two,Nine,Nouns,"Cartoon, graphic novel",マンガ
+Nakama Two,Nine,Nouns,"Farewell, leave taking",みおくり｜｜見送り
+Nakama Two,Nine,Nouns,"All, everyone",みな｜｜みんな｜｜皆｜｜みなさん
+Nakama Two,Nine,Nouns,"Meeting, greeting",むかえ｜｜迎え
+Nakama Two,Nine,Nouns,Problem,もんだい｜｜問題
+Nakama Two,Nine,Nouns,Floor,ゆか｜｜床
+Nakama Two,Nine,Nouns,Judaism,ユダヤきょう｜｜ユダヤ教
+Nakama Two,Nine,Nouns,"Rakugo, a traditional storytelling performance",らくご｜｜落語
+Nakama Two,Nine,Nouns,Reason (for doing something),りゆう｜｜理由
+Nakama Two,Nine,Verbs,To greet,にあいさつする｜｜に挨拶する｜｜にあいさつをする｜｜に挨拶をする
+Nakama Two,Nine,Verbs,To advise,アドバイスをする
+Nakama Two,Nine,Verbs,To offer a prayer,おいのりをする｜｜お祈りをする
+Nakama Two,Nine,Verbs,To bow,おじぎをする｜｜お辞儀をする
+Nakama Two,Nine,Verbs,To kiss,キスをする
+Nakama Two,Nine,Verbs,Be interested in ~,にきょうみがある｜｜に興味がある
+Nakama Two,Nine,Verbs,To sit in formal Japanese style,せいざをする｜｜正座をする
+Nakama Two,Nine,Verbs,To hug,ハグをする
+Nakama Two,Nine,Verbs,To go pick someone up,むかえにいく｜｜迎えに行く
+Nakama Two,Nine,Verbs,To come pick someone up,むかえにくる｜｜迎えに来る
+Nakama Two,Nine,Verbs,To apologize,あやまる｜｜謝る
+Nakama Two,Nine,Verbs,To celebrate,いわう｜｜祝う
+Nakama Two,Nine,Verbs,"To refuse, to decline",ことわる｜｜断る
+Nakama Two,Nine,Verbs,To sit down,すわる｜｜座る
+Nakama Two,Nine,Verbs,"To go out with, to keep company with, to have a steady relationship",つきあう｜｜付き合う｜｜つき合う
+Nakama Two,Nine,Verbs,To learn,ならう｜｜習う
+Nakama Two,Nine,Verbs,To believe,しんじる｜｜信じる
+Nakama Two,Nine,Verbs,"To save, to help",たすける｜｜助ける
+Nakama Two,Nine,Adjectives,"Lonely, helpless",こころぼそい｜｜心細い
+Nakama Two,Nine,Adjectives,Rude,しつれい（な）｜｜失礼（な）
+Nakama Two,Nine,Adjectives,Polite,ていねい（な）｜｜丁寧（な）
+Nakama Two,Nine,Adjectives,Traditional,でんとうてき（な）｜｜伝統的（な）
+Nakama Two,Nine,Adverbs,Definitely,ぜったい（に）｜｜絶対（に）
+Nakama Two,Nine,Adverbs,Explicitly,はっきり
+Nakama Two,Ten,Nouns,"Companion, conversation partner, the other party",あいて｜｜相手
+Nakama Two,Ten,Nouns,baby,あかちゃん｜｜赤ちゃん
+Nakama Two,Ten,Nouns,"landlord, landlady",おおや｜｜大家
+Nakama Two,Ten,Nouns,sound,おと｜｜音
+Nakama Two,Ten,Nouns,adult,おとな｜｜大人
+Nakama Two,Ten,Nouns,key,かぎ｜｜鍵
+Nakama Two,Ten,Nouns,wall,かべ｜｜壁
+Nakama Two,Ten,Nouns,child,こ｜｜子
+Nakama Two,Ten,Nouns,"trash, garbage",ごみ｜｜ゴミ
+Nakama Two,Ten,Nouns,acquaintance,しりあい｜｜知り合い
+Nakama Two,Ten,Nouns,older,としうえ｜｜年上
+Nakama Two,Ten,Nouns,younger,としした｜｜年下
+Nakama Two,Ten,Nouns,relationship (among people),なか｜｜仲
+Nakama Two,Ten,Nouns,diary,にっき｜｜日記
+Nakama Two,Ten,Nouns,day,ひ｜｜日
+Nakama Two,Ten,Nouns,piano,ピアノ
+Nakama Two,Ten,Nouns,truth,ほんとう｜｜本当
+Nakama Two,Ten,Nouns,trouble,めいわく｜｜迷惑
+Nakama Two,Ten,Nouns,"late at night, the middle of the night",よなか｜｜夜中
+Nakama Two,Ten,Nouns,complaint,もんく｜｜文句
+Nakama Two,Ten,Nouns,graffiti,らくがき｜｜落書き
+Nakama Two,Ten,Nouns,"attention, warning",ちゅうい｜｜注意
+Nakama Two,Ten,Nouns,consultation,そうだん｜｜相談
+Nakama Two,Ten,Adjectives,"noisy, shut up!",うるさい
+Nakama Two,Ten,Adjectives,dirty,きたない｜｜汚い
+Nakama Two,Ten,Adjectives,"cannot stand, unbearable",たまらない
+Nakama Two,Ten,Adjectives,low,ひくい｜｜低い
+Nakama Two,Ten,Adjectives,happy,しあわせ（な）｜｜幸せ（な）
+Nakama Two,Ten,Adjectives,honest,しょうじき（な）｜｜正直（な）
+Nakama Two,Ten,Adjectives,"troublesome, annoying",めいわく（な）｜｜迷惑（な）
+Nakama Two,Ten,Verbs,to lock,かぎをかける｜｜鍵をかける
+Nakama Two,Ten,Verbs,to keep a diary,にっきをつける｜｜日記をつける｜｜にっきを付ける｜｜日記を付ける
+Nakama Two,Ten,Verbs,to give (someone) problems,めいわくをかける｜｜迷惑をかける
+Nakama Two,Ten,Verbs,to complain,もんくをいう｜｜文句をいう｜｜もんくを言う｜｜文句を言う
+Nakama Two,Ten,Verbs,to write graffiti,らくがきをする｜｜落書きをする
+Nakama Two,Ten,Verbs,"to warn, to call attention to",ちゅういする｜｜注意する｜｜ちゅういをする｜｜注意をする
+Nakama Two,Ten,Verbs,to consult with,相談する｜｜そうだんする
+Nakama Two,Ten,Verbs,to get angry,おこる｜｜怒る
+Nakama Two,Ten,Verbs,to tease,からかう
+Nakama Two,Ten,Verbs,to make noise,さわぐ｜｜騒ぐ
+Nakama Two,Ten,Verbs,"to hit, to slap",たたく
+Nakama Two,Ten,Verbs,to play (a stringed instrument),ひく｜｜弾く
+Nakama Two,Ten,Verbs,to forgive,ゆるす｜｜許す
+Nakama Two,Ten,Verbs,to be late,おくれる｜｜遅れる
+Nakama Two,Ten,Verbs,"to hang, hook",かける｜｜掛ける
+Nakama Two,Ten,Verbs,"to clean up, to organize",かたづける｜｜片付ける
+Nakama Two,Ten,Verbs,to stand something up,たてる｜｜立てる
+Nakama Two,Ten,Verbs,to make noise,おとをたてる｜｜音をたてる｜｜おとを立てる｜｜音を立てる
+Nakama Two,Ten,Verbs,to write (in a diary),つける｜｜付ける
+Genki Two,Thirteen,Nouns,adult,大人｜｜おとな
+Genki Two,Thirteen,Nouns,lawyer,べんごし｜｜弁護士
+Genki Two,Thirteen,Nouns,I (formal),わたくし｜｜私
+Genki Two,Thirteen,Nouns,curry,カレー
+Genki Two,Thirteen,Nouns,black tea,こうちゃ｜｜紅茶
+Genki Two,Thirteen,Nouns,Kimono; Japanese traditional dress,きもの｜｜着物
+Genki Two,Thirteen,Nouns,Sweater,セーター
+Genki Two,Thirteen,Nouns,Musical Instrument,がっき｜｜楽器
+Genki Two,Thirteen,Nouns,Karate,からて｜｜空手
+Genki Two,Thirteen,Nouns,golf,ゴルフ
+Genki Two,Thirteen,Nouns,motorcycle,バイク
+Genki Two,Thirteen,Nouns,elephant,ぞう｜｜象
+Genki Two,Thirteen,Nouns,body,からだ｜｜体
+Genki Two,Thirteen,Nouns,foreign language,がいこくご｜｜外国語
+Genki Two,Thirteen,Nouns,language,げんご｜｜言語
+Genki Two,Thirteen,Nouns,grammar,ぶんぽう｜｜文法
+Genki Two,Thirteen,Nouns,application,アプリ
+Genki Two,Thirteen,Nouns,apartment; smaller apartment building,アパート
+Genki Two,Thirteen,Nouns,larger apartment building; condominium,マンション
+Genki Two,Thirteen,Nouns,airport,くうこう｜｜空港
+Genki Two,Thirteen,Nouns,shop; store,みせ｜｜店
+Genki Two,Thirteen,Nouns,consumer prices,ぶっか｜｜物価
+Genki Two,Thirteen,Nouns,advertisement,こうこく｜｜広告
+Genki Two,Thirteen,Nouns,recruitment,ぼしゅう｜｜募集
+Genki Two,Thirteen,Nouns,promise; appointment,やくそく｜｜約束
+Genki Two,Thirteen,Adjectives,glad,うれしい
+Genki Two,Thirteen,Adjectives,sad,かなしい｜｜悲しい
+Genki Two,Thirteen,Adjectives,strict,きびしい｜｜厳しい
+Genki Two,Thirteen,Adjectives,to feel sick,きぶんがわるい｜｜気分がわるい｜｜きぶんが悪い｜｜気分が悪い
+Genki Two,Thirteen,Adjectives,hot and spicy; salty,からい｜｜辛い
+Genki Two,Thirteen,Adjectives,incredible; awesome,すごい
+Genki Two,Thirteen,Adjectives,close; near,ちかい｜｜近い
+Genki Two,Thirteen,Adjectives,various; different kinds of,いろいろ（な）｜｜色々（な）
+Genki Two,Thirteen,Adjectives,happy (lasting happiness),しあわせ（な）｜｜幸せ（な）
+Genki Two,Thirteen,Adjectives,no good,だめ（な）
+Genki Two,Thirteen,Verbs,to knit,あむ｜｜編む
+Genki Two,Thirteen,Verbs,to do one's best; to try hard,がんばる｜｜頑張る
+Genki Two,Thirteen,Verbs,to cry,なく｜｜泣く
+Genki Two,Thirteen,Verbs,to brush (teeth); to polish,みがく｜｜磨く
+Genki Two,Thirteen,Verbs,to keep a promise,やくそくをまもる｜｜約束をまもる｜｜やくそくを守る｜｜約束を守る
+Genki Two,Thirteen,Verbs,to be moved/touched by,かんどうする｜｜感動する
+Genki Two,Thirteen,Adverbs and Other,all,ぜんぶ｜｜全部
+Genki Two,Thirteen,Adverbs and Other,especially,とくに｜｜特に
+Genki Two,Thirteen,Adverbs and Other,...times,〜回｜｜〜かい
+Genki Two,Thirteen,Adverbs and Other,...kilometers;...kilograms,〜キロ
+Genki Two,Thirteen,Adverbs and Other,my name is...,〜ともうします｜｜〜と申します
+Genki Two,Thirteen,Numbers,one day,いちにち｜｜一日
+Genki Two,Thirteen,Numbers,two days,ふつか｜｜二日
+Genki Two,Thirteen,Numbers,three days,みっか｜｜三日
+Genki Two,Thirteen,Numbers,four days,よっか｜｜四日
+Genki Two,Thirteen,Numbers,five days,いつか｜｜五日
+Genki Two,Thirteen,Numbers,six days,むいか｜｜六日
+Genki Two,Thirteen,Numbers,seven days,なのか｜｜七日
+Genki Two,Thirteen,Numbers,eight days,ようか｜｜八日
+Genki Two,Thirteen,Numbers,nine days,ここのか｜｜九日
+Genki Two,Thirteen,Numbers,ten days,とおか｜｜十日
+Genki Two,Fourteen,Nouns,(your/someone's) wife,おくさん｜｜奥さん
+Genki Two,Fourteen,Nouns,(your/someone's) husband,ごしゅじん｜｜ご主人
+Genki Two,Fourteen,Nouns,partner,パートナー
+Genki Two,Fourteen,Nouns,uncle; middle aged man,おじさん
+Genki Two,Fourteen,Nouns,aunt; middle aged woman,おばさん
+Genki Two,Fourteen,Nouns,parents,りょうしん｜｜両親
+Genki Two,Fourteen,Nouns,landlord;landlady,おおやさん｜｜大家さん
+Genki Two,Fourteen,Nouns,everyone;all of you,みなさん｜｜皆さん
+Genki Two,Fourteen,Nouns,chocolate,チョコレート
+Genki Two,Fourteen,Nouns,mandarin orange,みかん
+Genki Two,Fourteen,Nouns,sweatshirt,トレーナー
+Genki Two,Fourteen,Nouns,shirt,シャツ
+Genki Two,Fourteen,Nouns,necktie,ネクタイ
+Genki Two,Fourteen,Nouns,winter scarf,マフラー
+Genki Two,Fourteen,Nouns,ring,ゆびわ｜｜指輪
+Genki Two,Fourteen,Nouns,pencil,えんぴつ｜｜鉛筆
+Genki Two,Fourteen,Nouns,stuffed animal,ぬいぐるみ
+Genki Two,Fourteen,Nouns,comic book,まんが｜｜マンガ｜｜漫画
+Genki Two,Fourteen,Nouns,cosmetics,けしょうひん｜｜化粧品
+Genki Two,Fourteen,Nouns,radio,ラジオ
+Genki Two,Fourteen,Nouns,plate; dish,おさら｜｜お皿
+Genki Two,Fourteen,Nouns,return (as a token of gratitude),おかえし｜｜お返し
+Genki Two,Fourteen,Nouns,resume,りれきしょ｜｜履歴書
+Genki Two,Fourteen,Nouns,christmas,クリスマス
+Genki Two,Fourteen,Nouns,valentine's day,バレンタインデー
+Genki Two,Fourteen,Nouns,white day (gift giving day),ホワイトデー
+Genki Two,Fourteen,Adjectives,to want,ほしい｜｜欲しい
+Genki Two,Fourteen,Adjectives,fashionable; stylish,おしゃれ（な）
+Genki Two,Fourteen,Adjectives,stingy; cheap,けち（な）
+Genki Two,Fourteen,Verbs,to send,おくる｜｜送る
+Genki Two,Fourteen,Verbs,to look good,にあう｜｜似合う
+Genki Two,Fourteen,Verbs,to give up,あきらめる
+Genki Two,Fourteen,Verbs,to give (to others),あげる
+Genki Two,Fourteen,Verbs,to give (me),くれる
+Genki Two,Fourteen,Verbs,to come into existence; to be made,できる
+Genki Two,Fourteen,Verbs,to consult,相談する｜｜そうだんする
+Genki Two,Fourteen,Verbs,to give warning; to watch out,ちゅういする｜｜注意する
+Genki Two,Fourteen,Verbs,to propose marriage,プロポーズする
+Genki Two,Fourteen,Adverbs and Other,suddenly,きゅうに｜｜急に
+Genki Two,Fourteen,Adverbs and Other,exactly,ちょうど
+Genki Two,Fourteen,Adverbs and Other,well,よく
+Genki Two,Fourteen,Adverbs and Other,Mr./Ms...(casual),〜くん｜｜〜君
+Genki Two,Fourteen,Adverbs and Other,(makes a noun plural),〜たち
+Genki Two,Fourteen,Adverbs and Other,we,私たち｜｜わたしたち
+Genki Two,Fourteen,Adverbs and Other,...like this; this kind of...,こんな〜
+Genki Two,Fourteen,Adverbs and Other,I am not sure,さあ
+Genki Two,Fourteen,Adverbs and Other,what should one do,どうしたらいい
+Genki Two,Fourteen,Counters,Smaller items,〜こ｜｜〜個
+Genki Two,Fourteen,Counters,bound volumes,〜さつ｜｜〜冊
+Genki Two,Fourteen,Counters,equipment,〜だい｜｜〜台
+Genki Two,Fourteen,Counters,smaller animals,〜ひき｜｜〜匹
+Genki Two,Fourteen,Counters,long objects,〜ほん｜｜〜本
+Genki Two,Fifteen,Nouns,foreigner,がいこくじん｜｜外国人
+Genki Two,Fifteen,Nouns,soba; japanese buckwheat noodles,そば
+Genki Two,Fifteen,Nouns,painting; picture; drawing,え｜｜絵
+Genki Two,Fifteen,Nouns,map,ちず｜｜地図
+Genki Two,Fifteen,Nouns,dictionary,じしょ｜｜辞書
+Genki Two,Fifteen,Nouns,furniture,かぐ｜｜家具
+Genki Two,Fifteen,Nouns,battery,でんち｜｜電池
+Genki Two,Fifteen,Nouns,jacket,ジャケット
+Genki Two,Fifteen,Nouns,pet,ペット
+Genki Two,Fifteen,Nouns,discount coupon,わりびきけん｜｜割引券
+Genki Two,Fifteen,Nouns,internet,インターネット｜｜ネット
+Genki Two,Fifteen,Nouns,earthquake,じしん｜｜地震
+Genki Two,Fifteen,Nouns,insurance,ほけん｜｜保険
+Genki Two,Fifteen,Nouns,tax,ぜいきん｜｜税金
+Genki Two,Fifteen,Nouns,classroom,きょうしつ｜｜教室
+Genki Two,Fifteen,Nouns,building,たてもの｜｜建物
+Genki Two,Fifteen,Nouns,swimming pool,プール
+Genki Two,Fifteen,Nouns,movie theater,えいがかん｜｜映画館
+Genki Two,Fifteen,Nouns,japanese inn,りょかん｜｜旅館
+Genki Two,Fifteen,Nouns,garden,にわ｜｜庭
+Genki Two,Fifteen,Nouns,volunteer,ボランティア
+Genki Two,Fifteen,Nouns,activity,かつどう｜｜活動
+Genki Two,Fifteen,Nouns,experience,けいけん｜｜経験
+Genki Two,Fifteen,Nouns,custom,しゅうかん｜｜習慣
+Genki Two,Fifteen,Nouns,deadline,しめきり｜｜締切｜｜締め切り
+Genki Two,Fifteen,Nouns,schedule; plan,よてい｜｜予定
+Genki Two,Fifteen,Nouns,graduation ceremony,そつぎょうしき｜｜卒業式
+Genki Two,Fifteen,Nouns,wedding,けっこんしき｜｜結婚式
+Genki Two,Fifteen,Verbs,to sell,うる｜｜売る
+Genki Two,Fifteen,Verbs,to withdraw (money),おろす｜｜下ろす
+Genki Two,Fifteen,Verbs,to draw; to paint,かく｜｜描く
+Genki Two,Fifteen,Verbs,to look for,さがす｜｜探す
+Genki Two,Fifteen,Verbs,to invite,さそう｜｜誘う
+Genki Two,Fifteen,Verbs,to chat,しゃべる
+Genki Two,Fifteen,Verbs,to date (someone),（と）つきあう｜｜（と）付き合う｜｜と付き合う｜｜と付き合う
+Genki Two,Fifteen,Verbs,to keep company,（に）つきあう｜｜（に）付き合う｜｜につきあう｜｜に付き合う
+Genki Two,Fifteen,Verbs,to arrive,つく｜｜着く
+Genki Two,Fifteen,Verbs,to buy insurance,保険にはいる｜｜ほけんにはいる｜｜ほけんに入る｜｜保険に入る
+Genki Two,Fifteen,Verbs,to be cautious/careful,きをつける｜｜気を付ける｜｜気をつける｜｜きを付ける
+Genki Two,Fifteen,Verbs,to look into (a matter),しらべる｜｜調べる
+Genki Two,Fifteen,Verbs,to be visible,みえる｜｜見える
+Genki Two,Fifteen,Verbs,to decide on (an item),する
+Genki Two,Fifteen,Verbs,to do sightseeing,観光する｜｜かんこうする
+Genki Two,Fifteen,Verbs,to reserve,よやくする｜｜予約する
+Genki Two,Fifteen,Verbs,to participate,さんかする￥￥参加する
+Genki Two,Fifteen,Verbs,to graduate (from),そつぎょうする卒業する
+Genki Two,Fifteen,Verbs,to make a presentation; to make public,はっぴょうする｜｜発表する
+Genki Two,Fifteen,Adverbs and Other,recently,さいきん｜｜最近
+Genki Two,Fifteen,Adverbs and Other,one more time,もう一度｜｜もういちど
+Genki Two,Fifteen,Adverbs and Other,...but; ... so,〜けど
+Genki Two,Fifteen,Adverbs and Other,-th,〜目
+Genki Two,Fifteen,Adverbs and Other,first day,1日目｜｜いちにちめ
+Genki Two,Fifteen,Adverbs and Other,all day long,一日中｜｜いちにちじゅう
+Genki Two,Fifteen,Adverbs and Other,cannot wait; to look forward to it,楽しみです｜｜たのしみです
+Genki Two,Sixteen,Nouns,station attendant,えきいん（さん）｜｜駅員（さん）｜｜駅員｜｜えきいん｜｜駅員さん｜｜えきいんさん
+Genki Two,Sixteen,Nouns,parent,おや｜｜親
+Genki Two,Sixteen,Nouns,relatives,しんせき｜｜親戚｜｜親せき
+Genki Two,Sixteen,Nouns,garbage,ごみ｜｜ゴミ
+Genki Two,Sixteen,Nouns,sugar,さとう｜｜佐藤
+Genki Two,Sixteen,Nouns,(file) folder; portfolio; file,ファイル
+Genki Two,Sixteen,Nouns,size,おおきさ｜｜大きさ
+Genki Two,Sixteen,Nouns,way; road; directions,みち｜｜道
+Genki Two,Sixteen,Nouns,final examination,きまつしけん｜｜期末試験
+Genki Two,Sixteen,Nouns,research,けんきゅう｜｜研究
+Genki Two,Sixteen,Nouns,graduate school,だいがくいん｜｜大学院
+Genki Two,Sixteen,Nouns,scholarship,しょうがくきん｜｜奨学金
+Genki Two,Sixteen,Nouns,letter of recommendation,すいせんじょう｜｜推薦状
+Genki Two,Sixteen,Nouns,typhoon,たいふう｜｜台風
+Genki Two,Sixteen,Nouns,culture,ぶんか｜｜文化
+Genki Two,Sixteen,Nouns,reply,へんじ｜｜返事
+Genki Two,Sixteen,Nouns,day,ひ｜｜日
+Genki Two,Sixteen,Adjectives,dirty,きたない｜｜汚い
+Genki Two,Sixteen,Verbs,to wake (someone) up,おこす｜｜起こす
+Genki Two,Sixteen,Verbs,to treat (someone) to a meal,おごる
+Genki Two,Sixteen,Verbs,to laugh,わらう｜｜笑う
+Genki Two,Sixteen,Verbs,to get depressed,おちこむ｜｜落ち込む
+Genki Two,Sixteen,Verbs,to have difficulty,こまる｜｜困る
+Genki Two,Sixteen,Verbs,to take (something) out; to hand in (something),だす｜｜出す
+Genki Two,Sixteen,Verbs,to correct; to fix,なおす｜｜直す
+Genki Two,Sixteen,Verbs,to be found,みつかる｜｜見つかる
+Genki Two,Sixteen,Verbs,to translate,やくす｜｜訳す
+Genki Two,Sixteen,Verbs,to lend,かす｜｜貸す
+Genki Two,Sixteen,Verbs,to take (someone) to (a place),つれていく｜｜連れて行く
+Genki Two,Sixteen,Verbs,to become lost; to lose one's way,みちにまよう｜｜道に迷う
+Genki Two,Sixteen,Verbs,to go to pick up,迎えに行く｜｜むかえにいく
+Genki Two,Sixteen,Verbs,to collect,あつめる｜｜集める
+Genki Two,Sixteen,Verbs,to put (something) in,いれる｜｜入れる
+Genki Two,Sixteen,Verbs,to show,みせる｜｜見せる
+Genki Two,Sixteen,Verbs,to miss (a train; bus; etc),のりおくれる｜｜乗り遅れる
+Genki Two,Sixteen,Verbs,to iron (clothes),アイロンをかける
+Genki Two,Sixteen,Verbs,to oversleep,朝寝坊する｜｜あさねぼうする
+Genki Two,Sixteen,Verbs,to show (someone) around,案内する｜｜あんないする
+Genki Two,Sixteen,Verbs,to explain,説明する｜｜せつめいする
+Genki Two,Sixteen,Verbs,to come to pick up,むかえにくる｜｜迎えに来る
+Genki Two,Sixteen,Adverbs and Other,by the end of today,きょうじゅうに｜｜今日中に
+Genki Two,Sixteen,Adverbs and Other,in class; during the class,授業中に｜｜じゅぎょうちゅうに
+Genki Two,Sixteen,Adverbs and Other,the other day,このあいだ｜｜この間
+Genki Two,Sixteen,Adverbs and Other,from now on,これから
+Genki Two,Sixteen,Adverbs and Other,about this much,このぐらい
+Genki Two,Sixteen,Adverbs and Other,(do something) by oneself,じぶんで｜｜自分で
+Genki Two,Sixteen,Adverbs and Other,other,ほかの｜｜他の
+Genki Two,Sixteen,Adverbs and Other,well...; let me see...,ええと
+Genki Two,Sixteen,Adverbs and Other,actually; in fact,じつは｜｜実は
+Genki Two,Sixteen,Adverbs and Other,other than...,〜いがい｜｜〜以外
+Genki Two,Sixteen,Adverbs and Other,I'm sorry (casual),ごめん
+Genki Two,Sixteen,Adverbs and Other,excuse me.; sorry to interrupt you,しつれいします｜｜失礼します
+Genki Two,Seventeen,Nouns,baby,あかちゃん｜｜赤ちゃん
+Genki Two,Seventeen,Nouns,guest; visitor; client; customer,おきゃくさん｜｜お客さん
+Genki Two,Seventeen,Nouns,prime minister,しゅしょう｜｜首相
+Genki Two,Seventeen,Nouns,salaryman; office worker,サラリーマン
+Genki Two,Seventeen,Nouns,salary,きゅうりょう｜｜給料
+Genki Two,Seventeen,Nouns,overtime work,ざんぎょう｜｜残業
+Genki Two,Seventeen,Nouns,panda,パンダ
+Genki Two,Seventeen,Nouns,contact lenses,コンタクト｜｜コンタクトレンズ｜｜コンタクト（レンズ）
+Genki Two,Seventeen,Nouns,beard,ひげ
+Genki Two,Seventeen,Nouns,boots,ブーツ
+Genki Two,Seventeen,Nouns,lock; key,かぎ｜｜鍵
+Genki Two,Seventeen,Nouns,lottery,たからくじ｜｜宝くじ
+Genki Two,Seventeen,Nouns,paper,かみ｜｜紙
+Genki Two,Seventeen,Nouns,spoon,スプーン
+Genki Two,Seventeen,Nouns,hot water,おゆ｜｜お湯
+Genki Two,Seventeen,Nouns,microwave oven,電子レンジ｜｜でんしレンジ
+Genki Two,Seventeen,Nouns,heater,ヒーター
+Genki Two,Seventeen,Nouns,news,ニュース
+Genki Two,Seventeen,Nouns,fire,かじ｜｜火事
+Genki Two,Seventeen,Nouns,travel agency,りょこうがいしゃ｜｜旅行会社
+Genki Two,Seventeen,Nouns,shopping mall,ショッピングモール
+Genki Two,Seventeen,Nouns,dormitory,りょう｜｜寮
+Genki Two,Seventeen,Nouns,difference,ちがい｜｜違い
+Genki Two,Seventeen,Nouns,secret,ひみつ｜｜秘密
+Genki Two,Seventeen,Nouns,preparation,じゅんび｜｜準備
+Genki Two,Seventeen,Nouns,oneself,じぶん｜｜自分
+Genki Two,Seventeen,Adjectives,dangerous,あぶない｜｜危ない
+Genki Two,Seventeen,Adjectives,envious,うらやましい
+Genki Two,Seventeen,Adjectives,a little; a few,すくない｜｜少ない
+Genki Two,Seventeen,Adjectives,inconvenient; to have a scheduling conflict,つごうがわるい｜｜都合が悪い
+Genki Two,Seventeen,Adjectives,strong,つよい｜｜強い
+Genki Two,Seventeen,Adjectives,the worst,さいあく（な）｜｜最悪（な）
+Genki Two,Seventeen,Verbs,to choose; to select,えらぶ｜｜選ぶ
+Genki Two,Seventeen,Verbs,to boil water,お湯を沸かす｜｜おゆをわかす
+Genki Two,Seventeen,Verbs,to comb one's hair,かみをとかす｜｜髪を溶かす｜｜髪をとかす
+Genki Two,Seventeen,Verbs,to shave one's beard,ひげをそる
+Genki Two,Seventeen,Verbs,to take off (clothes),ぬぐ｜｜脱ぐ
+Genki Two,Seventeen,Verbs,to get crowded,こむ｜｜混む
+Genki Two,Seventeen,Verbs,to win a lottery,たからくじにあたる｜｜宝くじに当たる
+Genki Two,Seventeen,Verbs,to make tea/coffee/etc,いれる
+Genki Two,Seventeen,Verbs,to be born,うまれる｜｜生まれる
+Genki Two,Seventeen,Verbs,to lock,鍵をかける｜｜かぎをかける
+Genki Two,Seventeen,Verbs,to be sufficient; to be enough,たりる｜｜足りる
+Genki Two,Seventeen,Verbs,to get used to...,なれる｜｜慣れる
+Genki Two,Seventeen,Verbs,to pray,お祈りする｜｜おいのりする
+Genki Two,Seventeen,Verbs,to put makeup on,化粧する｜｜けしょうする
+Genki Two,Seventeen,Verbs,to get a full-time job (at...),就職する｜｜しゅうしょくする
+Genki Two,Seventeen,Verbs,to get a divorce,りこんする｜｜離婚する
+Genki Two,Seventeen,Verbs,to wear small items (becktie/watch/etc),する
+Genki Two,Seventeen,Adverbs and Other,very,ずいぶん
+Genki Two,Seventeen,Adverbs and Other,for example,たとえば｜｜例えば
+Genki Two,Seventeen,Adverbs and Other,compared with...,〜にくらべる｜｜〜に比べる
+Genki Two,Seventeen,Adverbs and Other,according to...,〜によると
+Genki Two,Seventeen,Adverbs and Other,before...,まえ｜｜前
+Genki Two,Seventeen,Adverbs and Other,after all,やっぱり
+Genki Two,Seventeen,Adverbs and Other,i wonder... (casual),〜かな（あ）
+Genki Two,Seventeen,Adverbs and Other,i see (casual),そうか
+Genki Two,Seventeen,Adverbs and Other,congratuations,おめでとうございます
+Genki Two,Eighteen,Nouns,curtain,カーテン
+Genki Two,Eighteen,Nouns,sofa,ソファ
+Genki Two,Eighteen,Nouns,refrigerator,れいぞうこ｜｜冷蔵庫
+Genki Two,Eighteen,Nouns,switch,スイッチ
+Genki Two,Eighteen,Nouns,soy sauce,じょうゆ｜｜醤油｜｜じょう油
+Genki Two,Eighteen,Nouns,soup,スープ
+Genki Two,Eighteen,Nouns,banana,バナナ
+Genki Two,Eighteen,Nouns,popcorn,ポップコーン
+Genki Two,Eighteen,Nouns,shampoo,シャンプー
+Genki Two,Eighteen,Nouns,candle,ろうそく
+Genki Two,Eighteen,Nouns,towel,タオル
+Genki Two,Eighteen,Nouns,skirt,スカート
+Genki Two,Eighteen,Nouns,diary,にっき｜｜日記
+Genki Two,Eighteen,Nouns,cell phone,けいたい｜｜けいたい（でんわ）｜｜携帯（電話）｜｜携帯電話
+Genki Two,Eighteen,Nouns,cherry blossom,さくら｜｜桜
+Genki Two,Eighteen,Nouns,insect,むし｜｜虫
+Genki Two,Eighteen,Nouns,rent,やちん｜｜家賃
+Genki Two,Eighteen,Nouns,outside,そと｜｜外
+Genki Two,Eighteen,Nouns,the rest,あと｜｜後
+Genki Two,Eighteen,Nouns,evening,ゆうがた｜｜夕方
+Genki Two,Eighteen,Adjectives,bright,あかるい｜｜明るい
+Genki Two,Eighteen,Adjectives,dark,くらい｜｜暗い
+Genki Two,Eighteen,Adjectives,embarrassing; to feel embarrassed,はずかしい｜｜恥ずかしい
+Genki Two,Eighteen,Adjectives,precious; important,たいせつ（な）｜｜大切（な）
+Genki Two,Eighteen,Adjectives,anxious; worried,ふあん（な）｜｜不安（な）
+Genki Two,Eighteen,Adjectives,impossible,無理（な）｜｜むり（な）
+Genki Two,Eighteen,Verbs,(something) opens,あく｜｜開く
+Genki Two,Eighteen,Verbs,(something) closes,しまる｜｜閉まる
+Genki Two,Eighteen,Verbs,to apologize,あやまる｜｜謝る
+Genki Two,Eighteen,Verbs,to press; to push,おす｜｜押す
+Genki Two,Eighteen,Verbs,to drop (something),おとす｜｜落とす
+Genki Two,Eighteen,Verbs,water boils,お湯が沸く｜｜おゆがわく
+Genki Two,Eighteen,Verbs,to fall down,ころぶ｜｜転ぶ
+Genki Two,Eighteen,Verbs,to break (something),こわす｜｜壊す
+Genki Two,Eighteen,Verbs,to bloom,さく｜｜咲く
+Genki Two,Eighteen,Verbs,to be saved; to be helped,たすかる｜｜助かる
+Genki Two,Eighteen,Verbs,to ask (a favor),たのむ｜｜頼む
+Genki Two,Eighteen,Verbs,(something) turns on,つく
+Genki Two,Eighteen,Verbs,to make dirty,よごす｜｜汚す
+Genki Two,Eighteen,Verbs,(something) drops,おちる｜｜落ちる
+Genki Two,Eighteen,Verbs,to tidy up,かたづける｜｜片付ける
+Genki Two,Eighteen,Verbs,to think (about); to consider,かんがえる｜｜考える
+Genki Two,Eighteen,Verbs,(something) goes off,きえる｜｜消える
+Genki Two,Eighteen,Verbs,(something) breaks,こわれる｜｜壊れる
+Genki Two,Eighteen,Verbs,to become dirty,よごれる｜｜汚れる
+Genki Two,Eighteen,Verbs,to place an order,注文する｜｜ちゅうもんする
+Genki Two,Eighteen,Adverbs and Other,right away,今すぐ｜｜いますぐ
+Genki Two,Eighteen,Adverbs and Other,by (time/date),〜までに
+Genki Two,Eighteen,Adverbs and Other,really,ほんとうに｜｜本当に
+Genki Two,Eighteen,Adverbs and Other,first of all,まず
+Genki Two,Eighteen,Adverbs and Other,thanks to...,おかげで
+Genki Two,Eighteen,Adverbs and Other,what should I/we do?,どうしよう
+Genki Two,Eighteen,Adverbs and Other,short form of 〜（ん）でしょう,〜（ん）だろう
+Genki Two,Eighteen,Adverbs and Other,see you (literally: I'm leaving ahead of you),おさきにしつれいします｜｜お先に失礼します
+Genki Two,Eighteen,Adverbs and Other,you must be tired after working so hard (greeting between first and coworkers),おつかれさま（でした）｜｜お疲れ様（でした）｜｜お疲れ様でした｜｜おつかれさまでした｜｜お疲れ様｜｜おつかれさま
+Genki Two,Nineteen,Nouns,(your/someone's) wife (polite),
+Genki Two,Nineteen,Nouns,(your/someone's) child (polite),
+Genki Two,Nineteen,Nouns,junior high school student,
+Genki Two,Nineteen,Nouns,department manager,
+Genki Two,Nineteen,Nouns,business trip,
+Genki Two,Nineteen,Nouns,honorific language,
+Genki Two,Nineteen,Nouns,this way (polite),
+Genki Two,Nineteen,Nouns,where (polite),
+Genki Two,Nineteen,Nouns,expression of gratitude,
+Genki Two,Nineteen,Nouns,a kind; a sort,
+Genki Two,Nineteen,Nouns,talk; story,
+Genki Two,Nineteen,Nouns,worry,
+Genki Two,Nineteen,Nouns,mistake,
+Genki Two,Nineteen,Nouns,personality,
+Genki Two,Nineteen,Nouns,lazy person,
+Genki Two,Nineteen,Nouns,shy person,
