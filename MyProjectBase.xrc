@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+  <object class="wxFrame" name="Preferences">
+    <size>500,300</size>
+    <style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+    <title></title>
+    <centered>1</centered>
+    <aui_managed>0</aui_managed>
+    <object class="wxGridBagSizer" name="preferencesSizer">
+      <vgap>0</vgap>
+      <hgap>0</hgap>
+      <growablerows></growablerows>
+      <growablecols></growablecols>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>0,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxStaticText" name="vocabularySetLabel">
+          <label>Vocabulary Set</label>
+          <wrap>-1</wrap>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>0,1</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxStaticText" name="lboxLabel">
+          <label>Select Vocabulary Word Type</label>
+          <wrap>-1</wrap>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL|wxEXPAND</flag>
+        <border>5</border>
+        <cellpos>1,1</cellpos>
+        <cellspan>7,1</cellspan>
+        <object class="wxListBox" name="vocabularyTypesLbox">
+          <style>wxLB_EXTENDED</style>
+          <content/>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>3,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxStaticText" name="chapterLabel">
+          <label>Chapter</label>
+          <wrap>-1</wrap>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>6,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxStaticText" name="gameLabel">
+          <label>Game</label>
+          <wrap>-1</wrap>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALIGN_RIGHT|wxALL</flag>
+        <border>5</border>
+        <cellpos>8,1</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxButton" name="finishedButton">
+          <label>Finished!</label>
+          <default>0</default>
+          <auth_needed>0</auth_needed>
+          <markup>0</markup>
+          <bitmap/>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>4,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxComboBox" name="chapterCombo">
+          <style>wxCB_READONLY</style>
+          <value></value>
+          <content/>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>7,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxComboBox" name="gameCombo">
+          <style>wxCB_READONLY</style>
+          <value></value>
+          <content/>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>1,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxComboBox" name="vocabularySetCombo">
+          <style>wxCB_READONLY</style>
+          <value></value>
+          <content/>
+        </object>
+      </object>
+    </object>
+  </object>
+</resource>

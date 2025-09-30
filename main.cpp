@@ -8,6 +8,7 @@
 #include "type.cpp"
 #include "write.cpp"
 #include "map.cpp"
+#include "flashcards.cpp"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -101,7 +102,7 @@ public:
         // Combo Boxes
         vocabularySetCombo = new wxComboBox(this, ID_vocabularySetCombo, "Please select a vocabulary set", PT_vocabularySetCombo, SZ_vocabularySetCombo);
         chapterCombo       = new wxComboBox(this, ID_chapterCombo, "Please select a chapter", PT_chapterCombo, SZ_chapterCombo);
-        gameCombo          = new wxComboBox(this, ID_gameCombo, "Please select a game", PT_gameCombo, SZ_gameCombo, {"Type", "Write", "Map"});
+        gameCombo          = new wxComboBox(this, ID_gameCombo, "Please select a game", PT_gameCombo, SZ_gameCombo, {"Type", "Write", "Map", "Flashcards"});
 
         // Button
         finishedButton = new wxButton(this, ID_finishedButton, "Finished!", PT_finishedButton, SZ_finishedButton);
@@ -200,6 +201,11 @@ private:
         }
 
     	wxString gameInput { gameCombo -> GetStringSelection() };
+
+        if (gameInput == "Flashcards") {
+            Flashcards* cards = new Flashcards(vocabularyVec, vocabularyMatrix, 1000, 600, isKanji);
+            cards -> Show();
+        }
         
         if (isKanji) {
             if (path.find("_vocab_types.txt") != std::string::npos) path.erase(path.find("_vocab_types.txt"));
@@ -215,11 +221,15 @@ private:
             }
             
             else { /* TODO: Raise a useful error to the user here*/ }
-        } else {
+        }
+        
+        else {
             if (gameInput == "Type") {
                 Type* type = new Type(vocabularyVec, vocabularyMatrix, 465, 200);
                 type -> Show();
-            } else { /*TODO: Raise a useful error to the user here*/ }
+            } 
+            
+            else { /*TODO: Raise a useful error to the user here*/ }
         }
     }
 };

@@ -42,6 +42,10 @@ struct GameData {
         amountIncorrect = 0;
         std::shuffle(indices.begin(), indices.end(), generator);
     }
+
+    void setConsecutiveIndices() {
+        std::iota(indices.begin(), indices.end(), 0);
+    }
 };
 
 #endif // GAMECLASS_H
