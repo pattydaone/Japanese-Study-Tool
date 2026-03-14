@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include "wx/xrc/xmlres.h"
 #include "CSVreader.h"
 #include "Textreader.h"
 #include "split.h"
@@ -18,18 +19,6 @@
 using stringMatrix = std::vector<std::vector<std::string>>;
 
 class Preferences : public wxFrame {
-    enum {
-        ID_vocabularySetLabel,
-        ID_chapterLabel,
-        ID_gameLabel,
-        ID_lboxLabel,
-        ID_vocabularySetCombo,
-        ID_chapterCombo,
-        ID_gameCombo,
-        ID_finishedButton,
-        ID_vocabularyTypesLbox,
-    };
-
     // Data
     std::ifstream                    csvFile;
     CSVRow                           row;
@@ -38,81 +27,52 @@ class Preferences : public wxFrame {
     stringMatrix                     vocabularyMatrix;
     const std::array<std::string, 4> kanjiTypes { "Hiragana", "Katakana", "Kanji", "Kanji Words" };
     bool                             isKanji    { false };
+    const std::array<std::string, 4> gameTypes  { "Type", "Write", "Map", "Flashcards" };
 
     // Labels
-    wxStaticText *vocabularySetLabel;
-    wxStaticText *chapterLabel;
-    wxStaticText *gameLabel;
-    wxStaticText *lboxLabel;
-
-    // Label points
-    wxPoint PT_vocabularySetLabel { 0, 0 };
-    wxPoint PT_chapterLabel       { 0, 50 };
-    wxPoint PT_gameLabel          { 0, 100 };
-    wxPoint PT_lboxLabel          { 255, 0 };
-
-    // Label sizes
-    wxSize SZ_vocabularySetLabel { 75, 25 };
-    wxSize SZ_chapterLabel       { 75, 25 };
-    wxSize SZ_gameLabel          { 75, 25 };
-    wxSize SZ_lboxLabel          { 150, 25 };
+    wxStaticText* vocabularySetLabel;
+    wxStaticText* chapterLabel;
+    wxStaticText* gameLabel;
+    wxStaticText* lboxLabel;
 
     // Combo Boxes
-    wxComboBox *vocabularySetCombo;
-    wxComboBox *chapterCombo;
-    wxComboBox *gameCombo;
-
-    // Combo box points
-    wxPoint PT_vocabularySetCombo { PT_vocabularySetLabel.x, PT_vocabularySetLabel.y + 25 };
-    wxPoint PT_chapterCombo       { PT_chapterLabel.x, PT_chapterLabel.y + 25 };
-    wxPoint PT_gameCombo          { PT_gameLabel.x, PT_gameLabel.y + 25 };
-
-    // Combo box sizes
-    wxSize SZ_vocabularySetCombo { 230, 25 };
-    wxSize SZ_chapterCombo       { 230, 25 };
-    wxSize SZ_gameCombo          { 230, 25 };
+    wxComboBox* vocabularySetCombo;
+    wxComboBox* chapterCombo;
+    wxComboBox* gameCombo;
 
     // Button
-    wxButton *finishedButton;
+    wxButton* finishedButton;
 
-    // Button point
-    wxPoint PT_finishedButton { 0, 170 };
-
-    // Button size
-    wxSize SZ_finishedButton { 175, 25 };
-
-    // List box
-    wxListBox *vocabularyTypesLbox;
-
-    // List box point
-    wxPoint PT_vocabularyTypesLbox { PT_lboxLabel.x, PT_lboxLabel.y + 25 };
-
-    // List box size
-    wxSize SZ_vocabularyTypesLbox { 200, 150 };
+    // Lbox
+    wxListBox* vocabularyTypesLbox;
 
 public:
-    Preferences()
-        : wxFrame(NULL, wxID_ANY, "Japanese Study Tool", wxDefaultPosition, wxSize { 475, 200 }) {
+    Preferences() {
+        wxXmlResource::Get() -> LoadFrame(this, nullptr, "Preferences");
         // Labels
-        vocabularySetLabel = new wxStaticText(this, ID_vocabularySetLabel, "Vocabulary Set", PT_vocabularySetLabel, SZ_vocabularySetLabel);
-        chapterLabel       = new wxStaticText(this, ID_chapterLabel, "Chapter", PT_chapterLabel, SZ_chapterLabel);
-        gameLabel          = new wxStaticText(this, ID_gameLabel, "Game", PT_gameLabel, SZ_gameLabel);
-        lboxLabel          = new wxStaticText(this, ID_lboxLabel, "Select Vocabulary Word Type", PT_lboxLabel, SZ_lboxLabel, 0);
+        vocabularySetLabel = XRCCTRL(*this, "vocabularySetLabel", wxStaticText);
+        chapterLabel = XRCCTRL(*this, "chapterLabel", wxStaticText);
+        gameLabel = XRCCTRL(*this, "gameLabel", wxStaticText);
+        lboxLabel = XRCCTRL(*this, "lboxLabel", wxStaticText);
 
         // Combo Boxes
-        vocabularySetCombo = new wxComboBox(this, ID_vocabularySetCombo, "Please select a vocabulary set", PT_vocabularySetCombo, SZ_vocabularySetCombo);
-        chapterCombo       = new wxComboBox(this, ID_chapterCombo, "Please select a chapter", PT_chapterCombo, SZ_chapterCombo);
-        gameCombo          = new wxComboBox(this, ID_gameCombo, "Please select a game", PT_gameCombo, SZ_gameCombo, {"Type", "Write", "Map", "Flashcards"});
+        vocabularySetCombo = XRCCTRL(*this, "vocabularySetCombo", wxComboBox);
+        chapterCombo = XRCCTRL(*this, "chapterCombo", wxComboBox);
+        gameCombo = XRCCTRL(*this, "gameCombo", wxComboBox);
 
         // Button
-        finishedButton = new wxButton(this, ID_finishedButton, "Finished!", PT_finishedButton, SZ_finishedButton);
+        finishedButton = XRCCTRL(*this, "finishedButton", wxButton);
 
-        // List box
-        vocabularyTypesLbox = new wxListBox(this, ID_vocabularyTypesLbox, PT_vocabularyTypesLbox, SZ_vocabularyTypesLbox, 0, NULL, wxLB_EXTENDED);
+        // Listbox
+        vocabularyTypesLbox = XRCCTRL(*this, "vocabularyTypesLbox", wxListBox);
 
-        Bind(wxEVT_COMBOBOX, &Preferences::setChapters, this, ID_vocabularySetCombo);
-        Bind(wxEVT_COMBOBOX, &Preferences::setVocabularyTypes, this, ID_chapterCombo);
-        Bind(wxEVT_BUTTON, &Preferences::startGame, this, ID_finishedButton);
+        Bind(wxEVT_COMBOBOX, &Preferences::setChapters, this, XRCID("vocabularySetCombo"));
+        Bind(wxEVT_COMBOBOX, &Preferences::setVocabularyTypes, this, XRCID("chapterCombo"));
+        Bind(wxEVT_BUTTON, &Preferences::startGame, this, XRCID("finishedButton"));
+
+        for (auto i : gameTypes) {
+            gameCombo -> Append(i);
+        }
 
         std::string   vocabularySetString;
         std::ifstream vocabularySetFile;
@@ -234,13 +194,13 @@ private:
     }
 };
 
-
-
 class App : public wxApp {
 public:
     virtual bool OnInit() {
-        Preferences *mainframe = new Preferences();
-        mainframe -> Show(true);
+        wxXmlResource::Get() -> InitAllHandlers();
+        wxXmlResource::Get() ->Load("MyProjectBase.xrc");
+        wxFrame* preferences = new Preferences;
+        preferences -> Show(true);
         return true;
     }
 };

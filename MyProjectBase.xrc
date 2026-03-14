@@ -3,7 +3,7 @@
   <object class="wxFrame" name="Preferences">
     <size>500,300</size>
     <style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
-    <title></title>
+    <title>日本語練習</title>
     <centered>1</centered>
     <aui_managed>0</aui_managed>
     <object class="wxGridBagSizer" name="preferencesSizer">
@@ -22,21 +22,24 @@
         </object>
       </object>
       <object class="sizeritem">
-        <flag>wxALL</flag>
+        <flag>wxALIGN_RIGHT|wxALL</flag>
         <border>5</border>
         <cellpos>0,1</cellpos>
         <cellspan>1,1</cellspan>
         <object class="wxStaticText" name="lboxLabel">
+          <pos>-1,-1</pos>
+          <style>wxALIGN_RIGHT</style>
           <label>Select Vocabulary Word Type</label>
           <wrap>-1</wrap>
         </object>
       </object>
       <object class="sizeritem">
-        <flag>wxALL|wxEXPAND</flag>
+        <flag>wxALIGN_RIGHT|wxALL|wxEXPAND</flag>
         <border>5</border>
         <cellpos>1,1</cellpos>
         <cellspan>7,1</cellspan>
         <object class="wxListBox" name="vocabularyTypesLbox">
+          <size>180,-1</size>
           <style>wxLB_EXTENDED</style>
           <content/>
         </object>
@@ -80,7 +83,6 @@
         <cellpos>4,0</cellpos>
         <cellspan>1,1</cellspan>
         <object class="wxComboBox" name="chapterCombo">
-          <style>wxCB_READONLY</style>
           <value></value>
           <content/>
         </object>
@@ -91,7 +93,6 @@
         <cellpos>7,0</cellpos>
         <cellspan>1,1</cellspan>
         <object class="wxComboBox" name="gameCombo">
-          <style>wxCB_READONLY</style>
           <value></value>
           <content/>
         </object>
@@ -102,9 +103,167 @@
         <cellpos>1,0</cellpos>
         <cellspan>1,1</cellspan>
         <object class="wxComboBox" name="vocabularySetCombo">
-          <style>wxCB_READONLY</style>
           <value></value>
           <content/>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object class="wxFrame" name="Flashcards">
+    <style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+    <title></title>
+    <centered>1</centered>
+    <aui_managed>0</aui_managed>
+    <object class="wxGridBagSizer" name="flashcardsSizer">
+      <vgap>0</vgap>
+      <hgap>0</hgap>
+      <growablerows></growablerows>
+      <growablecols></growablecols>
+      <object class="sizeritem">
+        <flag>wxEXPAND | wxALL</flag>
+        <border>5</border>
+        <cellpos>0,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxPanel" name="questionPanel">
+          <size>300,-1</size>
+          <style>wxBORDER_SIMPLE|wxTAB_TRAVERSAL</style>
+          <object class="wxGridBagSizer" name="questionPanelSizer">
+            <minsize>310,-1</minsize>
+            <vgap>0</vgap>
+            <hgap>0</hgap>
+            <growablerows></growablerows>
+            <growablecols></growablecols>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>0,0</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="staticMeaningLabel">
+                <label>意味</label>
+                <wrap>-1</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>1,1</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="variantMeaningLabel">
+                <size>250,50</size>
+                <style>wxBORDER_SUNKEN</style>
+                <label></label>
+                <wrap>150</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>2,0</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="staticOnLabel">
+                <label>音読み</label>
+                <wrap>-1</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>3,1</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="variantOnLabel">
+                <size>250,50</size>
+                <style>wxBORDER_SUNKEN</style>
+                <label></label>
+                <wrap>250</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>4,0</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="staticKunLabel">
+                <label>訓読み</label>
+                <wrap>-1</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>5,1</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="variantKunLabel">
+                <size>250,50</size>
+                <style>wxBORDER_SUNKEN</style>
+                <label></label>
+                <wrap>250</wrap>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALL</flag>
+        <border>5</border>
+        <cellpos>1,0</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxButton" name="previousCardButton">
+          <label>前</label>
+          <default>0</default>
+          <auth_needed>0</auth_needed>
+          <markup>0</markup>
+          <bitmap/>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxEXPAND | wxALL</flag>
+        <border>5</border>
+        <cellpos>0,1</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxPanel" name="answerPanel">
+          <style>wxBORDER_SIMPLE|wxTAB_TRAVERSAL</style>
+          <object class="wxGridBagSizer" name="answerPanelSizer">
+            <minsize>300,-1</minsize>
+            <vgap>0</vgap>
+            <hgap>0</hgap>
+            <growablerows></growablerows>
+            <growablecols></growablecols>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>0,0</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="staticAnswerLabel">
+                <label>答え</label>
+                <wrap>-1</wrap>
+              </object>
+            </object>
+            <object class="sizeritem">
+              <flag>wxALL</flag>
+              <border>5</border>
+              <cellpos>1,1</cellpos>
+              <cellspan>1,1</cellspan>
+              <object class="wxStaticText" name="variantAnswerLabel">
+                <size>250,50</size>
+                <style>wxBORDER_SUNKEN</style>
+                <label></label>
+                <wrap>200</wrap>
+              </object>
+            </object>
+          </object>
+        </object>
+      </object>
+      <object class="sizeritem">
+        <flag>wxALIGN_RIGHT|wxALL</flag>
+        <border>5</border>
+        <cellpos>1,1</cellpos>
+        <cellspan>1,1</cellspan>
+        <object class="wxButton" name="nextCardButton">
+          <label>次</label>
+          <default>0</default>
+          <auth_needed>0</auth_needed>
+          <markup>0</markup>
+          <bitmap/>
         </object>
       </object>
     </object>

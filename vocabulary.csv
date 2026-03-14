@@ -1850,19 +1850,340 @@ Genki Two,Eighteen,Adverbs and Other,what should I/we do?,どうしよう
 Genki Two,Eighteen,Adverbs and Other,short form of 〜（ん）でしょう,〜（ん）だろう
 Genki Two,Eighteen,Adverbs and Other,see you (literally: I'm leaving ahead of you),おさきにしつれいします｜｜お先に失礼します
 Genki Two,Eighteen,Adverbs and Other,you must be tired after working so hard (greeting between first and coworkers),おつかれさま（でした）｜｜お疲れ様（でした）｜｜お疲れ様でした｜｜おつかれさまでした｜｜お疲れ様｜｜おつかれさま
-Genki Two,Nineteen,Nouns,(your/someone's) wife (polite),
-Genki Two,Nineteen,Nouns,(your/someone's) child (polite),
-Genki Two,Nineteen,Nouns,junior high school student,
-Genki Two,Nineteen,Nouns,department manager,
-Genki Two,Nineteen,Nouns,business trip,
-Genki Two,Nineteen,Nouns,honorific language,
-Genki Two,Nineteen,Nouns,this way (polite),
-Genki Two,Nineteen,Nouns,where (polite),
-Genki Two,Nineteen,Nouns,expression of gratitude,
-Genki Two,Nineteen,Nouns,a kind; a sort,
-Genki Two,Nineteen,Nouns,talk; story,
-Genki Two,Nineteen,Nouns,worry,
-Genki Two,Nineteen,Nouns,mistake,
-Genki Two,Nineteen,Nouns,personality,
-Genki Two,Nineteen,Nouns,lazy person,
-Genki Two,Nineteen,Nouns,shy person,
+Genki Two,Nineteen,Nouns,(your/someone's) wife (polite),おくさま｜｜奥様
+Genki Two,Nineteen,Nouns,(your/someone's) child (polite),おこさん｜｜お子さん
+Genki Two,Nineteen,Nouns,junior high school student,ちゅうがくせい｜｜中学生
+Genki Two,Nineteen,Nouns,department manager,ぶちょう｜｜部長
+Genki Two,Nineteen,Nouns,business trip,しゅっちょう｜｜出張
+Genki Two,Nineteen,Nouns,honorific language,けいご｜｜敬語
+Genki Two,Nineteen,Nouns,this way (polite),こちら
+Genki Two,Nineteen,Nouns,where (polite),どちら
+Genki Two,Nineteen,Nouns,expression of gratitude,おれい｜｜お礼
+Genki Two,Nineteen,Nouns,a kind; a sort,しゅるい｜｜種類
+Genki Two,Nineteen,Nouns,talk; story,はなし｜｜話
+Genki Two,Nineteen,Nouns,worry,なやみ｜｜悩み
+Genki Two,Nineteen,Nouns,mistake,まちがい｜｜間違い
+Genki Two,Nineteen,Nouns,personality,せいかく｜｜性格
+Genki Two,Nineteen,Nouns,lazy person,なまけもの｜｜怠け者
+Genki Two,Nineteen,Nouns,shy person,はずかしがりや｜｜恥ずかしがり屋
+Genki Two,Nineteen,Adjectives,be on good/close terms; to get along well,なかがいい｜｜仲がいい
+Genki Two,Nineteen,Adjectives,serious; sober; diligent,まじめ（な）
+Genki Two,Nineteen,Verbs,"Honorific expression for いく, くる, and いる",いらっしゃる
+Genki Two,Nineteen,Verbs,Honorific expression for 食べる and 飲む,めしあがる｜｜召し上がる
+Genki Two,Nineteen,Verbs,Honorific expression for くれる,くださる｜｜下さる
+Genki Two,Nineteen,Verbs,Honorific expression for する,なさる
+Genki Two,Nineteen,Verbs,Honorific expression for 寝る,おやすみになる｜｜お休みになる
+Genki Two,Nineteen,Verbs,Honorific expression for 見る,ごらんになる｜｜ご覧になる
+Genki Two,Nineteen,Verbs,Honorific expression for いう,おっしゃる
+Genki Two,Nineteen,Verbs,Honorific expression for 〜ている,〜ていらっしゃる
+Genki Two,Nineteen,Verbs,to walk/drive (someone),（〜を〜まで）おくる｜｜送る
+Genki Two,Nineteen,Verbs,to get angry,おこる｜｜怒る
+Genki Two,Nineteen,Verbs,to be decided,（〜が）きまる｜｜決まる
+Genki Two,Nineteen,Verbs,to get acquainted with,（〜と）しりあう｜｜知り合う
+Genki Two,Nineteen,Verbs,to call (one's name); to invite,（〜を（〜に））よぶ｜｜呼ぶ
+Genki Two,Nineteen,Verbs,to move (to another place to live),（〜に）ひっこす｜｜引っ越す
+Genki Two,Nineteen,Verbs,to stop by,（〜に）よる｜｜寄る
+Genki Two,Nineteen,Verbs,to become late,（〜に）おくれる｜｜遅れる
+Genki Two,Nineteen,Verbs,to sit down,（〜に）かける
+Genki Two,Nineteen,Verbs,to be popular (in terms of romantic interest),（〜に）もてる
+Genki Two,Nineteen,Verbs,to become sunny,はれる｜｜晴れる
+Genki Two,Nineteen,Verbs,to treat/invite (someone) to a meal,（〜に〜を）ごちそうする
+Genki Two,Nineteen,Verbs,to hold back for the time being; to refrain from,えんりょする｜｜遠慮する
+Genki Two,Nineteen,Verbs,to invite someone (to an event/a place),（〜を〜に）しょうたいする｜｜招待する
+Genki Two,Nineteen,Verbs,to have a talk,はなしをする｜｜話をする
+Genki Two,Nineteen,Adverbs and Other,the day before yesterday,おととい｜｜一昨日
+Genki Two,Nineteen,Adverbs and Other,every morning,まいあさ｜｜毎朝
+Genki Two,Nineteen,Adverbs and Other,then; therefore,それで
+Genki Two,Nineteen,Adverbs and Other,why,なぜ
+Genki Two,Nineteen,Adverbs and Other,in fact; originally,ほんとうは｜｜本当は
+Genki Two,Nineteen,Adverbs and Other,still,まだ
+Genki Two,Nineteen,Adverbs and Other,a few seconds,しょうしょう｜｜少々
+Genki Two,Nineteen,Adverbs and Other,party of...people,〜めいさま｜｜〜名様
+Genki Two,Nineteen,Adverbs and Other,welcome,ようこそ
+Genki Two,Nineteen,Adverbs and Other,please give my best regards to...,よろしくおつたえください｜｜よろしくお伝えください
+Genki Two,Twenty,Nouns,animation,アニメ
+Genki Two,Twenty,Nouns,novel,しょうせつ｜｜小説
+Genki Two,Twenty,Nouns,hobby; pastime,しゅみ｜｜趣味
+Genki Two,Twenty,Nouns,moon,つき｜｜月
+Genki Two,Twenty,Nouns,space alien,うちゅうじん｜｜宇宙人
+Genki Two,Twenty,Nouns,(hand) fan,せんす｜｜扇子
+Genki Two,Twenty,Nouns,sneakers,スニーカー
+Genki Two,Twenty,Nouns,headphones,ヘッドホン
+Genki Two,Twenty,Nouns,rice ball,おにぎり
+Genki Two,Twenty,Nouns,animal,どうぶつ｜｜動物
+Genki Two,Twenty,Nouns,that way (polite),おちら
+Genki Two,Twenty,Nouns,our person in charge,かかりのもの｜｜係の者
+Genki Two,Twenty,Nouns,(someone's) home/house,おたく｜｜お宅
+Genki Two,Twenty,Nouns,...shop,〜や
+Genki Two,Twenty,Nouns,branch office,してん｜｜支店
+Genki Two,Twenty,Nouns,germany,ドイツ
+Genki Two,Twenty,Nouns,traffic light,しんごう｜｜信号
+Genki Two,Twenty,Nouns,corner,かど｜｜角
+Genki Two,Twenty,Nouns,letter; character,じ｜｜字
+Genki Two,Twenty,Nouns,sound,おと｜｜音
+Genki Two,Twenty,Adjectives,heavy; serious (illness),おもい｜｜重い
+Genki Two,Twenty,Adjectives,light,かるい｜｜軽い
+Genki Two,Twenty,Adjectives,mysterious,ふしぎ（な）｜｜不思議（な）
+Genki Two,Twenty,Verbs,extra-modest expression for いる,おる
+Genki Two,Twenty,Verbs,extra-modest expression for いく and くる,まいる｜｜参る
+Genki Two,Twenty,Verbs,extra-modest expression for いう,もうす｜｜申す
+Genki Two,Twenty,Verbs,extra-modest expression for する,いたす｜｜致す
+Genki Two,Twenty,Verbs,extra-modest expression for 食べる and 飲む,いただく｜｜頂く
+Genki Two,Twenty,Verbs,extra-modest expression for ある,ござる
+Genki Two,Twenty,Verbs,extra-modest expression for 〜ている,〜ておる
+Genki Two,Twenty,Verbs,extra-modest expression for です,でござる
+Genki Two,Twenty,Verbs,humble expression for もらう,いただく｜｜頂く
+Genki Two,Twenty,Verbs,to humbly visit,（〜に）うかがる｜｜伺う
+Genki Two,Twenty,Verbs,to humbly ask,（〜に）うかがう｜｜伺う
+Genki Two,Twenty,Verbs,to turn (right/left),（〜を〜に）まがる｜｜曲がる
+Genki Two,Twenty,Verbs,to return; to come back,（〜に）もどる｜｜戻る
+Genki Two,Twenty,Verbs,humble expression for あげる,さしあげる｜｜差し上げる
+Genki Two,Twenty,Verbs,to be audible,（〜が）きこえる｜｜聞こえる
+Genki Two,Twenty,Verbs,to convey message,（〜に）つたえる｜｜伝える
+Genki Two,Twenty,Verbs,to keep (someone) waiting,（〜を）またせる｜｜待たせる
+Genki Two,Twenty,Verbs,to continue,（〜を）つづける｜｜続ける
+Genki Two,Twenty,Verbs,to exchange,（XとYを）こうかんする｜｜交換する
+Genki Two,Twenty,Verbs,to return (merchandise),（〜を）へんぴんする｜｜返品する
+Genki Two,Twenty,Verbs,to lead a life,せいかつする｜｜生活する
+Genki Two,Twenty,Adverbs and Other,...th floor,〜かい｜｜〜階
+Genki Two,Twenty,Adverbs and Other,first floor,いっかい｜｜一階
+Genki Two,Twenty,Adverbs and Other,X like...,みたいなX
+Genki Two,Twenty,Adverbs and Other,again,また
+Genki Two,Twenty,Adverbs and Other,well then (polite),では
+Genki Two,Twenty,Adverbs and Other,if possible,できれば
+Genki Two,Twenty,Adverbs and Other,really (very polite),まことに｜｜誠に
+Genki Two,Twenty,Adverbs and Other,if it is okay (polite),よろしかったら
+Genki Two,Twenty,Adverbs and Other,certainly,かしこまりました
+Genki Two,Twenty,Adverbs and Other,im very sorry,しつれいしました｜｜失礼しました
+Genki Two,Twenty,Adverbs and Other,you have my apologies (polite),もうしわけありません｜｜申し訳ありません
+Genki Two,Twenty One,Nouns,groper; pervert,ちかん
+Genki Two,Twenty One,Nouns,thief; burglar,どろぼう｜｜泥棒
+Genki Two,Twenty One,Nouns,criminal,はんにん｜｜犯人
+Genki Two,Twenty One,Nouns,colleague,どうりょう｜｜同僚
+Genki Two,Twenty One,Nouns,business meeting; conference,かいぎ｜｜会議
+Genki Two,Twenty One,Nouns,speech,スピーチ
+Genki Two,Twenty One,Nouns,mosquito,か｜｜蚊
+Genki Two,Twenty One,Nouns,gasoline,ガソリン
+Genki Two,Twenty One,Nouns,poster,ポスター
+Genki Two,Twenty One,Nouns,complaint,もんく｜｜文句
+Genki Two,Twenty One,Nouns,absence; not at home,るす｜｜留守
+Genki Two,Twenty One,Nouns,police; police station,けいさつ｜｜警察
+Genki Two,Twenty One,Nouns,government,せいふ｜｜政府
+Genki Two,Twenty One,Nouns,tuition,じゅぎょうりょう｜｜授業料
+Genki Two,Twenty One,Nouns,factory,こうじょう｜｜工場
+Genki Two,Twenty One,Nouns,environment,かんきょう｜｜環境
+Genki Two,Twenty One,Nouns,last train (of the day),しゅうでん｜｜終電
+Genki Two,Twenty One,Nouns,things; matters,こと｜｜事
+Genki Two,Twenty One,Nouns,old days; past,むかし｜｜昔
+Genki Two,Twenty One,Adjectives,far (away),とおい｜｜遠い
+Genki Two,Twenty One,Adjectives,messy; disorganized,めちゃくちゃ（な）
+Genki Two,Twenty One,Adjectives,strange; unusual,へん（な）｜｜変（な）
+Genki Two,Twenty One,Adjectives,awful,ひどい
+Genki Two,Twenty One,Adjectives,safe,あんぜん（な）｜｜安全（な）
+Genki Two,Twenty One,Verbs,to put; to lay; to place,おく｜｜置く
+Genki Two,Twenty One,Verbs,to wrap; to cover,つつむ｜｜包む
+Genki Two,Twenty One,Verbs,to post; to stick,はる｜｜貼る
+Genki Two,Twenty One,Verbs,to bake; to burn; to grill,やく｜｜焼く
+Genki Two,Twenty One,Verbs,to give (to pets/plants/younger siblings/etc.),やる
+Genki Two,Twenty One,Verbs,to kick,ける
+Genki Two,Twenty One,Verbs,to strike; to hit; to punch,なぐる｜｜殴る
+Genki Two,Twenty One,Verbs,to step on,ふむ｜｜踏む
+Genki Two,Twenty One,Verbs,to bite,さす｜｜刺す
+Genki Two,Twenty One,Verbs,to steal; to rob,ぬすむ｜｜盗む
+Genki Two,Twenty One,Verbs,to touch,さわる｜｜触る
+Genki Two,Twenty One,Verbs,to be arrested; to be caught,つかまる｜｜捕まる
+Genki Two,Twenty One,Verbs,to notice,きがつく｜｜気が付く
+Genki Two,Twenty One,Verbs,to turn down (somebody); to reject; to jilt,ふる
+Genki Two,Twenty One,Verbs,to complain,もんくをいう｜｜文句を言う
+Genki Two,Twenty One,Verbs,to bully,いじめる
+Genki Two,Twenty One,Verbs,to praise; to say nice things,ほめる
+Genki Two,Twenty One,Verbs,to change clothes,きがえる｜｜着替える
+Genki Two,Twenty One,Verbs,to believe,しんじる｜｜信じる
+Genki Two,Twenty One,Verbs,to save money,ためる
+Genki Two,Twenty One,Verbs,to make a mistake,まちがえる｜｜間違える
+Genki Two,Twenty One,Verbs,to find,みつける｜｜見つける
+Genki Two,Twenty One,Verbs,to compare,くらべる｜｜比べる
+Genki Two,Twenty One,Verbs,to insult; to make a fool of,はかにする
+Genki Two,Twenty One,Verbs,to be surprised,びっくりする
+Genki Two,Twenty One,Verbs,to take a nap,ひるねをする｜｜昼寝をする
+Genki Two,Twenty One,Verbs,to contact (person),れんらくする｜｜連絡する
+Genki Two,Twenty One,Adverbs and Other,in the morning,ごぜんちゅう｜｜午前中
+Genki Two,Twenty One,Adverbs and Other,time of...; when...,〜ころ
+Genki Two,Twenty One,Adverbs and Other,a little,すこし｜｜少し
+Genki Two,Twenty One,Adverbs and Other,anyhow; anyways,とにかく
+Genki Two,Twenty Two,Nouns,wind,かぜ｜｜風
+Genki Two,Twenty Two,Nouns,tree,き｜｜木
+Genki Two,Twenty Two,Nouns,ball,ボール
+Genki Two,Twenty Two,Nouns,monkey,さる｜｜猿
+Genki Two,Twenty Two,Nouns,license,めんきょ｜｜免許
+Genki Two,Twenty Two,Nouns,preparation of a lesson,よしゅう｜｜予習
+Genki Two,Twenty Two,Nouns,review of a lesson,ふくしゅう｜｜復習
+Genki Two,Twenty Two,Nouns,cram school,じゅく｜｜塾
+Genki Two,Twenty Two,Nouns,english conversation,えいかいわ｜｜英会話
+Genki Two,Twenty Two,Nouns,partner; the other person,あいて｜｜相手
+Genki Two,Twenty Two,Nouns,(someone's) daughter (polite),おじょうさん｜｜お嬢さん
+Genki Two,Twenty Two,Nouns,God,かみさま｜｜神様
+Genki Two,Twenty Two,Nouns,senior member of a group,せんぱい｜｜先輩
+Genki Two,Twenty Two,Nouns,junior member of a group,こうはい｜｜後輩
+Genki Two,Twenty Two,Nouns,subordinate,ぶか｜｜部下
+Genki Two,Twenty Two,Nouns,reception desk,うけつけ｜｜受付
+Genki Two,Twenty Two,Nouns,document,しょるい｜｜書類
+Genki Two,Twenty Two,Nouns,project,プロジェクト
+Genki Two,Twenty Two,Nouns,housework,かじ｜｜家事
+Genki Two,Twenty Two,Nouns,Europe,ヨーロッパ
+Genki Two,Twenty Two,Nouns,living alone,ひとりぐらし｜｜一人暮らし
+Genki Two,Twenty Two,Nouns,freedom,じゆう｜｜自由
+Genki Two,Twenty Two,Nouns,waste (money),むだづかい｜｜無駄遣い
+Genki Two,Twenty Two,Adjectives,noisy; annoying,うるさい
+Genki Two,Twenty Two,Adjectives,worried about,しんぱい（な）｜｜心配（な）
+Genki Two,Twenty Two,Adjectives,poor,びんぼう（な）｜｜貧乏（な）
+Genki Two,Twenty Two,Adjectives,fluent,ペラペラ（な）｜｜ぺらぺら（な）
+Genki Two,Twenty Two,Adjectives,easy; comfortable,らく（な）｜｜楽（な）
+Genki Two,Twenty Two,Verbs,the wind blows,かぜがふく｜｜風が吹く
+Genki Two,Twenty Two,Verbs,to make a photocopy,コピーをとる｜｜コピーを取る
+Genki Two,Twenty Two,Verbs,to carry,はこぶ｜｜運ぶ
+Genki Two,Twenty Two,Verbs,to pick up (something),ひろう｜｜拾う
+Genki Two,Twenty Two,Verbs,to leave (something/someone) alone; to neglect,ほっておく｜｜ほうっておく｜｜放っておく
+Genki Two,Twenty Two,Verbs,to be in time,まにあう｜｜間に合う
+Genki Two,Twenty Two,Verbs,to win,かつ｜｜勝つ
+Genki Two,Twenty Two,Verbs,to take (an examination),うける｜｜受ける
+Genki Two,Twenty Two,Verbs,to make a plan,けいかくをたてる｜｜計画を立てる
+Genki Two,Twenty Two,Verbs,to raise; to bring up,そだてる｜｜育てる
+Genki Two,Twenty Two,Verbs,to help; to rescue,たすける｜｜助ける
+Genki Two,Twenty Two,Verbs,to lose (a match),まける｜｜負ける
+Genki Two,Twenty Two,Verbs,to request help,おねがいする｜｜お願いする
+Genki Two,Twenty Two,Verbs,to agree,さんせいする｜｜賛成する
+Genki Two,Twenty Two,Verbs,to oppose; to object to,はんたいする｜｜反対する
+Genki Two,Twenty Two,Verbs,to fail; to be unsuccessful,しっぱいする｜｜失敗する
+Genki Two,Twenty Two,Verbs,to stay up all night,てつやする｜｜徹夜する
+Genki Two,Twenty Two,Verbs,to translate,ほんやくする｜｜翻訳する
+Genki Two,Twenty Two,Adverbs and Other,like this,こんなふう
+Genki Two,Twenty Two,Adverbs and Other,freely,じゆうに｜｜自由に
+Genki Two,Twenty Two,Adverbs and Other,for a long time; all the time,ずっと
+Genki Two,Twenty Two,Adverbs and Other,definitely,ぜったいに｜｜絶対に
+Genki Two,Twenty Two,Adverbs and Other,many times,なんども｜｜何度も
+Genki Two,Twenty Two,Adverbs and Other,a little more,もうすこし｜｜もう少し
+Genki Two,Twenty Two,Adverbs and Other,...for example,〜とか
+Genki Two,Twenty Two,Adverbs and Other,i dont think so,そんなことがない｜｜そんなことはない｜｜そんなことない
+Genki Two,Twenty Two,Adverbs and Other,many...,おおくの〜｜｜多くの〜
+Genki Two,Twenty Three,Nouns,socks,くつした｜｜靴下
+Genki Two,Twenty Three,Nouns,sack; plastic/paper bag,ふくろ｜｜袋
+Genki Two,Twenty Three,Nouns,free of charge,ただ
+Genki Two,Twenty Three,Nouns,dinner,ゆうしょく｜｜夕食
+Genki Two,Twenty Three,Nouns,place,ばしょ｜｜場所
+Genki Two,Twenty Three,Nouns,stairs,かいだん｜｜階段
+Genki Two,Twenty Three,Nouns,elementary school,しょうがっこう｜｜小学校
+Genki Two,Twenty Three,Nouns,interview,めんせつ｜｜面接
+Genki Two,Twenty Three,Nouns,health,けんこう｜｜健康
+Genki Two,Twenty Three,Nouns,ideal,りそう｜｜理想
+Genki Two,Twenty Three,Nouns,looking after a house during someone's absense,るすばん｜｜留守番
+Genki Two,Twenty Three,Nouns,message; text,メッセージ
+Genki Two,Twenty Three,Nouns,class cancellation,きゅうこう｜｜休講
+Genki Two,Twenty Three,Nouns,trip to a foreign country,かいがいりょこう｜｜海外旅行
+Genki Two,Twenty Three,Nouns,Bon dance (japanese traditional dance),ぼんおどり｜｜盆踊り
+Genki Two,Twenty Three,Nouns,memory,おもいで｜｜思い出
+Genki Two,Twenty Three,Nouns,society,しゃかい｜｜社会
+Genki Two,Twenty Three,Nouns,result,けっか｜｜結果
+Genki Two,Twenty Three,Nouns,survey,ちょうさ｜｜調査
+Genki Two,Twenty Three,Adjectives,(food is) terrible,まずい
+Genki Two,Twenty Three,Adjectives,pitiful; feel sorry for; poor thing,かわいそう（な）
+Genki Two,Twenty Three,Verbs,the rain stops,あめがやむ｜｜雨が止む
+Genki Two,Twenty Three,Verbs,to be different; to be wrong,（〜と）ちがう｜｜違う
+Genki Two,Twenty Three,Verbs,to be lost; to disappear,（〜が）なくなる
+Genki Two,Twenty Three,Verbs,(someone) is gone; to disappear,（〜が）いなくなる
+Genki Two,Twenty Three,Verbs,to be in someone's care,（〜に）おせわになる｜｜お世話になる
+Genki Two,Twenty Three,Verbs,to have a stomachache,おなかをこわす｜｜お腹を壊す
+Genki Two,Twenty Three,Verbs,to find something agreeable,（〜が・を）きにいる｜｜気に入る
+Genki Two,Twenty Three,Verbs,to talk behind someone's back,わるぐちをいう｜｜悪口を言う
+Genki Two,Twenty Three,Verbs,to answer,（〜に）こたえる｜｜答える
+Genki Two,Twenty Three,Verbs,(someone/something) separates; parts from,（〜と）はなれる｜｜離れる
+Genki Two,Twenty Three,Verbs,to be disappointed,（〜に）がっかりする
+Genki Two,Twenty Three,Verbs,to be tolerant/patient,（〜を）がまんする｜｜我慢する
+Genki Two,Twenty Three,Verbs,to sympathize,（〜に）どうじょうする｜｜同情する
+Genki Two,Twenty Three,Verbs,to look... (facial expression),〜かおをする｜｜〜顔をする
+Genki Two,Twenty Three,Verbs,to cheat in an exam,カンニングする
+Genki Two,Twenty Three,Verbs,to check,（〜を）チェックする
+Genki Two,Twenty Three,Verbs,to take care of...,（〜の）せわをする｜｜世話をする
+Genki Two,Twenty Three,Verbs,to win a championship,ゆうしょうする｜｜優勝する
+Genki Two,Twenty Three,Verbs,(something/someone) comes back,もどってくる｜｜戻ってくる
+Genki Two,Twenty Three,Adverbs and Other,such....; that kind of...,そんな〜
+Genki Two,Twenty Three,Adverbs and Other,for...; for the sake of...,〜ために
+Genki Two,Twenty Three,Adverbs and Other,extremely,ものすごく
+Genki Two,Twenty Three,Adverbs and Other,it is about time to...,そろそろ
+Genki Two,Twenty Three,Adverbs and Other,finally,さいごに｜｜最後に
+Genki Two,Twenty Three,Adverbs and Other,take care of yourself,げんきでね｜｜元気でね
+Genki Two,Twenty Three,Adverbs and Other,you are right.,そうそう
+Extra,College Terms,All,faculty; school; undergraduate department,がくぶ｜｜学部
+Extra,College Terms,All,major; field of study; specialization,せんもん｜｜専門
+Extra,College Terms,All,japanese literature,にほんぶんがく｜｜日本文学
+Extra,College Terms,All,history,れきしがく｜｜歴史学
+Extra,College Terms,All,philosophy,てつがく｜｜哲学
+Extra,College Terms,All,comparative culture studies,ひかくぶんか｜｜比較文化
+Extra,College Terms,All,sociology,しゃかいがく｜｜社会学
+Extra,College Terms,All,psychology,しんりがく｜｜心理学
+Extra,College Terms,All,education,きょういくがく｜｜教育学
+Extra,College Terms,All,political science,せいじがく｜｜政治学
+Extra,College Terms,All,economics,けいざいがく｜｜経済学
+Extra,College Terms,All,business administration,けいえいがく｜｜経営学
+Extra,College Terms,All,accounting,かいけいがく｜｜会計学
+Extra,College Terms,All,marketing,マーケティング
+Extra,College Terms,All,law,ほうがく｜｜法学
+Extra,College Terms,All,international relations,こくさいかんけいがく｜｜国際関係学
+Extra,College Terms,All,mathematics,すうがく｜｜数学
+Extra,College Terms,All,physics,ぶつりがく｜｜物理学
+Extra,College Terms,All,chemistry,かがく｜｜化学
+Extra,College Terms,All,biology,せいぶつがく｜｜生物学
+Extra,College Terms,All,earth science,ちがく｜｜地学
+Extra,College Terms,All,electrical engineering,でんきこうがく｜｜電気工学
+Extra,College Terms,All,mechnical engineering,きかいこうがく｜｜機械工学
+Extra,College Terms,All,civil engineering,どぼくこうがく｜｜土木工学
+Extra,College Terms,All,information engineering,じょうほうこうがく｜｜情報工学
+Extra,College Terms,All,computer science,じょうほうかがく｜｜情報科学
+Extra,College Terms,All,medicine,いがく｜｜医学
+Extra,College Terms,All,pharmacy,やくがく｜｜薬学
+Extra,College Terms,All,nutrition,えいようがく｜｜栄養学
+Extra,College Terms,All,social welfare,ふくしがく｜｜福祉学
+Extra,College Terms,All,science,かがく｜｜科学
+Extra,College Terms,All,scientist,かがくしゃ｜｜科学者
+Extra,College Terms,All,research,けんきゅう｜｜研究
+Extra,College Terms,All,research room,けんきゅうしつ｜｜研究室
+Extra,College Terms,All,to teach,きょういくする｜｜教育する
+Extra,College Terms,All,foster young people,
+Extra,College Terms,All,literature,ぶんがく｜｜文学
+Extra,College Terms,All,politics,せいじ｜｜政治
+Extra,College Terms,All,geography,ちり｜｜地理
+Extra,College Terms,All,culture,ぶんか｜｜文化
+Extra,College Terms,All,lecture,こうぎ｜｜講義
+Extra,College Terms,All,lecture hall,こうどう｜｜講堂
+Extra,College Terms,All,to attend,しゅっせきする｜｜出席する
+Extra,College Terms,All,text (of a book),テキスト
+Extra,College Terms,All,to review,ふくしゅうする｜｜復習する
+Extra,College Terms,All,to prepare,よしゅう｜｜予習
+Extra,College Terms,All,assignment,かだい｜｜課題
+Extra,College Terms,All,submit a report,レポートをだす｜｜レポートを出す
+Extra,College Terms,All,exam,しけん｜｜試験
+Extra,College Terms,All,question,もんだい｜｜問題
+Extra,College Terms,All,correct answer,ただしいこたえ｜｜正しい答え
+Extra,College Terms,All,grammar,ぶんぽう｜｜文法
+Extra,College Terms,All,pronunciation,はつおん｜｜発音
+Extra,College Terms,All,dictionary,じてん｜｜辞典
+Extra,College Terms,All,principal,こうちょう｜｜校長
+Extra,Mimetic Words,All,Raining Strongly,ザーザー｜｜ざーざー
+Extra,Mimetic Words,All,Gently Raining,しとしと｜｜シトシト
+Extra,Mimetic Words,All,to beat fast (of ones heart),ドキドキする｜｜どきどきする
+Extra,Mimetic Words,All,just barely,ギリギリ｜｜ぎりぎり
+Extra,Mimetic Words,All,hungry; famished,ペコペコ｜｜ぺこぺこ
+Extra,Mimetic Words,All,parched,からから｜｜カラカラ
+Extra,Mimetic Words,All,idly; lazily; slothfully,ゴロゴロする｜｜ごろごろする
+Extra,Mimetic Words,All,soaked; drenched; sopping,びしょびしょ｜｜ビショビショ
+Extra,Mimetic Words,All,to get irritated/annoyed,イライラ｜｜いらいら
+Extra,Mimetic Words,All,To wander,ぶらぶら｜｜ブラブラ
+Extra,Mimetic Words,All,relieved,ほっとする
+Extra,Mimetic Words,All,mind goes black (neg),あたまがまっしろになる｜｜頭が真っ白になる
+Extra,Mimetic Words,All,mind goes blank (pos),ぼーっとしてる
+Extra,Mimetic Words,All,to go to get tea/coffee,おちゃをする｜｜お茶をする
+Extra,Mimetic Words,All,continuously; one after the other,どんどん｜｜ドンドン
+Extra,Mimetic Words,All,completely pooped; exhausted,へとへと
+Extra,Mimetic Words,All,failing score,あかてん｜｜赤点
+Extra,Mimetic Words,All,cat tongue (=can't handle hot drinks),ねこじた｜｜猫舌
+Extra,Mimetic Words,All,cant keep secrets,くちがかるい｜｜口が軽い

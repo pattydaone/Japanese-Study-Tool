@@ -4,3 +4,8 @@ Fifteen
 Sixteen
 Seventeen
 Eighteen
+Nineteen
+Twenty
+Twenty One
+Twenty Two
+Twenty Three

@@ -4,6 +4,7 @@
 #include "GameClass.h"
 #include "Join.h"
 #include "constants.h"
+#include "wx/xrc/xmlres.h"
 
 #ifndef WX_PRECOMP
     #include <wx/wx.h>
@@ -11,16 +12,6 @@
 #endif // WX_PRECOMP
 
 class Type : public wxFrame {
-    enum {
-        ID_staticTurn,
-        ID_variantTurn,
-        ID_staticQuestion,
-        ID_variantQuestion,
-        ID_entry,
-        ID_enterButton,
-        ID_staticCorrectLabel,
-        ID_variantCorrectLabel,
-    };
     using stringMatrix = std::vector<std::vector<std::string>>;
 
     // Data
@@ -34,52 +25,30 @@ class Type : public wxFrame {
     wxDECLARE_EVENT_TABLE();
 
     // Labels
-    wxStaticText* staticTurn;
-    wxStaticText* variantTurn;
-    wxStaticText* staticQuestion;
-    wxStaticText* variantQuestion;
+    wxStaticText* staticTurnLabel;
+    wxStaticText* variantTurnLabel;
+    wxStaticText* staticQuestionLabel;
+    wxStaticText* variantQuestionLabel;
     wxStaticText* staticCorrectLabel;
     wxStaticText* variantCorrectLabel;
-
-    // Label points
-    wxPoint PT_staticTurn          { 10, 0 };
-    wxPoint PT_variantTurn         { PT_staticTurn.x - 10, PT_staticTurn.y + 25 };
-    wxPoint PT_staticQuestion      { 0, 0 }; // x redefined later in terms of other variables for centering
-    wxPoint PT_variantQuestion     { 0, PT_staticQuestion.y + 25 }; // x, again, defined later
-    wxPoint PT_staticCorrectLabel  { 100, 100 };
-    wxPoint PT_variantCorrectLabel { 100, 125 };
-
-    // Label sizes
-    wxSize SZ_staticTurn          { 50, 25 };
-    wxSize SZ_variantTurn         { 50, 25 };
-    wxSize SZ_staticQuestion      { 50, 25 };
-    wxSize SZ_variantQuestion     { 300, 25 };
-    wxSize SZ_staticCorrectLabel  { 200, 25 };
-    wxSize SZ_variantCorrectLabel { 200, 25 };
 
     // Text controls
     wxTextCtrl* entry;
 
-    // Control points
-    wxPoint PT_entry { 100, 75 };
-
-    // Control sizes
-    wxSize SZ_entry { 150, 25 };
+    // Id
+    int ID_entry;
 
     // Button
     wxButton* enterButton;
 
-    // Button point
-    wxPoint PT_enterButton { PT_entry.x + SZ_entry.x, PT_entry.y };
-
-    // Button size
-    wxSize SZ_enterButton { 50, 25 };
+    // Id
+    int ID_enterButton;
 
     void startGame() {
         ++data.turns;
-        variantTurn     -> SetLabel(std::to_string(data.turns));
-        variantQuestion -> SetLabel(questions[data.getCurrentIndex()]);
-        variantQuestion -> Wrap(SZ_variantQuestion.x/2 + 50);
+        variantTurnLabel     -> SetLabel(std::to_string(data.turns));
+        variantQuestionLabel -> SetLabel(questions[data.getCurrentIndex()]);
+        variantQuestionLabel -> Wrap(200);
     }
 
     void checkAnswer(wxCommandEvent& event) {
@@ -99,7 +68,7 @@ class Type : public wxFrame {
             ++data.amountIncorrect;
             staticCorrectLabel  -> SetLabel("Incorrect :(");
             variantCorrectLabel -> SetLabel(wxString::FromUTF8(join(answers[data.getCurrentIndex()])));
-            variantCorrectLabel -> Wrap(SZ_variantCorrectLabel.x/2 + 50);
+            variantCorrectLabel -> Wrap(200);
             ifWrong();
         }
     }
@@ -119,7 +88,7 @@ class Type : public wxFrame {
         }
 
         else {
-            variantQuestion -> SetLabel("Still wrong. Try again.");
+            variantQuestionLabel -> SetLabel("Still wrong. Try again.");
             basicTimer.StartOnce(2000);
             ifWrong();
         }
@@ -130,7 +99,7 @@ class Type : public wxFrame {
         Bind(wxEVT_BUTTON, &Type::checkSecondEntry, this, ID_enterButton);
         entry -> Clear();
         entry -> SetWindowStyle(wxTE_PROCESS_ENTER);
-        variantQuestion -> SetLabel("Please enter correct answer; Press enter immediately to skip.");
+        variantQuestionLabel -> SetLabel("Please enter correct answer; Press enter immediately to skip.");
     }
 
     void endFrame() {
@@ -152,29 +121,26 @@ class Type : public wxFrame {
 
 public:
     Type(std::vector<std::string>& vec, stringMatrix& matrix, int frameSizeX, int frameSizeY)
-        : wxFrame(NULL, wxID_ANY, "", wxDefaultPosition, wxSize { frameSizeX, frameSizeY })
-        , data { vec, matrix }
-        , answers { data.matrix }
-        , questions { data.stringVec } 
-        , timer(this, TimerId::ID_typeTimer)
-        {
-        // Setting some label points
-        PT_staticQuestion.x = PT_entry.x + (SZ_entry.x + SZ_enterButton.x - SZ_staticQuestion.x)/2;
-        PT_variantQuestion.x = PT_entry.x + (SZ_entry.x + SZ_enterButton.x - SZ_variantQuestion.x)/2;
+        : data { vec, matrix }, answers { data.matrix }
+        , questions { data.stringVec }, timer(this, TimerId::ID_typeTimer) {
+
+        wxXmlResource::Get() -> LoadFrame(this, nullptr, "Type");
 
         // Labels
-        staticTurn          = new wxStaticText(this, ID_staticTurn, "Turn:", PT_staticTurn, SZ_staticTurn);
-        variantTurn         = new wxStaticText(this, ID_variantTurn, wxEmptyString, PT_variantTurn, SZ_variantTurn, wxALIGN_CENTRE_HORIZONTAL);
-        staticQuestion      = new wxStaticText(this, ID_staticQuestion, "Word: ", PT_staticQuestion, SZ_staticQuestion, wxALIGN_CENTRE_HORIZONTAL);
-        variantQuestion     = new wxStaticText(this, ID_variantQuestion, wxEmptyString, PT_variantQuestion, SZ_variantQuestion, wxALIGN_CENTRE_HORIZONTAL);
-        staticCorrectLabel  = new wxStaticText(this, ID_staticCorrectLabel, wxEmptyString, PT_staticCorrectLabel, SZ_staticCorrectLabel, wxALIGN_CENTRE_HORIZONTAL);
-        variantCorrectLabel = new wxStaticText(this, ID_variantCorrectLabel, wxEmptyString, PT_variantCorrectLabel, SZ_variantCorrectLabel, wxALIGN_CENTRE_HORIZONTAL);
+        staticTurnLabel      = XRCCTRL(*this, "staticTurnLabel", wxStaticText);
+        variantTurnLabel     = XRCCTRL(*this, "variantTurnLabel", wxStaticText);
+        staticQuestionLabel  = XRCCTRL(*this, "staticQuestionLabel", wxStaticText);
+        variantQuestionLabel = XRCCTRL(*this, "variantQuestionLabel", wxStaticText);
+        staticCorrectLabel   = XRCCTRL(*this, "staticCorrectLabel", wxStaticText);
+        variantCorrectLabel  = XRCCTRL(*this, "variantCorrectLabel", wxStaticText);
 
         // Text Control
-        entry = new wxTextCtrl(this, ID_entry, wxEmptyString, PT_entry, SZ_entry, wxTE_PROCESS_ENTER);
+        entry    = XRCCTRL(*this, "entry", wxTextCtrl);
+        ID_entry = XRCID("entry");
 
         // Button	
-        enterButton = new wxButton(this, ID_enterButton, "Enter", PT_enterButton, SZ_enterButton);
+        enterButton    = XRCCTRL(*this, "enterButton", wxButton);
+        ID_enterButton = XRCID("enterButton");
 
         Bind(wxEVT_TEXT_ENTER, &Type::checkAnswer, this, ID_entry);
         Bind(wxEVT_BUTTON, &Type::checkAnswer, this, ID_enterButton);
